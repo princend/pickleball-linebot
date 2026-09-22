@@ -1,0 +1,62 @@
+{
+  "taipei-city": {
+    "name": "台北市",
+    "url": "https://ipickleball.com.tw/places/category/taipei-city/",
+    "courts": [
+      {
+        "name": "Ahhh Pickleball Social Hub",
+        "url": "https://ipickleball.com.tw/places/ahhh-pickleball-social-hub/",
+        "hours": "2:00 上午 – 10:00 下午",
+        "price": "2500~5500",
+        "line_url": "https://line.me/R/ti/p/@ahhh"
+      },
+      {
+        "name": "花博Maji匹克庭園",
+        "url": "https://ipickleball.com.tw/places/maji/",
+        "hours": "全天開放",
+        "price": "1100~1400",
+        "line_url": "https://lin.ee/XxbWpXE"
+      },
+      {
+        "name": "downstairspickleball 樓下匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/downstairspickleball/",
+        "hours": "9:00 上午 – 10:00 下午",
+        "price": "300",
+        "line_url": null
+      }
+    ]
+  },
+  "new-taipei-city": {
+    "name": "新北市",
+    "url": "https://ipickleball.com.tw/places/category/new-taipei-city/",
+    "courts": [
+      {
+        "name": "新北匹克球推廣中心",
+        "url": "https://ipickleball.com.tw/places/ntpc/",
+        "hours": "未提供",
+        "price": "未提供",
+        "line_url": null
+      }
+    ]
+  },
+  "taichung": {
+    "name": "台中",
+    "url": "https://ipickleball.com.tw/places/category/taichung/",
+    "courts": [
+      {
+        "name": "朝馬國民運動中心",
+        "url": "https://ipickleball.com.tw/places/chaoma/",
+        "hours": "06:00 – 22:00",
+        "price": "200",
+        "line_url": null
+      },
+      {
+        "name": "國際網球中心 匹克球場",
+        "url": "https://ipickleball.com.tw/places/itc/",
+        "hours": "未提供",
+        "price": "未提供",
+        "line_url": null
+      }
+    ]
+  }
+}

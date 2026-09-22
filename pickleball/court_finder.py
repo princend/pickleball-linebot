@@ -60,22 +60,23 @@ def _safe_text(element, default: str = "") -> str:
     return element.get_text(strip=True)
 
 
+import json
+import os
+
 def scrape_courts_by_county(county_slug: str) -> Tuple[List[Dict], str]:
-    """爬取指定縣市的球場列表（僅第 1 頁，最多 10 筆）。
-
-    傳回:
-        (courts, more_url)
-        courts: 球場資料 list，每筆含 name, url, hours, price, line_url
-        more_url: 該縣市在 ipickleball.com.tw 的完整列表網址
-    """
-    url = f"{BASE_URL}/{county_slug}/"
-    courts: List[Dict] = []
-
+    """從靜態檔案讀取球場資料，實現 0.01 秒級距的回應速度，避免 LINE 超時。"""
+    json_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "courts_data.json")
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-    except requests.RequestException:
-        return courts, url
+        with open(json_path, "r", encoding="utf-8") as f:
+            all_courts_data = json.load(f)
+    except Exception as e:
+        print(f"Error loading courts data: {e}")
+        return [], ""
+
+    county_data = all_courts_data.get(county_slug, {})
+    courts = county_data.get("courts", [])
+    url = county_data.get("url", "")
+    return courts, url
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
