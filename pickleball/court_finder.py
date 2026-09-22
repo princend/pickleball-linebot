@@ -61,6 +61,7 @@ def _safe_text(element, default: str = "") -> str:
 
 
 import json
+import urllib.parse
 import os
 
 def scrape_courts_by_county(county_slug: str) -> Tuple[List[Dict], str]:
@@ -208,8 +209,14 @@ def _build_compact_court_box(court: dict, index: int) -> FlexBox:
     )
 
     buttons = []
+    
+    # 增加 Google Map 按鈕 (橘色系 #D97706 或紅 #DC2626)
+    map_url = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(name)}"
+    buttons.append(FlexText(text="Google地圖", size="xs", color="#DC2626", action=URIAction(label="地圖", uri=map_url), flex=1, align="center"))
+
     if court_url:
         buttons.append(FlexText(text="查看詳情", size="xs", color="#2563EB", action=URIAction(label="查看", uri=court_url), flex=1, align="center"))
+    
     if line_url:
         buttons.append(FlexText(text="加 LINE 群", size="xs", color="#059669", action=URIAction(label="加群", uri=line_url), flex=1, align="center"))
         
