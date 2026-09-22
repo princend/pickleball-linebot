@@ -47,35 +47,53 @@ for name, slug in COUNTIES.items():
         cards = soup.select(".geodir-category-list-view li")
         if not cards:
             # 嘗試抓取新版面 (Elementor 網格)
-            cards = soup.select("article")
+            cards = soup.select("div.card.h-100, div.card")
             
         for card in cards:
             # 取得名稱與連結
-            title_el = card.select_one(".geodir-entry-title a, .elementor-post__title a, .elementor-heading-title a, h2 a, h3 a")
+            title_el = card.select_one(".geodir-entry-title a, h2 a, h3 a")
             if not title_el:
                 continue
 
             court_name = title_el.text.strip()
             court_url = title_el.get("href")
+            
+            # 去重複 (同一卡片可能匹配到多次)
+            if any(c['url'] == court_url for c in county_courts):
+                continue
 
             # 嘗試取得營業時間
-            time_el = card.select_one(".geodir-field-business_hours .gd-content-value")
-            hours = time_el.text.strip() if time_el else "未提供"
+            hours = "未提供"
+            hours_el = card.select_one(".gd-bh-today-range, .gd-bh-expand-range")
+            if hours_el:
+                hours = hours_el.text.strip()
 
             # 嘗試取得收費資訊
-            price_el = card.select_one(".geodir-field-price .gd-content-value")
-            if price_el:
-                price_text = price_el.text
-                price_text = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
-                price = price_text if price_text else "未提供"
-                if price == "0":
-                    price = "免費"
+            price = "未提供"
+            # 尋找含有 "收費" 的元素
+            price_el = card.find(string=re.compile(r"收費"))
+            if price_el and price_el.parent:
+                price_text = price_el.parent.text.strip()
+                price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
             else:
-                price = "未提供"
+                # 備用：直接找 class 包含 cf1763282984
+                price_box = card.select_one(".geodir-field-cf1763282984")
+                if price_box:
+                    price_text = price_box.text.strip()
+                    price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
+            
+            if price == "0":
+                price = "免費"
 
             # LINE 群連結
+            line_url = None
             line_el = card.select_one(".geodir-field-line_ a")
-            line_url = line_el.get("href") if line_el else None
+            if line_el:
+                line_url = line_el.get("href")
+            else:
+                line_el = card.find("a", string=re.compile(r"LINE", re.I))
+                if line_el:
+                    line_url = line_el.get("href")
 
             county_courts.append({
                 "name": court_name,

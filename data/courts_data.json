@@ -7,21 +7,70 @@
         "name": "Ahhh Pickleball Social Hub",
         "url": "https://ipickleball.com.tw/places/ahhh-pickleball-social-hub/",
         "hours": "2:00 上午 – 10:00 下午",
-        "price": "2500~5500",
+        "price": "",
         "line_url": "https://line.me/R/ti/p/@ahhh"
       },
       {
         "name": "花博Maji匹克庭園",
-        "url": "https://ipickleball.com.tw/places/maji/",
-        "hours": "全天開放",
-        "price": "1100~1400",
+        "url": "https://ipickleball.com.tw/places/%e8%8a%b1%e5%8d%9amaji%e5%8c%b9%e5%85%8b%e5%ba%ad%e5%9c%92/",
+        "hours": "Open 24 hours",
+        "price": "",
         "line_url": "https://lin.ee/XxbWpXE"
       },
       {
         "name": "downstairspickleball 樓下匹克球俱樂部",
-        "url": "https://ipickleball.com.tw/places/downstairspickleball/",
+        "url": "https://ipickleball.com.tw/places/downstairspickleball-%e6%a8%93%e4%b8%8b%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
         "hours": "9:00 上午 – 10:00 下午",
-        "price": "300",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "中正高中",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%ad%e6%ad%a3%e9%ab%98%e4%b8%ad/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "北投捷運香館",
+        "url": "https://ipickleball.com.tw/places/%e5%8c%97%e6%8a%95%e6%8d%b7%e9%81%8b%e9%a6%99%e9%a4%a8/",
+        "hours": "12:00 下午 – 2:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "北投運動中心",
+        "url": "https://ipickleball.com.tw/places/%e5%8c%97%e6%8a%95%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/QA3SgXly7Z6z0bHfmIxsNyb4UvQ35ygwWjxOag?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "朝陽站匹克球球場",
+        "url": "https://ipickleball.com.tw/places/%e6%9c%9d%e9%99%bd%e7%ab%99%e5%8c%b9%e5%85%8b%e7%90%83%e7%90%83%e5%a0%b4/",
+        "hours": "9:00 上午 – 6:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "桃源國小",
+        "url": "https://ipickleball.com.tw/places/%e6%a1%83%e6%ba%90%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "石牌國小 DUPR",
+        "url": "https://ipickleball.com.tw/places/%e7%9f%b3%e7%89%8c%e5%9c%8b%e5%b0%8f-dupr/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "天母公園",
+        "url": "https://ipickleball.com.tw/places/%e5%a4%a9%e6%af%8d%e5%85%ac%e5%9c%92/",
+        "hours": "8:30 上午 – 12:00 下午",
+        "price": "",
         "line_url": null
       }
     ]
@@ -31,10 +80,73 @@
     "url": "https://ipickleball.com.tw/places/category/new-taipei-city/",
     "courts": [
       {
-        "name": "新北匹克球推廣中心",
-        "url": "https://ipickleball.com.tw/places/ntpc/",
-        "hours": "未提供",
-        "price": "未提供",
+        "name": "Pickle Ing 匹克贏",
+        "url": "https://ipickleball.com.tw/places/pickle-ing-%e5%8c%b9%e5%85%8b%e8%b4%8f/",
+        "hours": "8:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": "https://line.me/R/ti/p/@188eiekd?ts=04261503&oat_content=url"
+      },
+      {
+        "name": "綠寶石運動公園",
+        "url": "https://ipickleball.com.tw/places/%e7%b6%a0%e5%af%b6%e7%9f%b3%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92/",
+        "hours": "6:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "樹林大同國小",
+        "url": "https://ipickleball.com.tw/places/%e6%a8%b9%e6%9e%97%e5%a4%a7%e5%90%8c%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:30 下午 – 10:30 下午",
+        "price": "",
+        "line_url": "https://lin.ee/JjL4rfD"
+      },
+      {
+        "name": "奧創土城館",
+        "url": "https://ipickleball.com.tw/places/%e5%a5%a7%e5%89%b5%e5%9c%9f%e5%9f%8e%e9%a4%a8/",
+        "hours": "9:00 上午 – 12:30 上午",
+        "price": "",
+        "line_url": "https://www.17da.com.tw/hall-booking?hid=27be62df-4737-47cd-b0f1-af666aef0e29&redirect=/hall-list"
+      },
+      {
+        "name": "新北市三峽國民運動中心",
+        "url": "https://ipickleball.com.tw/places/%e6%96%b0%e5%8c%97%e5%b8%82%e4%b8%89%e5%b3%bd%e5%9c%8b%e6%b0%91%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "6:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://sx.teamxports.com/venue-booking/generally"
+      },
+      {
+        "name": "樂活板橋浮州館(樂活二館)",
+        "url": "https://ipickleball.com.tw/places/%e6%a8%82%e6%b4%bb%e6%b5%ae%e5%b7%9e%e9%a4%a8%e6%a8%82%e6%b4%bb%e4%ba%8c%e9%a4%a8/",
+        "hours": "9:00 上午 – 12:00 上午",
+        "price": "價目表如下： 臨打時段 2小時 3",
+        "line_url": "https://line.me/ti/g2/85Dz2RLlGDNg4LBis4zYiFGqrq-DJ71-0odVNA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "匹克那邊 (Pickle Side)",
+        "url": "https://ipickleball.com.tw/places/%e5%8c%b9%e5%85%8b%e9%82%a3%e9%82%8a-pickle-side/",
+        "hours": "9:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://line.me/R/ti/p/@572srsmf?ts=12180031&oat_content=url"
+      },
+      {
+        "name": "DOPE 水獺綠洲匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/dope-%e6%b0%b4%e7%8d%ba%e7%b6%a0%e6%b4%b2%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "10:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://line.me/ti/p/~@dopepb"
+      },
+      {
+        "name": "淡水運動中心",
+        "url": "https://ipickleball.com.tw/places/%e6%b7%a1%e6%b0%b4%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "2:00 下午 – 4:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "匙房匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/%e5%8c%99%e6%88%bf%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
         "line_url": null
       }
     ]
@@ -44,17 +156,733 @@
     "url": "https://ipickleball.com.tw/places/category/taichung/",
     "courts": [
       {
-        "name": "朝馬國民運動中心",
-        "url": "https://ipickleball.com.tw/places/chaoma/",
-        "hours": "06:00 – 22:00",
-        "price": "200",
+        "name": "一一匹克 | YIYI PICKLE",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%80%e4%b8%80%e5%8c%b9%e5%85%8b-yiyi-pickle/",
+        "hours": "Open 24 hours",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/yPGzRb2-5dsYj3EE0QLp5P4kybcWrjg_G4Deqg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "XC.Pickleball – 沙鹿室內匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/xc-pickleball-%e6%b2%99%e9%b9%bf%e5%ae%a4%e5%85%a7%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "Open 24 hours",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/RWfvm_UA_9yREOjvNh8dI4DHVfk3LvFQ62luAA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "XC.Pickle – 沙鹿匹克球館",
+        "url": "https://ipickleball.com.tw/places/xc-pickle-%e6%b2%99%e9%b9%bf%e5%8c%b9%e5%85%8b%e7%90%83%e9%a4%a8/",
+        "hours": "Open 24 hours",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/RWfvm_UA_9yREOjvNh8dI4DHVfk3LvFQ62luAA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "Star Hostel Taichung Parklane 誠星青年旅館 附設匹克球館",
+        "url": "https://ipickleball.com.tw/places/star-hostel-taichung-parklane-%e8%aa%a0%e6%98%9f%e9%9d%92%e5%b9%b4%e6%97%85%e9%a4%a8-%e9%99%84%e8%a8%ad%e5%8c%b9%e5%85%8b%e7%90%83%e9%a4%a8/",
+        "hours": "4:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://app.trainge.com/picklechill"
+      },
+      {
+        "name": "LaLa Dink | Pickleball club 匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/lala-dink-pickleball-club-%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "10:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/ZpoMUgeMjo176ugtzzTQJFjRK8nKxl3t2z4qwQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "Hype Pick Club熱潮匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/hype-pick-club%e7%86%b1%e6%bd%ae%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "9:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/RY98GXFpDK2r8VgJj0jOcvqk9wC7UNCrUnaT8Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+      },
+      {
+        "name": "優漾複合運動會館",
+        "url": "https://ipickleball.com.tw/places/%e5%84%aa%e6%bc%be%e8%a4%87%e5%90%88%e9%81%8b%e5%8b%95%e6%9c%83%e9%a4%a8/",
+        "hours": "6:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": "https://line.me/R/ti/g/nGd3jcWDGk"
+      },
+      {
+        "name": "GXS羽毛球龍頭館",
+        "url": "https://ipickleball.com.tw/places/gxs%e7%be%bd%e6%af%9b%e7%90%83%e9%be%8d%e9%a0%ad%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
         "line_url": null
       },
       {
-        "name": "國際網球中心 匹克球場",
-        "url": "https://ipickleball.com.tw/places/itc/",
+        "name": "大肚區文昌路二段770號",
+        "url": "https://ipickleball.com.tw/places/%e5%a4%a7%e8%82%9a%e5%8d%80%e6%96%87%e6%98%8c%e8%b7%af%e4%ba%8c%e6%ae%b5770%e8%99%9f/",
+        "hours": "12:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "國際網球中心",
+        "url": "https://ipickleball.com.tw/places/%e5%9c%8b%e9%9a%9b%e7%b6%b2%e7%90%83%e4%b8%ad%e5%bf%83/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "hsinchu": {
+    "name": "新竹",
+    "url": "https://ipickleball.com.tw/places/category/hsinchu/",
+    "courts": [
+      {
+        "name": "閃電匹克館",
+        "url": "https://ipickleball.com.tw/places/%e9%96%83%e9%9b%bb%e5%8c%b9%e5%85%8b%e9%a4%a8/",
         "hours": "未提供",
-        "price": "未提供",
+        "price": "",
+        "line_url": "https://line.me/R/ti/p/@912cgfpw?ts=05262307&oat_content=url"
+      },
+      {
+        "name": "竹北星空匹克球場",
+        "url": "https://ipickleball.com.tw/places/%e7%ab%b9%e5%8c%97%e6%98%9f%e7%a9%ba%e5%8c%b9%e5%85%8b%e7%90%83%e5%a0%b4/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://www.zhubei.gov.tw/place/index.php"
+      },
+      {
+        "name": "Pickle Pickleball Club",
+        "url": "https://ipickleball.com.tw/places/pickle-pickleball-club/",
+        "hours": "6:00 上午 – 10:00 下午",
+        "price": "一、場地標準（單位：元／小時） 時段",
+        "line_url": "https://line.me/ti/g2/ql5v3zTXf3JiHLGZ7G1xo%20tXucKWm5-NePUpEXw?utm_source=%20invitation&utm_medium=link_copy&utm%20_campaign=default"
+      },
+      {
+        "name": "台色運動場",
+        "url": "https://ipickleball.com.tw/places/%e5%8f%b0%e8%89%b2%e9%81%8b%e5%8b%95%e5%a0%b4/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "三民國中",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%89%e6%b0%91%e5%9c%8b%e4%b8%ad/",
+        "hours": "5:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "西門國小",
+        "url": "https://ipickleball.com.tw/places/%e8%a5%bf%e9%96%80%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:00 下午 – 8:30 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "可茵高中羽球館",
+        "url": "https://ipickleball.com.tw/places/%e5%8f%af%e8%8c%b5%e9%ab%98%e4%b8%ad%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "歇會科大羽球館",
+        "url": "https://ipickleball.com.tw/places/%e6%ad%87%e6%9c%83%e7%a7%91%e5%a4%a7%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "東興國中",
+        "url": "https://ipickleball.com.tw/places/%e6%9d%b1%e8%88%88%e5%9c%8b%e4%b8%ad/",
+        "hours": "7:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "竹北國民運動中心",
+        "url": "https://ipickleball.com.tw/places/%e7%ab%b9%e5%8c%97%e5%9c%8b%e6%b0%91%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "9:00 上午 – 12:00 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "taoyuan": {
+    "name": "桃園",
+    "url": "https://ipickleball.com.tw/places/category/taoyuan/",
+    "courts": [
+      {
+        "name": "邷力豹 Pickleball",
+        "url": "https://ipickleball.com.tw/places/%e9%82%b7%e5%8a%9b%e8%b1%b9-pickleball/",
+        "hours": "未提供",
+        "price": "",
+        "line_url": "https://openchat.line.me/tw/cover/6ZYYZ67P3KubfEyojcmZykhfhse-pr7QxWeDslMkNpBP12S_r24srBNRAYU"
+      },
+      {
+        "name": "中豐匹克球館",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%ad%e8%b1%90%e5%8c%b9%e5%85%8b%e7%90%83%e9%a4%a8/",
+        "hours": "8:30 上午 – 10:30 下午",
+        "price": "",
+        "line_url": "https://line.me/R/ti/p/@power325"
+      },
+      {
+        "name": "樂活匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/%e6%a8%82%e6%b4%bb%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "6:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": "https://line.me/ti/g2/Es97dgY_yDHkl2UGDtuE6BcOm6esq6p2kiNN1g?utm_source=invitation&utm_medium=ipickleball.tw&utm_campaign=default"
+      },
+      {
+        "name": "SocialNPickle",
+        "url": "https://ipickleball.com.tw/places/socialnpickle/",
+        "hours": "12:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "龜山樂克",
+        "url": "https://ipickleball.com.tw/places/%e9%be%9c%e5%b1%b1%e6%a8%82%e5%85%8b/",
+        "hours": "6:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "南昌公園",
+        "url": "https://ipickleball.com.tw/places/%e5%8d%97%e6%98%8c%e5%85%ac%e5%9c%92/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "南美天幕",
+        "url": "https://ipickleball.com.tw/places/%e5%8d%97%e7%be%8e%e5%a4%a9%e5%b9%95/",
+        "hours": "12:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "富鵝羽球施施",
+        "url": "https://ipickleball.com.tw/places/%e5%af%8c%e9%b5%9d%e7%be%bd%e7%90%83%e6%96%bd%e6%96%bd/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "TT Sports 運動館",
+        "url": "https://ipickleball.com.tw/places/tt-sports-%e9%81%8b%e5%8b%95%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "元智大學",
+        "url": "https://ipickleball.com.tw/places/%e5%85%83%e6%99%ba%e5%a4%a7%e5%ad%b8/",
+        "hours": "未提供",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "yilan": {
+    "name": "宜蘭",
+    "url": "https://ipickleball.com.tw/places/category/yilan/",
+    "courts": [
+      {
+        "name": "宜蘭運動公園",
+        "url": "https://ipickleball.com.tw/places/%e5%ae%9c%e8%98%ad%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92-2/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "羅東運動公園",
+        "url": "https://ipickleball.com.tw/places/%e7%be%85%e6%9d%b1%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92-2/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "羅東國小",
+        "url": "https://ipickleball.com.tw/places/%e7%be%85%e6%9d%b1%e5%9c%8b%e5%b0%8f-2/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "頭城國中體育館",
+        "url": "https://ipickleball.com.tw/places/%e9%a0%ad%e5%9f%8e%e5%9c%8b%e4%b8%ad%e9%ab%94%e8%82%b2%e9%a4%a8-2/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "清澳國小",
+        "url": "https://ipickleball.com.tw/places/%e6%b8%85%e6%be%b3%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "五結國中",
+        "url": "https://ipickleball.com.tw/places/%e4%ba%94%e7%b5%90%e5%9c%8b%e4%b8%ad/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "東餐羽球館",
+        "url": "https://ipickleball.com.tw/places/%e6%9d%b1%e9%a4%90%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "5:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "清溝國小",
+        "url": "https://ipickleball.com.tw/places/%e6%b8%85%e6%ba%9d%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "頭城國中體育館",
+        "url": "https://ipickleball.com.tw/places/%e9%a0%ad%e5%9f%8e%e5%9c%8b%e4%b8%ad%e9%ab%94%e8%82%b2%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "羅東國小",
+        "url": "https://ipickleball.com.tw/places/%e7%be%85%e6%9d%b1%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "changhua": {
+    "name": "彰化",
+    "url": "https://ipickleball.com.tw/places/category/changhua/",
+    "courts": [
+      {
+        "name": "億源匹克球俱樂部",
+        "url": "https://ipickleball.com.tw/places/%e5%84%84%e6%ba%90%e5%8c%b9%e5%85%8b%e7%90%83%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": "https://wulili810.booknow.com.tw/#"
+      },
+      {
+        "name": "PIKA PIKA Pickleball Club 【原名稱：Pickle King Sports Club 匹克王】",
+        "url": "https://ipickleball.com.tw/places/pickle-king-sports-club-%e5%8c%b9%e5%85%8b%e7%8e%8b/",
+        "hours": "7:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": "https://lin.ee/yKcTEz7"
+      },
+      {
+        "name": "banger_pickleball_club",
+        "url": "https://ipickleball.com.tw/places/banger_pickleball_club/",
+        "hours": "7:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": "https://openchat.line.me/tw/cover/AEYfC1bC-3MvhaO9v4Q-oCckzvMBB117DL-mZ2IWxuFU65VsLxkCUjI7j48?utm_source=line-openchat-seo&utm_medium=search_keyword&utm_campaign=default"
+      },
+      {
+        "name": "網內互打Pickleball Club",
+        "url": "https://ipickleball.com.tw/places/%e7%b6%b2%e5%85%a7%e4%ba%92%e6%89%93pickleball-club/",
+        "hours": "Open 24 hours",
+        "price": "",
+        "line_url": "https://lin.ee/qmHW62K"
+      },
+      {
+        "name": "中彰運動公園",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%ad%e5%bd%b0%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "大村匹克球專用球場",
+        "url": "https://ipickleball.com.tw/places/%e5%a4%a7%e6%9d%91%e5%8c%b9%e5%85%8b%e7%90%83%e5%b0%88%e7%94%a8%e7%90%83%e5%a0%b4/",
+        "hours": "6:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "彰化縣立來羽球館",
+        "url": "https://ipickleball.com.tw/places/%e5%bd%b0%e5%8c%96%e7%b8%a3%e7%ab%8b%e4%be%86%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "2:00 下午 – 4:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "翔戲羽球館",
+        "url": "https://ipickleball.com.tw/places/%e7%bf%94%e6%88%b2%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "2:00 下午 – 4:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "鹿港東興路175號",
+        "url": "https://ipickleball.com.tw/places/%e9%b9%bf%e6%b8%af%e6%9d%b1%e8%88%88%e8%b7%af175%e8%99%9f/",
+        "hours": "12:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "和美運動中心",
+        "url": "https://ipickleball.com.tw/places/%e5%92%8c%e7%be%8e%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "7:30 下午 – 9:30 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "kaohsiung": {
+    "name": "高雄",
+    "url": "https://ipickleball.com.tw/places/category/kaohsiung/",
+    "courts": [
+      {
+        "name": "三民公園",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%89%e6%b0%91%e5%85%ac%e5%9c%92/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "力羽美羽球會館",
+        "url": "https://ipickleball.com.tw/places/%e5%8a%9b%e7%be%bd%e7%be%8e%e7%be%bd%e7%90%83%e6%9c%83%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "大同國小",
+        "url": "https://ipickleball.com.tw/places/%e5%a4%a7%e5%90%8c%e5%9c%8b%e5%b0%8f/",
+        "hours": "6:30 下午 – 9:30 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "正勤活動中心",
+        "url": "https://ipickleball.com.tw/places/%e6%ad%a3%e5%8b%a4%e6%b4%bb%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "楠梓高中",
+        "url": "https://ipickleball.com.tw/places/%e6%a5%a0%e6%a2%93%e9%ab%98%e4%b8%ad/",
+        "hours": "未提供",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "鼓山匹克球專用球場",
+        "url": "https://ipickleball.com.tw/places/%e9%bc%93%e5%b1%b1%e5%8c%b9%e5%85%8b%e7%90%83%e5%b0%88%e7%94%a8%e7%90%83%e5%a0%b4/",
+        "hours": "5:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "橋頭五林國小",
+        "url": "https://ipickleball.com.tw/places/%e6%a9%8b%e9%a0%ad%e4%ba%94%e6%9e%97%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "橋頭公園匹克球場",
+        "url": "https://ipickleball.com.tw/places/%e6%a9%8b%e9%a0%ad%e5%85%ac%e5%9c%92%e5%8c%b9%e5%85%8b%e7%90%83%e5%a0%b4/",
+        "hours": "12:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "Le Phare 共享空間（左營）",
+        "url": "https://ipickleball.com.tw/places/le-phare-%e5%85%b1%e4%ba%ab%e7%a9%ba%e9%96%93%ef%bc%88%e5%b7%a6%e7%87%9f%ef%bc%89/",
+        "hours": "5:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "鼓山高中",
+        "url": "https://ipickleball.com.tw/places/%e9%bc%93%e5%b1%b1%e9%ab%98%e4%b8%ad/",
+        "hours": "5:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "tainan": {
+    "name": "台南",
+    "url": "https://ipickleball.com.tw/places/category/tainan/",
+    "courts": [
+      {
+        "name": "哈薩克體育場（竹溪）",
+        "url": "https://ipickleball.com.tw/places/%e5%93%88%e8%96%a9%e5%85%8b%e9%ab%94%e8%82%b2%e5%a0%b4%ef%bc%88%e7%ab%b9%e6%ba%aa%ef%bc%89/",
+        "hours": "7:00 上午 – 9:00 上午, 5:00 下午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "府平公園（大府城）",
+        "url": "https://ipickleball.com.tw/places/%e5%ba%9c%e5%b9%b3%e5%85%ac%e5%9c%92%ef%bc%88%e5%a4%a7%e5%ba%9c%e5%9f%8e%ef%bc%89/",
+        "hours": "7:00 上午 – 9:00 上午, 7:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "振興公園",
+        "url": "https://ipickleball.com.tw/places/%e6%8c%af%e8%88%88%e5%85%ac%e5%9c%92/",
+        "hours": "6:00 下午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "烏樹公園綜合球場",
+        "url": "https://ipickleball.com.tw/places/%e7%83%8f%e6%a8%b9%e5%85%ac%e5%9c%92%e7%b6%9c%e5%90%88%e7%90%83%e5%a0%b4/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "崇府球場",
+        "url": "https://ipickleball.com.tw/places/%e5%b4%87%e5%ba%9c%e7%90%83%e5%a0%b4/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "應農高科健康生活館",
+        "url": "https://ipickleball.com.tw/places/%e6%87%89%e8%be%b2%e9%ab%98%e7%a7%91%e5%81%a5%e5%ba%b7%e7%94%9f%e6%b4%bb%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "勁拍羽球館",
+        "url": "https://ipickleball.com.tw/places/%e5%8b%81%e6%8b%8d%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "羽克打球隊會所",
+        "url": "https://ipickleball.com.tw/places/%e7%be%bd%e5%85%8b%e6%89%93%e7%90%83%e9%9a%8a%e6%9c%83%e6%89%80/",
+        "hours": "9:00 上午 – 11:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "玩轉基地",
+        "url": "https://ipickleball.com.tw/places/%e7%8e%a9%e8%bd%89%e5%9f%ba%e5%9c%b0/",
+        "hours": "7:00 下午 – 9:30 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "chiayi": {
+    "name": "嘉義",
+    "url": "https://ipickleball.com.tw/places/category/chiayi/",
+    "courts": [
+      {
+        "name": "宜信國小",
+        "url": "https://ipickleball.com.tw/places/%e5%ae%9c%e4%bf%a1%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "西區友愛路613號",
+        "url": "https://ipickleball.com.tw/places/%e8%a5%bf%e5%8d%80%e5%8f%8b%e6%84%9b%e8%b7%af613%e8%99%9f/",
+        "hours": "5:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "帝寶球場",
+        "url": "https://ipickleball.com.tw/places/%e5%b8%9d%e5%af%b6%e7%90%83%e5%a0%b4/",
+        "hours": "3:00 下午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "嘉義市國民運動中心",
+        "url": "https://ipickleball.com.tw/places/%e5%98%89%e7%be%a9%e5%b8%82%e5%9c%8b%e6%b0%91%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "hours": "6:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "水上鄉民運動館",
+        "url": "https://ipickleball.com.tw/places/%e6%b0%b4%e4%b8%8a%e9%84%89%e6%b0%91%e9%81%8b%e5%8b%95%e9%a4%a8/",
+        "hours": "6:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "朴子鎮政府田徑場",
+        "url": "https://ipickleball.com.tw/places/%e6%9c%b4%e5%ad%90%e9%8e%ae%e6%94%bf%e5%ba%9c%e7%94%b0%e5%be%91%e5%a0%b4/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "嘉得羽球館",
+        "url": "https://ipickleball.com.tw/places/%e5%98%89%e5%be%97%e7%be%bd%e7%90%83%e9%a4%a8/",
+        "hours": "未提供",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "yunlin": {
+    "name": "雲林",
+    "url": "https://ipickleball.com.tw/places/category/yunlin/",
+    "courts": [
+      {
+        "name": "PK Park Pickleball court 匹克球館",
+        "url": "https://ipickleball.com.tw/places/pk-park-pickleball-court-%e5%8c%b9%e5%85%8b%e7%90%83%e9%a4%a8/",
+        "hours": "6:00 上午 – 12:00 上午",
+        "price": "",
+        "line_url": "https://line.me/R/ti/p/@132zvqky?ts=04081820&oat_content=url"
+      },
+      {
+        "name": "斗六帝寶球場",
+        "url": "https://ipickleball.com.tw/places/%e6%96%97%e5%85%ad%e5%b8%9d%e5%af%b6%e7%90%83%e5%a0%b4/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "公誠國小",
+        "url": "https://ipickleball.com.tw/places/%e5%85%ac%e8%aa%a0%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "四湖公園",
+        "url": "https://ipickleball.com.tw/places/%e5%9b%9b%e6%b9%96%e5%85%ac%e5%9c%92/",
+        "hours": "3:30 下午 – 7:30 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "土庫鎮永年高中",
+        "url": "https://ipickleball.com.tw/places/%e5%9c%9f%e5%ba%ab%e9%8e%ae%e6%b0%b8%e5%b9%b4%e9%ab%98%e4%b8%ad/",
+        "hours": "7:00 上午 – 9:00 上午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "雲科大",
+        "url": "https://ipickleball.com.tw/places/%e9%9b%b2%e7%a7%91%e5%a4%a7/",
+        "hours": "12:00 上午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "nantou": {
+    "name": "南投",
+    "url": "https://ipickleball.com.tw/places/category/nantou/",
+    "courts": [
+      {
+        "name": "南投國中",
+        "url": "https://ipickleball.com.tw/places/%e5%8d%97%e6%8a%95%e5%9c%8b%e4%b8%ad/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "埤里國小溜冰中心",
+        "url": "https://ipickleball.com.tw/places/%e5%9f%a4%e9%87%8c%e5%9c%8b%e5%b0%8f%e6%ba%9c%e5%86%b0%e4%b8%ad%e5%bf%83/",
+        "hours": "6:00 下午 – 8:30 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "埤里絲立綜合球場",
+        "url": "https://ipickleball.com.tw/places/%e5%9f%a4%e9%87%8c%e7%b5%b2%e7%ab%8b%e7%b6%9c%e5%90%88%e7%90%83%e5%a0%b4/",
+        "hours": "2:00 下午 – 9:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "東光國小",
+        "url": "https://ipickleball.com.tw/places/%e6%9d%b1%e5%85%89%e5%9c%8b%e5%b0%8f/",
+        "hours": "未提供",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "竹山鎮坑口震興宮",
+        "url": "https://ipickleball.com.tw/places/%e7%ab%b9%e5%b1%b1%e9%8e%ae%e5%9d%91%e5%8f%a3%e9%9c%87%e8%88%88%e5%ae%ae/",
+        "hours": "5:40 下午 – 7:30 下午",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "pngtung": {
+    "name": "屏東",
+    "url": "https://ipickleball.com.tw/places/category/pngtung/",
+    "courts": [
+      {
+        "name": "廣興匹克球場",
+        "url": "https://ipickleball.com.tw/places/%e5%bb%a3%e8%88%88%e5%8c%b9%e5%85%8b%e7%90%83%e5%a0%b4/",
+        "hours": "5:00 上午 – 9:00 上午, 3:00 下午 – 9:45 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "鎮東匹克球場",
+        "url": "https://ipickleball.com.tw/places/%e9%8e%ae%e6%9d%b1%e5%8c%b9%e5%85%8b%e7%90%83%e5%a0%b4/",
+        "hours": "6:30 下午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "惠農國小",
+        "url": "https://ipickleball.com.tw/places/%e6%83%a0%e8%be%b2%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      }
+    ]
+  },
+  "keelung": {
+    "name": "基隆",
+    "url": "https://ipickleball.com.tw/places/category/keelung/",
+    "courts": [
+      {
+        "name": "瑪南國小",
+        "url": "https://ipickleball.com.tw/places/%e7%91%aa%e5%8d%97%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "堵南國小",
+        "url": "https://ipickleball.com.tw/places/%e5%a0%b5%e5%8d%97%e5%9c%8b%e5%b0%8f/",
+        "hours": "Closed",
+        "price": "",
+        "line_url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fline.me%2Fti%2Fg2%2FxuJkmQvo1UDCEvoQnFVtdQOIGWlvFHdxlDk8OQ%3Futm_source%3Dinvitation%26utm_medium%3Dlink_copy%26utm_campaign%3Ddefault%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExZ1FGeHdGNUNLUkRYcEJ4eXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIIY2FsbHNpdGUBMgABHgHgNkForhcIvWwrNV-eTumfo65Dx5RzDc6vz8NJOD7T7XzARWRcTjR2o-_u_aem_JbDaQbK8p6UVMXmIKhFMcw&h=AT0_J8qjubLSN19ygLF2PxhsrMg2QxyWk-oXus5X_ZCyL8hpwGJUxiYnkuLev9BA8NGiKR4RbUA6uFqAy3XK-53Tv5u6o6JAonPPXIrAY3AUDMz7vvW4SOoSDi-krL3HtQCxw1KcPFVhA6FB4G0BbYgFVZXGPw&__tn__=-UK-R-R&c%5B0%5D=AT3GpwJIRz8KkUVonuKJWMbmTeQVoMVH1PB2H_Qntl2gzBGzFHo-FJmPxpnRd5A06lY7a6rWP_S0HhYYVAkaK_aKeyixcwrEswQ3srbZNP2PaZsb13SZi5m2GbwwSIVxH67qGvz5tFdMc_oqrs7ma_0HZDrEkxOrI2T8NhHcfZnIWFa4jZQE"
+      }
+    ]
+  },
+  "hualien": {
+    "name": "花蓮",
+    "url": "https://ipickleball.com.tw/places/category/hualien/",
+    "courts": [
+      {
+        "name": "中山公園球場",
+        "url": "https://ipickleball.com.tw/places/%e4%b8%ad%e5%b1%b1%e5%85%ac%e5%9c%92%e7%90%83%e5%a0%b4/",
+        "hours": "5:00 下午 – 10:00 下午",
+        "price": "",
+        "line_url": null
+      },
+      {
+        "name": "PKing匹克俱樂部",
+        "url": "https://ipickleball.com.tw/places/pking%e5%8c%b9%e5%85%8b%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "hours": "8:00 上午 – 10:00 下午",
+        "price": "",
         "line_url": null
       }
     ]
