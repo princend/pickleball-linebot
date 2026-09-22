@@ -48,7 +48,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     - 匹克球分組 2個場地 2輪: [貼上名單]
     - [直接貼上整篇開團文]
     """
-    stripped_text = text.strip()
+    stripped_text = text.strip().replace("！", "!")
     effective_target_id = target_id or user_id
 
     # 0-1. 檢查是否正處於七步驟開團對話會話中

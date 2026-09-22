@@ -43,6 +43,7 @@ from pickleball.court_finder import (
     scrape_courts_by_county,
 )
 from pickleball.flex_formatter import (
+    create_menu_flex,
     create_pickleball_group_flex,
 )
 from pickleball.rules import (
@@ -64,6 +65,7 @@ from pickleball.group_creation import (
 )
 
 __all__ = [
+    "create_menu_flex",
     "clean_player_name",
     "format_group_result",
     "parse_player_input",
