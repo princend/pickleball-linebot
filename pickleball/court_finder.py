@@ -172,10 +172,10 @@ def get_county_quick_reply() -> QuickReply:
 
 
 def _build_compact_court_box(court: dict, index: int) -> FlexBox:
-    name = court.get("name", "未知球場")
+    name = court.get("name", "未知球場") or "未知球場"
     court_url = court.get("url", "")
-    hours = court.get("hours", "未提供")
-    price = court.get("price", "未提供")
+    hours = court.get("hours", "未提供") or "未提供"
+    price = court.get("price", "未提供") or "未提供"
     line_url = court.get("line_url")
 
     name_row = FlexBox(
