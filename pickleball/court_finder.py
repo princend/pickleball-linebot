@@ -302,7 +302,7 @@ def create_courts_flex(
     chunk_size = 4
     bubbles = []
     
-    for i in range(0, min(len(courts), 12), chunk_size):
+    for i in range(0, min(len(courts), 44), chunk_size):
         chunk = courts[i:i+chunk_size]
         bubbles.append(_build_grouped_court_bubble(chunk, i + 1, county_name))
 
@@ -316,7 +316,7 @@ def create_courts_flex(
                 padding_all="lg",
                 contents=[
                     FlexText(
-                        text=f"顯示前 {min(len(courts), 12)} 筆",
+                        text=f"顯示前 {min(len(courts), 44)} 筆",
                         size="xs",
                         color="#6B7280",
                         align="center",
