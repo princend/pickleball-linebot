@@ -70,20 +70,24 @@ for name, slug in COUNTIES.items():
 
             # 嘗試取得收費資訊
             price = "未提供"
-            # 尋找含有 "收費" 的元素
-            price_el = card.find(string=re.compile(r"收費"))
-            if price_el and price_el.parent:
-                price_text = price_el.parent.text.strip()
+            price_box = card.find(lambda tag: tag.name == "div" and tag.get("class") and any("geodir-field-cf1" in c or "geodir-field-price" in c for c in tag.get("class", [])))
+            if not price_box:
+                price_el = card.find(string=re.compile(r"收費"))
+                if price_el:
+                    p = price_el
+                    for _ in range(3):
+                        if p and p.parent:
+                            p = p.parent
+                            if "收費" in p.text and len(p.text.strip()) > len(price_el.text.strip()) + 1:
+                                price_box = p
+                                break
+
+            if price_box:
+                price_text = price_box.text.strip()
                 price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
-            else:
-                # 備用：直接找 class 包含 cf1763282984
-                price_box = card.select_one(".geodir-field-cf1763282984")
-                if price_box:
-                    price_text = price_box.text.strip()
-                    price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
             
-            if price == "0":
-                price = "免費"
+            if price == "0" or price == "":
+                price = "免費" if price == "0" else "未提供"
 
             # LINE 群連結
             line_url = None
