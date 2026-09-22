@@ -37,76 +37,81 @@ for name, slug in COUNTIES.items():
     url = f"{BASE_URL}/{slug}/"
     
     try:
-        res = requests.get(url, headers=HEADERS, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
-        
         county_courts = []
-        
-        # 兼容新舊版面的爬取邏輯
-        cards = soup.select(".geodir-category-list-view li")
-        if not cards:
-            # 嘗試抓取新版面 (Elementor 網格)
-            cards = soup.select("div.card.h-100, div.card")
+        page = 1
+        while True:
+            page_url = url if page == 1 else f"{url}page/{page}/"
+            print(f"    - 正在爬取第 {page} 頁...")
+            res = requests.get(page_url, headers=HEADERS, timeout=10)
+            if res.status_code == 404:
+                break
+            res.raise_for_status()
+            soup = BeautifulSoup(res.text, "html.parser")
             
-        for card in cards:
-            # 取得名稱與連結
-            title_el = card.select_one(".geodir-entry-title a, h2 a, h3 a")
-            if not title_el:
-                continue
+            cards = soup.select(".geodir-category-list-view li")
+            if not cards:
+                cards = soup.select("div.card.h-100, div.card")
+            if not cards:
+                break
+            for card in cards:
+                # 取得名稱與連結
+                title_el = card.select_one(".geodir-entry-title a, h2 a, h3 a")
+                if not title_el:
+                    continue
 
-            court_name = title_el.text.strip()
-            court_url = title_el.get("href")
+                court_name = title_el.text.strip()
+                court_url = title_el.get("href")
             
-            # 去重複 (同一卡片可能匹配到多次)
-            if any(c['url'] == court_url for c in county_courts):
-                continue
+                # 去重複 (同一卡片可能匹配到多次)
+                if any(c['url'] == court_url for c in county_courts):
+                    continue
 
-            # 嘗試取得營業時間
-            hours = "未提供"
-            hours_el = card.select_one(".gd-bh-today-range, .gd-bh-expand-range")
-            if hours_el:
-                hours = hours_el.text.strip()
+                # 嘗試取得營業時間
+                hours = "未提供"
+                hours_el = card.select_one(".gd-bh-today-range, .gd-bh-expand-range")
+                if hours_el:
+                    hours = hours_el.text.strip()
 
-            # 嘗試取得收費資訊
-            price = "未提供"
-            price_box = card.find(lambda tag: tag.name == "div" and tag.get("class") and any("geodir-field-cf1" in c or "geodir-field-price" in c for c in tag.get("class", [])))
-            if not price_box:
-                price_el = card.find(string=re.compile(r"收費"))
-                if price_el:
-                    p = price_el
-                    for _ in range(3):
-                        if p and p.parent:
-                            p = p.parent
-                            if "收費" in p.text and len(p.text.strip()) > len(price_el.text.strip()) + 1:
-                                price_box = p
-                                break
+                # 嘗試取得收費資訊
+                price = "未提供"
+                price_box = card.find(lambda tag: tag.name == "div" and tag.get("class") and any("geodir-field-cf1" in c or "geodir-field-price" in c for c in tag.get("class", [])))
+                if not price_box:
+                    price_el = card.find(string=re.compile(r"收費"))
+                    if price_el:
+                        p = price_el
+                        for _ in range(3):
+                            if p and p.parent:
+                                p = p.parent
+                                if "收費" in p.text and len(p.text.strip()) > len(price_el.text.strip()) + 1:
+                                    price_box = p
+                                    break
 
-            if price_box:
-                price_text = price_box.text.strip()
-                price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
+                if price_box:
+                    price_text = price_box.text.strip()
+                    price = re.sub(r"收費\s*[:：]?\s*", "", price_text).strip()
             
-            if price == "0" or price == "":
-                price = "免費" if price == "0" else "未提供"
+                if price == "0" or price == "":
+                    price = "免費" if price == "0" else "未提供"
 
-            # LINE 群連結
-            line_url = None
-            line_el = card.select_one(".geodir-field-line_ a")
-            if line_el:
-                line_url = line_el.get("href")
-            else:
-                line_el = card.find("a", string=re.compile(r"LINE", re.I))
+                # LINE 群連結
+                line_url = None
+                line_el = card.select_one(".geodir-field-line_ a")
                 if line_el:
                     line_url = line_el.get("href")
+                else:
+                    line_el = card.find("a", string=re.compile(r"LINE", re.I))
+                    if line_el:
+                        line_url = line_el.get("href")
 
-            county_courts.append({
-                "name": court_name,
-                "url": court_url,
-                "hours": hours,
-                "price": price,
-                "line_url": line_url,
-            })
+                county_courts.append({
+                    "name": court_name,
+                    "url": court_url,
+                    "hours": hours,
+                    "price": price,
+                    "line_url": line_url,
+                })
             
+            page += 1
         all_courts_data[slug] = {
             "name": name,
             "url": url,
