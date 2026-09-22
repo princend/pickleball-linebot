@@ -5,6 +5,7 @@
 
 from linebot.v3.messaging import ReplyMessageRequest, TextMessage
 from pickleball import (
+    create_menu_flex,
     GROUPING_HELP_TEXT,
     STEP_COURTS,
     STEP_DATE,
@@ -167,8 +168,21 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             )
             return "OK", 200
 
+
+    # 0-0. 主選單指令
+    if stripped_text == "!指令" or stripped_text.lower() == "!menu":
+        from pickleball.flex_formatter import create_menu_flex
+        menu_flex = create_menu_flex()
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[menu_flex],
+            )
+        )
+        return "OK", 200
+
     # 0-2. 文字指令啟動開團精靈
-    if stripped_text in ["開團", "匹克球開團", "我要開團", "發起開團", "建立開團文"]:
+    if stripped_text in ["!開團", "!匹克球開團", "!我要開團", "!發起開團", "!建立開團文"]:
         session_data = {"step": STEP_TITLE, "data": {}}
         set_group_creation_session(effective_target_id, session_data)
         prompt_text, qr = get_step_prompt_and_quick_reply(STEP_TITLE)
@@ -182,12 +196,12 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 1. 匹克球球場查詢指令 (顯示縣市 QuickReply，由 PostbackHandler 接手爬取球場資料)
     court_keywords = [
-        "匹克球球場",
-        "查球場",
-        "球場查詢",
-        "匹克球場地",
-        "附近球場",
-        "pickleball courts",
+        "!匹克球球場",
+        "!查球場",
+        "!球場查詢",
+        "!匹克球場地",
+        "!附近球場",
+        "!pickleball courts",
     ]
     if stripped_text.lower() in [k.lower() for k in court_keywords]:
         county_qr = get_county_quick_reply()
@@ -206,14 +220,14 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 2. 匹克球賽事精華推薦指令 (關鍵字均需明確包含「匹克球」，避免誤觸其他主題)
     highlight_keywords = [
-        "匹克球精華",
-        "匹克球賽事精華",
-        "匹克球影片",
-        "匹克球精彩剪輯",
-        "匹克球剪輯",
-        "匹克球賽事",
-        "pickleball highlights",
-        "pickleball highlight",
+        "!匹克球精華",
+        "!匹克球賽事精華",
+        "!匹克球影片",
+        "!匹克球精彩剪輯",
+        "!匹克球剪輯",
+        "!匹克球賽事",
+        "!pickleball highlights",
+        "!pickleball highlight",
     ]
     if stripped_text.lower() in [k.lower() for k in highlight_keywords]:
         video = get_pickleball_highlight_video()
@@ -240,13 +254,13 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 2. 匹克球規則說明指令 (回傳規則 Flex 卡片，絕不帶 QuickReply)
     rule_keywords = [
-        "匹克球規則",
-        "匹克球基本規則",
-        "匹克球新手規則",
-        "匹克球教學",
-        "匹克球怎麼玩",
-        "匹克球玩法",
-        "pickleball rules",
+        "!匹克球規則",
+        "!匹克球基本規則",
+        "!匹克球新手規則",
+        "!匹克球教學",
+        "!匹克球怎麼玩",
+        "!匹克球玩法",
+        "!pickleball rules",
     ]
     if stripped_text.lower() in [k.lower() for k in rule_keywords]:
         rules_flex = create_pickleball_rules_flex()
@@ -259,7 +273,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         return "OK", 200
 
     # 3. 快捷一鍵操作 (重新洗牌、重分、下一輪)
-    if stripped_text in ["重新洗牌", "重分", "再分一次", "下一輪"]:
+    if stripped_text in ["!重新洗牌", "!重分", "!再分一次", "!下一輪"]:
         session = get_pickleball_session(effective_target_id)
         if session and session.get("players"):
             cached_players = session["players"]
@@ -357,13 +371,13 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 3. 判定是否為明確分組指令 (嚴禁模糊自動觸發，避免球友接龍時連環誤發分組)
     matching_keywords = [
-        "匹克球隨機分組",
-        "匹克球分組",
-        "隨機分組",
-        "球友分組",
-        "匹克球說明",
-        "分組說明",
-        "分組",
+        "!匹克球隨機分組",
+        "!匹克球分組",
+        "!隨機分組",
+        "!球友分組",
+        "!匹克球說明",
+        "!分組說明",
+        "!分組",
     ]
 
     matched_keyword = None
@@ -378,7 +392,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 如果僅輸入關鍵字，或輸入「分組說明」，純文字回傳操作指引說明 (不帶 quick_reply，保持畫面乾淨)
     content_after_keyword = stripped_text[len(matched_keyword):].strip()
-    if not content_after_keyword or stripped_text in ["分組說明", "匹克球說明"]:
+    if not content_after_keyword or stripped_text in ["!分組說明", "!匹克球說明"]:
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
                 reply_token=event.reply_token,

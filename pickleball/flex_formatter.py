@@ -466,3 +466,70 @@ def create_pickleball_group_flex(
         contents=bubble,
         quick_reply=quick_reply,
     )
+
+from linebot.v3.messaging import FlexButton
+
+def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
+    """建立匹克球功能選單面板。"""
+    bubble = FlexBubble(
+        size="mega",
+        header=FlexBox(
+            layout="vertical",
+            background_color="#CCFF00",
+            padding_all="md",
+            contents=[
+                FlexText(
+                    text="Pickleball Bot",
+                    weight="bold",
+                    size="lg",
+                    color="#1F2937",
+                ),
+                FlexText(
+                    text="請點擊下方按鈕選擇功能",
+                    size="xs",
+                    color="#4B5563",
+                    margin="xs",
+                ),
+            ],
+        ),
+        body=FlexBox(
+            layout="vertical",
+            padding_all="md",
+            spacing="sm",
+            contents=[
+                FlexButton(
+                    style="primary",
+                    color="#2563EB",
+                    margin="sm",
+                    action={"type": "message", "label": "建立開團文", "text": "!開團"},
+                ),
+                FlexButton(
+                    style="primary",
+                    color="#EA580C",
+                    margin="sm",
+                    action={"type": "message", "label": "隨機分組教學", "text": "!分組"},
+                ),
+                FlexButton(
+                    style="primary",
+                    color="#16A34A",
+                    margin="sm",
+                    action={"type": "message", "label": "查詢附近球場", "text": "!查球場"},
+                ),
+                FlexButton(
+                    style="secondary",
+                    margin="sm",
+                    action={"type": "message", "label": "匹克球規則", "text": "!匹克球規則"},
+                ),
+                FlexButton(
+                    style="secondary",
+                    margin="sm",
+                    action={"type": "message", "label": "賽事精華影片", "text": "!匹克球精華"},
+                ),
+            ],
+        ),
+    )
+    return FlexMessage(
+        alt_text="Pickleball Bot 功能選單",
+        contents=bubble,
+        quick_reply=quick_reply,
+    )
