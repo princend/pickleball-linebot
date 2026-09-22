@@ -8,6 +8,7 @@
 import re
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, Optional, Tuple
+from pickleball.court_finder import COUNTIES
 from linebot.v3.messaging import (
     DatetimePickerAction,
     MessageAction,
@@ -205,10 +206,23 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_LOCATION:
         time_str = collected_data.get("time", "")
-        prompt = f"【開團步驟 4/7】\n已設定時段：{time_str}\n請手動輸入打球【地點】（例如：朝馬運動中心）："
-        items = [
-            QuickReplyItem(action=cancel_action),
-        ]
+        prompt = f"【開團步驟 4/7】\n已設定時段：{time_str}\n請選擇【縣市】來尋找球場，或直接「手動輸入」地點名稱："
+        items = []
+        
+        display_counties = list(COUNTIES.keys())[:12]
+        for county_name in display_counties:
+            slug = COUNTIES[county_name]
+            items.append(
+                QuickReplyItem(
+                    action=PostbackAction(
+                        label=county_name,
+                        data=f"action=pickle_action&sub=pick_county_for_location&county={slug}&name={county_name}",
+                        display_text=f"尋找 {county_name} 球場"
+                    )
+                )
+            )
+            
+        items.append(QuickReplyItem(action=cancel_action))
         return prompt, QuickReply(items=items)
 
     if step == STEP_COURTS:

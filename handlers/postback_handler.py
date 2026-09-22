@@ -117,6 +117,58 @@ def process_postback(event, line_bot_api, target_id):
             )
             return "OK", 200
 
+        # 選擇地點的縣市 (開團精靈)
+        if sub == "pick_county_for_location":
+            county_slug = parsed_data.get("county", [""])[0]
+            county_name = parsed_data.get("name", [""])[0]
+            county_name = urllib.parse.unquote(county_name)
+            
+            if county_slug:
+                courts, _ = scrape_courts_by_county(county_slug)
+                
+                if not courts:
+                    # 如果該縣市沒球場，提示手動輸入
+                    line_bot_api.reply_message_with_http_info(
+                        ReplyMessageRequest(
+                            reply_token=event.reply_token,
+                            messages=[TextMessage(text=f"找不到 {county_name} 的球場資料，請直接手動輸入打球地點：")],
+                        )
+                    )
+                    return "OK", 200
+                
+                # 最多取 12 個球場 (留一個給取消)
+                display_courts = courts[:12]
+                items = []
+                for c in display_courts:
+                    # 避免字數過長，LINE quick reply label 最多 20 字
+                    c_name = c["name"][:20]
+                    items.append(
+                        QuickReplyItem(
+                            action=MessageAction(label=c_name, text=c_name)
+                        )
+                    )
+                
+                items.append(
+                    QuickReplyItem(
+                        action=PostbackAction(
+                            label="取消開團",
+                            data="action=pickle_action&sub=cancel_create_group",
+                            display_text="取消開團",
+                        )
+                    )
+                )
+                
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[TextMessage(
+                            text=f"找到以下 {county_name} 的球場，請點擊選擇（或直接手動輸入地點）：",
+                            quick_reply=QuickReply(items=items)
+                        )],
+                    )
+                )
+            return "OK", 200
+
         # 取消開團
         if sub == "cancel_create_group":
             clear_group_creation_session(target_id)
