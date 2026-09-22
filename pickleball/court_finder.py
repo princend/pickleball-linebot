@@ -171,138 +171,107 @@ def get_county_quick_reply() -> QuickReply:
     return QuickReply(items=items)
 
 
-def _build_court_bubble(court: Dict, index: int) -> FlexBubble:
-    """建構單一球場的 Flex Bubble 卡片。"""
+def _build_compact_court_box(court: dict, index: int) -> FlexBox:
     name = court.get("name", "未知球場")
     court_url = court.get("url", "")
     hours = court.get("hours", "未提供")
     price = court.get("price", "未提供")
     line_url = court.get("line_url")
 
-    # 標頭
-    header_contents = [
-        FlexText(
-            text=f"{index}. {name}",
-            weight="bold",
-            size="sm",
-            color="#FFFFFF",
-            wrap=True,
-        )
-    ]
+    name_row = FlexBox(
+        layout="horizontal",
+        contents=[
+            FlexText(text=f"{index}. {name}", weight="bold", size="sm", color="#1E3A8A", wrap=True, flex=4),
+        ]
+    )
+    
+    detail_row = FlexBox(
+        layout="vertical",
+        margin="sm",
+        spacing="xs",
+        contents=[
+            FlexBox(
+                layout="horizontal",
+                contents=[
+                    FlexText(text="時間", size="xs", color="#6B7280", flex=1),
+                    FlexText(text=hours, size="xs", color="#374151", flex=3, wrap=True),
+                ]
+            ),
+            FlexBox(
+                layout="horizontal",
+                contents=[
+                    FlexText(text="收費", size="xs", color="#6B7280", flex=1),
+                    FlexText(text=price, size="xs", color="#374151", flex=3, wrap=True),
+                ]
+            )
+        ]
+    )
 
-    # 主體內容列
-    body_contents = [
-        FlexBox(
-            layout="horizontal",
-            spacing="xs",
-            contents=[
-                FlexText(
-                    text="營業時間",
-                    size="xs",
-                    color="#6B7280",
-                    flex=3,
-                ),
-                FlexText(
-                    text=hours,
-                    size="xs",
-                    color="#111827",
-                    wrap=True,
-                    flex=5,
-                ),
-            ],
-        ),
-        FlexSeparator(margin="xs"),
-        FlexBox(
-            layout="horizontal",
-            spacing="xs",
-            contents=[
-                FlexText(
-                    text="收費",
-                    size="xs",
-                    color="#6B7280",
-                    flex=3,
-                ),
-                FlexText(
-                    text=price,
-                    size="xs",
-                    color="#111827",
-                    wrap=True,
-                    flex=5,
-                ),
-            ],
-        ),
-    ]
-
-    # 底部操作按鈕
-    footer_contents = []
-
+    buttons = []
     if court_url:
-        footer_contents.append(
-            FlexBox(
-                layout="vertical",
-                contents=[
-                    FlexText(
-                        text="查看詳情",
-                        size="xs",
-                        color="#2563EB",
-                        align="center",
-                        action=URIAction(label="查看詳情", uri=court_url),
-                    )
-                ],
-            )
-        )
-
+        buttons.append(FlexText(text="查看詳情", size="xs", color="#2563EB", action=URIAction(label="查看", uri=court_url), flex=1, align="center"))
     if line_url:
-        if footer_contents:
-            footer_contents.append(FlexSeparator())
-        footer_contents.append(
+        buttons.append(FlexText(text="加 LINE 群", size="xs", color="#059669", action=URIAction(label="加群", uri=line_url), flex=1, align="center"))
+        
+    button_row = None
+    if buttons:
+        button_row = FlexBox(
+            layout="horizontal",
+            margin="md",
+            spacing="sm",
+            contents=buttons
+        )
+    
+    box_contents = [name_row, detail_row]
+    if button_row:
+        box_contents.append(button_row)
+        
+    return FlexBox(
+        layout="vertical",
+        padding_all="sm",
+        contents=box_contents
+    )
+
+def _build_grouped_court_bubble(courts: list, start_idx: int, county_name: str) -> FlexBubble:
+    body_contents = []
+    for i, c in enumerate(courts):
+        if i > 0:
+            body_contents.append(FlexSeparator(margin="md"))
+        body_contents.append(
             FlexBox(
                 layout="vertical",
-                contents=[
-                    FlexText(
-                        text="加入 LINE 群",
-                        size="xs",
-                        color="#06C755",
-                        align="center",
-                        action=URIAction(label="加入 LINE 群", uri=line_url),
-                    )
-                ],
+                margin="md" if i > 0 else "none",
+                contents=[_build_compact_court_box(c, start_idx + i)]
             )
         )
-
+        
     return FlexBubble(
-        size="kilo",
+        size="mega",
         header=FlexBox(
             layout="vertical",
-            background_color="#1E40AF",
+            background_color="#EFF6FF",
             padding_all="md",
-            contents=header_contents,
+            contents=[
+                FlexText(
+                    text=f"{county_name} 球場 ({start_idx}-{start_idx+len(courts)-1})",
+                    weight="bold",
+                    size="md",
+                    color="#1E3A8A",
+                )
+            ]
         ),
         body=FlexBox(
             layout="vertical",
-            spacing="sm",
             padding_all="md",
-            contents=body_contents,
-        ),
-        footer=FlexBox(
-            layout="vertical",
-            spacing="sm",
-            padding_all="sm",
-            contents=footer_contents,
-        ) if footer_contents else None,
+            contents=body_contents
+        )
     )
 
-
 def create_courts_flex(
-    courts: List[Dict],
+    courts: list,
     county_name: str,
     more_url: str,
 ) -> FlexMessage:
-    """將球場列表包裝為 Flex Carousel 訊息。
-
-    若球場數為 0，回傳提示 Bubble。
-    若超過 10 筆，截斷並在最後一張卡片提示查看更多。
-    """
     if not courts:
         bubble = FlexBubble(
             body=FlexBox(
@@ -329,17 +298,17 @@ def create_courts_flex(
         )
         return FlexMessage(alt_text=f"{county_name} 目前尚無球場資料", contents=bubble)
 
-    display_courts = courts[:10]
-    bubbles = [
-        _build_court_bubble(court, idx + 1)
-        for idx, court in enumerate(display_courts)
-    ]
+    # 每個卡片放 4 個球場
+    chunk_size = 4
+    bubbles = []
+    
+    for i in range(0, min(len(courts), 12), chunk_size):
+        chunk = courts[i:i+chunk_size]
+        bubbles.append(_build_grouped_court_bubble(chunk, i + 1, county_name))
 
-    # 若有更多球場，加入「查看更多」尾卡
-    total = len(courts)
-    if total >= 10 or more_url:
+    if len(courts) > 12 or more_url:
         more_bubble = FlexBubble(
-            size="kilo",
+            size="mega",
             body=FlexBox(
                 layout="vertical",
                 justify_content="center",
@@ -347,7 +316,7 @@ def create_courts_flex(
                 padding_all="lg",
                 contents=[
                     FlexText(
-                        text=f"顯示前 {len(display_courts)} 筆",
+                        text=f"顯示前 {min(len(courts), 12)} 筆",
                         size="xs",
                         color="#6B7280",
                         align="center",
@@ -376,6 +345,6 @@ def create_courts_flex(
         bubbles.append(more_bubble)
 
     return FlexMessage(
-        alt_text=f"{county_name} 匹克球球場列表（{len(display_courts)} 筆）",
+        alt_text=f"{county_name} 匹克球球場列表",
         contents=FlexCarousel(contents=bubbles),
     )
