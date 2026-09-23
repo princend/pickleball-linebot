@@ -332,6 +332,18 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
+    # 2.8 群組規範指令
+    if stripped_text.lower() in ["!群組規範", "!公告", "!版規"]:
+        from pickleball import create_group_rules_flex
+        flex_msg = create_group_rules_flex()
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[flex_msg]
+            )
+        )
+        return "OK", 200
+
     # 3. 快捷一鍵操作 (重新洗牌、重分、下一輪)
     if stripped_text in ["!重新洗牌", "!重分", "!再分一次", "!下一輪"]:
         session = get_pickleball_session(effective_target_id)

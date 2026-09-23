@@ -49,7 +49,10 @@ from pickleball.flex_formatter import (
 from pickleball.dupr import (
     create_pickleball_dupr_flex,
 )
-from pickleball.welcome import create_welcome_flex
+from pickleball.welcome import (
+    create_welcome_flex,
+    create_group_rules_flex
+)
 from pickleball.events import (
     create_events_flex,
     get_event_region_quick_reply,
@@ -103,6 +106,7 @@ __all__ = [
     "create_pickleball_dupr_flex",
     "create_events_flex",
     "create_welcome_flex",
+    "create_group_rules_flex",
     "get_event_region_quick_reply",
     "create_pickleball_rules_flex",
     "get_step_prompt_and_quick_reply",
