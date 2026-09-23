@@ -1,8 +1,8 @@
 from flask import Flask, request, abort
 from linebot.v3 import WebhookHandler
 from linebot.v3.exceptions import InvalidSignatureError
-from linebot.v3.messaging import Configuration, ApiClient, MessagingApi, ReplyMessageRequest, TextMessage
-from linebot.v3.webhooks import MessageEvent, TextMessageContent, PostbackEvent
+from linebot.v3.messaging import Configuration, ApiClient, MessagingApi, ReplyMessageRequest, TextMessage, FlexMessage, FlexBubble, FlexBox, FlexText, FlexButton, MessageAction
+from linebot.v3.webhooks import MessageEvent, TextMessageContent, PostbackEvent, MemberJoinedEvent
 import traceback
 
 import config
@@ -67,6 +67,60 @@ def handle_postback(event):
             process_postback(event, line_bot_api, target_id)
         except Exception as e:
             print(f"Postback Handler Error: {e}")
+            traceback.print_exc()
+
+@handler.add(MemberJoinedEvent)
+def handle_member_joined(event):
+    with ApiClient(configuration) as api_client:
+        line_bot_api = MessagingApi(api_client)
+        
+        try:
+            # 建立歡迎卡片 (Flex Message)
+            bubble = FlexBubble(
+                size="mega",
+                body=FlexBox(
+                    layout="vertical",
+                    padding_all="xl",
+                    spacing="md",
+                    contents=[
+                        FlexText(
+                            text="歡迎加入本群組！👋",
+                            weight="bold",
+                            size="lg",
+                            color="#1E3A8A",
+                            wrap=True
+                        ),
+                        FlexText(
+                            text="我是群組專屬的匹克球小幫手 🏓\n所有實用功能（包含約戰分組、找球場、近期賽事等）都可以點擊下方按鈕，或是輸入「!指令」來呼叫選單喔！",
+                            size="sm",
+                            color="#4B5563",
+                            wrap=True,
+                            margin="md"
+                        ),
+                        FlexButton(
+                            style="primary",
+                            color="#10B981",
+                            margin="xl",
+                            action=MessageAction(
+                                label="🤖 查看機器人指令",
+                                text="!指令"
+                            )
+                        )
+                    ]
+                )
+            )
+            
+            flex_msg = FlexMessage(alt_text="歡迎加入群組！", contents=bubble)
+            
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[flex_msg]
+                )
+            )
+        except Exception as e:
+            print(f"MemberJoined Handler Error: {e}")
+            import traceback
             traceback.print_exc()
 
 if __name__ == "__main__":
