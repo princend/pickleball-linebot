@@ -30,9 +30,9 @@ def create_welcome_flex() -> FlexMessage:
                         FlexButton(
                             style="primary",
                             color="#F59E0B", # Amber/Orange for important
-                            action=MessageAction(
-                                label="查看群組規範",
-                                text="!群組規範"
+                            action=URIAction(
+                                label="查看群組記事本",
+                                uri="https://line.me/R/nv/note"
                             )
                         ),
                         FlexButton(
