@@ -30,7 +30,6 @@ from pickleball import (
     set_group_creation_session,
     create_courts_flex,
     scrape_courts_by_county,
-    get_dupr_quiz_reply,
 )
 
 def process_postback(event, line_bot_api, target_id):
@@ -38,16 +37,6 @@ def process_postback(event, line_bot_api, target_id):
     data = getattr(getattr(event, "postback", None), "data", "")
     if not data:
         return "OK", 200
-
-    if data.startswith("action=dupr_quiz"):
-        if hasattr(event.source, 'group_id') or hasattr(event.source, 'room_id'):
-            line_bot_api.reply_message_with_http_info(
-                ReplyMessageRequest(
-                    reply_token=event.reply_token,
-                    messages=[TextMessage(text="🎯 為了避免測驗洗版群組，以及防止其他人亂按，請至「一對一私訊」中輸入「!分級」來進行測驗喔！")],
-                )
-            )
-            return "OK", 200
 
         parsed_data = urllib.parse.parse_qs(data)
         q_idx = int(parsed_data.get("q", ["1"])[0])

@@ -48,8 +48,6 @@ from pickleball.flex_formatter import (
 )
 from pickleball.dupr import (
     create_pickleball_dupr_flex,
-    get_dupr_quiz_reply,
-    get_dupr_result,
 )
 from pickleball.rules import (
     create_pickleball_rules_flex,
@@ -98,8 +96,6 @@ __all__ = [
     "create_courts_flex",
     "create_pickleball_group_flex",
     "create_pickleball_dupr_flex",
-    "get_dupr_quiz_reply",
-    "get_dupr_result",
     "create_pickleball_rules_flex",
     "get_step_prompt_and_quick_reply",
     "generate_group_announcement",
