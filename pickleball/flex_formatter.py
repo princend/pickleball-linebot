@@ -539,7 +539,7 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
-                            action=MessageAction(label="實力分級", text="!分級"),
+                            action=MessageAction(label="DUPR說明", text="!分級"),
                         ),
                     ]
                 ),
