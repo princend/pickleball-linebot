@@ -12,6 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 from linebot.v3.messaging import (
     FlexBox,
+    FlexButton,
     FlexBubble,
     FlexCarousel,
     FlexMessage,
@@ -210,15 +211,14 @@ def _build_compact_court_box(court: dict, index: int) -> FlexBox:
 
     buttons = []
     
-    # 增加 Google Map 按鈕 (橘色系 #D97706 或紅 #DC2626)
     map_url = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(name)}"
-    buttons.append(FlexText(text="Google地圖", size="xs", color="#DC2626", action=URIAction(label="地圖", uri=map_url), flex=1, align="center"))
+    buttons.append(FlexButton(style="secondary", height="sm", action=URIAction(label="📍地圖", uri=map_url), flex=1))
 
     if court_url:
-        buttons.append(FlexText(text="查看詳情", size="xs", color="#2563EB", action=URIAction(label="查看", uri=court_url), flex=1, align="center"))
+        buttons.append(FlexButton(style="secondary", height="sm", action=URIAction(label="🔗詳情", uri=court_url), flex=1))
     
     if line_url:
-        buttons.append(FlexText(text="加 LINE 群", size="xs", color="#059669", action=URIAction(label="加群", uri=line_url), flex=1, align="center"))
+        buttons.append(FlexButton(style="secondary", height="sm", action=URIAction(label="💬加群", uri=line_url), flex=1))
         
     button_row = None
     if buttons:
@@ -256,14 +256,14 @@ def _build_grouped_court_bubble(courts: list, start_idx: int, county_name: str) 
         size="mega",
         header=FlexBox(
             layout="vertical",
-            background_color="#EFF6FF",
+            background_color="#1E3A8A",
             padding_all="md",
             contents=[
                 FlexText(
                     text=f"{county_name} 球場 ({start_idx}-{start_idx+len(courts)-1})",
                     weight="bold",
                     size="md",
-                    color="#1E3A8A",
+                    color="#FFFFFF",
                 )
             ]
         ),
