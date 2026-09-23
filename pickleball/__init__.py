@@ -50,7 +50,7 @@ from pickleball.dupr import (
     create_pickleball_dupr_flex,
 )
 from pickleball.events import (
-    create_events_flex,
+    create_events_flex,\n    create_welcome_flex,
     get_event_region_quick_reply,
 )
 from pickleball.rules import (
@@ -100,7 +100,7 @@ __all__ = [
     "create_courts_flex",
     "create_pickleball_group_flex",
     "create_pickleball_dupr_flex",
-    "create_events_flex",
+    "create_events_flex",\n    "create_welcome_flex",
     "get_event_region_quick_reply",
     "create_pickleball_rules_flex",
     "get_step_prompt_and_quick_reply",
