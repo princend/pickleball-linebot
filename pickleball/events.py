@@ -1,5 +1,7 @@
 import json
 import os
+import re
+from datetime import datetime
 from typing import List
 from linebot.v3.messaging import (
     FlexBox,
@@ -140,14 +142,42 @@ def create_events_flex(region: str = "全部", quick_reply: QuickReply = None) -
         
     all_events = data.get("events", [])
     
+    # 取得今天的日期字串 (YYYY-MM-DD) 以過濾過期賽事
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    
+    # 過濾與解析日期，準備排序
+    valid_events = []
+    for e in all_events:
+        date_text = e.get("date", "")
+        # 嘗試從 date_text 萃取 YYYY-MM-DD
+        dates = re.findall(r"\d{4}-\d{2}-\d{2}", date_text)
+        
+        if not dates:
+            # 如果沒有明確日期，看要不要保留。這裡保留並將排序用日期設為最大值放到最後
+            e["_sort_date"] = "9999-99-99"
+            valid_events.append(e)
+            continue
+            
+        start_date = dates[0]
+        end_date = dates[-1] # 如果有兩個日期，取最後一個當作結束日
+        
+        # 已經比完的賽事 (結束日小於今天) 不顯示
+        if end_date < today_str:
+            continue
+            
+        e["_sort_date"] = start_date
+        valid_events.append(e)
+        
+    # 根據日期排序 (最接近的放第一個)
+    valid_events.sort(key=lambda x: x["_sort_date"])
+    
     events = []
     if region == "全部":
-        events = all_events
+        events = valid_events
     else:
         allowed_counties = REGION_MAP.get(region, [])
-        for e in all_events:
+        for e in valid_events:
             loc = e.get("location", "")
-            # Check if any allowed county is in loc
             if any(c in loc for c in allowed_counties):
                 events.append(e)
     
