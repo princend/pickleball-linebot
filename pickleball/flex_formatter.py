@@ -539,8 +539,21 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
+                            action=MessageAction(label="實力分級", text="!分級"),
+                        ),
+                    ]
+                ),
+                # Row 4
+                FlexBox(
+                    layout="horizontal",
+                    spacing="md",
+                    contents=[
+                        FlexButton(
+                            style="secondary",
+                            height="sm",
                             action=MessageAction(label="分組說明", text="!分組說明"),
                         ),
+                        FlexBox(layout="vertical", flex=1, contents=[]) # Filler to keep the grid balanced
                     ]
                 ),
             ],
