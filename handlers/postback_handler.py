@@ -30,12 +30,28 @@ from pickleball import (
     set_group_creation_session,
     create_courts_flex,
     scrape_courts_by_county,
+    get_dupr_quiz_reply,
 )
 
 def process_postback(event, line_bot_api, target_id):
     """處理匹克球相關的 Postback 事件"""
     data = getattr(getattr(event, "postback", None), "data", "")
     if not data:
+        return "OK", 200
+
+    if data.startswith("action=dupr_quiz"):
+        parsed_data = urllib.parse.parse_qs(data)
+        q_idx = int(parsed_data.get("q", ["1"])[0])
+        current_score = int(parsed_data.get("score", ["0"])[0])
+        
+        reply_msg = get_dupr_quiz_reply(q_idx, current_score)
+        
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[reply_msg],
+            )
+        )
         return "OK", 200
 
     if data.startswith("action=pickle_courts"):

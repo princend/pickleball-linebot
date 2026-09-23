@@ -272,6 +272,19 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
+    # 2.5 實力分級指令
+    dupr_keywords = ["!dupr", "!分級", "!實力測驗", "!匹克球分級", "!等級"]
+    if stripped_text.lower() in [k.lower() for k in dupr_keywords]:
+        from pickleball import create_pickleball_dupr_flex
+        flex_msg = create_pickleball_dupr_flex()
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[flex_msg],
+            )
+        )
+        return "OK", 200
+
     # 3. 快捷一鍵操作 (重新洗牌、重分、下一輪)
     if stripped_text in ["!重新洗牌", "!重分", "!再分一次", "!下一輪"]:
         session = get_pickleball_session(effective_target_id)
