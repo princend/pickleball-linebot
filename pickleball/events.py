@@ -129,11 +129,11 @@ def create_events_flex() -> FlexMessage:
     bubbles = []
     
     # max 11 bubbles = 44 events
-    for i in range(0, min(len(events), 44), chunk_size):
+    for i in range(0, min(len(events), 24), chunk_size):
         chunk = events[i:i+chunk_size]
         bubbles.append(_build_grouped_event_bubble(chunk, i + 1))
         
-    if len(events) > 44:
+    if len(events) > 24:
         more_bubble = FlexBubble(
             size="mega",
             body=FlexBox(
@@ -142,7 +142,7 @@ def create_events_flex() -> FlexMessage:
                 spacing="md",
                 padding_all="lg",
                 contents=[
-                    FlexText(text=f"顯示前 {min(len(events), 44)} 筆", size="xs", color="#6B7280", align="center"),
+                    FlexText(text=f"顯示前 {min(len(events), 24)} 筆", size="xs", color="#6B7280", align="center"),
                     FlexText(text="查看更多賽事", weight="bold", size="sm", color="#2563EB", align="center", action=URIAction(label="前往網站", uri="https://ipickleball.com.tw/events/"))
                 ]
             )
