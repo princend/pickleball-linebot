@@ -127,6 +127,14 @@ def create_pickleball_dupr_flex() -> FlexMessage:
                         data="action=dupr_quiz&q=1&score=0",
                         display_text="開始實力測驗"
                     )
+                ),
+                FlexButton(
+                    style="secondary",
+                    margin="sm",
+                    action=URIAction(
+                        label="🔗 前往 DUPR 官網",
+                        uri="https://mydupr.com"
+                    )
                 )
             ]
         )
@@ -243,7 +251,15 @@ def get_dupr_result(score: int) -> FlexMessage:
             layout="vertical",
             padding_all="lg",
             contents=[
-                FlexText(text=desc, size="sm", color="#4B5563", wrap=True, margin="md")
+                FlexText(text=desc, size="sm", color="#4B5563", wrap=True, margin="md"),
+                FlexButton(
+                    style="secondary",
+                    margin="xl",
+                    action=URIAction(
+                        label="🔗 前往 DUPR 官網",
+                        uri="https://mydupr.com"
+                    )
+                )
             ]
         )
     )
