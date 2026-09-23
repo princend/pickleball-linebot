@@ -97,14 +97,27 @@ def handle_member_joined(event):
                             wrap=True,
                             margin="md"
                         ),
-                        FlexButton(
-                            style="primary",
-                            color="#10B981",
+                        FlexBox(
+                            layout="vertical",
                             margin="xl",
-                            action=MessageAction(
-                                label="查看機器人指令",
-                                text="!指令"
-                            )
+                            spacing="sm",
+                            contents=[
+                                FlexButton(
+                                    style="primary",
+                                    color="#F59E0B", # Amber/Orange for important
+                                    action=URIAction(
+                                        label="📖 查看重要貼文",
+                                        uri="https://linevoom.line.me/post/1179015146135834353"
+                                    )
+                                ),
+                                FlexButton(
+                                    style="secondary",
+                                    action=MessageAction(
+                                        label="🤖 查看機器人指令",
+                                        text="!指令"
+                                    )
+                                )
+                            ]
                         )
                     ]
                 )
