@@ -107,28 +107,60 @@ def _build_grouped_event_bubble(events: list, start_idx: int) -> FlexBubble:
         )
     )
 
-def create_events_flex() -> FlexMessage:
+from linebot.v3.messaging import QuickReply, QuickReplyItem, MessageAction
+
+REGION_MAP = {
+    "北部": ["基隆", "台北", "新北", "桃園", "新竹", "宜蘭", "New"],
+    "中部": ["苗栗", "台中", "彰化", "南投", "雲林"],
+    "南部": ["嘉義", "台南", "高雄", "屏東"],
+    "東部": ["花蓮", "台東"],
+    "全部": []
+}
+
+def get_event_region_quick_reply() -> QuickReply:
+    items = []
+    for region in ["全部", "北部", "中部", "南部", "東部"]:
+        items.append(
+            QuickReplyItem(
+                action=MessageAction(label=region, text=f"!賽事 {region}")
+            )
+        )
+    return QuickReply(items=items)
+
+def create_events_flex(region: str = "全部", quick_reply: QuickReply = None) -> FlexMessage:
     if not os.path.exists(EVENTS_FILE):
         return FlexMessage(
             alt_text="目前尚無賽事資料",
-            contents=FlexBubble(body=FlexBox(layout="vertical", contents=[FlexText(text="目前尚無賽事資料")]))
+            contents=FlexBubble(body=FlexBox(layout="vertical", contents=[FlexText(text="目前尚無賽事資料")])),
+            quick_reply=quick_reply
         )
         
     with open(EVENTS_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
         
-    events = data.get("events", [])
+    all_events = data.get("events", [])
+    
+    events = []
+    if region == "全部":
+        events = all_events
+    else:
+        allowed_counties = REGION_MAP.get(region, [])
+        for e in all_events:
+            loc = e.get("location", "")
+            # Check if any allowed county is in loc
+            if any(c in loc for c in allowed_counties):
+                events.append(e)
     
     if not events:
         return FlexMessage(
-            alt_text="目前尚無賽事資料",
-            contents=FlexBubble(body=FlexBox(layout="vertical", contents=[FlexText(text="目前尚無賽事資料")]))
+            alt_text=f"目前尚無 {region} 的賽事資料",
+            contents=FlexBubble(body=FlexBox(layout="vertical", contents=[FlexText(text=f"目前尚無 {region} 的賽事資料")])),
+            quick_reply=quick_reply
         )
         
     chunk_size = 4
     bubbles = []
     
-    # max 11 bubbles = 44 events
     for i in range(0, min(len(events), 24), chunk_size):
         chunk = events[i:i+chunk_size]
         bubbles.append(_build_grouped_event_bubble(chunk, i + 1))
@@ -142,14 +174,16 @@ def create_events_flex() -> FlexMessage:
                 spacing="md",
                 padding_all="lg",
                 contents=[
-                    FlexText(text=f"顯示前 {min(len(events), 24)} 筆", size="xs", color="#6B7280", align="center"),
+                    FlexText(text=f"顯示前 24 筆", size="xs", color="#6B7280", align="center"),
                     FlexText(text="查看更多賽事", weight="bold", size="sm", color="#2563EB", align="center", action=URIAction(label="前往網站", uri="https://ipickleball.com.tw/events/"))
                 ]
             )
         )
         bubbles.append(more_bubble)
 
+    title_text = f"📅 近期匹克球賽事 ({region})" if region != "全部" else "📅 近期匹克球賽事清單"
     return FlexMessage(
-        alt_text="📅 近期匹克球賽事清單",
-        contents=FlexCarousel(contents=bubbles)
+        alt_text=title_text,
+        contents=FlexCarousel(contents=bubbles),
+        quick_reply=quick_reply
     )

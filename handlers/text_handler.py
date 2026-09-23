@@ -287,20 +287,38 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 2.6 近期賽事指令
     event_keywords = ["!賽事", "!比賽", "!近期賽事", "!賽事行事曆", "!賽事精華", "!比賽資訊"]
-    if stripped_text.lower() in [k.lower() for k in event_keywords]:
-        if stripped_text.lower() == "!賽事精華":
-            # Pass through to the highlight logic below
-            pass
+    
+    # 檢查是否為賽事相關指令開頭
+    is_event_cmd = any(stripped_text.lower().startswith(k.lower()) for k in event_keywords)
+    if is_event_cmd and stripped_text.lower() != "!賽事精華":
+        from pickleball import create_events_flex, get_event_region_quick_reply
+        
+        # 解析是否帶有區域參數 (例如: !賽事 北部)
+        parts = stripped_text.split()
+        region = "全部"
+        if len(parts) > 1:
+            region = parts[1]
+            
+        if len(parts) == 1:
+            # 沒帶參數，先回傳 Quick Reply 讓使用者選擇
+            qr = get_event_region_quick_reply()
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text="請問你想查詢哪個區域的近期賽事？", quick_reply=qr)],
+                )
+            )
         else:
-            from pickleball import create_events_flex
-            flex_msg = create_events_flex()
+            # 有帶參數，直接回傳過濾後的 FlexMessage (並附上 QR 方便切換)
+            qr = get_event_region_quick_reply()
+            flex_msg = create_events_flex(region=region, quick_reply=qr)
             line_bot_api.reply_message_with_http_info(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
                     messages=[flex_msg],
                 )
             )
-            return "OK", 200
+        return "OK", 200
 
     # 3. 快捷一鍵操作 (重新洗牌、重分、下一輪)
     if stripped_text in ["!重新洗牌", "!重分", "!再分一次", "!下一輪"]:
