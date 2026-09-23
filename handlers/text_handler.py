@@ -154,6 +154,23 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
         elif current_step == STEP_LEVEL:
             collected["level"] = stripped_text
+            creation_session["step"] = "fee"
+            creation_session["data"] = collected
+            set_group_creation_session(effective_target_id, creation_session)
+            
+            # Since STEP_FEE is 'fee' but might not be in the global imports of text_handler.py yet, just use 'fee'
+            from pickleball.group_creation import get_step_prompt_and_quick_reply
+            prompt_text, qr = get_step_prompt_and_quick_reply("fee", collected)
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text=prompt_text, quick_reply=qr)],
+                )
+            )
+            return "OK", 200
+
+        elif current_step == "fee":
+            collected["fee"] = stripped_text
             clear_group_creation_session(effective_target_id)
             announcement_text = generate_group_announcement(collected)
             hint_text = "開團文已產生！您可以直接長按上方訊息複製並轉發到 LINE 群組或社群揪球友。"

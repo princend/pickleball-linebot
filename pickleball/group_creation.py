@@ -29,6 +29,7 @@ STEP_LOCATION = "location"
 STEP_COURTS = "courts"
 STEP_PLAYERS = "players"
 STEP_LEVEL = "level"
+STEP_FEE = "fee"
 
 STEP_SEQUENCE = [
     STEP_TITLE,
@@ -129,7 +130,7 @@ def get_step_prompt_and_quick_reply(
     )
 
     if step == STEP_TITLE:
-        prompt = "【開團步驟 1/7】\n請選擇或輸入【活動名稱】（點選下方快捷或直接輸入自訂名稱）："
+        prompt = "【開團步驟 1/8】\n請選擇或輸入【活動名稱】（點選下方快捷或直接輸入自訂名稱）："
         items = [
             QuickReplyItem(action=MessageAction(label="匹克球球聚", text="匹克球球聚")),
             QuickReplyItem(action=MessageAction(label="匹克球暢打", text="匹克球暢打")),
@@ -141,7 +142,7 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_DATE:
         title_str = collected_data.get("title", "匹克球球聚")
-        prompt = f"【開團步驟 2/7】\n已設定名稱：{title_str}\n請選擇或輸入打球【日期】（可點選快捷、挑選日曆或直接輸入）："
+        prompt = f"【開團步驟 2/8】\n已設定名稱：{title_str}\n請選擇或輸入打球【日期】（可點選快捷、挑選日曆或直接輸入）："
         now = datetime.now(TAIPEI_TZ)
         d_today = now
         d_tomorrow = now + timedelta(days=1)
@@ -180,7 +181,7 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_TIME:
         date_str = collected_data.get("date", "")
-        prompt = f"【開團步驟 3/7】\n已設定日期：{date_str}\n請選擇或輸入打球【時段】（可點「自訂時間(Picker)」挑選、點選常用快捷，或手動輸入）："
+        prompt = f"【開團步驟 3/8】\n已設定日期：{date_str}\n請選擇或輸入打球【時段】（可點「自訂時間(Picker)」挑選、點選常用快捷，或手動輸入）："
         items = [
             QuickReplyItem(
                 action=DatetimePickerAction(
@@ -206,7 +207,7 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_LOCATION:
         time_str = collected_data.get("time", "")
-        prompt = f"【開團步驟 4/7】\n已設定時段：{time_str}\n請選擇【縣市】來尋找球場，或直接「手動輸入」地點名稱："
+        prompt = f"【開團步驟 4/8】\n已設定時段：{time_str}\n請選擇【縣市】來尋找球場，或直接「手動輸入」地點名稱："
         items = []
         
         display_counties = list(COUNTIES.keys())[:11] # Reduce to 11 to be absolutely safe (11 + 1 cancel = 12 items)
@@ -225,7 +226,7 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_COURTS:
         loc_str = collected_data.get("location", "")
-        prompt = f"【開團步驟 5/7】\n已設定地點：{loc_str}\n請選擇或輸入【場地數量】（例如：1面場、2面場、3面場）："
+        prompt = f"【開團步驟 5/8】\n已設定地點：{loc_str}\n請選擇或輸入【場地數量】（例如：1面場、2面場、3面場）："
         items = [
             QuickReplyItem(action=MessageAction(label="1面場", text="1面場")),
             QuickReplyItem(action=MessageAction(label="2面場", text="2面場")),
@@ -237,7 +238,7 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_PLAYERS:
         courts_str = collected_data.get("courts", "")
-        prompt = f"【開團步驟 6/7】\n已設定場地：{courts_str}\n請選擇或輸入【報名人數上限】（例如：6人、8人、16人、24人）："
+        prompt = f"【開團步驟 6/8】\n已設定場地：{courts_str}\n請選擇或輸入【報名人數上限】（例如：6人、8人、16人、24人）："
         items = [
             QuickReplyItem(action=MessageAction(label="6人", text="6人")),
             QuickReplyItem(action=MessageAction(label="8人", text="8人")),
@@ -249,13 +250,26 @@ def get_step_prompt_and_quick_reply(
 
     if step == STEP_LEVEL:
         players_str = collected_data.get("players", "")
-        prompt = f"【開團步驟 7/7】\n已設定人數：{players_str}\n請選擇或輸入打球【程度/分級】（點選下方快捷或手動輸入自訂程度）："
+        prompt = f"【開團步驟 7/8】\n已設定人數：{players_str}\n請選擇或輸入打球【程度/分級】（點選下方快捷或手動輸入自訂程度）："
         items = [
             QuickReplyItem(action=MessageAction(label="不限 (新手友善)", text="不限 (新手友善)")),
             QuickReplyItem(action=MessageAction(label="初階 (DUPR 2.0-2.5)", text="初階 (DUPR 2.0-2.5)")),
             QuickReplyItem(action=MessageAction(label="中階 (DUPR 2.5-3.5)", text="中階 (DUPR 2.5-3.5)")),
             QuickReplyItem(action=MessageAction(label="進階 (DUPR 3.5+)", text="進階 (DUPR 3.5+)")),
             QuickReplyItem(action=MessageAction(label="2.0以上 (歡樂/高手)", text="2.0以上 (歡樂/高手)")),
+            QuickReplyItem(action=cancel_action),
+        ]
+        return prompt, QuickReply(items=items)
+
+    if step == STEP_FEE:
+        level_str = collected_data.get("level", "")
+        prompt = f"【開團步驟 8/8】\n已設定程度：{level_str}\n請選擇或輸入打球【費用】（例如：場地費均分、$150、$200）："
+        items = [
+            QuickReplyItem(action=MessageAction(label="場地費均分", text="場地費均分")),
+            QuickReplyItem(action=MessageAction(label="均分 (依到場人數)", text="場地費均分 (依到場人數)")),
+            QuickReplyItem(action=MessageAction(label="$100 / 人", text="$100 / 人")),
+            QuickReplyItem(action=MessageAction(label="$150 / 人", text="$150 / 人")),
+            QuickReplyItem(action=MessageAction(label="$200 / 人", text="$200 / 人")),
             QuickReplyItem(action=cancel_action),
         ]
         return prompt, QuickReply(items=items)
@@ -288,6 +302,7 @@ def generate_group_announcement(data: Dict[str, Any]) -> str:
     courts_val = data.get("courts", "未定")
     players_limit_raw = data.get("players", "8人")
     level_val = data.get("level", "不限 (新手友善)")
+    fee_val = data.get("fee", "場地費均分")
 
     num_players = parse_player_limit(str(players_limit_raw))
 
@@ -300,6 +315,7 @@ def generate_group_announcement(data: Dict[str, Any]) -> str:
         f"場地：{courts_val}",
         f"人數：上限 {num_players} 位",
         f"程度：{level_val}",
+        f"費用：{fee_val}",
         "",
         "[報名接龍]",
     ]
