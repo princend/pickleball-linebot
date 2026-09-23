@@ -84,14 +84,14 @@ def handle_member_joined(event):
                     spacing="md",
                     contents=[
                         FlexText(
-                            text="歡迎加入本群組！👋",
+                            text="歡迎加入本群組！",
                             weight="bold",
                             size="lg",
                             color="#1E3A8A",
                             wrap=True
                         ),
                         FlexText(
-                            text="我是群組專屬的匹克球小幫手 🏓\n所有實用功能（包含約戰分組、找球場、近期賽事等）都可以點擊下方按鈕，或是輸入「!指令」來呼叫選單喔！",
+                            text="為維護群組品質與了解相關規範，請新進成員務必先至「記事本」查看重要公告與置頂貼文。\n\n本群組配有專屬的匹克球機器人，若需使用約戰分組、找球場、查詢近期賽事等功能，可點擊下方按鈕或輸入「!指令」來呼叫選單。",
                             size="sm",
                             color="#4B5563",
                             wrap=True,
@@ -102,7 +102,7 @@ def handle_member_joined(event):
                             color="#10B981",
                             margin="xl",
                             action=MessageAction(
-                                label="🤖 查看機器人指令",
+                                label="查看機器人指令",
                                 text="!指令"
                             )
                         )
