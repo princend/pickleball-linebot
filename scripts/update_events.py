@@ -46,8 +46,13 @@ def main():
             url = title_el.get('href', '')
             
             # 位置標籤 (e.g. 台北市)
-            badge = card.select_one('.gd-badge')
-            location = badge.text.strip() if badge else "未知地點"
+            badges = card.select('.gd-badge')
+            location = "未知地點"
+            for b in badges:
+                b_text = b.text.strip()
+                if b_text.lower() != "new" and b_text:
+                    location = b_text
+                    break
             
             # 日期
             # <meta itemprop="startDate" content="...">

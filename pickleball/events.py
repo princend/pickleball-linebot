@@ -127,6 +127,11 @@ def get_event_region_quick_reply() -> QuickReply:
                 action=MessageAction(label=region, text=f"!賽事 {region}")
             )
         )
+    items.append(
+        QuickReplyItem(
+            action=MessageAction(label="❌ 取消", text="!取消")
+        )
+    )
     return QuickReply(items=items)
 
 def create_events_flex(region: str = "全部", quick_reply: QuickReply = None) -> FlexMessage:

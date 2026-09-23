@@ -97,20 +97,20 @@
       "deadline": "2026-03-03"
     },
     {
-      "title": "2026 Tainan Open｜全國圓山盃樂齡匹克球錦標賽",
-      "url": "https://ipickleball.com.tw/events/2026-tainan-open%ef%bd%9c%e5%85%a8%e5%9c%8b%e5%9c%93%e5%b1%b1%e7%9b%83%e6%a8%82%e9%bd%a1%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/",
-      "location": "台南",
-      "date": "2026-03-14 ~ 2026-03-15",
-      "price": "$600",
-      "deadline": "2026-03-03"
-    },
-    {
       "title": "2026 Tainan Open臺南古都圓山盃匹克球錦標賽",
       "url": "https://ipickleball.com.tw/events/2026-tainan-open%e8%87%ba%e5%8d%97%e5%8f%a4%e9%83%bd%e5%9c%93%e5%b1%b1%e7%9b%83%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/",
       "location": "台南",
       "date": "2026-03-14 ~ 2026-09-13",
       "price": "未提供",
       "deadline": "未提供"
+    },
+    {
+      "title": "2026 Tainan Open｜全國圓山盃樂齡匹克球錦標賽",
+      "url": "https://ipickleball.com.tw/events/2026-tainan-open%ef%bd%9c%e5%85%a8%e5%9c%8b%e5%9c%93%e5%b1%b1%e7%9b%83%e6%a8%82%e9%bd%a1%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/",
+      "location": "台南",
+      "date": "2026-03-14 ~ 2026-03-15",
+      "price": "$600",
+      "deadline": "2026-03-03"
     },
     {
       "title": "新竹市115年主委盃匹克球賽",
@@ -323,7 +323,7 @@
     {
       "title": "115泰運盃匹克球錦標賽",
       "url": "https://ipickleball.com.tw/events/115%e6%b3%b0%e9%81%8b%e7%9b%83%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/",
-      "location": "New",
+      "location": "新北市",
       "date": "2026-10-09",
       "price": "$2,500",
       "deadline": "2026-09-20"
