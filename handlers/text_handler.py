@@ -285,6 +285,23 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
+    # 2.6 近期賽事指令
+    event_keywords = ["!賽事", "!比賽", "!近期賽事", "!賽事行事曆", "!賽事精華", "!比賽資訊"]
+    if stripped_text.lower() in [k.lower() for k in event_keywords]:
+        if stripped_text.lower() == "!賽事精華":
+            # Pass through to the highlight logic below
+            pass
+        else:
+            from pickleball import create_events_flex
+            flex_msg = create_events_flex()
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[flex_msg],
+                )
+            )
+            return "OK", 200
+
     # 3. 快捷一鍵操作 (重新洗牌、重分、下一輪)
     if stripped_text in ["!重新洗牌", "!重分", "!再分一次", "!下一輪"]:
         session = get_pickleball_session(effective_target_id)

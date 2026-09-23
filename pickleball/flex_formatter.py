@@ -551,9 +551,13 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
+                            action=MessageAction(label="近期賽事", text="!賽事"),
+                        ),
+                        FlexButton(
+                            style="secondary",
+                            height="sm",
                             action=MessageAction(label="分組說明", text="!分組說明"),
                         ),
-                        FlexBox(layout="vertical", flex=1, contents=[]) # Filler to keep the grid balanced
                     ]
                 ),
             ],
