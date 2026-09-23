@@ -209,15 +209,13 @@ def get_step_prompt_and_quick_reply(
         prompt = f"【開團步驟 4/7】\n已設定時段：{time_str}\n請選擇【縣市】來尋找球場，或直接「手動輸入」地點名稱："
         items = []
         
-        display_counties = list(COUNTIES.keys())[:12]
+        display_counties = list(COUNTIES.keys())[:11] # Reduce to 11 to be absolutely safe (11 + 1 cancel = 12 items)
         for county_name in display_counties:
-            slug = COUNTIES[county_name]
             items.append(
                 QuickReplyItem(
-                    action=PostbackAction(
+                    action=MessageAction(
                         label=county_name,
-                        data=f"action=pickle_action&sub=pick_county_for_location&county={slug}&name={county_name}",
-                        display_text=f"尋找 {county_name} 球場"
+                        text=county_name
                     )
                 )
             )
