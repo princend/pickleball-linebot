@@ -106,14 +106,14 @@ def handle_member_joined(event):
                                     style="primary",
                                     color="#F59E0B", # Amber/Orange for important
                                     action=URIAction(
-                                        label="📖 查看重要貼文",
+                                        label="查看重要貼文",
                                         uri="https://linevoom.line.me/post/1179015146135834353"
                                     )
                                 ),
                                 FlexButton(
                                     style="secondary",
                                     action=MessageAction(
-                                        label="🤖 查看機器人指令",
+                                        label="查看機器人指令",
                                         text="!指令"
                                     )
                                 )
