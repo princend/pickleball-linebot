@@ -9,6 +9,7 @@ from pickleball import (
     GROUPING_HELP_TEXT,
     STEP_COURTS,
     STEP_DATE,
+    STEP_FEE,
     STEP_LEVEL,
     STEP_LOCATION,
     STEP_PLAYERS,
@@ -17,6 +18,9 @@ from pickleball import (
     clear_awaiting_pickleball_input,
     clear_group_creation_session,
     convert_relative_date,
+    create_events_flex,
+    create_group_rules_flex,
+    create_pickleball_dupr_flex,
     create_pickleball_group_flex,
     create_pickleball_highlight_flex,
     create_pickleball_rules_flex,
@@ -24,6 +28,7 @@ from pickleball import (
     format_time_input,
     generate_group_announcement,
     get_county_quick_reply,
+    get_event_region_quick_reply,
     get_group_creation_session,
     get_pickleball_cancel_quick_reply,
     get_pickleball_highlight_video,
@@ -154,13 +159,10 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
         elif current_step == STEP_LEVEL:
             collected["level"] = stripped_text
-            creation_session["step"] = "fee"
+            creation_session["step"] = STEP_FEE
             creation_session["data"] = collected
             set_group_creation_session(effective_target_id, creation_session)
-            
-            # Since STEP_FEE is 'fee' but might not be in the global imports of text_handler.py yet, just use 'fee'
-            from pickleball.group_creation import get_step_prompt_and_quick_reply
-            prompt_text, qr = get_step_prompt_and_quick_reply("fee", collected)
+            prompt_text, qr = get_step_prompt_and_quick_reply(STEP_FEE, collected)
             line_bot_api.reply_message_with_http_info(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
@@ -169,7 +171,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             )
             return "OK", 200
 
-        elif current_step == "fee":
+        elif current_step == STEP_FEE:
             collected["fee"] = stripped_text
             clear_group_creation_session(effective_target_id)
             announcement_text = generate_group_announcement(collected)
@@ -188,7 +190,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 0-0. 主選單指令
     if stripped_text == "!指令" or stripped_text.lower() == "!menu":
-        from pickleball.flex_formatter import create_menu_flex
         menu_flex = create_menu_flex()
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
@@ -292,7 +293,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     # 2.5 實力分級指令
     dupr_keywords = ["!dupr", "!分級", "!實力測驗", "!匹克球分級", "!等級"]
     if stripped_text.lower() in [k.lower() for k in dupr_keywords]:
-        from pickleball import create_pickleball_dupr_flex
         flex_msg = create_pickleball_dupr_flex()
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
@@ -308,8 +308,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     # 檢查是否為賽事相關指令開頭
     is_event_cmd = any(stripped_text.lower().startswith(k.lower()) for k in event_keywords)
     if is_event_cmd and stripped_text.lower() != "!賽事精華":
-        from pickleball import create_events_flex, get_event_region_quick_reply
-        
         # 解析是否帶有區域參數 (例如: !賽事 北部)
         parts = stripped_text.split()
         region = "全部"
@@ -339,7 +337,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
 
     # 2.8 群組規範指令
     if stripped_text.lower() in ["!群組規範", "!公告", "!版規"]:
-        from pickleball import create_group_rules_flex
         flex_msg = create_group_rules_flex()
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(

@@ -63,6 +63,7 @@ from pickleball.rules import (
 from pickleball.group_creation import (
     STEP_COURTS,
     STEP_DATE,
+    STEP_FEE,
     STEP_LEVEL,
     STEP_LOCATION,
     STEP_PLAYERS,
@@ -120,6 +121,7 @@ __all__ = [
     "STEP_COURTS",
     "STEP_PLAYERS",
     "STEP_LEVEL",
+    "STEP_FEE",
     "STEP_SEQUENCE",
     "DEFAULT_COURT_SIZE",
     "DEFAULT_TEAM_SIZE",

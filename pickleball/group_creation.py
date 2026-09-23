@@ -39,6 +39,7 @@ STEP_SEQUENCE = [
     STEP_COURTS,
     STEP_PLAYERS,
     STEP_LEVEL,
+    STEP_FEE,
 ]
 
 

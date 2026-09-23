@@ -38,20 +38,6 @@ def process_postback(event, line_bot_api, target_id):
     if not data:
         return "OK", 200
 
-        parsed_data = urllib.parse.parse_qs(data)
-        q_idx = int(parsed_data.get("q", ["1"])[0])
-        current_score = int(parsed_data.get("score", ["0"])[0])
-        
-        reply_msg = get_dupr_quiz_reply(q_idx, current_score)
-        
-        line_bot_api.reply_message_with_http_info(
-            ReplyMessageRequest(
-                reply_token=event.reply_token,
-                messages=[reply_msg],
-            )
-        )
-        return "OK", 200
-
     if data.startswith("action=pickle_courts"):
         parsed_data = urllib.parse.parse_qs(data)
         county_slug = parsed_data.get("county", [""])[0]
