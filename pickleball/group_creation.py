@@ -267,7 +267,7 @@ def get_step_prompt_and_quick_reply(
         items = [
             QuickReplyItem(action=MessageAction(label="場地費均分", text="場地費均分")),
             QuickReplyItem(action=MessageAction(label="均分 (依到場人數)", text="場地費均分 (依到場人數)")),
-            QuickReplyItem(action=MessageAction(label="$100 / 人", text="$100 / 人")),
+            QuickReplyItem(action=MessageAction(label="$250 / 人", text="$250 / 人")),
             QuickReplyItem(action=MessageAction(label="$150 / 人", text="$150 / 人")),
             QuickReplyItem(action=MessageAction(label="$200 / 人", text="$200 / 人")),
             QuickReplyItem(action=cancel_action),
