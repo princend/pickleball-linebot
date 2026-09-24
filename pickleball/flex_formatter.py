@@ -467,7 +467,7 @@ def create_pickleball_group_flex(
         quick_reply=quick_reply,
     )
 
-from linebot.v3.messaging import FlexButton, MessageAction
+from linebot.v3.messaging import FlexButton, MessageAction, PostbackAction
 
 def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
     """建立匹克球功能選單面板。"""
@@ -568,7 +568,12 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
-                            action=MessageAction(label="AI匹克球問答", text="!ai"),
+                            action=PostbackAction(
+                                label="AI匹克球問答",
+                                data="action=ai_qa_prompt",
+                                input_option="openKeyboard",
+                                fill_in_text="!ai ",
+                            ),
                         ),
                     ]
                 ),

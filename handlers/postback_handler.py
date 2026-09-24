@@ -38,6 +38,9 @@ def process_postback(event, line_bot_api, target_id):
     if not data:
         return "OK", 200
 
+    if data == "action=ai_qa_prompt":
+        return "OK", 200
+
     if data.startswith("action=pickle_courts"):
         parsed_data = urllib.parse.parse_qs(data)
         county_slug = parsed_data.get("county", [""])[0]
