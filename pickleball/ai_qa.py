@@ -1,7 +1,8 @@
 """匹克球 (Pickleball) 專屬 AI 問答模組。
 
 使用 Google Gemini 模型提供匹克球規則、技巧、裝備與賽事等專業諮詢。
-嚴格限定僅回答匹克球相關問題，非匹克球問題一律禮貌拒答，且回覆文字精簡在 50 字以內。
+嚴格限定僅回答匹克球相關問題，非匹克球問題一律禮貌拒答。
+回答必須為通順完整的繁體中文句子，避免語句斷裂。
 """
 
 from typing import Optional
@@ -30,7 +31,8 @@ def ask_pickleball_ai(question: str) -> str:
     """呼叫 Gemini 進行匹克球專業問答。
 
     - 若問題與匹克球無關，傳回固定拒答文字。
-    - 若為匹克球問題，傳回 50 字以內的極簡精準解答。
+    - 若為匹克球問題，傳回通順完整的簡明解答（約 1~3 句完整話）。
+    - 優先使用 gemini-3.8-flash 模型，並具備自動備援機制。
     """
     clean_q = (question or "").strip()
     if not clean_q:
@@ -47,26 +49,30 @@ def ask_pickleball_ai(question: str) -> str:
         f"2. 嚴格拒答非匹克球主題：若問題與匹克球無關（例如日常閒聊、天氣、其他運動、程式設計、常識、歷史等），你必須且只能完全原樣回覆：\n"
         f"{REJECTION_MESSAGE}\n"
         "不得回答任何非匹克球內容，亦不可加油添醋。\n"
-        "3. 字數與風格：若是匹克球相關問題，請以【繁體中文】回答，文字務必【極致精簡、一針見血、字數在 50 字以內】。\n"
-        "4. 嚴格禁止長篇大論，直接給出核心答案。"
+        "3. 句子完整性：回答必須是【文意通順、表達完整且語意清晰的繁體中文句子】，嚴格禁止出現中途腰斬、殘缺字詞、單一字母或不明斷句（例如切勿只輸出半截的字詞）。\n"
+        "4. 回答長度與風格：請用約 1 至 3 句完整句子說明核心重點（約 50 至 100 字左右），兼顧精簡與完整性，直接提供明確有用的指引。"
     )
 
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=clean_q,
-            config=types.GenerateContentConfig(
-                system_instruction=system_instruction,
-                temperature=0.2,
-                max_output_tokens=150,
-            ),
-        )
+    models_to_try = ["gemini-3.8-flash", "gemini-2.5-flash"]
+    last_err = None
 
-        if not response or not response.text:
-            return "抱歉，AI 暫時無法產生回答，請稍後再試。"
+    for model_name in models_to_try:
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=clean_q,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instruction,
+                    temperature=0.2,
+                    max_output_tokens=300,
+                ),
+            )
 
-        answer = response.text.strip()
-        return answer
-    except Exception as e:
-        print(f"[警告] AI 問答呼叫失敗: {e}", flush=True)
-        return "抱歉，AI 服務連線異常，請稍後再試。"
+            if response and response.text:
+                return response.text.strip()
+        except Exception as e:
+            last_err = e
+            print(f"[警告] 模型 {model_name} 呼叫失敗，嘗試備用模型: {e}", flush=True)
+
+    print(f"[錯誤] 所有 AI 模型呼叫皆失敗: {last_err}", flush=True)
+    return "抱歉，AI 服務連線異常，請稍後再試。"

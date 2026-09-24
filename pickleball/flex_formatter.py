@@ -566,8 +566,7 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                     spacing="md",
                     contents=[
                         FlexButton(
-                            style="primary",
-                            color="#0284C7",
+                            style="secondary",
                             height="sm",
                             action=MessageAction(label="AI匹克球問答", text="!ai"),
                         ),
