@@ -15,6 +15,7 @@ from pickleball import (
     STEP_PLAYERS,
     STEP_TIME,
     STEP_TITLE,
+    ask_pickleball_ai,
     clear_awaiting_pickleball_input,
     clear_group_creation_session,
     convert_relative_date,
@@ -208,6 +209,29 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[TextMessage(text=prompt_text, quick_reply=qr)],
+            )
+        )
+        return "OK", 200
+
+    # 0-3. AI 匹克球專屬問答指令 (!ai:問題 / !ai 問題 / !ai)
+    lower_text = stripped_text.lower()
+    if lower_text == "!ai" or lower_text.startswith("!ai:") or lower_text.startswith("!ai：") or lower_text.startswith("!ai "):
+        if lower_text == "!ai":
+            question = ""
+        elif lower_text.startswith("!ai:") or lower_text.startswith("!ai："):
+            question = stripped_text[4:].strip()
+        else:
+            question = stripped_text[3:].strip()
+
+        if not question:
+            reply_text = "請在指令後方輸入問題，例如：!ai 匹克球發球規則是什麼？"
+        else:
+            reply_text = ask_pickleball_ai(question)
+
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[TextMessage(text=reply_text)],
             )
         )
         return "OK", 200

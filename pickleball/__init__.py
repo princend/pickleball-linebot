@@ -15,6 +15,7 @@ from pickleball.constants import (
     GROUPING_HELP_TEXT,
 )
 from pickleball.ai_extractor import extract_players_with_ai, standardize_announcement_with_ai
+from pickleball.ai_qa import ask_pickleball_ai
 from pickleball.cache import (
     clear_awaiting_pickleball_input,
     clear_group_creation_session,
@@ -84,6 +85,7 @@ __all__ = [
     "random_group",
     "extract_players_with_ai",
     "standardize_announcement_with_ai",
+    "ask_pickleball_ai",
     "remove_player_and_promote",
     "save_pickleball_session",
     "get_pickleball_session",

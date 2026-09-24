@@ -560,6 +560,19 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         ),
                     ]
                 ),
+                # Row 5
+                FlexBox(
+                    layout="horizontal",
+                    spacing="md",
+                    contents=[
+                        FlexButton(
+                            style="primary",
+                            color="#0284C7",
+                            height="sm",
+                            action=MessageAction(label="AI匹克球問答", text="!ai"),
+                        ),
+                    ]
+                ),
             ],
         ),
     )
