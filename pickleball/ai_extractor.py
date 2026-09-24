@@ -52,24 +52,18 @@ def extract_players_with_ai(raw_text: str) -> Optional[Dict]:
 待分析開團文:
 {raw_text}"""
 
-    response = None
-    for model_name in ["gemini-3.8-flash", "gemini-2.5-flash"]:
-        try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.1,
-                ),
-            )
-            if response and response.text:
-                break
-        except Exception as e:
-            print(f"[警告] 模型 {model_name} 呼叫失敗，嘗試備用模型: {e}", flush=True)
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.1,
+            ),
+        )
 
-    if not response or not response.text:
-        return None
+        if not response or not response.text:
+            return None
 
         # 清理可能包含的 Markdown 標籤
         clean_json_str = re.sub(r"```json\s*|```\s*", "", response.text).strip()
@@ -129,23 +123,17 @@ def standardize_announcement_with_ai(raw_text: str) -> Optional[str]:
 待處理開團文:
 {raw_text}"""
 
-    response = None
-    for model_name in ["gemini-3.8-flash", "gemini-2.5-flash"]:
-        try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=0.1,
-                ),
-            )
-            if response and response.text:
-                break
-        except Exception as e:
-            print(f"[警告] 模型 {model_name} 呼叫失敗，嘗試備用模型: {e}", flush=True)
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.1,
+            ),
+        )
 
-    if not response or not response.text:
-        return None
+        if not response or not response.text:
+            return None
 
         # 清除可能包裹的 Markdown 區塊與多餘空白
         cleaned_text = re.sub(r"^```[a-zA-Z]*\n?|```$", "", response.text.strip(), flags=re.MULTILINE).strip()
