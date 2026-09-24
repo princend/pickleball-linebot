@@ -544,7 +544,7 @@
       {
         "name": "馬公橋育館",
         "url": "https://ipickleball.com.tw/places/%e9%a6%ac%e5%85%ac%e6%a9%8b%e8%82%b2%e9%a4%a8/",
-        "hours": "3:00 下午 – 6:00 下午",
+        "hours": "6:00 下午 – 10:00 下午",
         "price": "100~200",
         "line_url": null
       },
@@ -565,7 +565,7 @@
       {
         "name": "致理科大",
         "url": "https://ipickleball.com.tw/places/%e8%87%b4%e7%90%86%e7%a7%91%e5%a4%a7/",
-        "hours": "Closed",
+        "hours": "6:20 下午 – 9:20 下午",
         "price": "100~200",
         "line_url": null
       },
@@ -1183,14 +1183,14 @@
       {
         "name": "彰化縣立來羽球館",
         "url": "https://ipickleball.com.tw/places/%e5%bd%b0%e5%8c%96%e7%b8%a3%e7%ab%8b%e4%be%86%e7%be%bd%e7%90%83%e9%a4%a8/",
-        "hours": "2:00 下午 – 4:00 下午",
+        "hours": "Closed",
         "price": "100~200",
         "line_url": null
       },
       {
         "name": "翔戲羽球館",
         "url": "https://ipickleball.com.tw/places/%e7%bf%94%e6%88%b2%e7%be%bd%e7%90%83%e9%a4%a8/",
-        "hours": "2:00 下午 – 4:00 下午",
+        "hours": "Closed",
         "price": "100~200",
         "line_url": null
       },
@@ -1204,7 +1204,7 @@
       {
         "name": "和美運動中心",
         "url": "https://ipickleball.com.tw/places/%e5%92%8c%e7%be%8e%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
-        "hours": "7:30 下午 – 9:30 下午",
+        "hours": "Closed",
         "price": "未知",
         "line_url": null
       },
@@ -1321,7 +1321,7 @@
       {
         "name": "烏樹公園綜合球場",
         "url": "https://ipickleball.com.tw/places/%e7%83%8f%e6%a8%b9%e5%85%ac%e5%9c%92%e7%b6%9c%e5%90%88%e7%90%83%e5%a0%b4/",
-        "hours": "Closed",
+        "hours": "6:30 下午 – 9:30 下午",
         "price": "免費",
         "line_url": null
       },
@@ -1335,7 +1335,7 @@
       {
         "name": "應農高科健康生活館",
         "url": "https://ipickleball.com.tw/places/%e6%87%89%e8%be%b2%e9%ab%98%e7%a7%91%e5%81%a5%e5%ba%b7%e7%94%9f%e6%b4%bb%e9%a4%a8/",
-        "hours": "Closed",
+        "hours": "6:30 下午 – 8:30 下午",
         "price": "100~200",
         "line_url": null
       },
@@ -1356,7 +1356,7 @@
       {
         "name": "玩轉基地",
         "url": "https://ipickleball.com.tw/places/%e7%8e%a9%e8%bd%89%e5%9f%ba%e5%9c%b0/",
-        "hours": "7:00 下午 – 9:30 下午",
+        "hours": "Closed",
         "price": "100~200",
         "line_url": null
       }
