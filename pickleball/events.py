@@ -112,10 +112,10 @@ def _build_grouped_event_bubble(events: list, start_idx: int) -> FlexBubble:
 from linebot.v3.messaging import QuickReply, QuickReplyItem, MessageAction
 
 REGION_MAP = {
-    "北部": ["基隆", "台北", "新北", "桃園", "新竹", "宜蘭", "New"],
-    "中部": ["苗栗", "台中", "彰化", "南投", "雲林"],
-    "南部": ["嘉義", "台南", "高雄", "屏東"],
-    "東部": ["花蓮", "台東"],
+    "北部": ["基隆", "台北", "臺北", "新北", "桃園", "新竹", "宜蘭", "Taipei", "Taoyuan", "Hsinchu", "New"],
+    "中部": ["苗栗", "台中", "臺中", "彰化", "南投", "雲林", "Taichung", "Miaoli", "Changhua", "Nantou", "Yunlin"],
+    "南部": ["嘉義", "台南", "臺南", "高雄", "屏東", "Tainan", "Kaohsiung", "Chiayi", "Pingtung"],
+    "東部": ["花蓮", "台東", "臺東", "Hualien", "Taitung"],
     "全部": []
 }
 

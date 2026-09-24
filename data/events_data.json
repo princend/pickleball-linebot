@@ -1,6 +1,22 @@
 {
   "events": [
     {
+      "title": "2026 喬山盃匹克球適應體育公益賽",
+      "url": "https://www.wellgamesport.com/tournaments/01a0ac96-821e-7ec6-a706-bed73c6cd1a9",
+      "location": "台中市",
+      "date": "2026-10-18",
+      "price": "請見賽事簡章",
+      "deadline": "2026-10-04"
+    },
+    {
+      "title": "2026 Taichung Open Pickleball Championship (台中國際匹克球公開賽)",
+      "url": "https://www.wellgamesport.com/tournaments/019f6dbc-9c63-7262-8fb0-aa9bbeb59a8e",
+      "location": "台中市 (國際網球中心)",
+      "date": "2026-10-14 ~ 2026-10-17",
+      "price": "請見賽事簡章",
+      "deadline": "2026-09-26"
+    },
+    {
       "title": "114 年度新竹市長盃匹克球賽",
       "url": "https://ipickleball.com.tw/events/114-%e5%b9%b4%e5%ba%a6%e6%96%b0%e7%ab%b9%e5%b8%82%e9%95%b7%e7%9b%83%e5%8c%b9%e5%85%8b%e7%90%83%e8%b3%bd/",
       "location": "新竹",
@@ -327,6 +343,14 @@
       "date": "2026-10-09",
       "price": "$2,500",
       "deadline": "2026-09-20"
+    },
+    {
+      "title": "2026NAPA盃全國匹克球錦標賽",
+      "url": "https://pickleball.org.tw/activity_2/",
+      "location": "台灣",
+      "date": "2026-02-28 ~ 2026-03-01",
+      "price": "請見協會公告",
+      "deadline": "請見協會公告"
     }
   ]
 }
