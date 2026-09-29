@@ -17,7 +17,8 @@ SHOPIFY_ENDPOINTS = [
     {"brand": "Thrive", "url": "https://thrivepb.com/products.json?limit=250", "origin": "美國"},
     {"brand": "Neonic", "url": "https://neonicpickleball.com/products.json?limit=250", "origin": "美國"},
     {"brand": "ProKennex", "url": "https://prokennexpickleball.com/products.json?limit=250", "origin": "美國"},
-    {"brand": "11six24", "url": "https://11six24.com/products.json?limit=250", "origin": "美國"}
+    {"brand": "11six24", "url": "https://11six24.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "Luzz", "url": "https://luzzpickleball.com/products.json?limit=250", "origin": "美國"}
 ]
 
 def is_valid_image(url):
@@ -77,7 +78,7 @@ def main():
                 title_lower = title.lower()
                 
                 # 排除配件與服飾
-                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery"]
+                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery", "set", "redemption", "not for sale"]
                 if any(w in title_lower for w in exclude_words):
                     continue
                     

@@ -669,60 +669,6 @@
     "theme_color": "#829c67"
   },
   {
-    "id": "luzz-cannon-16",
-    "name": "Luzz Cannon Pro 16mm",
-    "brand": "Luzz",
-    "price_ntd": 4200,
-    "budget_category": "advanced",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "加長型",
-    "core": "PP Honeycomb",
-    "surface": "T700 Raw Carbon",
-    "usapa_approved": true,
-    "features": [
-      "中系高階品牌 Luzz 的主力戰拍",
-      "T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球",
-      "深受台灣進階球友喜愛，具有 USAPA 國際認證"
-    ],
-    "tags": [
-      "中系品牌",
-      "高CP生碳",
-      "防守吸震"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "中系高階品牌 Luzz 的主力戰拍 T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球 深受台灣進階球友喜愛，具有 USAPA 國際認證",
-    "theme_color": "#9e9ea5"
-  },
-  {
-    "id": "luzz-glider-14",
-    "name": "Luzz Glider 14mm",
-    "brand": "Luzz",
-    "price_ntd": 3900,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "7.8 oz",
-    "shape": "標準型",
-    "core": "PP Honeycomb",
-    "surface": "T700 Raw Carbon",
-    "usapa_approved": true,
-    "features": [
-      "專為網前快節奏平抽設計的 14mm 薄拍",
-      "揮重極輕，在快速對峙中能取得絕對優勢",
-      "Luzz 旗下極具爆發力與速度感的熱銷款式"
-    ],
-    "tags": [
-      "網前極速",
-      "爆發力強",
-      "輕量化"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "專為網前快節奏平抽設計的 14mm 薄拍 揮重極輕，在快速對峙中能取得絕對優勢 Luzz 旗下極具爆發力與速度感的熱銷款式",
-    "theme_color": "#9e9ea5"
-  },
-  {
     "id": "napa-timeless-16",
     "name": "NAPA Timeless 16mm",
     "brand": "NAPA",
@@ -3626,7 +3572,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB1_Rust_PaddleOnly.jpg?v=1780081421",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#a03100"
   },
   {
     "id": "crbn-crbn-trufoam-barrage-elongated",
@@ -3652,7 +3599,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB3_Rust_PaddleOnly.jpg?v=1780081459",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#a03100"
   },
   {
     "id": "crbn-crbn-trufoam-barrage-hybrid-aerocurve",
@@ -3678,7 +3626,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB4_Rust_PaddleOnly.jpg?v=1780081475",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#a53000"
   },
   {
     "id": "crbn-crbn-trufoam-barrage-square",
@@ -3704,7 +3653,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB2_Rust_PaddleOnly.jpg?v=1780081439",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#a53800"
   },
   {
     "id": "crbn-limited-drop-crbn-trufoam-waves-summit",
@@ -3730,7 +3680,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/24.jpg?v=1763588920",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#782e15"
   },
   {
     "id": "crbn-crbn-trufoam-waves-hybrid-aerocurve",
@@ -3756,7 +3707,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFW4_Blue_PaddleOnly.jpg?v=1780081227",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#1f66a5"
   },
   {
     "id": "crbn-crbn-trufoam-waves-elongated",
@@ -3782,7 +3734,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFW3_Blue_PaddleOnly.jpg?v=1780081294",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#1f66a5"
   },
   {
     "id": "crbn-crbn-trufoam-waves-square",
@@ -3808,7 +3761,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFW2_Blue_PaddleOnly.jpg?v=1780081277",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#1f66a5"
   },
   {
     "id": "crbn-crbn-trufoam-waves-elongated-long-handle",
@@ -3834,7 +3788,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFW1_Blue_PaddleOnly.jpg?v=1780081260",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#1f67a5"
   },
   {
     "id": "crbn-crbn-trufoam-genesis-hybrid-aerocurve",
@@ -3860,7 +3815,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFG4_Sage_PaddleOnly.jpg?v=1780081138",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#7b9384"
   },
   {
     "id": "crbn-crbn-trufoam-genesis-square",
@@ -3886,7 +3842,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFG2_Sage_PaddleOnly.jpg?v=1780081101",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#324e4a"
   },
   {
     "id": "crbn-crbn-trufoam-genesis-elongated",
@@ -3912,7 +3869,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFG3_Sage_PaddleOnly.jpg?v=1780081117",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#799382"
   },
   {
     "id": "crbn-crbn-trufoam-genesis-elongated-long-handle",
@@ -3938,7 +3896,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFG1_Sage_PaddleOnly.jpg?v=1780081055",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#7a9483"
   },
   {
     "id": "crbn-crbn-x-series",
@@ -3964,7 +3923,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_X_Series_Main_3x_b43b7b20-3985-4678-bc0a-bcdd3caa3374.jpg?v=1754066153",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#800b00"
   },
   {
     "id": "crbn-crbn",
@@ -3990,7 +3950,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_ClassicSeries_Main_2x_79a71891-a4fd-4d0b-be6e-d906d1ba9b51.jpg?v=1754066220",
     "image_back": "",
-    "description": "來自美國的 CRBN 最新球拍"
+    "description": "來自美國的 CRBN 最新球拍",
+    "theme_color": "#543c3c"
   },
   {
     "id": "pickleballapes-zen-pre-order-batch-5",
@@ -4016,7 +3977,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/zen-batch-five_2.png?v=1790212140",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#a51f16"
   },
   {
     "id": "pickleballapes-joy",
@@ -4042,7 +4004,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/Joy-S-Front.png?v=1771373113",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#a50a02"
   },
   {
     "id": "pickleballapes-pulse",
@@ -4068,7 +4031,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/Pulse_S_Front.png?v=1771456808",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#8261a5"
   },
   {
     "id": "pickleballapes-charm",
@@ -4094,7 +4058,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/Product_Photos_4.png?v=1771607364",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#a53700"
   },
   {
     "id": "pickleballapes-harmony",
@@ -4120,7 +4085,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/Product_Photos_5.png?v=1771648797",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#0041a5"
   },
   {
     "id": "pickleballapes-energy",
@@ -4146,7 +4112,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0739/7739/7564/files/Energy_S_Front.png?v=1771456845",
     "image_back": "",
-    "description": "來自美國的 Pickleball Apes 最新球拍"
+    "description": "來自美國的 Pickleball Apes 最新球拍",
+    "theme_color": "#98000d"
   },
   {
     "id": "holbrook-fuze",
@@ -4172,7 +4139,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/fuze-launching-212-2404830.png?v=1776703425",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#3c6ca5"
   },
   {
     "id": "holbrook-mav",
@@ -4198,7 +4166,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/mav-7887687.png?v=1769542452",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#5870a5"
   },
   {
     "id": "holbrook-zone---power",
@@ -4224,7 +4193,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/Zone-Front.png?v=1769618909",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a50000"
   },
   {
     "id": "holbrook-arma-t-metallic-14mm",
@@ -4250,7 +4220,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/arma-t-metallic-14mm-835819.webp?v=1756912443",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a5979a"
   },
   {
     "id": "holbrook-arma-x-metallic-14mm",
@@ -4276,7 +4247,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/arma-x-metallic-14mm-342697.webp?v=1748600095",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a5979a"
   },
   {
     "id": "holbrook-arma-t-14mm",
@@ -4302,7 +4274,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/arma-t-14mm-792420.webp?v=1748682991",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#740009"
   },
   {
     "id": "holbrook-paddle-trainer",
@@ -4328,7 +4301,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/paddle-trainer-907036.png?v=1739696218",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#005ba5"
   },
   {
     "id": "holbrook-pro---aero-t-elongated",
@@ -4354,7 +4328,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-aero-t-elongated-777218.webp?v=1742412422",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a5010d"
   },
   {
     "id": "holbrook-pro---aero-metallic-t",
@@ -4380,7 +4355,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-aero-metallic-t-240598.webp?v=1756918108",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a53536"
   },
   {
     "id": "holbrook-pro---aero-s-16-mm-square",
@@ -4406,7 +4382,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-aero-s-16-mm-square-727198.webp?v=1756918189",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#9c9ca4"
   },
   {
     "id": "holbrook-pro---aero-x-hybrid",
@@ -4432,7 +4409,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-aero-x-hybrid-636693.webp?v=1756918259",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#0150a5"
   },
   {
     "id": "holbrook-pro---power-pro",
@@ -4458,7 +4436,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-power-pro-935801.png?v=1756939664",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a5000b"
   },
   {
     "id": "holbrook-pro---power-pro-e",
@@ -4484,7 +4463,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/pro-power-pro-e-174259.png?v=1756939642",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#7783a5"
   },
   {
     "id": "holbrook-sport---dune",
@@ -4510,7 +4490,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/sport-dune-365635.png?v=1739696221",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a53200"
   },
   {
     "id": "holbrook-sport---alta",
@@ -4536,7 +4517,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/sport-alta-586198.png?v=1739696222",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a53100"
   },
   {
     "id": "holbrook-performance---centre-court",
@@ -4562,7 +4544,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/performance-centre-court-311570.png?v=1739696224",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#902e00"
   },
   {
     "id": "holbrook-performance---day-n-night",
@@ -4588,7 +4571,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/performance-day-n-night-631511.png?v=1739696224",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#a5a29c"
   },
   {
     "id": "holbrook-performance---soho",
@@ -4614,7 +4598,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/performance-soho-901090.png?v=1739696225",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#6e2a10"
   },
   {
     "id": "holbrook-sport---midnight",
@@ -4640,7 +4625,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/sport-midnight-816515.png?v=1739696226",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#7589a5"
   },
   {
     "id": "holbrook-performance---rewind",
@@ -4666,7 +4652,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0608/6741/2153/files/performance-rewind-174978.png?v=1739696226",
     "image_back": "",
-    "description": "來自美國的 Holbrook 最新球拍"
+    "description": "來自美國的 Holbrook 最新球拍",
+    "theme_color": "#9a2600"
   },
   {
     "id": "thrive-ignite-foam-pink-ribbon",
@@ -4692,7 +4679,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/BCA_Canva_3.png?v=1790557220",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a5005b"
   },
   {
     "id": "thrive-ignite-foam-new-color-spiced-coral-exclusive",
@@ -4718,7 +4706,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/Spiced_Coral.png?v=1790024561",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a53000"
   },
   {
     "id": "thrive-ignite-foam-new-philippines-exclusive",
@@ -4744,7 +4733,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/new_el_ph.png?v=1789080430",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a5001f"
   },
   {
     "id": "thrive-ignite-foam-new-jilly-b-exclusive",
@@ -4770,7 +4760,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/3_JB.png?v=1790287494",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a55e00"
   },
   {
     "id": "thrive-ignite-arc-elongated-foam-new",
@@ -4796,7 +4787,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/New_ARC.png?v=1787286621",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#8b8c94"
   },
   {
     "id": "thrive-ignite-elongated-foam-new",
@@ -4822,7 +4814,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/New_EL.png?v=1787286397",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#0040a5"
   },
   {
     "id": "thrive-ignite-hybrid-foam-back-in-stock-electric-violet--thin-handle-edition-",
@@ -4848,7 +4841,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/ChatGPTImageJul16_2026_11_27_24AM.png?v=1784226484",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#6a10a5"
   },
   {
     "id": "thrive-ignite-hybrid-foam-new--recommended-swing-weight-110-111",
@@ -4874,7 +4868,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/DBE7301F-F8C5-49AD-92D5-37C14BF79766.jpg?v=1777343896",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a46745"
   },
   {
     "id": "thrive-fury-gold-limited-edition-elongated-155-mm-gen-35-power-series",
@@ -4900,7 +4895,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/Trang_Front.png?v=1773174997",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a56545"
   },
   {
     "id": "thrive-available-now-year-of-the-horse-2026-limited-lunar-release-fury-el-155-mm-power-series",
@@ -4926,7 +4922,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/Photoroom_20260216_140200.jpg?v=1771282165",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#0ea585"
   },
   {
     "id": "thrive-fury-elongated-155-mm-gen-35-power-series",
@@ -4952,7 +4949,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/IMG-0064.png?v=1774381339",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a52745"
   },
   {
     "id": "thrive-fury-hybrid-155-mm-gen-35-power-series",
@@ -4978,7 +4976,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/fury_black_1_1.jpg?v=1759341938",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#898897"
   },
   {
     "id": "thrive-training-paddle-white",
@@ -5004,7 +5003,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/3C658F5E-B851-493A-B093-31ED9724FEEB.jpg?v=1731876974",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#82848c"
   },
   {
     "id": "thrive-training-paddle-purple",
@@ -5030,7 +5030,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/C132286B-3E93-4B0F-97D5-6B380702EE9C.jpg?v=1731879500",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#7e0028"
   },
   {
     "id": "thrive-surge-16-mm-all-court-series",
@@ -5056,7 +5057,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/Surge_1_1.png?v=1751399006",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#939c9d"
   },
   {
     "id": "thrive-training-paddle-neon-green",
@@ -5082,7 +5084,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/EDC12EDF-7F66-48E8-AB8A-EAFBB65F636F.jpg?v=1731879300",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#2ba500"
   },
   {
     "id": "thrive-training-paddle-pink",
@@ -5108,7 +5111,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/0CD48114-3DDE-4D56-8616-C8BD04D4791F.jpg?v=1731876532",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#a50047"
   },
   {
     "id": "thrive-azul-16mm-power-series----includes-lead-weights-key-chain-and-weight-card--recommended-swing-weight-116-117",
@@ -5134,7 +5138,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/AZUL.png?v=1741306593",
     "image_back": "",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#7793a3"
   },
   {
     "id": "neonic-neonic-flare-prime-x",
@@ -5160,7 +5165,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0719/1222/7108/files/Image_1.1_3.jpg?v=1729215754",
     "image_back": "",
-    "description": "來自美國的 Neonic 最新球拍"
+    "description": "來自美國的 Neonic 最新球拍",
+    "theme_color": "#957b59"
   },
   {
     "id": "neonic-neonic-flare-titanium",
@@ -5186,7 +5192,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0719/1222/7108/files/neonicflaretitanium.jpg?v=1739456863",
     "image_back": "",
-    "description": "來自美國的 Neonic 最新球拍"
+    "description": "來自美國的 Neonic 最新球拍",
+    "theme_color": "#53849c"
   },
   {
     "id": "11six24-vapor-alpha-pro-power",
@@ -5212,7 +5219,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/VAPORALPHAPROPOWERFRONT.png?v=1751378265",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a59f"
   },
   {
     "id": "11six24-ultr-power-2-pre-order",
@@ -5238,7 +5246,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/Ultre-power2-teal.png?v=1786476229",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#087e6a"
   },
   {
     "id": "11six24-ultr-jelly-bean-2",
@@ -5264,7 +5273,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/UltreJellyBean2CosmicGrape.png?v=1785352183",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#5029a5"
   },
   {
     "id": "11six24-pegasus-jelly-bean-2",
@@ -5290,7 +5300,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/PegasusJellyBean2CosmicGrape.png?v=1786399181",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#6543a5"
   },
   {
     "id": "11six24-vapor-jelly-bean-2",
@@ -5316,7 +5327,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/vaporjellybean2cosmicgrape.png?v=1786395636",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#522ca5"
   },
   {
     "id": "11six24-hurache-x-jelly-bean-2",
@@ -5342,7 +5354,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/Hurache-XJellyBean2CosmicGrapeProduct.png?v=1786399132",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#542aa5"
   },
   {
     "id": "11six24-summer-strawberry-power-2",
@@ -5368,7 +5381,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/Hurache-XSummerStrawberry.png?v=1782489180",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#a50001"
   },
   {
     "id": "11six24-power-2---peach-edition",
@@ -5394,7 +5408,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/2_7f4f6198-c984-4a90-8990-be670a240d44.png?v=1776810052",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#a5370f"
   },
   {
     "id": "11six24-hurache-x-power-2",
@@ -5420,7 +5435,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/10_bb4adbb1-ac87-495b-9493-ee8d0ccbcf8d.png?v=1770997271",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a59a"
   },
   {
     "id": "11six24-pegasus-power-2",
@@ -5446,7 +5462,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/11_ce967a93-539b-4969-afe2-d182a45166ac.png?v=1770997271",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a596"
   },
   {
     "id": "11six24-vapor-power-2",
@@ -5472,7 +5489,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/1_c210de78-77b8-4ccf-98f5-ca36a949a9da.png?v=1770951276",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a596"
   },
   {
     "id": "11six24-hurache-x-jelly-bean",
@@ -5498,7 +5516,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/Hurache-X_Jelly_Beans.jpg?v=1765900754",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a483"
   },
   {
     "id": "11six24-vapor-jelly-bean",
@@ -5524,7 +5543,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/vapor_jelly_bean_island_punch.png?v=1789394532",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#007c77"
   },
   {
     "id": "11six24-pegasus-jelly-bean",
@@ -5550,7 +5570,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/pegasus_jelly_bean_teal_front.png?v=1789660379",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#13a59a"
   },
   {
     "id": "11six24-vapor-power",
@@ -5576,7 +5597,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/11six24_vapor_power_front.jpg?v=1764937891",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a58e"
   },
   {
     "id": "11six24-hurache-x-power",
@@ -5602,7 +5624,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/11six24_hurache-X_power_front.jpg?v=1764937917",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#009f85"
   },
   {
     "id": "11six24-hurache-x-alpha-pro-power",
@@ -5628,7 +5651,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/HURACHE_XALPHAPROPOWERFRONT.png?v=1751378120",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#00a5a4"
   },
   {
     "id": "11six24-pegasus-power",
@@ -5654,7 +5678,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/11six24_pegasus_power_lavender.png?v=1764937875",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#948e9c"
   },
   {
     "id": "11six24-vapor-power-royal-burst",
@@ -5680,7 +5705,8 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/1_bfa0bed8-f61a-402a-81b0-9d10765aedbd.jpg?v=1747741211",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#3219a5"
   },
   {
     "id": "11six24-hurache-x-power-royal-burst",
@@ -5706,6 +5732,2113 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0758/9235/9471/files/1_dd8c33b1-d5da-47af-86e2-45a6a4ee1865.jpg?v=1747740966",
     "image_back": "",
-    "description": "來自美國的 11six24 最新球拍"
+    "description": "來自美國的 11six24 最新球拍",
+    "theme_color": "#2b10a5"
+  },
+  {
+    "id": "luzz-luzz-candy-cannon2-m1-paddle",
+    "name": "Luzz Luzz Candy Cannon2 M1 Paddle",
+    "brand": "Luzz",
+    "price_ntd": 4128,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Key Features\nAero-9966™ SurfaceUpgraded with Aero-9966™ coating that creates a h..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_c466c477-a18b-4f04-9253-2774e13c0823.jpg?v=1788250166",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a56471"
+  },
+  {
+    "id": "luzz-luzz-kung-fu-panda-cannon2-m1-paddle",
+    "name": "Luzz Luzz Kung Fu Panda Cannon2 M1 Paddle",
+    "brand": "Luzz",
+    "price_ntd": 4128,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Key Features\nAero-9966™ SurfaceUpgraded with Aero-9966™ coating that creates a h..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_df4c5466-bbf6-4738-901a-10c734a05614.jpg?v=1788254198",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#005a5a"
+  },
+  {
+    "id": "luzz-infinity-paddle--gift--rewards-exclusive-random-design",
+    "name": "Luzz Infinity Paddle — Gift & Rewards Exclusive (Random Design)",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Not Sold Separately — Gift or Points Redemption Only\nThis Infinity series paddle..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_20e4ec3e-ea0c-47a2-a703-b18d19c7b3c1.jpg?v=1762481720",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57500"
+  },
+  {
+    "id": "luzz-luzz-whiskey-original-paddle",
+    "name": "Luzz Luzz Whiskey Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/whiskey_cde49229-5e85-47ea-8fbd-b58d531704ed.jpg?v=1759999958",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a52100"
+  },
+  {
+    "id": "luzz-luzz-gabbys-dollhouse-original-paddle",
+    "name": "Luzz Luzz Gabby's Dollhouse Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Step onto the court in full Gabby's Dollhouse style. This official collab dresse..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_b0cc8b30-2737-4f9b-9f36-0bc6449b0ec5.jpg?v=1784251025",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55a26"
+  },
+  {
+    "id": "luzz-luzz-gabbys-dollhouse-glider-2026-hybrid-paddle",
+    "name": "Luzz Luzz Gabby's Dollhouse Glider 2026 Hybrid Paddle",
+    "brand": "Luzz",
+    "price_ntd": 4128,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_1c1537d4-2ad8-4f53-9c87-ddd9521c960d.jpg?v=1784250804",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55574"
+  },
+  {
+    "id": "luzz-luzz-minions-cannon2-m1-paddle",
+    "name": "Luzz Luzz Minions Cannon2 M1 Paddle",
+    "brand": "Luzz",
+    "price_ntd": 4128,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Key Features\nAero-9966™ SurfaceUpgraded with Aero-9966™ coating that creates a h..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/4_4535858e-69d6-477c-9bb2-1b71aacc5a44.jpg?v=1782786447",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a59300"
+  },
+  {
+    "id": "luzz-luzz-minions-thunderstorm-original-paddle",
+    "name": "Luzz Luzz Minions Thunderstorm Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_0d21dcda-d147-4fdc-a2a3-ea75f057ef0d.jpg?v=1782786095",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58800"
+  },
+  {
+    "id": "luzz-luzz-minions-bad-choices-original-paddle",
+    "name": "Luzz Luzz Minions Bad Choices Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/4_823792ec-341a-4d63-a449-3a9777b027bd.jpg?v=1782785940",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58700"
+  },
+  {
+    "id": "luzz-luzz-minions-carpe-diem-original-paddle",
+    "name": "Luzz Luzz Minions Carpe Diem Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/6_7bf5d1c7-c2d7-4d78-b8b0-35bb05a745a3.jpg?v=1782785637",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58d00"
+  },
+  {
+    "id": "luzz-luzz-minions-caution-original-paddle",
+    "name": "Luzz Luzz Minions Caution Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/10_b0525d9f-2d77-4a4f-b262-c17c1743f2d0.jpg?v=1782784622",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58f00"
+  },
+  {
+    "id": "luzz-luzz-minions-spellcaster-original-paddle",
+    "name": "Luzz Luzz Minions Spellcaster Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/8_f1e36b5c-3d8f-455c-946f-539dde45875a.jpg?v=1782784319",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a59000"
+  },
+  {
+    "id": "luzz-luzz-cannon2-m1-paddle",
+    "name": "Luzz Luzz Cannon2 M1 Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3808,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Key Features\nAero-9966™ SurfaceUpgraded with Aero-9966™ coating that creates a h..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/10_92f7a1f5-0f71-4c26-8969-29b4e9209f21.jpg?v=1779938773",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#78746c"
+  },
+  {
+    "id": "luzz-luzz-chris-haworth-glider-2026-hybrid-paddle",
+    "name": "Luzz Luzz Chris Haworth Glider 2026 Hybrid Paddle",
+    "brand": "Luzz",
+    "price_ntd": 4128,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Chris Haworth Signature Design\nBuilt for Chris Haworth, inspired by \"Oklahoma Li..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/20_ab6bbc36-5bd7-48c0-9573-8ba61883f977.jpg?v=1782090063",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#7343a5"
+  },
+  {
+    "id": "luzz-luzz-sports-pickleball-paddle",
+    "name": "Luzz Luzz Sports Pickleball Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1888,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\n🎤 Large Surface Design: Full Sweet SpotExperience unmatched precision with our..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b6b8a4fa084ebcbc93f872950f6541a4_368acab8-9e75-4954-9e12-3be74e787d56.jpg?v=1780538133",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a52a00"
+  },
+  {
+    "id": "luzz-luzz-inferno-frozen-paddle",
+    "name": "Luzz Luzz Inferno Frozen Paddle",
+    "brand": "Luzz",
+    "price_ntd": 7968,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Target Audience:Designed for players who love the Inferno but want to tame exces..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_49f7d1ac-4df9-492d-b57d-cf437258ba48.jpg?v=1780034896",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#6c82a5"
+  },
+  {
+    "id": "luzz-luzz-lucky-denim-original-paddle",
+    "name": "Luzz Luzz Lucky Denim Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b68c70a4bbca368aec7330c6a6988943.jpg?v=1779673526",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#537ba5"
+  },
+  {
+    "id": "luzz-luzz-balloon-fiesta-original-paddle",
+    "name": "Luzz Luzz Balloon Fiesta Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/e56ebe2f6d40026cdac3701b77fb6301.jpg?v=1779673526",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#9f000d"
+  },
+  {
+    "id": "luzz-luzz-penguin-party-original-paddle",
+    "name": "Luzz Luzz Penguin Party Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/fb87a296258b5b2864dede5e1fdd4ae0.jpg?v=1779673525",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#4183a5"
+  },
+  {
+    "id": "luzz-luzz-knightstrike-original-paddle",
+    "name": "Luzz Luzz KnightStrike Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/135593deee07af42eb4bcf07abc30fff.jpg?v=1779673525",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#84849c"
+  },
+  {
+    "id": "luzz-luzz-pink-doodle-original-paddle",
+    "name": "Luzz Luzz Pink Doodle Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/0ce96ae12161e33cb519b1c731f69857.jpg?v=1779673525",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54577"
+  },
+  {
+    "id": "luzz-luzz-pink-stardust-original-paddle",
+    "name": "Luzz Luzz Pink Stardust Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/ef4e53d14c6389f20f094f23aff2ad3c.jpg?v=1779673525",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54379"
+  },
+  {
+    "id": "luzz-luzz-glider-2026-hybrid-paddle",
+    "name": "Luzz Luzz Glider 2026 Hybrid Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3808,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Brand Overview:In 2019, the Luzz brand was established in the United States. The..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_1_496b8e50-798f-4187-9266-c2e095179e16.jpg?v=1779432216",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a50051"
+  },
+  {
+    "id": "luzz-luzz-denim-mosaic-original-paddle",
+    "name": "Luzz Luzz Denim Mosaic Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_f06f9ef6-6841-4e07-8237-bac20d8653b1.jpg?v=1775696465",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#18396e"
+  },
+  {
+    "id": "luzz-luzz-jurassic-cannon-paddle",
+    "name": "Luzz Luzz Jurassic Cannon Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3808,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\")\n     or a Custom Liquid / Custom HTML section.\n     Self-contained: no Tailwi..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_eb001bf1-3cb6-426a-a202-dfa200de467a.jpg?v=1787706160",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#832124"
+  },
+  {
+    "id": "luzz-luzz-lucky-clover-original-paddle",
+    "name": "Luzz Luzz Lucky Clover Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_12efcd8c-1940-4a9c-ae05-27a49504819e.jpg?v=1760000675",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#7b956f"
+  },
+  {
+    "id": "luzz-luzz-pickleball-paddle-cleaner",
+    "name": "Luzz Luzz Pickleball Paddle Cleaner",
+    "brand": "Luzz",
+    "price_ntd": 511,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：The Luzz Pickleball Paddle Cleaner Kit is the ultimate on-the-go solution for pl..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/6_7178a425-4d09-42fb-b66c-b0e39c4ec1ff.png?v=1769133768",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#746b6b"
+  },
+  {
+    "id": "luzz-luzzpickleball-beer-original-paddle",
+    "name": "Luzz Luzzpickleball Beer Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/beer_955f1da1-fc54-4a89-822c-c92ef9d6717a.jpg?v=1759999921",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#8d9534"
+  },
+  {
+    "id": "luzz-luzzpickleball--whisper-original-paddle",
+    "name": "Luzz Luzzpickleball  Whisper Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/whisper_5b905aa7-42c2-4a70-be97-00cd927aedaa.jpg?v=1759999982",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#6093a5"
+  },
+  {
+    "id": "luzz-luzz-dragon-original-paddle",
+    "name": "Luzz Luzz Dragon Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/dragon_fb06e569-8808-468f-9371-c34e0f9d3d1a.jpg?v=1760000008",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55e00"
+  },
+  {
+    "id": "luzz-luzz-moonward-original-paddle",
+    "name": "Luzz Luzz Moonward Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/moonward_9a8f2c90-1baf-462d-a435-a9bd768d212f.jpg?v=1760000028",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54f2b"
+  },
+  {
+    "id": "luzz-luzzpickleball--planet-original-paddle",
+    "name": "Luzz Luzzpickleball  Planet Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/planet_e897f1cb-7db6-4f46-9a94-65c41896655e.jpg?v=1760000047",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#6b3ea5"
+  },
+  {
+    "id": "luzz-luzzpickleball--star-original-paddle",
+    "name": "Luzz Luzzpickleball  Star Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/star_1db22605-db6f-4cdd-9867-c586427f2d92.jpg?v=1760000070",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#025c9f"
+  },
+  {
+    "id": "luzz-luzzpickleball-target-original-paddle",
+    "name": "Luzz Luzzpickleball Target Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/target_7ba01b54-960e-4ab3-9599-ab62dc069db1.jpg?v=1760000097",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#002656"
+  },
+  {
+    "id": "luzz-luzzpickleball--veil-original-paddle",
+    "name": "Luzz Luzzpickleball  Veil Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/original_dafd55ac-fad0-48aa-8620-3d8f4ce3a45c.jpg?v=1760000118",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58826"
+  },
+  {
+    "id": "luzz-luzzpickleball--dark-original-paddle",
+    "name": "Luzz Luzzpickleball  Dark Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/dark_06aac8f2-4c37-426d-9488-3bf579fec69d.jpg?v=1760000137",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58694"
+  },
+  {
+    "id": "luzz-luzz-marine-original-paddle",
+    "name": "Luzz Luzz Marine Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/marine_5010aa68-53e9-4061-9c7b-6a565d4061c2.jpg?v=1760000182",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#005c98"
+  },
+  {
+    "id": "luzz-luzz-pink-original-paddle",
+    "name": "Luzz Luzz Pink Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/pink_ee015c2a-f7b0-429f-8959-95137e522dca.jpg?v=1760000205",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#5363a5"
+  },
+  {
+    "id": "luzz-luzz-origin-paddle",
+    "name": "Luzz Luzz Origin Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\nThe Story of the Origin Paddle: The Heart of FremontThe Origin paddle celebrate..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_1addab11-4a17-4d97-a3cd-4507493352e7.jpg?v=1760000600",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#0c75a5"
+  },
+  {
+    "id": "luzz-luzz-shock-original-paddle",
+    "name": "Luzz Luzz Shock Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2af5ba0eeb3fe6af6b0e895bfee77c75_f5b2b243-4f3b-479e-9dd7-085427c10bbb.jpg?v=1760000226",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a59b00"
+  },
+  {
+    "id": "luzz-luzz-ice-original-paddle",
+    "name": "Luzz Luzz Ice Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/ice_1de32e7b-dbf6-4033-a11f-61bae1897753.jpg?v=1760000247",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#0a6199"
+  },
+  {
+    "id": "luzz-luzz-hud-original-paddle",
+    "name": "Luzz Luzz HUD Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/hud_e5f8ac79-d7d5-4482-8d7c-ba87c6d8215f.jpg?v=1760000269",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58793"
+  },
+  {
+    "id": "luzz-luzz-bubble-original-paddle",
+    "name": "Luzz Luzz Bubble Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/bubble_a7319502-af35-4c9a-902b-42386f900ef8.jpg?v=1760000316",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#5365a5"
+  },
+  {
+    "id": "luzz-luzz-wavestrike-original-paddle",
+    "name": "Luzz Luzz WaveStrike Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/wavestrike_cb8ae2ae-ff9e-4b25-a3ed-c4da143e3cd1.jpg?v=1760000351",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57158"
+  },
+  {
+    "id": "luzz-luzz-rain-whisper-original-paddle",
+    "name": "Luzz Luzz Rain Whisper Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/rain_8576d536-72b5-468f-8166-715d13e19031.jpg?v=1760000384",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#2d93a5"
+  },
+  {
+    "id": "luzz-luzz-guitar-groove-original-paddle",
+    "name": "Luzz Luzz Guitar Groove Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：The Luzz Guitar Beginner Pickleball Paddle isn't just equipment—it's a statement..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/guitar-1_f28250f8-b18f-48b8-b51e-09a3b3f51ca6.jpg?v=1760000406",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55f10"
+  },
+  {
+    "id": "luzz-luzz-bunny-blitz-original-paddle",
+    "name": "Luzz Luzz Bunny Blitz Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1-_2.jpg?v=1760000642",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54225"
+  },
+  {
+    "id": "luzz-luzz-butterfly-original-paddle",
+    "name": "Luzz Luzz Butterfly Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n        .hero-bg {\n            background: transparent;\n        }\n        .butt..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/8_36066bba-c814-433d-9b35-2ae02399de57.jpg?v=1760000621",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#747c74"
+  },
+  {
+    "id": "luzz-luzz-snake-spot-original-paddle",
+    "name": "Luzz Luzz Snake spot Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n        .hero-bg {\n            background: transparent;\n        }\n        .snak..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_1af9b77d-3613-4ff6-8198-3e6d8eec1e05.jpg?v=1760000580",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a51900"
+  },
+  {
+    "id": "luzz-luzz-purr-original-paddle",
+    "name": "Luzz Luzz Purr Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/986aa8fdbf76a54fead5bd8f38273387_b1c6f0b4-4715-492a-970d-bb0b3c209d4e.jpg?v=1760000521",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55774"
+  },
+  {
+    "id": "luzz-luzz-puppy-original-paddle",
+    "name": "Luzz Luzz Puppy Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：  \n\n        .hero-bg {\n            background: transparent;\n        }\n        .p..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/13d076f18b6cf6bfbaafa17c36e1a153_b87d3eae-eede-4a2e-85de-89b0c9dfdb72.jpg?v=1760000498",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54c11"
+  },
+  {
+    "id": "luzz-luzz-glider-2024-hybrid-paddle",
+    "name": "Luzz Luzz Glider 2024 Hybrid Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3488,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizi..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1907e2d9c531ba31209bc5d0ad08e0aa.jpg?v=1758855741",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a50f52"
+  },
+  {
+    "id": "luzz-luzz-minions-mayhem-original-paddle",
+    "name": "Luzz Luzz Minions Mayhem Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_ab413db4-d003-415c-89a9-19ffc5d2114e.jpg?v=1758244935",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57a00"
+  },
+  {
+    "id": "luzz-luzz-kung-fu-panda-furious-frenzy-original-paddle",
+    "name": "Luzz Luzz Kung Fu Panda Furious Frenzy Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：  \n\n        .hero-bg {\n            background: linear-gradient(135deg, #ff4500 0..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_7fbc8df7-5225-4f0a-ac7e-564c59151e08.jpg?v=1756780218",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58200"
+  },
+  {
+    "id": "luzz-luzz-kung-fu-panda-dragon-zen-original-paddle",
+    "name": "Luzz Luzz Kung Fu Panda Dragon Zen Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：  \n\n        .hero-bg {\n            background: linear-gradient(135deg, #228B22 0..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_1286c52a-083c-4205-826e-75b2e97cff34.jpg?v=1756779511",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57701"
+  },
+  {
+    "id": "luzz-luzz-colossal-giants-original-paddle",
+    "name": "Luzz Luzz Colossal Giants Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：  \n\n        .hero-bg {\n            background: linear-gradient(135deg, #1a3c34 0..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_2bb14088-d66a-4b68-bdca-e6d439378341.jpg?v=1751434633",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#557e99"
+  },
+  {
+    "id": "luzz-luzz-velociraptor-original-paddle",
+    "name": "Luzz Luzz Velociraptor Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：  \n\n        .hero-bg {\n            background: linear-gradient(135deg, #1a3c34 0..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_0669c1cc-e5f0-4c9e-8def-59629463acef.jpg?v=1751426429",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#287052"
+  },
+  {
+    "id": "luzz-luzz-minions-cannon-paddle",
+    "name": "Luzz Luzz Minions Cannon Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3808,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：   \n\n        .hero-bg {\n            background: linear-gradient(135deg, #ffd700 ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_4c6aebf6-7ec0-45e1-80b5-512cea9edfab.jpg?v=1760579032",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58d00"
+  },
+  {
+    "id": "luzz-luzz-cannon-paddle",
+    "name": "Luzz Luzz Cannon Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3488,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizi..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_c410ad7e-ab3b-40b0-b98d-89cd1c2461cc.jpg?v=1776747966",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#77606c"
+  },
+  {
+    "id": "luzz-luzz-x-minions-paddle-edge-protection-tape",
+    "name": "Luzz Luzz x Minions Paddle Edge Protection Tape",
+    "brand": "Luzz",
+    "price_ntd": 543,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Elevate your pickleball game with the Paddle Edge Protection Tape, officially co..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/3_2919e04d-4eb5-453e-95e2-47b43e2a38ac.jpg?v=1782869229",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58f00"
+  },
+  {
+    "id": "luzz-luzz-minions-kids-paddle",
+    "name": "Luzz Luzz Minions Kids Paddle",
+    "brand": "Luzz",
+    "price_ntd": 960,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\n\n\n\n\n\n..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/00.jpg?v=1749695432",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57f00"
+  },
+  {
+    "id": "luzz-luzz-minions-serve-original-paddle",
+    "name": "Luzz Luzz Minions Serve Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/3_71e9f96c-cc14-4d4b-b480-55c0de8dc5a1.jpg?v=1748921226",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58600"
+  },
+  {
+    "id": "luzz-luzz-ultra-whisper-original-paddle",
+    "name": "Luzz Luzz Ultra Whisper Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2559,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Step onto the pickleball court with confidence and style using the Luzz Ultra Pa..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/whisper_-1.jpg?v=1739252855",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#528ea5"
+  },
+  {
+    "id": "luzz-luzz-ultra-fog-original-paddle",
+    "name": "Luzz Luzz Ultra Fog Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2559,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Step onto the pickleball court with confidence and style using the Luzz Ultra Pa..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/3_97e2310d-f3d4-4fca-9f42-3acbf43da702.jpg?v=1737613228",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#4c5566"
+  },
+  {
+    "id": "luzz-luzz-ultra-guitar-original-paddle",
+    "name": "Luzz Luzz Ultra Guitar Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2559,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Supreme Power &amp; ControlT700 Thermoformed RAW Carbon Fiber: Experience a rack..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_acb47ed7-5cdc-40b3-bb36-81a6bc9a4b9d.jpg?v=1736920737",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a5600d"
+  },
+  {
+    "id": "luzz-luzzpickleball-imperial-dragon-paddle14mmt700-carbon-friction-surfacethermoformed--limited-collection",
+    "name": "Luzz Luzzpickleball Imperial Dragon Paddle(14mm)T700 Carbon Friction Surface|Thermoformed- Limited Collection",
+    "brand": "Luzz",
+    "price_ntd": 6368,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Introducing the Luzz \"Imperial Dragon\" Pickleball Paddle: Unleash the Power of E..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/1_f7843d8c-24c7-4ae3-b180-e5da3fb21f78.jpg?v=1737006875",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a1833e"
+  },
+  {
+    "id": "luzz-luzz-fog-original-paddle",
+    "name": "Luzz Luzz Fog Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/Fog_53713747-99eb-497b-aa1e-7bd93158fbdc.jpg?v=1760174793",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#444e61"
+  },
+  {
+    "id": "luzz-luzz-guitar-original-paddle",
+    "name": "Luzz Luzz Guitar Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/guitar-1_f28250f8-b18f-48b8-b51e-09a3b3f51ca6.jpg?v=1760000406",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a55f10"
+  },
+  {
+    "id": "luzz-luzz-pro-zz-paddle",
+    "name": "Luzz Luzz Pro ZZ Paddle",
+    "brand": "Luzz",
+    "price_ntd": 3167,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明： \n\n        :root {\n            --court-green: #1B5E3F;\n            --power-red: ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/3_930def63-9cdd-4f02-a436-955900abd53c.jpg?v=1737008946",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a50058"
+  },
+  {
+    "id": "luzz-luzz-beer-original-paddle",
+    "name": "Luzz Luzz Beer Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/beer_c4d0883b-4826-437c-ae17-1fd6c1895408.jpg?v=1760175536",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#7d5d18"
+  },
+  {
+    "id": "luzz-luzz-veil-original-paddle",
+    "name": "Luzz Luzz VEIL Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/original_33e33221-85ed-4286-8aa5-0e1ae6b80c8f.jpg?v=1760175350",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a58a1e"
+  },
+  {
+    "id": "luzz-luzz-skyfire-original-paddle",
+    "name": "Luzz Luzz Skyfire Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/skyfire_373fefe9-e763-453e-9d2d-8e2456c53f54.jpg?v=1737007836",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a57a1c"
+  },
+  {
+    "id": "luzz-luzz-star-original-paddle",
+    "name": "Luzz Luzz STAR Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/star_72f2ab41-1792-41b5-9749-62a2e32b1fd0.jpg?v=1760175418",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#015ea3"
+  },
+  {
+    "id": "luzz-luzz-planet-original-paddle",
+    "name": "Luzz Luzz PLANET Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/planet_4e241828-0bcc-471c-ab76-5e62e8375a3e.jpg?v=1760175436",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#6d3da5"
+  },
+  {
+    "id": "luzz-luzz-freedom-original-paddle",
+    "name": "Luzz Luzz Freedom Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/freedom_aad3f651-3b07-4ad7-9924-b151b0d246ee.jpg?v=1760175292",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a50033"
+  },
+  {
+    "id": "luzz-luzz-dark-original-paddle",
+    "name": "Luzz Luzz Dark Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/dark_eeebd11b-96ed-467a-999a-6e31d24666e2.jpg?v=1760175325",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#746c70"
+  },
+  {
+    "id": "luzz-luzz-target-original-paddle",
+    "name": "Luzz Luzz TARGET Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/target_b4ef612b-5fef-4087-9694-3830892261a5.jpg?v=1760175400",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#002556"
+  },
+  {
+    "id": "luzz-luzz-whisper-original-paddle",
+    "name": "Luzz Luzz Whisper Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：\n\nUnparalleled Strength with T700 Carbon Fiber:Arm yourself with the power of T7..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/whisper_24a8ef7c-ccd2-4649-b941-e4e8a1b55b49.jpg?v=1760175493",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#6794a5"
   }
 ]
