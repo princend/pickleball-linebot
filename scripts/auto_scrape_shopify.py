@@ -5,6 +5,50 @@ import re
 import html
 import time
 
+
+# 在最上方加入 import google.genai 等
+import os
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    genai = None
+
+def ai_analyze_paddle(title, html_desc):
+    """使用 Gemini AI 進行進階內容分析與繁體中文改寫"""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key or not genai:
+        return None
+        
+    try:
+        client = genai.Client(api_key=api_key)
+        prompt = f'''
+你是一個專業的匹克球 (Pickleball) 裝備分析專家。
+請根據以下原文商品名稱與介紹，回傳一個 JSON 格式的分析結果。
+
+商品名稱: {title}
+商品介紹 (HTML):
+{html_desc}
+
+請嚴格遵守以下 JSON 格式回傳（不需要 markdown 標記，直接回傳純 JSON）：
+{{
+    "style_category": "力量/控制/速度/旋轉 四選一。如果介紹強調 power/elongated/smash 則為 power；強調 control/forgiving/touch/16mm 為 control；強調 aero/lightweight/speed/13mm 為 speed；強調 spin/grit/kevlar/texture 為 spin。請回傳英文代碼：power, control, speed, or spin",
+    "zh_summary": "用繁體中文寫一段約 50~80 字的精華摘要，語氣要專業生動，吸引人購買，絕對不要出現 HTML 標籤。"
+}}
+'''
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+        )
+        text = response.text.replace("```json", "").replace("```", "").strip()
+        import json
+        result = json.loads(text)
+        if result.get("style_category") in ["power", "control", "speed", "spin"] and result.get("zh_summary"):
+            return result
+    except Exception as e:
+        print(f"  [AI 分析失敗] {e}")
+    return None
+
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.json")
 
 # 這裡設定 limit=250 確保抓到全品項，以便準確判斷停售
@@ -110,37 +154,46 @@ def main():
                     elif "20mm" in title.lower(): thickness = "20mm"
                     
                     html = prod.get('body_html', '') or ''
-                    html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
-                    html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
-                    desc_text = re.sub(r'<[^>]+>', ' ', html)
+                    # 清洗 HTML (基本備案)
+                    html_clean = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
+                    html_clean = re.sub(r'<script[^>]*>.*?</script>', '', html_clean, flags=re.DOTALL | re.IGNORECASE)
+                    desc_text = re.sub(r'<[^>]+>', ' ', html_clean)
                     desc_text = html.unescape(re.sub(r'\s+', ' ', desc_text).strip())
                     desc = desc_text[:80] + "..." if len(desc_text) > 80 else desc_text
                     
-                    
-                    style_cat = "control"
-                    title_l = title.lower()
-                    desc_l = desc.lower()
-                    if any(w in title_l for w in ["power", "elongated", "fury", "cannon", "ignite"]):
-                        style_cat = "power"
-                    elif any(w in title_l for w in ["speed", "aero", "air", "swift", "glider", "flare"]):
-                        style_cat = "speed"
-                    elif any(w in title_l for w in ["spin", "grit", "ruby", "kevlar"]):
-                        style_cat = "spin"
+                    # 嘗試呼叫 AI 分析 (如果設定了 GEMINI_API_KEY)
+                    ai_result = ai_analyze_paddle(title, html)
+                    if ai_result:
+                        style_cat = ai_result["style_category"]
+                        desc_final = ai_result["zh_summary"]
+                        print(f"  [AI 分析成功] 判定球風: {style_cat}")
                     else:
-                        full_t = title_l + " " + desc_l
-                        p_score = sum(full_t.count(w) for w in ["power", "elongated", "smash", "drive", "pop"])
-                        s_score = sum(full_t.count(w) for w in ["speed", "aero", "aerodynamic", "fast", "quick", "maneuver"])
-                        sp_score = sum(full_t.count(w) for w in ["spin", "grit", "friction", "texture", "bite"])
-                        c_score = sum(full_t.count(w) for w in ["control", "precision", "soft", "touch", "forgiving", "sweet spot"])
-                        if "14mm" in title_l or "13mm" in title_l:
-                            p_score += 1
-                            s_score += 1
-                        elif "16mm" in title_l:
-                            c_score += 2
-                        scores = {"power": p_score, "speed": s_score, "spin": sp_score, "control": c_score}
-                        best_s = max(scores, key=scores.get)
-                        if scores[best_s] > 0:
-                            style_cat = best_s
+                        # 備用：舊版土法煉鋼關鍵字分類
+                        desc_final = desc
+                        style_cat = "control"
+                        title_l = title.lower()
+                        desc_l = desc.lower()
+                        if any(w in title_l for w in ["power", "elongated", "fury", "cannon", "ignite"]):
+                            style_cat = "power"
+                        elif any(w in title_l for w in ["speed", "aero", "air", "swift", "glider", "flare"]):
+                            style_cat = "speed"
+                        elif any(w in title_l for w in ["spin", "grit", "ruby", "kevlar"]):
+                            style_cat = "spin"
+                        else:
+                            full_t = title_l + " " + desc_l
+                            p_score = sum(full_t.count(w) for w in ["power", "elongated", "smash", "drive", "pop"])
+                            s_score = sum(full_t.count(w) for w in ["speed", "aero", "aerodynamic", "fast", "quick", "maneuver"])
+                            sp_score = sum(full_t.count(w) for w in ["spin", "grit", "friction", "texture", "bite"])
+                            c_score = sum(full_t.count(w) for w in ["control", "precision", "soft", "touch", "forgiving", "sweet spot"])
+                            if "14mm" in title_l or "13mm" in title_l:
+                                p_score += 1
+                                s_score += 1
+                            elif "16mm" in title_l:
+                                c_score += 2
+                            scores = {"power": p_score, "speed": s_score, "spin": sp_score, "control": c_score}
+                            best_s = max(scores, key=scores.get)
+                            if scores[best_s] > 0:
+                                style_cat = best_s
 
                     if price < 1500:
                         budget_cat = "budget"
@@ -166,7 +219,7 @@ def main():
                         "usapa_approved": True,
                         "features": [
                             f"來自{origin}的知名品牌 {brand} 最新款式",
-                            f"原廠官方說明：{desc}"
+                            f"原廠官方說明：{desc_final}"
                         ],
                         "tags": ["最新上架", brand, "原廠直送"],
                         "image_front": front_img,
