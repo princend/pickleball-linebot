@@ -37,6 +37,7 @@ BUDGET_MAP = {
 STYLE_MAP = {
     "control": {"name": "控球防守", "desc": "重視手感與廚房區 Dink", "badge": "控球防守型"},
     "power": {"name": "力量攻擊", "desc": "重視底線重抽與殺球速度", "badge": "力量攻擊型"},
+    "speed": {"name": "極速靈活", "desc": "主打輕量破風與網前敏捷", "badge": "極速靈活型"},
     "spin": {"name": "旋轉均衡", "desc": "重視生碳纖維咬球與全能", "badge": "旋轉均衡型"},
 }
 
