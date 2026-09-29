@@ -14,8 +14,8 @@ from typing import Any, Dict, List
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.json")
 
 FALLBACK_IMAGES = {
-    "front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
-    "back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/FRONT_7c4fad2f-f7ff-4fd0-8627-edefac3f85f0.png",
+    "back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/NEXTGEM_7e76952a-7225-4eed-82b8-2442beffd2d5.png",
 }
 
 REQUIRED_FIELDS = [
