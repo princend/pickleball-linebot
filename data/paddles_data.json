@@ -833,5 +833,86 @@
     "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
     "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
     "description": "生碳纖維技術的先驅品牌，Pro II 在控球與旋轉達到完美平衡 表面極度粗糙，能輕鬆切出不規則下旋球 做工精良，外觀充滿極簡現代感"
+  },
+  {
+    "id": "luzz-cannon-16",
+    "name": "Luzz Cannon Pro 16mm",
+    "brand": "Luzz",
+    "price_ntd": 4200,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "加長型",
+    "core": "PP Honeycomb",
+    "surface": "T700 Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "台灣本土高階品牌 Luzz 的主力戰拍",
+      "T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球",
+      "深受台灣進階球友喜愛，具有 USAPA 國際認證"
+    ],
+    "tags": [
+      "台灣之光",
+      "高CP生碳",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "台灣本土高階品牌 Luzz 的主力戰拍 T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球 深受台灣進階球友喜愛，具有 USAPA 國際認證"
+  },
+  {
+    "id": "luzz-glider-14",
+    "name": "Luzz Glider 14mm",
+    "brand": "Luzz",
+    "price_ntd": 3900,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "PP Honeycomb",
+    "surface": "T700 Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "專為網前快節奏平抽設計的 14mm 薄拍",
+      "揮重極輕，在快速對峙中能取得絕對優勢",
+      "Luzz 旗下極具爆發力與速度感的熱銷款式"
+    ],
+    "tags": [
+      "網前極速",
+      "爆發力強",
+      "輕量化"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-2x-power-series-16mm-standard-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-2x-power-series-16mm-standard-pickleball-paddle-back_4.jpg",
+    "description": "專為網前快節奏平抽設計的 14mm 薄拍 揮重極輕，在快速對峙中能取得絕對優勢 Luzz 旗下極具爆發力與速度感的熱銷款式"
+  },
+  {
+    "id": "napa-timeless-16",
+    "name": "NAPA Timeless 16mm",
+    "brand": "NAPA",
+    "price_ntd": 3800,
+    "budget_category": "intermediate",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "混合型",
+    "core": "Super Foam 聚合物蜂巢",
+    "surface": "T700 碳纖維塗層",
+    "usapa_approved": true,
+    "features": [
+      "台灣新銳品牌 NAPA 誠意之作",
+      "一體成型設計搭配 Super Foam 核心，甜區極大",
+      "外觀時尚，性能均衡，非常適合從新手過渡到高階的玩家"
+    ],
+    "tags": [
+      "台灣新銳",
+      "一體成型",
+      "時尚外觀"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-back_1.jpg",
+    "description": "台灣新銳品牌 NAPA 誠意之作 一體成型設計搭配 Super Foam 核心，甜區極大 外觀時尚，性能均衡，非常適合從新手過渡到高階的玩家"
   }
 ]
