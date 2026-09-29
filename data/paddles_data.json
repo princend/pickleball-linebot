@@ -7759,5 +7759,55 @@
     "image_back": "",
     "description": "來自美國的 Luzz 最新球拍",
     "theme_color": "#6794a5"
+  },
+  {
+    "id": "decathlon-kuikma-open",
+    "name": "Decathlon Kuikma Open",
+    "brand": "Decathlon",
+    "price_ntd": 1249,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "法國知名運動品牌迪卡儂超高 CP 值入門拍",
+      "原廠官方說明：玻璃纖維拍面提供極佳的容錯率與舒適手感，是新手入門匹克球的最佳選擇。"
+    ],
+    "tags": [
+      "新手推薦",
+      "高性價比",
+      "迪卡儂"
+    ],
+    "image_front": "https://contents.mediadecathlon.com/p2625292/k$30f7112002f5a019dc5db5a1dc71fbaf/sq/pickleball-paddle-open.jpg?format=auto&f=800x0",
+    "description": "適合剛接觸匹克球的新手，好打易上手"
+  },
+  {
+    "id": "decathlon-kuikma-pro",
+    "name": "Decathlon Kuikma Pro",
+    "brand": "Decathlon",
+    "price_ntd": 2499,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "法國知名運動品牌迪卡儂進階碳纖維拍",
+      "原廠官方說明：碳纖維材質帶來更強的擊球威力與旋轉潛力，適合追求進階表現的球友。"
+    ],
+    "tags": [
+      "進階挑戰",
+      "迪卡儂",
+      "碳纖維"
+    ],
+    "image_front": "https://contents.mediadecathlon.com/p2625293/k$2c32cf9ff0fb3e9e3e7f45c92c89f5bc/sq/pickleball-paddle-pro.jpg?format=auto&f=800x0",
+    "description": "提供更好的力量與旋轉，適合進階玩家"
   }
 ]

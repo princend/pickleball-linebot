@@ -123,13 +123,8 @@ def filter_paddles(budget_key: str, style_key: str) -> List[Dict[str, Any]]:
         if p.get("budget_category") == budget_key and p.get("style_category") == style_key
     ]
 
-    # 2. 若該組合無球拍，優先匹配同預算
-    if not matched:
-        matched = [p for p in all_paddles if p.get("budget_category") == budget_key]
-
-    # 3. 若仍無，匹配同風格
-    if not matched:
-        matched = [p for p in all_paddles if p.get("style_category") == style_key]
+    # 使用者要求：絕對不要 fallback，沒有就是沒有
+    # (原本的 fallback 邏輯已移除，確保只推薦100%符合條件的球拍)
 
     # 4. 隨機回傳最多 3 款代表拍 (使用戶每次查詢有不同結果)
     import random
@@ -350,7 +345,7 @@ def create_paddle_recommendation_flex(
     if not bubbles:
         from linebot.v3.messaging import TextMessage
         return TextMessage(
-            text="目前沒有符合條件的球拍資料，請稍後再試。",
+            text=f"目前在「{budget_info['name']}」且主打「{style_info['name']}」的分類中，還沒有找到符合的球拍喔！\n您可以試著調整預算或球風，探索更多球拍！",
             quick_reply=quick_reply
         )
 
