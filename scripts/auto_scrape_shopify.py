@@ -77,9 +77,9 @@ def main():
                 title = prod.get("title", "")
                 title_lower = title.lower()
                 
-                # 排除配件與服飾
-                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery", "set", "redemption", "not for sale"]
-                if any(w in title_lower for w in exclude_words):
+                # 排除配件與服飾 (使用正規表達式作全詞匹配)
+                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery", "set", "redemption", "not for sale", "cleaner", "tape", "gift", "shoe", "sock", "towel", "net", "ball", "balls", "apparel", "visor", "bottle", "hoodie", "jacket"]
+                if any(re.search(r'\b' + re.escape(w) + r'\b', title_lower) for w in exclude_words):
                     continue
                     
                 if "paddle" not in title_lower and "paddle" not in prod.get("product_type", "").lower():

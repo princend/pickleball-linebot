@@ -5790,33 +5790,6 @@
     "theme_color": "#005a5a"
   },
   {
-    "id": "luzz-infinity-paddle--gift--rewards-exclusive-random-design",
-    "name": "Luzz Infinity Paddle — Gift & Rewards Exclusive (Random Design)",
-    "brand": "Luzz",
-    "price_ntd": 959,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "來自美國的知名品牌 Luzz 最新款式",
-      "原廠官方說明：Not Sold Separately — Gift or Points Redemption Only\nThis Infinity series paddle..."
-    ],
-    "tags": [
-      "最新上架",
-      "Luzz",
-      "原廠直送"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2_20e4ec3e-ea0c-47a2-a703-b18d19c7b3c1.jpg?v=1762481720",
-    "image_back": "",
-    "description": "來自美國的 Luzz 最新球拍",
-    "theme_color": "#a57500"
-  },
-  {
     "id": "luzz-luzz-whiskey-original-paddle",
     "name": "Luzz Luzz Whiskey Original Paddle",
     "brand": "Luzz",
@@ -6436,33 +6409,6 @@
     "image_back": "",
     "description": "來自美國的 Luzz 最新球拍",
     "theme_color": "#7b956f"
-  },
-  {
-    "id": "luzz-luzz-pickleball-paddle-cleaner",
-    "name": "Luzz Luzz Pickleball Paddle Cleaner",
-    "brand": "Luzz",
-    "price_ntd": 511,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "來自美國的知名品牌 Luzz 最新款式",
-      "原廠官方說明：The Luzz Pickleball Paddle Cleaner Kit is the ultimate on-the-go solution for pl..."
-    ],
-    "tags": [
-      "最新上架",
-      "Luzz",
-      "原廠直送"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/6_7178a425-4d09-42fb-b66c-b0e39c4ec1ff.png?v=1769133768",
-    "image_back": "",
-    "description": "來自美國的 Luzz 最新球拍",
-    "theme_color": "#746b6b"
   },
   {
     "id": "luzz-luzzpickleball-beer-original-paddle",
@@ -7327,33 +7273,6 @@
     "image_back": "",
     "description": "來自美國的 Luzz 最新球拍",
     "theme_color": "#77606c"
-  },
-  {
-    "id": "luzz-luzz-x-minions-paddle-edge-protection-tape",
-    "name": "Luzz Luzz x Minions Paddle Edge Protection Tape",
-    "brand": "Luzz",
-    "price_ntd": 543,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "來自美國的知名品牌 Luzz 最新款式",
-      "原廠官方說明：Elevate your pickleball game with the Paddle Edge Protection Tape, officially co..."
-    ],
-    "tags": [
-      "最新上架",
-      "Luzz",
-      "原廠直送"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/3_2919e04d-4eb5-453e-95e2-47b43e2a38ac.jpg?v=1782869229",
-    "image_back": "",
-    "description": "來自美國的 Luzz 最新球拍",
-    "theme_color": "#a58f00"
   },
   {
     "id": "luzz-luzz-minions-kids-paddle",
