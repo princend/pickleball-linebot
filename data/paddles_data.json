@@ -1524,7 +1524,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 11mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#86151e"
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "onix-evoke-premier",
@@ -7247,7 +7247,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/SE_Flash_SH_1.jpg_4096_x_4096_px.png?v=1788235633",
-    "description": "來自美國的 Vatic Pro 最新球拍"
+    "description": "來自美國的 Vatic Pro 最新球拍",
+    "theme_color": "#a5683e"
   },
   {
     "id": "vaticpro-v-sol-pro-16mm-includes-paddle-cover",
@@ -7271,7 +7272,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/prof16_front.jpg?v=1758756969",
-    "description": "來自美國的 Vatic Pro 最新球拍"
+    "description": "來自美國的 Vatic Pro 最新球拍",
+    "theme_color": "#007ca5"
   },
   {
     "id": "vaticpro-saga-14mm--16mm-includes-paddle-cover",
@@ -7295,7 +7297,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC06581-Enhanced-NR.jpg?v=1730256009",
-    "description": "來自美國的 Vatic Pro 最新球拍"
+    "description": "來自美國的 Vatic Pro 最新球拍",
+    "theme_color": "#a56320"
   },
   {
     "id": "vaticpro-prism-14mm--16mm-includes-paddle-cover",
@@ -7319,7 +7322,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC03090.jpg?v=1777835695",
-    "description": "來自美國的 Vatic Pro 最新球拍"
+    "description": "來自美國的 Vatic Pro 最新球拍",
+    "theme_color": "#5a24a5"
   },
   {
     "id": "thrive-blackout-16mm--power-series-includes-head-cover-lead-weights-key-chain-and-weight-card",
@@ -7343,7 +7347,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/bo_2.jpg?v=1741306529",
-    "description": "來自美國的 Thrive 最新球拍"
+    "description": "來自美國的 Thrive 最新球拍",
+    "theme_color": "#807e9d"
   },
   {
     "id": "luzz-luzzpickleball-sunset-art-original-paddle",
@@ -7367,7 +7372,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b6b8a4fa084ebcbc93f872950f6541a4_75509b09-bb68-49b8-aead-c63be8794c96.jpg?v=1759999887",
-    "description": "來自美國的 Luzz 最新球拍"
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a56000"
   },
   {
     "id": "luzz-sunset-bliss-original-paddle",
@@ -7391,7 +7397,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/bliss_a37cd8b4-b695-455d-9178-30c8dc787456.jpg?v=1760000293",
-    "description": "來自美國的 Luzz 最新球拍"
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a5631f"
   },
   {
     "id": "luzz-covert-mission-original-paddle",
@@ -7415,7 +7422,8 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2-1_815fea5b-792a-4c4b-993a-6f54b7a95869.jpg?v=1751426233",
-    "description": "來自美國的 Luzz 最新球拍"
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a54143"
   },
   {
     "id": "luzz-sunset-art-original-paddle",
@@ -7439,7 +7447,58 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b6b8a4fa084ebcbc93f872950f6541a4_94912bc5-1e07-45a8-b25a-d4e25e009db0.jpg?v=1741144588",
-    "description": "來自美國的 Luzz 最新球拍"
+    "description": "來自美國的 Luzz 最新球拍",
+    "theme_color": "#a56300"
+  },
+  {
+    "id": "sixzero-boulder-opal-14mm",
+    "name": "Six Zero Boulder Opal 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 9600,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式"
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
+    "description": "來自澳洲的 Six Zero 最新球拍",
+    "theme_color": "#5ba588"
+  },
+  {
+    "id": "sixzero-black-opal-14mm-elongated",
+    "name": "Six Zero Black Opal 14mm Elongated",
+    "brand": "Six Zero",
+    "price_ntd": 5400,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式"
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
+    "description": "來自澳洲的 Six Zero 最新球拍",
+    "theme_color": "#5f799d"
   },
   {
     "id": "jnice-beginner-set",
@@ -7464,7 +7523,8 @@
       "台灣品牌"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "入門雙拍套組，初學者的熱門選擇"
+    "description": "入門雙拍套組，初學者的熱門選擇",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "success-budget-paddle",
@@ -7489,7 +7549,8 @@
       "台灣品牌"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "老字號體育品牌的超高性價比選擇"
+    "description": "老字號體育品牌的超高性價比選擇",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "tumaz-stylish-paddle",
@@ -7514,7 +7575,8 @@
       "台灣品牌"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "質感滿分，適合重視穿搭的玩家"
+    "description": "質感滿分，適合重視穿搭的玩家",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "franklin-sports-basic",
@@ -7539,7 +7601,8 @@
       "休閒套組"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "Costco 等量販店常見的大廠入門套組"
+    "description": "Costco 等量販店常見的大廠入門套組",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "fit-monster-budget",
@@ -7564,7 +7627,8 @@
       "新手體驗"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "千元有找的電商新興品牌選擇"
+    "description": "千元有找的電商新興品牌選擇",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "blazestar-budget",
@@ -7589,7 +7653,8 @@
       "新手體驗"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "輕鬆體驗匹克球樂趣的超值好拍"
+    "description": "輕鬆體驗匹克球樂趣的超值好拍",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "decathlon-kuikma-open",
@@ -7613,7 +7678,7 @@
       "高性價比",
       "迪卡儂"
     ],
-    "image_front": "https://contents.mediadecathlon.com/p2625292/k$30f7112002f5a019dc5db5a1dc71fbaf/sq/pickleball-paddle-open.jpg?format=auto&f=800x0",
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "description": "適合剛接觸匹克球的新手，好打易上手"
   },
   {
@@ -7638,7 +7703,7 @@
       "迪卡儂",
       "碳纖維"
     ],
-    "image_front": "https://contents.mediadecathlon.com/p2625293/k$2c32cf9ff0fb3e9e3e7f45c92c89f5bc/sq/pickleball-paddle-pro.jpg?format=auto&f=800x0",
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "description": "提供更好的力量與旋轉，適合進階玩家"
   },
   {
@@ -7664,7 +7729,8 @@
       "台灣之光"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "搭載動能微膠囊系統，物理減震最頂點"
+    "description": "搭載動能微膠囊系統，物理減震最頂點",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "prokennex-black-ace-ovation",
@@ -7689,7 +7755,8 @@
       "網球肘救星"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "特殊的橢圓拍面設計，極速揮拍不震手"
+    "description": "特殊的橢圓拍面設計，極速揮拍不震手",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "slk-neo-set",
@@ -7714,7 +7781,8 @@
       "俱樂部推薦"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "入門名拍"
+    "description": "入門名拍",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "slk-latitude",
@@ -7739,7 +7807,8 @@
       "新手升級"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "加大的甜區對擊球失誤容忍度極高"
+    "description": "加大的甜區對擊球失誤容忍度極高",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "head-radical-elite",
@@ -7764,7 +7833,8 @@
       "配色搶眼"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "配色搶眼且控球穩定"
+    "description": "配色搶眼且控球穩定",
+    "theme_color": "#9e9ea5"
   },
   {
     "id": "head-gravity-lite",
@@ -7789,54 +7859,7 @@
       "網球大廠"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "輕量操控的款式"
-  },
-  {
-    "id": "sixzero-boulder-opal-14mm",
-    "name": "Six Zero Boulder Opal 14mm",
-    "brand": "Six Zero",
-    "price_ntd": 9600,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "來自澳洲的知名品牌 Six Zero 最新款式"
-    ],
-    "tags": [
-      "最新上架",
-      "Six Zero",
-      "原廠直送"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
-    "description": "來自澳洲的 Six Zero 最新球拍"
-  },
-  {
-    "id": "sixzero-black-opal-14mm-elongated",
-    "name": "Six Zero Black Opal 14mm Elongated",
-    "brand": "Six Zero",
-    "price_ntd": 5400,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "來自澳洲的知名品牌 Six Zero 最新款式"
-    ],
-    "tags": [
-      "最新上架",
-      "Six Zero",
-      "原廠直送"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
-    "description": "來自澳洲的 Six Zero 最新球拍"
+    "description": "輕量操控的款式",
+    "theme_color": "#9e9ea5"
   }
 ]
