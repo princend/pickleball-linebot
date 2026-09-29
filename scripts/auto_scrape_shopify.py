@@ -68,7 +68,13 @@ def main():
             
             for prod in products:
                 title = prod.get("title", "")
-                if "paddle" not in title.lower() and prod.get("product_type", "").lower() != "paddle":
+                title_lower = title.lower()
+                
+                # 排除配件與服飾
+                if any(w in title_lower for w in ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat"]):
+                    continue
+                    
+                if "paddle" not in title_lower and prod.get("product_type", "").lower() != "paddle":
                     continue
                     
                 pid = re.sub(r'[^a-z0-9\-]', '', f"{brand.lower()}-{title.lower().replace(' ', '-')}")

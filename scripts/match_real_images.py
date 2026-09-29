@@ -36,6 +36,10 @@ def get_shopify_inventory():
                 products = r.json().get("products", [])
                 for prod in products:
                     title = prod.get("title", "")
+                    title_lower = title.lower()
+                    if any(w in title_lower for w in ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat"]):
+                        continue
+                    
                     images = prod.get("images", [])
                     if images:
                         front = images[0]["src"]
