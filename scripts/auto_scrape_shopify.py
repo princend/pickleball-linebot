@@ -11,7 +11,13 @@ SHOPIFY_ENDPOINTS = [
     {"brand": "Six Zero", "url": "https://www.sixzeropickleball.com/products.json?limit=250", "origin": "澳洲"},
     {"brand": "CRBN", "url": "https://crbnpickleball.com/products.json?limit=250", "origin": "美國"},
     {"brand": "Vatic Pro", "url": "https://vaticpro.com/products.json?limit=250", "origin": "美國"},
-    {"brand": "Engage", "url": "https://engagepickleball.com/products.json?limit=250", "origin": "美國"}
+    {"brand": "Engage", "url": "https://engagepickleball.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "Pickleball Apes", "url": "https://pickleballapes.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "Holbrook", "url": "https://holbrookpickleball.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "Thrive", "url": "https://thrivepb.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "Neonic", "url": "https://neonicpickleball.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "ProKennex", "url": "https://prokennexpickleball.com/products.json?limit=250", "origin": "美國"},
+    {"brand": "11six24", "url": "https://11six24.com/products.json?limit=250", "origin": "美國"}
 ]
 
 def is_valid_image(url):
@@ -30,7 +36,7 @@ def is_valid_image(url):
 def validate_scraped_data(paddle):
     """嚴格審查資料"""
     if paddle["price_ntd"] < 500 or paddle["price_ntd"] > 20000: return False
-    if not is_valid_image(paddle["image_front"]) or not is_valid_image(paddle["image_back"]): return False
+    if not is_valid_image(paddle["image_front"]): return False
     thickness = paddle["thickness"].lower().replace("mm", "").strip()
     try:
         t_val = float(thickness)
@@ -74,7 +80,7 @@ def main():
                 if any(w in title_lower for w in ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat"]):
                     continue
                     
-                if "paddle" not in title_lower and prod.get("product_type", "").lower() != "paddle":
+                if "paddle" not in title_lower and "paddle" not in prod.get("product_type", "").lower():
                     continue
                     
                 pid = re.sub(r'[^a-z0-9\-]', '', f"{brand.lower()}-{title.lower().replace(' ', '-')}")
