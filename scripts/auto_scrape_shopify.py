@@ -77,7 +77,8 @@ def main():
                 title_lower = title.lower()
                 
                 # 排除配件與服飾
-                if any(w in title_lower for w in ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat"]):
+                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery"]
+                if any(w in title_lower for w in exclude_words):
                     continue
                     
                 if "paddle" not in title_lower and "paddle" not in prod.get("product_type", "").lower():
