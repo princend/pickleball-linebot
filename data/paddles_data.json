@@ -7959,5 +7959,339 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "description": "輕鬆體驗匹克球樂趣的超值好拍"
+  },
+  {
+    "id": "vaticpro-v-sol-tour-with-evergrit-16mm-includes-paddle-cover",
+    "name": "Vatic Pro V-Sol Tour with Evergrit (16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3519,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Unleash your full potential with the Vatic Pro V-SOL Tour, a paddle engineered f..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/SE_Flash_SH_1.jpg_4096_x_4096_px.png?v=1788235633",
+    "image_back": "",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-v-sol-pro-16mm-includes-paddle-cover",
+    "name": "Vatic Pro V-Sol Pro (16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3519,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Unleash your full potential with the Vatic Pro V-SOL Pro, a paddle engineered fo..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/prof16_front.jpg?v=1758756969",
+    "image_back": "",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-saga-14mm--16mm-includes-paddle-cover",
+    "name": "Vatic Pro Saga (14mm & 16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3199,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：The next SAGA of Vatic Pro paddle technology. As the flagship of our lineup, the..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC06581-Enhanced-NR.jpg?v=1730256009",
+    "image_back": "",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-prism-14mm--16mm-includes-paddle-cover",
+    "name": "Vatic Pro PRISM (14mm & 16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3199,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Our PRISM series is a holistically designed, reimagined paddle that is the bench..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC03090.jpg?v=1777835695",
+    "image_back": "",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "thrive-blackout-16mm--power-series-includes-head-cover-lead-weights-key-chain-and-weight-card",
+    "name": "Thrive Blackout 16mm  (POWER SERIES) Includes head cover, lead weights, key chain, and weight card.",
+    "brand": "Thrive",
+    "price_ntd": 4799,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Thrive 最新款式",
+      "原廠官方說明：The BLACKOUT is our first 100% fiberglass paddle measuring in at 16 MM in a slee..."
+    ],
+    "tags": [
+      "最新上架",
+      "Thrive",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0791/6365/4423/files/bo_2.jpg?v=1741306529",
+    "image_back": "",
+    "description": "來自美國的 Thrive 最新球拍"
+  },
+  {
+    "id": "luzz-luzzpickleball-sunset-art-original-paddle",
+    "name": "Luzz Luzzpickleball Sunset Art Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Unparalleled Strength with T700 Carbon Fiber: Arm yourself with the power of T70..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b6b8a4fa084ebcbc93f872950f6541a4_75509b09-bb68-49b8-aead-c63be8794c96.jpg?v=1759999887",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍"
+  },
+  {
+    "id": "luzz-luzz-sunset-bliss-original-paddle",
+    "name": "Luzz Luzz Sunset Bliss Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 959,
+    "budget_category": "budget",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Unparalleled Strength with T700 Carbon Fiber: Arm yourself with the power of T70..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/bliss_a37cd8b4-b695-455d-9178-30c8dc787456.jpg?v=1760000293",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍"
+  },
+  {
+    "id": "luzz-luzz-covert-mission-original-paddle",
+    "name": "Luzz Luzz Covert Mission Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 2108,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：LUZZ X JURASSIC COVERT MISSION Unleash Prehistoric Power on the Court! Dominate ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/2-1_815fea5b-792a-4c4b-993a-6f54b7a95869.jpg?v=1751426233",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍"
+  },
+  {
+    "id": "luzz-luzz-sunset-art-original-paddle",
+    "name": "Luzz Luzz Sunset Art Original Paddle",
+    "brand": "Luzz",
+    "price_ntd": 1439,
+    "budget_category": "budget",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Luzz 最新款式",
+      "原廠官方說明：Unparalleled Strength with T700 Carbon Fiber: Arm yourself with the power of T70..."
+    ],
+    "tags": [
+      "最新上架",
+      "Luzz",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0659/0772/0365/files/b6b8a4fa084ebcbc93f872950f6541a4_94912bc5-1e07-45a8-b25a-d4e25e009db0.jpg?v=1741144588",
+    "image_back": "",
+    "description": "來自美國的 Luzz 最新球拍"
+  },
+  {
+    "id": "slk-neo-set",
+    "name": "SLK Neo (by Selkirk)",
+    "brand": "SLK",
+    "price_ntd": 2350,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "13mm",
+    "weight": "7.5 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 子品牌 SLK 主打的入門名拍",
+      "原廠官方說明：多數俱樂部教練推薦的入門首選，通常以雙拍套組形式販售，極高性價比。"
+    ],
+    "tags": [
+      "入門名拍",
+      "Selkirk",
+      "俱樂部推薦"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "入門名拍"
+  },
+  {
+    "id": "slk-latitude",
+    "name": "SLK Latitude / Atlas",
+    "brand": "SLK",
+    "price_ntd": 2850,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.7 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 子品牌 SLK 銷售主力",
+      "原廠官方說明：加大的甜區對擊球失誤容忍度極高，非常適合新手建立擊球自信。"
+    ],
+    "tags": [
+      "超大甜區",
+      "高容錯率",
+      "新手升級"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "加大的甜區對擊球失誤容忍度極高"
+  },
+  {
+    "id": "head-radical-elite",
+    "name": "Head Radical Elite",
+    "brand": "Head",
+    "price_ntd": 2900,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "15mm",
+    "weight": "8.1 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "網球大廠 Head 技術下放經典款",
+      "原廠官方說明：拍框吸震和握把人體工學做得很到位，配色搶眼且控球穩定。"
+    ],
+    "tags": [
+      "網球大廠",
+      "吸震人體工學",
+      "配色搶眼"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "配色搶眼且控球穩定"
+  },
+  {
+    "id": "head-gravity-lite",
+    "name": "Head Gravity Lite",
+    "brand": "Head",
+    "price_ntd": 3200,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.6 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Hybrid",
+    "usapa_approved": true,
+    "features": [
+      "網球大廠 Head 主打輕量操控的款式",
+      "原廠官方說明：擁有極佳的操控性與敏捷度，特別適合喜歡在網前靈活移動的球友。"
+    ],
+    "tags": [
+      "輕量敏捷",
+      "網前靈活",
+      "網球大廠"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "輕量操控的款式"
   }
 ]

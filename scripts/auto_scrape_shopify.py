@@ -77,10 +77,14 @@ def main():
                 title = prod.get("title", "")
                 title_lower = title.lower()
                 
-                # 排除配件與服飾 (使用正規表達式作全詞匹配)
-                exclude_words = ["bag", "cover", "backpack", "duffle", "eraser", "grip", "shirt", "tank", "hat", "case", "kit", "accessory", "clothing", "bundle", "blemish", "demo", "return", "used", "mystery", "set", "redemption", "not for sale", "cleaner", "tape", "gift", "shoe", "sock", "towel", "net", "ball", "balls", "apparel", "visor", "bottle", "hoodie", "jacket"]
+                exclude_words = ["eraser", "grip", "shirt", "tank", "hat", "kit", "accessory", "clothing", "bundle", "blemish", "blemished", "demo", "return", "returns", "used", "mystery", "set", "redemption", "not for sale", "cleaner", "tape", "gift", "shoe", "sock", "towel", "net", "ball", "balls", "apparel", "visor", "bottle", "hoodie", "jacket"]
                 if any(re.search(r'\b' + re.escape(w) + r'\b', title_lower) for w in exclude_words):
                     continue
+                    
+                # 專門處理 cover/case/bag 等字眼，只有當它們是標題的主要詞彙時才排除，若前面有 "includes" 則不排除
+                if any(re.search(r'\b' + re.escape(w) + r'\b', title_lower) for w in ["bag", "cover", "backpack", "duffle", "case"]):
+                    if "include" not in title_lower and "with cover" not in title_lower and "with paddle cover" not in title_lower:
+                        continue
                     
                 if "paddle" not in title_lower and "paddle" not in prod.get("product_type", "").lower():
                     continue
