@@ -130,7 +130,7 @@ def filter_paddles(budget_key: str, style_key: str) -> List[Dict[str, Any]]:
     import random
     if matched:
         return random.sample(matched, min(3, len(matched)))
-    return random.sample(all_paddles, min(3, len(all_paddles)))
+    return []
 
 
 def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) -> FlexBubble:
