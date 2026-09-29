@@ -75,16 +75,23 @@ def match_images():
         max_matches = 0
         
         for item in inventory:
+            # 嚴格要求品牌必須吻合，避免 Insum 配到 Selkirk 的橡皮擦
+            brand_match = brand.lower().replace(" ", "") in item["brand"].replace("-", "")
+            if not brand_match:
+                continue
+
             words = set(re.findall(r'\w+', name_lower))
             item_words = set(re.findall(r'\w+', item["title"]))
             
-            brand_match = brand.lower().replace(" ", "") in item["brand"].replace("-", "")
+            # Remove brand words from the intersection check to avoid matching any random product just because the brand name matches
+            brand_words = set(re.findall(r'\w+', brand.lower()))
+            words -= brand_words
+            item_words -= brand_words
             
             common = len(words.intersection(item_words))
-            if brand_match:
-                common += 3
-                
-            if common > max_matches and common >= 2:
+            
+            # We need at least 1 significant word match (like 'sapphire', 'ruby', 'perseus')
+            if common > max_matches and common >= 1:
                 max_matches = common
                 best_match = item
                 
@@ -94,11 +101,8 @@ def match_images():
             print(f"Matched {p['name']} -> {best_match['title']}")
         else:
             print(f"Unmatched: {p['name']}")
-            # Keep existing image_front if it's already a shopify link or something valid
-            current = p.get("image_front", "")
-            if not current or "7c4fad2f-f7ff-4fd0" in current or "joola.tw/wp-content" in current:
-                # Give it a generic valid Unsplash paddle image instead of the wrong Six Zero one
-                p["image_front"] = "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png"
+            # 如果沒有配對成功，強制使用『尚無圖片』，確保不會有任何張冠李戴的情況
+            p["image_front"] = "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png"
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(paddles, f, ensure_ascii=False, indent=2)
