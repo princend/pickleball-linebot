@@ -203,93 +203,6 @@
     "theme_color": "#9e9ea5"
   },
   {
-    "id": "beginner-carbon-starter-set",
-    "name": "入門進階單支碳纖維比賽拍",
-    "brand": "台灣精選",
-    "price_ntd": 1280,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "13mm ~ 14mm",
-    "weight": "7.8 oz (約 220g)",
-    "shape": "標準型",
-    "core": "標準蜂巢核心",
-    "surface": "碳纖維磨砂面",
-    "usapa_approved": true,
-    "features": [
-      "單支千元出頭即具備碳纖維表面與磨砂顆粒",
-      "擊球聲音清脆，重量輕盈不易手痠",
-      "已通過 USAPA 比賽認證，可下場參加一般休閒賽事"
-    ],
-    "tags": [
-      "新手升級",
-      "碳纖維磨砂",
-      "千元首選",
-      "USAPA認證"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "search_keyword": "匹克球拍 碳纖維 USAPA認證",
-    "description": "不想花大錢但想體驗正規碳纖維手感的最佳入門拍，適合剛上完新手體驗課打算穩定練球的朋友。",
-    "theme_color": "#9e9ea5"
-  },
-  {
-    "id": "beginner-duo-family-set",
-    "name": "超值新手雙拍全配套組 (雙拍+4球+收納袋)",
-    "brand": "休閒首選",
-    "price_ntd": 890,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "12mm",
-    "weight": "7.5 oz (約 212g)",
-    "shape": "寬體標準型",
-    "core": "輕量聚丙烯蜂巢",
-    "surface": "高強度玻璃纖維 (耐磨抗摔)",
-    "usapa_approved": false,
-    "features": [
-      "一袋搞定：內含 2 支球拍 + 2 顆室內球 + 2 顆室外球 + 專用背包",
-      "玻璃纖維拍面耐敲耐磨，家庭同樂或朋友野餐打球無痛入手",
-      "大甜區寬體設計，初學者極容易打到球"
-    ],
-    "tags": [
-      "雙拍全配",
-      "家庭休閒",
-      "千元有找",
-      "耐磨耐摔"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "search_keyword": "匹克球 雙拍套裝 4球",
-    "description": "新手第一次接觸、家庭休閒或揪朋友在公園練習的最佳無痛選擇，配備齊全一拆即打。",
-    "theme_color": "#9e9ea5"
-  },
-  {
-    "id": "beginner-power-fiberglass",
-    "name": "高回彈玻璃纖維單拍 (強力入門款)",
-    "brand": "活力運動",
-    "price_ntd": 750,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "13mm",
-    "weight": "7.9 oz (約 225g)",
-    "shape": "標準型",
-    "core": "高彈蜂巢核心",
-    "surface": "光面彩繪玻璃纖維",
-    "usapa_approved": false,
-    "features": [
-      "玻璃纖維極具彈性，不需要很大力量就能把球打深",
-      "繽紛潮流塗裝，場上辨識度極高",
-      "手把配備吸汗減震握把布，握感舒適不易滑手"
-    ],
-    "tags": [
-      "超低門檻",
-      "回彈借力",
-      "潮流彩繪",
-      "新手友善"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "search_keyword": "匹克球拍 玻璃纖維 初學",
-    "description": "彈性極佳且價格無負擔，初學者練習底線抽球的最佳入門練習拍。",
-    "theme_color": "#9e9ea5"
-  },
-  {
     "id": "selkirk-vanguard-power-air-invikta",
     "name": "Selkirk Vanguard Power Air Invikta",
     "brand": "Selkirk",
@@ -1315,33 +1228,6 @@
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-Parkinsons-Foundation-SLK-EVO-Control-Max-pickleball-paddle-4_a0ee47b3-854f-4f4a-a245-4a6647fd3ebe.png?v=1761259403",
     "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
     "theme_color": "#197ca5"
-  },
-  {
-    "id": "selkirk-sport",
-    "name": "Selkirk Sport",
-    "brand": "Selkirk",
-    "price_ntd": 1865,
-    "budget_category": "intermediate",
-    "style_category": "speed",
-    "thickness": "11mm",
-    "weight": "8.3 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass / Graphite",
-    "usapa_approved": true,
-    "features": [
-      "Selkirk 家族中專為 speed 取向設計的熱門拍款。",
-      "配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "底線重抽",
-      "快節奏",
-      "網前小球"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/vertical_PNG_1500x2000-selkirk-courtstrike-pro-3-womens-pickleball-shoes-black-gum-01.png?v=1780613426",
-    "description": "Selkirk 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a56402"
   },
   {
     "id": "paddletek-bantam-ex-l",
