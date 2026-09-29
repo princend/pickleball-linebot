@@ -914,5 +914,221 @@
     "image_front": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-front_1.jpg",
     "image_back": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-back_1.jpg",
     "description": "台灣新銳品牌 NAPA 誠意之作 一體成型設計搭配 Super Foam 核心，甜區極大 外觀時尚，性能均衡，非常適合從新手過渡到高階的玩家"
+  },
+  {
+    "id": "jnice-hammer-ii",
+    "name": "JNICE Hammer II (久奈司 戰錘2代)",
+    "brand": "JNICE",
+    "price_ntd": 4500,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "加長型",
+    "core": "高溫熱壓 PP Honeycomb",
+    "surface": "3層疊織碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "台灣知名羽球大廠 JNICE 傾力打造的匹克球頂規戰拍",
+      "通過 USAPA 認證，具備高溫熱壓技術，耐撞擊且回彈力驚人",
+      "專利甜區配重設計，適合追求攻擊火力的進階選手"
+    ],
+    "tags": [
+      "台灣大廠",
+      "高溫熱壓",
+      "暴力戰錘"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "台灣知名羽球大廠 JNICE 傾力打造的匹克球頂規戰拍 通過 USAPA 認證，具備高溫熱壓技術，耐撞擊且回彈力驚人 專利甜區配重設計，適合追求攻擊火力的進階選手"
+  },
+  {
+    "id": "jnice-ice-edge",
+    "name": "JNICE ICE EDGE (久奈司 寒冰)",
+    "brand": "JNICE",
+    "price_ntd": 3600,
+    "budget_category": "intermediate",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "7.9 oz",
+    "shape": "標準型",
+    "core": "PP Honeycomb",
+    "surface": "T700 噴砂碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "使用 T700 碳纖維搭配特殊噴砂表面，大幅提升擊球摩擦力",
+      "能輕鬆打出強烈的旋球，是底線防守反擊的利器",
+      "原廠提供完美保固，售後無憂"
+    ],
+    "tags": [
+      "極致旋球",
+      "噴砂碳纖",
+      "台灣保固"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-back_1.jpg",
+    "description": "使用 T700 碳纖維搭配特殊噴砂表面，大幅提升擊球摩擦力 能輕鬆打出強烈的旋球，是底線防守反擊的利器 原廠提供完美保固，售後無憂"
+  },
+  {
+    "id": "hudef-viva-pro-gen3",
+    "name": "Hudef Viva Pro Gen 3",
+    "brand": "Hudef",
+    "price_ntd": 4200,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "加長型",
+    "core": "熱壓發泡核心",
+    "surface": "Raw T700 Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "北美極具盛名的直銷品牌，以業界罕見的『終身保固』聞名",
+      "第三代加入熱壓與發泡邊框技術，甜蜜點與力量再次升級",
+      "在國外論壇被譽為 100~150 鎂級距的 CP 值破表神拍"
+    ],
+    "tags": [
+      "終身保固",
+      "熱壓發泡",
+      "海外神拍"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-2x-power-series-16mm-standard-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-2x-power-series-16mm-standard-pickleball-paddle-back_4.jpg",
+    "description": "北美極具盛名的直銷品牌，以業界罕見的『終身保固』聞名 第三代加入熱壓與發泡邊框技術，甜蜜點與力量再次升級 在國外論壇被譽為 100~150 鎂級距的 CP 值破表神拍"
+  },
+  {
+    "id": "defy-pro-16",
+    "name": "DEFY Pro Carbon 16mm",
+    "brand": "Defy",
+    "price_ntd": 3500,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.9 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "台灣在地常見的新銳品牌 DEFY，主打高性價比的碳纖維體驗",
+      "擁有極佳的吸震能力與控球手感，是許多教練推薦的過渡拍",
+      "外觀簡約，實戰表現穩定，不挑球風"
+    ],
+    "tags": [
+      "在地品牌",
+      "高性價比",
+      "教練推薦"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/v/a/vatic-pro-prism-flash-16mm-standard-pickleball-paddle-back_1.jpg",
+    "description": "台灣在地常見的新銳品牌 DEFY，主打高性價比的碳纖維體驗 擁有極佳的吸震能力與控球手感，是許多教練推薦的過渡拍 外觀簡約，實戰表現穩定，不挑球風"
+  },
+  {
+    "id": "zcebra-osprey",
+    "name": "Zcebra Osprey",
+    "brand": "Zcebra",
+    "price_ntd": 6500,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "EVA / PP Hybrid Core",
+    "surface": "Fused Carbon",
+    "usapa_approved": true,
+    "features": [
+      "來自歐洲的頂級匹克球品牌，以獨特的美學與工藝聞名",
+      "Osprey 是其旗艦款式，融合高科技複合碳纖維，爆發力十足",
+      "獨樹一格的歐洲設計語彙，拿在場上絕對是目光焦點"
+    ],
+    "tags": [
+      "歐洲精品",
+      "複合碳纖維",
+      "顏值巔峰"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/g/e/gearbox-pro-power-elongated-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/g/e/gearbox-pro-power-elongated-pickleball-paddle-back_1.jpg",
+    "description": "來自歐洲的頂級匹克球品牌，以獨特的美學與工藝聞名 Osprey 是其旗艦款式，融合高科技複合碳纖維，爆發力十足 獨樹一格的歐洲設計語彙，拿在場上絕對是目光焦點"
+  },
+  {
+    "id": "mizuno-rb-pro",
+    "name": "Mizuno RB Pro",
+    "brand": "Mizuno",
+    "price_ntd": 4800,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "15mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "Mizuno Foam Core",
+    "surface": "Graphite Blend",
+    "usapa_approved": true,
+    "features": [
+      "日本百年運動大廠美津濃也參戰匹克球，帶來其獨家的發泡技術",
+      "手感極度扎實，日系工藝確保了每一把球拍的超高良率",
+      "適合重視防守穩定度與細膩手感的日系品牌愛好者"
+    ],
+    "tags": [
+      "日系工藝",
+      "百年大廠",
+      "極致穩定"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-tempest-wave-pro-c-standard-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-tempest-wave-pro-c-standard-pickleball-paddle-back_1.jpg",
+    "description": "日本百年運動大廠美津濃也參戰匹克球，帶來其獨家的發泡技術 手感極度扎實，日系工藝確保了每一把球拍的超高良率 適合重視防守穩定度與細膩手感的日系品牌愛好者"
+  },
+  {
+    "id": "hudef-mage-pro",
+    "name": "Hudef Mage Pro 16mm",
+    "brand": "Hudef",
+    "price_ntd": 4000,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "T700 Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "Hudef 另一款極受歡迎的控制型球拍",
+      "加大的甜區與柔軟的擊球感，讓你在網前 Dink 對峙中充滿自信",
+      "同樣享有終身保固的無敵承諾"
+    ],
+    "tags": [
+      "網前王者",
+      "終身保固",
+      "超大甜區"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/v/o/volair-mach-1-forza-16mm-elongated-pickleball-paddle-front_1.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/v/o/volair-mach-1-forza-16mm-elongated-pickleball-paddle-back_1.jpg",
+    "description": "Hudef 另一款極受歡迎的控制型球拍 加大的甜區與柔軟的擊球感，讓你在網前 Dink 對峙中充滿自信 同樣享有終身保固的無敵承諾"
+  },
+  {
+    "id": "jnice-prism",
+    "name": "JNICE PRISM (久奈司 霓光)",
+    "brand": "JNICE",
+    "price_ntd": 2500,
+    "budget_category": "starter",
+    "style_category": "speed",
+    "thickness": "13mm",
+    "weight": "7.5 oz",
+    "shape": "標準型",
+    "core": "PP Honeycomb",
+    "surface": "玻璃纖維與碳纖維複合",
+    "usapa_approved": true,
+    "features": [
+      "JNICE 定位為速度型的中階/入門球拍",
+      "超輕的 7.5 oz 揮重，適合女性或喜歡快節奏平抽的球友",
+      "外觀亮眼，是初學者升級的第一首選"
+    ],
+    "tags": [
+      "超輕量",
+      "速度平抽",
+      "新手升級"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JNICE 定位為速度型的中階/入門球拍 超輕的 7.5 oz 揮重，適合女性或喜歡快節奏平抽的球友 外觀亮眼，是初學者升級的第一首選"
   }
 ]
