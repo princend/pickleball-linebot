@@ -58,64 +58,6 @@
     "description": "防守與廚房戰的終極神拍，超厚拍身將對手的重砲完全吸收，適合講究落點與節奏控制的高手。"
   },
   {
-    "id": "crbn-1x-power-14",
-    "name": "CRBN 1X Power Series 14mm",
-    "brand": "CRBN",
-    "price_ntd": 7600,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.0 oz (約 227g)",
-    "shape": "加長型 (Elongated)",
-    "core": "熱壓強化聚合物核心",
-    "surface": "T700 原生 Raw Carbon 碳纖維",
-    "usapa_approved": true,
-    "features": [
-      "高彈出球速度，底線強力抽球與截擊下壓殺傷力驚人",
-      "熱壓成型工藝打造堅固拍體，擊球力量傳導直接",
-      "長握把設計，非常適合雙手反拍抽球與網球轉型玩家"
-    ],
-    "tags": [
-      "重砲力量",
-      "雙手反拍友善",
-      "高出球速",
-      "熱壓工藝"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_X_Series_Main_1xTW.jpg?v=1769621773",
-    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_1X_02_051f968f-2998-4c3d-9e5e-5d1e7d29add4.jpg?v=1771601596",
-    "search_keyword": "CRBN 1X Power 14mm 匹克球拍",
-    "description": "重視侵略性進攻與力量壓制球友的首選，14mm 彈速極快，能在快速網前對抗中先發制人。"
-  },
-  {
-    "id": "sixzero-dbd-16",
-    "name": "Six Zero Double Black Diamond (DBD) 16mm",
-    "brand": "Six Zero",
-    "price_ntd": 5800,
-    "budget_category": "advanced",
-    "style_category": "spin",
-    "thickness": "16mm",
-    "weight": "8.1 oz (約 230g)",
-    "shape": "混合加長微弧形 (Hybrid)",
-    "core": "優質蜂巢核心 + 發泡邊緣注塑",
-    "surface": "日本進口 Toray 700 生碳纖維",
-    "usapa_approved": true,
-    "features": [
-      "社群與評測公認 CP 值最高的熱壓神拍，全能攻守均衡",
-      "極大甜區與低揮重配重，網前快速截擊反應靈巧",
-      "超高咬球轉速 (Spin)，切球與上旋球弧線極具壓迫感"
-    ],
-    "tags": [
-      "全網評測零負評",
-      "高CP值進階拍",
-      "Toray700",
-      "攻守全能"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Double-Black-Diamond-Control-Six-Zero-417078833.png?v=1771375300",
-    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Double-Black-Diamond-Control-Six-Zero-417078952.png?v=1771375300",
-    "search_keyword": "Six Zero Double Black Diamond 16mm 匹克球拍",
-    "description": "許多國內外教練與選手一致推薦的進階全能拍，兼顧出色的手感控制、高水準咬球與適度力量。"
-  },
-  {
     "id": "prokennex-kinetic-pro",
     "name": "ProKennex Kinetic Pro Speed 16mm",
     "brand": "ProKennex (肯尼士/波力)",
@@ -457,60 +399,6 @@
     "description": "告別傳統蜂巢，使用專利實心碳纖維柱，永不塌陷 出球極其安靜，但力量猶如火箭發射 2024 年度力量拍評測第一名，聲音特殊"
   },
   {
-    "id": "vatic-pro-prism-flash",
-    "name": "Vatic Pro Prism Flash 16mm",
-    "brand": "Vatic Pro",
-    "price_ntd": 3500,
-    "budget_category": "intermediate",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.1 oz",
-    "shape": "混合弧形",
-    "core": "聚氨酯發泡注入蜂巢",
-    "surface": "日本 Toray T700 碳纖維",
-    "usapa_approved": true,
-    "features": [
-      "海外論壇公認 100 美金級距無敵性價比",
-      "高階熱壓拍的配置，手感柔和，非常適合控球防守",
-      "甜區寬廣，新手與進階球友的完美過渡拍"
-    ],
-    "tags": [
-      "百元美金神拍",
-      "極高CP值",
-      "控球首選"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png",
-    "image_back": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Epic-LT-blue-1.png?v=1761251685",
-    "description": "海外論壇公認 100 美金級距無敵性價比 高階熱壓拍的配置，手感柔和，非常適合控球防守 甜區寬廣，新手與進階球友的完美過渡拍"
-  },
-  {
-    "id": "engage-pursuit-pro-ex",
-    "name": "Engage Pursuit Pro EX 6.0",
-    "brand": "Engage",
-    "price_ntd": 7200,
-    "budget_category": "flagship",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Proprietary Control Pro Black Polymer",
-    "surface": "Raw Toray T800 Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "美國本土純手工製造，品質保證",
-      "T800 高階碳纖維，擊球瞬間手感極致回饋",
-      "網前防守與減震能力優異，深受中高齡進階玩家喜愛"
-    ],
-    "tags": [
-      "美國製造",
-      "T800碳纖維",
-      "柔和防守"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Epic-LT-blue.png?v=1761251685",
-    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_15.2_Gold-Back_9c232bb5-7732-4790-9f49-816476e85706.png?v=1770927437",
-    "description": "美國本土純手工製造，品質保證 T800 高階碳纖維，擊球瞬間手感極致回饋 網前防守與減震能力優異，深受中高齡進階玩家喜愛"
-  },
-  {
     "id": "ronbus-r1-16",
     "name": "Ronbus R1.16",
     "brand": "Ronbus",
@@ -563,33 +451,6 @@
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
     "image_back": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Epic-LT-blue-1.png?v=1761251685",
     "description": "前一代球王戰拍，弧形拍頭降低風阻 拍頭偏重，慣性下壓殺球極具破壞力 適合喜歡底線重抽與重型火力的球友"
-  },
-  {
-    "id": "crbn-2x-power-16",
-    "name": "CRBN 2X Power Series 16mm",
-    "brand": "CRBN",
-    "price_ntd": 7600,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "8.1 oz",
-    "shape": "方形寬體 (Square)",
-    "core": "熱壓強化聚合物核心",
-    "surface": "T700 原生 Raw Carbon",
-    "usapa_approved": true,
-    "features": [
-      "方正外型提供超越極限的防守甜區",
-      "結合熱壓力量與 16mm 控球，非常均衡",
-      "適合以網前快截擊為主體的防守反擊打法"
-    ],
-    "tags": [
-      "方形大甜區",
-      "熱壓力量",
-      "網前防守"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Black-Diamond-Power-Six-Zero-152727513_22e8018f-ad9e-4acf-8848-e40a03e55060.png?v=1738734222",
-    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_15.2_Gold-Back_9c232bb5-7732-4790-9f49-816476e85706.png?v=1770927437",
-    "description": "方正外型提供超越極限的防守甜區 結合熱壓力量與 16mm 控球，非常均衡 適合以網前快截擊為主體的防守反擊打法"
   },
   {
     "id": "paddletek-tempest-wave-pro-c",
@@ -1564,303 +1425,6 @@
     "description": "Selkirk 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
-    "id": "crbn-crbn-1x-power-16mm",
-    "name": "CRBN CRBN 1X Power 16mm",
-    "brand": "CRBN",
-    "price_ntd": 7816,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "7.8 oz",
-    "shape": "寬體型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "網前小球",
-      "底線重抽",
-      "極致下旋"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=7065",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=7065",
-    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-2x-power-14mm",
-    "name": "CRBN CRBN 2X Power 14mm",
-    "brand": "CRBN",
-    "price_ntd": 7366,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "7.9 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 power 取向設計的熱門拍款。",
-      "配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "威力強大",
-      "高性價比",
-      "極致下旋"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=6820",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=6820",
-    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-3x-power-16mm",
-    "name": "CRBN CRBN 3X Power 16mm",
-    "brand": "CRBN",
-    "price_ntd": 8067,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "7.7 oz",
-    "shape": "寬體型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "選手御用",
-      "網前小球",
-      "防守吸震"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=4432",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=4432",
-    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-3x-power-14mm",
-    "name": "CRBN CRBN 3X Power 14mm",
-    "brand": "CRBN",
-    "price_ntd": 6282,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.4 oz",
-    "shape": "加長型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 power 取向設計的熱門拍款。",
-      "配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "防守吸震",
-      "選手御用",
-      "快節奏"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=5374",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=5374",
-    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-1-control-16mm",
-    "name": "CRBN CRBN 1 Control 16mm",
-    "brand": "CRBN",
-    "price_ntd": 4967,
-    "budget_category": "advanced",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.0 oz",
-    "shape": "混合型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 control 取向設計的熱門拍款。",
-      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "絕佳手感",
-      "極致下旋",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=2169",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=2169",
-    "description": "CRBN 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-1-control-14mm",
-    "name": "CRBN CRBN 1 Control 14mm",
-    "brand": "CRBN",
-    "price_ntd": 4673,
-    "budget_category": "advanced",
-    "style_category": "speed",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 speed 取向設計的熱門拍款。",
-      "配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "大甜區",
-      "進階首選",
-      "快節奏"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=3803",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=3803",
-    "description": "CRBN 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "crbn-crbn-2-control-16mm",
-    "name": "CRBN CRBN 2 Control 16mm",
-    "brand": "CRBN",
-    "price_ntd": 5209,
-    "budget_category": "advanced",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "7.6 oz",
-    "shape": "標準型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "CRBN 家族中專為 control 取向設計的熱門拍款。",
-      "配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "極致下旋",
-      "進階首選",
-      "大甜區"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=9751",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=9751",
-    "description": "CRBN 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "six-zero-double-black-diamond-14mm",
-    "name": "Six Zero Double Black Diamond 14mm",
-    "brand": "Six Zero",
-    "price_ntd": 4933,
-    "budget_category": "advanced",
-    "style_category": "speed",
-    "thickness": "14mm",
-    "weight": "7.8 oz",
-    "shape": "無邊框型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Six Zero 家族中專為 speed 取向設計的熱門拍款。",
-      "配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "底線重抽",
-      "快節奏",
-      "極致下旋"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=5010",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=5010",
-    "description": "Six Zero 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "six-zero-black-diamond-power-16mm",
-    "name": "Six Zero Black Diamond Power 16mm",
-    "brand": "Six Zero",
-    "price_ntd": 4590,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "7.9 oz",
-    "shape": "加長型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Six Zero 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "選手御用",
-      "快節奏",
-      "高容錯"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=3677",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=3677",
-    "description": "Six Zero 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "six-zero-infinity",
-    "name": "Six Zero Infinity",
-    "brand": "Six Zero",
-    "price_ntd": 6790,
-    "budget_category": "flagship",
-    "style_category": "spin",
-    "thickness": "16mm",
-    "weight": "7.8 oz",
-    "shape": "寬體型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Six Zero 家族中專為 spin 取向設計的熱門拍款。",
-      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "極致下旋",
-      "進階首選",
-      "網前小球"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=8573",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=8573",
-    "description": "Six Zero 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "six-zero-sapphire",
-    "name": "Six Zero Sapphire",
-    "brand": "Six Zero",
-    "price_ntd": 4223,
-    "budget_category": "intermediate",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.3 oz",
-    "shape": "寬體型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass / Graphite",
-    "usapa_approved": true,
-    "features": [
-      "Six Zero 家族中專為 control 取向設計的熱門拍款。",
-      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "快節奏",
-      "進階首選",
-      "高容錯"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=7216",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=7216",
-    "description": "Six Zero 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
     "id": "paddletek-bantam-ex-l",
     "name": "Paddletek Bantam EX-L",
     "brand": "Paddletek",
@@ -1994,168 +1558,6 @@
     "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=4752",
     "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=4752",
     "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 15mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-pursuit-pro-mx-6-0",
-    "name": "Engage Pursuit Pro MX 6.0",
-    "brand": "Engage",
-    "price_ntd": 6721,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "7.6 oz",
-    "shape": "無邊框型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "威力強大",
-      "高容錯",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=1525",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=1525",
-    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-pursuit-ex",
-    "name": "Engage Pursuit EX",
-    "brand": "Engage",
-    "price_ntd": 5736,
-    "budget_category": "advanced",
-    "style_category": "control",
-    "thickness": "13mm",
-    "weight": "7.5 oz",
-    "shape": "標準型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 control 取向設計的熱門拍款。",
-      "配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "底線重抽",
-      "絕佳手感",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=6168",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=6168",
-    "description": "Engage 家族中專為 control 取向設計的熱門拍款。 配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-pursuit-mx",
-    "name": "Engage Pursuit MX",
-    "brand": "Engage",
-    "price_ntd": 5741,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "13mm",
-    "weight": "8.2 oz",
-    "shape": "混合型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 power 取向設計的熱門拍款。",
-      "配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "網前小球",
-      "高容錯",
-      "大甜區"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=7572",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=7572",
-    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-encore-ex-6-0",
-    "name": "Engage Encore EX 6.0",
-    "brand": "Engage",
-    "price_ntd": 5865,
-    "budget_category": "advanced",
-    "style_category": "control",
-    "thickness": "16mm",
-    "weight": "8.2 oz",
-    "shape": "加長型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 control 取向設計的熱門拍款。",
-      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "選手御用",
-      "防守吸震",
-      "底線重抽"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=5386",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=5386",
-    "description": "Engage 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-encore-mx-6-0",
-    "name": "Engage Encore MX 6.0",
-    "brand": "Engage",
-    "price_ntd": 4505,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "8.2 oz",
-    "shape": "加長型",
-    "core": "Polymer Honeycomb",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "大甜區",
-      "絕佳手感",
-      "防守吸震"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=2084",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=2084",
-    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "engage-omega",
-    "name": "Engage Omega",
-    "brand": "Engage",
-    "price_ntd": 4027,
-    "budget_category": "intermediate",
-    "style_category": "speed",
-    "thickness": "14mm",
-    "weight": "7.7 oz",
-    "shape": "寬體型",
-    "core": "Foam Core",
-    "surface": "Fiberglass / Graphite",
-    "usapa_approved": true,
-    "features": [
-      "Engage 家族中專為 speed 取向設計的熱門拍款。",
-      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "大甜區",
-      "底線重抽",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=4456",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=4456",
-    "description": "Engage 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-pro-control-elongated",
@@ -2617,87 +2019,6 @@
     "description": "Ronbus 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
-    "id": "vatic-pro-prism-flash-14mm",
-    "name": "Vatic Pro Prism Flash 14mm",
-    "brand": "Vatic Pro",
-    "price_ntd": 4426,
-    "budget_category": "intermediate",
-    "style_category": "speed",
-    "thickness": "14mm",
-    "weight": "7.9 oz",
-    "shape": "混合型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass / Graphite",
-    "usapa_approved": true,
-    "features": [
-      "Vatic Pro 家族中專為 speed 取向設計的熱門拍款。",
-      "配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "快節奏",
-      "大甜區",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=9085",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=9085",
-    "description": "Vatic Pro 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "vatic-pro-v7-16mm",
-    "name": "Vatic Pro V7 16mm",
-    "brand": "Vatic Pro",
-    "price_ntd": 5133,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "7.5 oz",
-    "shape": "寬體型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Vatic Pro 家族中專為 power 取向設計的熱門拍款。",
-      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "威力強大",
-      "進階首選",
-      "極致下旋"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=2489",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=2489",
-    "description": "Vatic Pro 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
-    "id": "vatic-pro-alchemy",
-    "name": "Vatic Pro Alchemy",
-    "brand": "Vatic Pro",
-    "price_ntd": 8281,
-    "budget_category": "flagship",
-    "style_category": "spin",
-    "thickness": "16mm",
-    "weight": "7.6 oz",
-    "shape": "混合型",
-    "core": "Foam Core",
-    "surface": "Raw Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "Vatic Pro 家族中專為 spin 取向設計的熱門拍款。",
-      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
-      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-    ],
-    "tags": [
-      "防守吸震",
-      "網前小球",
-      "高性價比"
-    ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=1771",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=1771",
-    "description": "Vatic Pro 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
-  },
-  {
     "id": "volair-mach-1-forza-14mm",
     "name": "Volair Mach 1 Forza 14mm",
     "brand": "Volair",
@@ -2800,53 +2121,1875 @@
     "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
   },
   {
-    "id": "crbn-crbn-trufoam-barrage-elongated-long-handle",
-    "name": "CRBN CRBN¹ TruFoam Barrage (Elongated, Long Handle)",
-    "brand": "CRBN",
-    "price_ntd": 8959,
+    "id": "sixzero-coral-pro-16mm",
+    "name": "Six Zero Coral Pro 16mm",
+    "brand": "Six Zero",
+    "price_ntd": 9600,
     "budget_category": "advanced",
     "style_category": "control",
     "thickness": "16mm",
     "weight": "8.0 oz",
     "shape": "標準型",
-    "core": "自動化偵測核心",
-    "surface": "自動化偵測碳纖維",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
     "usapa_approved": true,
     "features": [
-      "這是由爬蟲自動從 CRBN 官網抓取的最新球拍！",
-      "產品原文描述摘要：<h2 dir=\"ltr\"><span>Relentless by Design</span></h..."
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Coral Pro: More Bite. More Spin. More Confidence.\nThe Coral Pro is built for pla..."
     ],
     "tags": [
       "最新上架",
-      "爬蟲自動同步"
+      "Six Zero",
+      "原廠直送"
     ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=2040",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=2040",
-    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/DSC_3458.jpg?v=1781413921",
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
-    "id": "crbn-crbn-trufoam-barrage-elongated",
-    "name": "CRBN CRBN³ TruFoam Barrage (Elongated)",
-    "brand": "CRBN",
-    "price_ntd": 8959,
+    "id": "sixzero-coral-australian-edition-16mm",
+    "name": "Six Zero Coral 'Australian' Edition 16mm",
+    "brand": "Six Zero",
+    "price_ntd": 7480,
     "budget_category": "advanced",
     "style_category": "control",
     "thickness": "16mm",
     "weight": "8.0 oz",
     "shape": "標準型",
-    "core": "自動化偵測核心",
-    "surface": "自動化偵測碳纖維",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
     "usapa_approved": true,
     "features": [
-      "這是由爬蟲自動從 CRBN 官網抓取的最新球拍！",
-      "產品原文描述摘要：<h2 dir=\"ltr\"><span>Relentless by Design</span></h..."
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Limited Edition Australian Release: Coral\nThis special Australian edition Coral ..."
     ],
     "tags": [
       "最新上架",
-      "爬蟲自動同步"
+      "Six Zero",
+      "原廠直送"
     ],
-    "image_front": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=400&q=80&rid=7304",
-    "image_back": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=400&q=80&rid=7304",
-    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_transparent.png?v=1776641954",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0008_transparent.png?v=1776641954",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-black-opal-year-of-the-horse-edition-14mm",
+    "name": "Six Zero Black Opal 'Year of the Horse' Edition 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 8400,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：\nAdvanced Next Gem Technology Meets Limited Edition Lunar Design\nCelebrate the Y..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0002_f4c55ac6-0acb-48d7-9d40-c38d4e9cbd0e.jpg?v=1775520921",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CNYHORESE-SQUARE-2.jpg?v=1775520632",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-coral-16mm-lightweight",
+    "name": "Six Zero Coral 16mm Lightweight",
+    "brand": "Six Zero",
+    "price_ntd": 7480,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：All-Court Paddle of the Year Platform, Faster in Hand: Coral Lightweight\nBuilt o..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007.png?v=1773972061",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CoralLW-1-3.jpg?v=1774217198",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-paddle-hard-case",
+    "name": "Six Zero Paddle Hard Case",
+    "brand": "Six Zero",
+    "price_ntd": 1224,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Next Level Protection: Six Zero Paddle Hard Case\nDesigned to match the performan..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CASE-FRONT.png?v=1767044196",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CASE-FULL-OPEN.png?v=1767044196",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-coral-16mm",
+    "name": "Six Zero Coral 16mm",
+    "brand": "Six Zero",
+    "price_ntd": 7480,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：All-Court Paddle of the Year for 2025: Coral\nWe set out to design a durable foam..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CoralACPOTYBadgesProductImage.png?v=1769724306",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/GLU_7814-Edit.jpg?v=1769724306",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-black-opal-14mm",
+    "name": "Six Zero Black Opal 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 7200,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Advanced Next Gem Technology: Black Opal\nThis paddle is not for casual play. We ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/BlackOpalIOTYBadgeProductImage.png?v=1769724358",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/HARRISON-BROWN-1.png?v=1769724358",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-ruby-pro-14mm",
+    "name": "Six Zero Ruby Pro 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 4800,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Next Gem Performance Starts Here: Ruby Pro \nWe took everything players loved abo..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/RubyProIOTYBadgeProductImage.png?v=1769724395",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/LIFESTYLE-2.png?v=1769724395",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-infinity-edgeless-ruby",
+    "name": "Six Zero Infinity Edgeless Ruby",
+    "brand": "Six Zero",
+    "price_ntd": 9568,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Experience the Six Zero Infinity Edgeless Ruby pickleball paddle. \nUnlock your p..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2_0385f90b-d9c5-42f9-97bb-cf9af9fae819.png?v=1738734212",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/4_7eda4943-bd9f-4cc5-98b1-73e025516001.png?v=1738734212",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-sapphire",
+    "name": "Six Zero Sapphire",
+    "brand": "Six Zero",
+    "price_ntd": 4799,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：\nSapphire - Premium Control and Power at an Entry Level Price\nOur Sapphire model..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Sapphire.png?v=1758076467",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2_dd4c43df-0738-4c64-a26f-f4acba1b999d.png?v=1748921562",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-double-black-diamond-control",
+    "name": "Six Zero Double Black Diamond Control",
+    "brand": "Six Zero",
+    "price_ntd": 3600,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Award-Winning All-Court Paddle: The Double Black Diamond\nGo Next Level with the ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Double-Black-Diamond-Control-Six-Zero-417078833.png?v=1771375300",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Double-Black-Diamond-Control-Six-Zero-417078952.png?v=1771375300",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-quartz",
+    "name": "Six Zero Quartz",
+    "brand": "Six Zero",
+    "price_ntd": 3168,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Quality Performance at an Affordable Price\nIntroducing the Quartz Line of Pickle..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/4_a3062ec7-cc32-4a7e-b718-945634dde281.png?v=1762118618",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/18_346d493d-c2ac-4c7d-9a2a-e41af5c520c4.png?v=1762118618",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-black-diamond-power",
+    "name": "Six Zero Black Diamond Power",
+    "brand": "Six Zero",
+    "price_ntd": 3600,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Black Diamond - Designed for Power with Spin\nKey Features:\n\n\nAdvanced Molding Pr..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Black-Diamond-Power-Six-Zero-152727513_22e8018f-ad9e-4acf-8848-e40a03e55060.png?v=1738734222",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Black-Diamond-Power-Six-Zero-152728184_23c80293-3394-4a8c-bf51-2f935aa37e86.png?v=1738734222",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "sixzero-infinity-edgeless-black-diamond-power",
+    "name": "Six Zero Infinity Edgeless Black Diamond Power",
+    "brand": "Six Zero",
+    "price_ntd": 4160,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Experience the Unmatched Power of the Infinity Black Diamond POWER Paddle\nStep o..."
+    ],
+    "tags": [
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Infinity-Edgeless-Black-Diamond-Power-Six-Zero-152744287_84ee1ada-cb6f-499f-9079-19ab55a22b39.png?v=1738734275",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Infinity-Edgeless-Black-Diamond-Power-Six-Zero-152744711_f247d7d5-587a-4178-8a97-86d02734ff52.png?v=1738734276",
+    "description": "來自澳洲的 Six Zero 最新球拍"
+  },
+  {
+    "id": "crbn-crbn-x-series-12mm-paddle",
+    "name": "CRBN CRBN¹ X Series 12MM Paddle",
+    "brand": "CRBN",
+    "price_ntd": 4799,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 CRBN 最新款式",
+      "原廠官方說明：Limited Edition - Thomas Wilson's Signature X Series Paddle! \nKeep in mind this ..."
+    ],
+    "tags": [
+      "最新上架",
+      "CRBN",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_X_Series_Main_1xTW.jpg?v=1769621773",
+    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_1X_02_051f968f-2998-4c3d-9e5e-5d1e7d29add4.jpg?v=1771601596",
+    "description": "來自美國的 CRBN 最新球拍"
+  },
+  {
+    "id": "crbn-replacement-neoprene-paddle-cover",
+    "name": "CRBN Replacement Neoprene Paddle Cover",
+    "brand": "CRBN",
+    "price_ntd": 640,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 CRBN 最新款式",
+      "原廠官方說明：All CRBN Paddles purchased from us come with a paddle cover free of charge. If y..."
+    ],
+    "tags": [
+      "最新上架",
+      "CRBN",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/crbn-pickleball-replacement-neoprene-paddle-cover-for-crbn1-1x-crbn3-3x-crbnnpc1-46231262101656.png?v=1762439796",
+    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/crbn-pickleball-replacement-neoprene-paddle-cover-for-crbn1-1x-crbn3-3x-crbnnpc1-46231262101656.png?v=1762439796",
+    "description": "來自美國的 CRBN 最新球拍"
+  },
+  {
+    "id": "vaticpro-v-sol-tour-with-evergrit-16mm-includes-paddle-cover",
+    "name": "Vatic Pro V-Sol Tour with Evergrit (16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3519,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Unleash your full potential with the Vatic Pro V-SOL Tour, a paddle engineered f..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/SE_Flash_SH_1.jpg_4096_x_4096_px.png?v=1788235633",
+    "image_back": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/01-1_Vatic_pro_-V-SOL_TOUR_BASE_FLASH-LH.jpg?v=1788199814",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-v-sol-pro-16mm-includes-paddle-cover",
+    "name": "Vatic Pro V-Sol Pro (16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3519,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Unleash your full potential with the Vatic Pro V-SOL Pro, a paddle engineered fo..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/prof16_front.jpg?v=1758756969",
+    "image_back": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/01-1_Vatic_pro_-V-SOL_PRO_Flash_16mm_tech_blue.jpg?v=1758833470",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-saga-14mm--16mm-includes-paddle-cover",
+    "name": "Vatic Pro Saga (14mm & 16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3199,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：The next SAGA of Vatic Pro paddle technology. As the flagship of our lineup, the..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC06581-Enhanced-NR.jpg?v=1730256009",
+    "image_back": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC00229-Enhanced-NR.jpg?v=1758864881",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "vaticpro-prism-14mm--16mm-includes-paddle-cover",
+    "name": "Vatic Pro PRISM (14mm & 16mm) (Includes Paddle Cover)",
+    "brand": "Vatic Pro",
+    "price_ntd": 3199,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Vatic Pro 最新款式",
+      "原廠官方說明：Our PRISM series is a holistically designed, reimagined paddle that is the bench..."
+    ],
+    "tags": [
+      "最新上架",
+      "Vatic Pro",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC03090.jpg?v=1777835695",
+    "image_back": "https://cdn.shopify.com/s/files/1/0622/5461/2639/files/DSC06329-Enhanced-NR.jpg?v=1758866526",
+    "description": "來自美國的 Vatic Pro 最新球拍"
+  },
+  {
+    "id": "engage-alpha-pro--explore-the-axiom-series",
+    "name": "Engage Alpha Pro | Explore the Axiom Series",
+    "brand": "Engage",
+    "price_ntd": 6399,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Looking for the Alpha Pro?\nThe Axiom is the next evolution of the Alpha Pro.\nBui..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Alpha_Pro_Swatches.png?v=1758197289",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Alpha_Pro_3.png?v=1758197289",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-encore-pro---4th-generation-graphics--true-carbon-fiber-skin-vip",
+    "name": "Engage NEW. Encore Pro - 4th Generation Graphics | True Carbon Fiber Skin (VIP)",
+    "brand": "Engage",
+    "price_ntd": 2559,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore Pro with 4th Generation Graphics – the next evolution of Engage's..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4GoldWebSmall.png?v=1784238244",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-axiom-elongated-pickleball-paddle--durable-grit-vip",
+    "name": "Engage Engage Axiom Elongated Pickleball Paddle | Durable Grit (VIP)",
+    "brand": "Engage",
+    "price_ntd": 6399,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：AXIOM SOLD OUT — RESERVE YOURS NOW! \nReserve yours from our next shipment, curre..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Blue_Web_Swatches.jpg?v=1785937562",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Montage.png?v=1785934940",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-axiom-widebody-pickleball-paddle--durable-grit-vip",
+    "name": "Engage Engage Axiom Widebody Pickleball Paddle | Durable Grit (VIP)",
+    "brand": "Engage",
+    "price_ntd": 6399,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：AXIOM SOLD OUT — RESERVE YOURS NOW! \nReserve yours from our next shipment, curre..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Red_Wide_Swtches_Web.png?v=1785938989",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/AxiomMontage.png?v=1785935962",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-axiom-widebody-pickleball-paddle--durable-grit",
+    "name": "Engage Engage Axiom Widebody Pickleball Paddle | Durable Grit",
+    "brand": "Engage",
+    "price_ntd": 6399,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：AXIOM — HIGH DEMAND!\nDue to high demand, please allow up to 10 days to receive y..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Red_Wide_Swtches_Web.png?v=1785938989",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/AxiomMontage.png?v=1785935962",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-axiom-elongated-pickleball-paddle--durable-grit",
+    "name": "Engage Engage Axiom Elongated Pickleball Paddle | Durable Grit",
+    "brand": "Engage",
+    "price_ntd": 6399,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：AXIOM — HIGH DEMAND!\nDue to high demand, please allow up to 10 days to receive y..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Blue_Web_Swatches.jpg?v=1785937562",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Montage.png?v=1785934940",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-new-graphic-pursuit-pro-mx-152--raw-carbon-fiber",
+    "name": "Engage SLIGHTLY USED. NEW GRAPHIC. Pursuit Pro MX 15.2 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 2560,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明： These paddles have a (30) day no questions asked Test Drive/Warranty.  After th..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_MX_15.2_Gold-Back.png?v=1770927280",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-engage-x2-elongated-pickleball-paddle",
+    "name": "Engage SLIGHTLY USED. Engage X2 Elongated Pickleball Paddle",
+    "brand": "Engage",
+    "price_ntd": 5120,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：These paddles include a 30-Day No-Questions-Asked Test Drive and Warranty. After..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Back.png?v=1774334934",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-engage-x2-widebody-pickleball-paddle",
+    "name": "Engage SLIGHTLY USED. Engage X2 Widebody Pickleball Paddle",
+    "brand": "Engage",
+    "price_ntd": 5120,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：These paddles include a 30-Day No-Questions-Asked Test Drive and Warranty.After ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Back.png?v=1775834124",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-encore-16mm--balanced-performance-uhspa",
+    "name": "Engage Encore 16mm | Balanced Performance (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 1599,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore 16mm, Engage’s newest addition to the Enthusiast Line.\nExperience..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore.png?v=1783014080",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore_2.png?v=1783014080",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-mx-152--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro MX 15.2 | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_MX_15.2_Gold-Back.png?v=1770927280",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-mx-127--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro MX 12.7 | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Back.png?v=1770232984",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-ex-152--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro EX 15.2 | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Shipping Notice: Pro EX 15.2 paddles are currently out of stock and expected to ..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_15.2_Gold-Back_9c232bb5-7732-4790-9f49-816476e85706.png?v=1770927437",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-ex-127--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro EX 12.7 | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_12.7_Gold-Back.png?v=1770233102",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration-uhspa",
+    "name": "Engage Pursuit Pro1 Innovation 15.2mm | Torque-Balanced Acceleration (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Shipping Notice: Pro1 Innovation 15.2 paddles are currently out of stock and exp..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Innovation_Arctic_Gold_15.2_Back.png?v=1754577515",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration-uhspa",
+    "name": "Engage Pursuit Pro1 Innovation 12.7mm | Torque-Balanced Acceleration (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_FierceRed_12.7_FR_6b23495f-a615-4b3e-aaba-77865c733ef0.png?v=1754576856",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro1 Elongated 15.2 Power Series | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Elongated_15.2_Gold-Back.png?v=1770232195",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber-uhspa",
+    "name": "Engage Pursuit Pro1 Elongated 12.7 Power Series | Raw Carbon Fiber (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_ea075b74-537a-40c4-9f30-8398d11cc0b0.png?v=1770232454",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated12.7_Gold-Front_35a4c20a-96c9-4672-9ce7-eaab0843728e.png?v=1770232454",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-widebody-pickleball-paddle-uhspa",
+    "name": "Engage Engage X2 Widebody Pickleball Paddle (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Back.png?v=1775834124",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-elongated-pickleball-paddle-uhspa",
+    "name": "Engage Engage X2 Elongated Pickleball Paddle (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Back.png?v=1774334934",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-encore-pro--true-carbon-fiber-skin-uhspa",
+    "name": "Engage NEW. Encore Pro | True Carbon Fiber Skin (UHSPA)",
+    "brand": "Engage",
+    "price_ntd": 2239,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore Pro with 4th Generation Graphics – the next evolution of Engage's..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4GoldWebSmall.png?v=1784238244",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-encore-pro---4th-generation-graphics--true-carbon-fiber-skin",
+    "name": "Engage NEW. Encore Pro - 4th Generation Graphics | True Carbon Fiber Skin",
+    "brand": "Engage",
+    "price_ntd": 2559,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore Pro with 4th Generation Graphics – the next evolution of Engage's..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4GoldWebSmall.png?v=1784238244",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-encore-16mm--balanced-performance-vip",
+    "name": "Engage Encore 16mm | Balanced Performance (VIP)",
+    "brand": "Engage",
+    "price_ntd": 1599,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore 16mm, Engage’s newest addition to the Enthusiast Line.\nExperience..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore.png?v=1783014080",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore_2.png?v=1783014080",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-encore-16mm--balanced-performance",
+    "name": "Engage NEW Encore 16mm | Balanced Performance",
+    "brand": "Engage",
+    "price_ntd": 1919,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW Encore 16mm, Engage’s newest addition to the Enthusiast Line.\nExperience..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreBluePinkWeb.png?v=1784301280",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreAzureBlueWeb.png?v=1784301280",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-pursuit-v20--amplified-carbon-surface--hybrid-vip",
+    "name": "Engage NEW. Pursuit V2.0 | Amplified Carbon Surface | Hybrid (VIP)",
+    "brand": "Engage",
+    "price_ntd": 3199,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Shipping Notice: Paddles may ship with black trim instead of the colored trim ma..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Crimson-Red-Pursuit_V2-Swatch.png?v=1740459519",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Resized__Pursuit_V2_Crimson_Red.png?v=1740459519",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-ex-127--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro EX 12.7 | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_12.7_Gold-Back.png?v=1770233102",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-ex-152--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro EX 15.2 | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_15.2_Gold-Back_9c232bb5-7732-4790-9f49-816476e85706.png?v=1770927437",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-mx-127--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro MX 12.7 | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Back.png?v=1770232984",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro-mx-152--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro MX 15.2 | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_MX_15.2_Gold-Back.png?v=1770927280",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro1 Elongated 15.2 Power Series | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Elongated_15.2_Gold-Back.png?v=1770232195",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber-vip",
+    "name": "Engage Pursuit Pro1 Elongated 12.7 Power Series | Raw Carbon Fiber (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_ea075b74-537a-40c4-9f30-8398d11cc0b0.png?v=1770232454",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated12.7_Gold-Front_35a4c20a-96c9-4672-9ce7-eaab0843728e.png?v=1770232454",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration-vip",
+    "name": "Engage Pursuit Pro1 Innovation 15.2mm | Torque-Balanced Acceleration (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Innovation_Arctic_Gold_15.2_Back.png?v=1754577515",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration-vip",
+    "name": "Engage Pursuit Pro1 Innovation 12.7mm | Torque-Balanced Acceleration (VIP)",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_FierceRed_12.7_FR_6b23495f-a615-4b3e-aaba-77865c733ef0.png?v=1754576856",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-profoam--high-density-foam-core-performance-vip",
+    "name": "Engage NEW. ProFoam. | High Density Foam Core Performance. (VIP)",
+    "brand": "Engage",
+    "price_ntd": 5439,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW PROFOAM Paddle Has Arrived – All Foam. No Polymer Honeycomb. No Compromi..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/ProfoamJessieSignature.png?v=1758920089",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-widebody-pickleball-paddle-vip",
+    "name": "Engage Engage X2 Widebody Pickleball Paddle (VIP)",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Back.png?v=1775834124",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-elongated-pickleball-paddle-vip",
+    "name": "Engage Engage X2 Elongated Pickleball Paddle (VIP)",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Back.png?v=1774334934",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-widebody-pickleball-paddle",
+    "name": "Engage Engage X2 Widebody Pickleball Paddle",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Back.png?v=1775834124",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-engage-x2-elongated-pickleball-paddle",
+    "name": "Engage Engage X2 Elongated Pickleball Paddle",
+    "brand": "Engage",
+    "price_ntd": 8319,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Engage X2 Pickleball Paddle — 100% Foam. Fully Engineered.\nThe Most Powerful &am..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Back.png?v=1774334934",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-new-profoam--high-density-foam-core-performance",
+    "name": "Engage SLIGHTLY USED. NEW. ProFoam. | High Density Foam Core Performance.",
+    "brand": "Engage",
+    "price_ntd": 2560,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明： These paddles have a (30) day no questions asked Test Drive/Warranty.  After th..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/ProfoamJessieSignature.png?v=1758920089",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-new-graphic-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber",
+    "name": "Engage SLIGHTLY USED. NEW GRAPHIC. Pursuit Pro1 Elongated 12.7 Power Series | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 2560,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明： These paddles have a (30) day no questions asked Test Drive/Warranty.  After th..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_0d1d2b7e-ef85-4e2a-89c6-94c42ec519fe.png?v=1770232405",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated12.7_Gold-Front_35a4c20a-96c9-4672-9ce7-eaab0843728e.png?v=1770232454",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-pursuit-pro1-innovation-127mm--torque-balanced-acceleration",
+    "name": "Engage SLIGHTLY USED. Pursuit Pro1 Innovation 12.7mm | Torque-Balanced Acceleration",
+    "brand": "Engage",
+    "price_ntd": 2560,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_FierceRed_12.7_FR_6b23495f-a615-4b3e-aaba-77865c733ef0.png?v=1754576856",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-slightly-used-new-graphic-pursuit-pro-mx-127--raw-carbon-fiber",
+    "name": "Engage SLIGHTLY USED. NEW GRAPHIC. Pursuit Pro MX 12.7 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 2560,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：\nThese paddles have a (30) day no questions asked Test Drive/Warranty.  After th..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicMX12.7Swatch_9d23a623-6879-422b-988f-358ca33b040a.png?v=1770232984",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-profoam--high-density-foam-core-performance",
+    "name": "Engage ProFoam. | High Density Foam Core Performance.",
+    "brand": "Engage",
+    "price_ntd": 4351,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The NEW PROFOAM Paddle Has Arrived – All Foam. No Polymer Honeycomb. No Compromi..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/ProfoamJessieSignature.png?v=1758920089",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro1 Elongated 15.2 Power Series | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Elongated_15.2_Gold-Back.png?v=1770232195",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro1 Elongated 12.7 Power Series | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：We are Thrilled to Announce Engage's Latest Creation, the Pursuit Pro1 Elongated..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_ea075b74-537a-40c4-9f30-8398d11cc0b0.png?v=1770232454",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated12.7_Gold-Front_35a4c20a-96c9-4672-9ce7-eaab0843728e.png?v=1770232454",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro-mx-152--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro MX 15.2 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_MX_15.2_Gold-Back.png?v=1770927280",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro-mx-127--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro MX 12.7 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Back.png?v=1770232984",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro-ex-152--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro EX 15.2 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_15.2_Gold-Back_9c232bb5-7732-4790-9f49-816476e85706.png?v=1770927437",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-graphic-pursuit-pro-ex-127--raw-carbon-fiber",
+    "name": "Engage NEW GRAPHIC. Pursuit Pro EX 12.7 | Raw Carbon Fiber",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：The Pursuit Pro Raw Carbon Fiber Line of Paddles!\nCrafted with precision and inn..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro_EX_12.7_Gold-Back.png?v=1770233102",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration",
+    "name": "Engage Pursuit Pro1 Innovation 15.2mm | Torque-Balanced Acceleration",
+    "brand": "Engage",
+    "price_ntd": 3327,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_Pro1_Innovation_Arctic_Gold_15.2_Back.png?v=1754577515",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration",
+    "name": "Engage Pursuit Pro1 Innovation 12.7mm | Torque-Balanced Acceleration",
+    "brand": "Engage",
+    "price_ntd": 4159,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：This is not just a paddle—it’s a revolution. Be bold. Stand out. Dominate. Leave..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_FierceRed_12.7_FR_6b23495f-a615-4b3e-aaba-77865c733ef0.png?v=1754576856",
+    "description": "來自美國的 Engage 最新球拍"
+  },
+  {
+    "id": "engage-new-pursuit-v20--amplified-carbon-surface--hybrid",
+    "name": "Engage NEW. Pursuit V2.0 | Amplified Carbon Surface | Hybrid",
+    "brand": "Engage",
+    "price_ntd": 2047,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "來自美國的知名品牌 Engage 最新款式",
+      "原廠官方說明：Shipping Notice: Paddles may ship with black trim instead of the colored trim ma..."
+    ],
+    "tags": [
+      "最新上架",
+      "Engage",
+      "原廠直送"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Resized__Pursuit_V2_Lime_Flash.png?v=1751915952",
+    "image_back": "https://cdn.shopify.com/s/files/1/0802/6445/files/Pursuit_V2.0_Tech_20240930.png?v=1751918235",
+    "description": "來自美國的 Engage 最新球拍"
   }
 ]
