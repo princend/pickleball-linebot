@@ -575,6 +575,11 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                                 fill_in_text="!ai ",
                             ),
                         ),
+                        FlexButton(
+                            style="secondary",
+                            height="sm",
+                            action=MessageAction(label="球拍推薦", text="!選球拍"),
+                        ),
                     ]
                 ),
             ],

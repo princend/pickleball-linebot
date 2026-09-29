@@ -76,6 +76,12 @@ from pickleball.group_creation import (
     generate_group_announcement,
     get_step_prompt_and_quick_reply,
 )
+from pickleball.paddle_finder import (
+    create_paddle_recommendation_flex,
+    filter_paddles,
+    get_paddle_budget_quick_reply,
+    get_paddle_style_quick_reply,
+)
 
 __all__ = [
     "create_menu_flex",
@@ -116,6 +122,10 @@ __all__ = [
     "generate_group_announcement",
     "convert_relative_date",
     "format_time_input",
+    "get_paddle_budget_quick_reply",
+    "get_paddle_style_quick_reply",
+    "create_paddle_recommendation_flex",
+    "filter_paddles",
     "STEP_TITLE",
     "STEP_DATE",
     "STEP_TIME",

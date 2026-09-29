@@ -31,6 +31,9 @@ from pickleball import (
     get_county_quick_reply,
     get_event_region_quick_reply,
     get_group_creation_session,
+    create_paddle_recommendation_flex,
+    get_paddle_budget_quick_reply,
+    get_paddle_style_quick_reply,
     get_pickleball_cancel_quick_reply,
     get_pickleball_highlight_video,
     get_pickleball_quick_reply,
@@ -232,6 +235,29 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[TextMessage(text=reply_text)],
+            )
+        )
+    # 0-4. 球拍推薦指令 (!選球拍 / !推薦球拍 / !球拍推薦 / !球拍)
+    paddle_keywords = [
+        "!選球拍",
+        "!推薦球拍",
+        "!球拍推薦",
+        "!球拍",
+        "!匹克球球拍",
+        "!paddle",
+        "!paddles",
+    ]
+    if stripped_text.lower() in [k.lower() for k in paddle_keywords]:
+        paddle_qr = get_paddle_budget_quick_reply()
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[
+                    TextMessage(
+                        text="請選擇您的預算範圍，小幫手將為您推薦符合需求且附有正反面圖片的熱門球拍：",
+                        quick_reply=paddle_qr,
+                    )
+                ],
             )
         )
         return "OK", 200

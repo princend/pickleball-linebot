@@ -30,6 +30,9 @@ from pickleball import (
     set_group_creation_session,
     create_courts_flex,
     scrape_courts_by_county,
+    create_paddle_recommendation_flex,
+    get_paddle_budget_quick_reply,
+    get_paddle_style_quick_reply,
 )
 
 def process_postback(event, line_bot_api, target_id):
@@ -57,6 +60,62 @@ def process_postback(event, line_bot_api, target_id):
                 )
             )
         return "OK", 200
+
+    elif data.startswith("action=paddle_action"):
+        parsed_data = urllib.parse.parse_qs(data)
+        sub = parsed_data.get("sub", [""])[0]
+
+        if sub == "select_budget":
+            budget_key = parsed_data.get("budget", ["intermediate"])[0]
+            style_qr = get_paddle_style_quick_reply(budget_key)
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[
+                        TextMessage(
+                            text="請問您偏好的打法球風是？",
+                            quick_reply=style_qr,
+                        )
+                    ],
+                )
+            )
+            return "OK", 200
+
+        elif sub == "select_style":
+            budget_key = parsed_data.get("budget", ["intermediate"])[0]
+            style_key = parsed_data.get("style", ["spin"])[0]
+            flex_msg = create_paddle_recommendation_flex(budget_key, style_key)
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[flex_msg],
+                )
+            )
+            return "OK", 200
+
+        elif sub == "restart":
+            budget_qr = get_paddle_budget_quick_reply()
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[
+                        TextMessage(
+                            text="請選擇您的預算範圍：",
+                            quick_reply=budget_qr,
+                        )
+                    ],
+                )
+            )
+            return "OK", 200
+
+        elif sub == "cancel":
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text="已取消球拍推薦操作。")],
+                )
+            )
+            return "OK", 200
 
     elif data.startswith("action=pickle_action"):
         parsed_data = urllib.parse.parse_qs(data)
