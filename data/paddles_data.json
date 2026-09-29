@@ -8293,5 +8293,55 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "description": "輕量操控的款式"
+  },
+  {
+    "id": "prokennex-black-ace-pro",
+    "name": "PROKENNEX Black Ace Pro",
+    "brand": "ProKennex",
+    "price_ntd": 7200,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "11mm",
+    "weight": "7.9 oz",
+    "shape": "標準型",
+    "core": "Kinetic System",
+    "surface": "Toray Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "台灣之光 ProKennex 針對進階市場推出的破風神拍",
+      "原廠官方說明：搭載獨家 Kinetic 動能微膠囊系統，在擊球瞬間能吸收有害的震動頻率，是物理減震的最頂點。"
+    ],
+    "tags": [
+      "物理減震",
+      "網球肘救星",
+      "台灣之光"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "搭載動能微膠囊系統，物理減震最頂點"
+  },
+  {
+    "id": "prokennex-black-ace-ovation",
+    "name": "PROKENNEX Black Ace Ovation",
+    "brand": "ProKennex",
+    "price_ntd": 7200,
+    "budget_category": "flagship",
+    "style_category": "speed",
+    "thickness": "11mm",
+    "weight": "7.9 oz",
+    "shape": "橢圓型",
+    "core": "Kinetic System",
+    "surface": "Toray Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "採用特殊橢圓 Ovation 拍型的 Black Ace 旗艦",
+      "原廠官方說明：獨特的無稜角橢圓拍面帶來極速揮拍體驗，搭配微膠囊減震，手感獨步全球。"
+    ],
+    "tags": [
+      "極速破風",
+      "橢圓拍面",
+      "網球肘救星"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "特殊的橢圓拍面設計，極速揮拍不震手"
   }
 ]

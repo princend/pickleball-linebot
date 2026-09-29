@@ -16,7 +16,6 @@ SHOPIFY_ENDPOINTS = [
     {"brand": "Holbrook", "url": "https://holbrookpickleball.com/products.json?limit=250", "origin": "美國"},
     {"brand": "Thrive", "url": "https://thrivepb.com/products.json?limit=250", "origin": "美國"},
     {"brand": "Neonic", "url": "https://neonicpickleball.com/products.json?limit=250", "origin": "美國"},
-    {"brand": "ProKennex", "url": "https://prokennexpickleball.com/products.json?limit=250", "origin": "美國"},
     {"brand": "11six24", "url": "https://11six24.com/products.json?limit=250", "origin": "美國"},
     {"brand": "Luzz", "url": "https://luzzpickleball.com/products.json?limit=250", "origin": "美國"}
 ]

@@ -27,7 +27,6 @@ SHOPIFY_SITES = [
     "https://pickleballapes.com/products.json?limit=250",
     "https://thrivepb.com/products.json?limit=250",
     "https://neonicpickleball.com/products.json?limit=250",
-    "https://prokennexpickleball.com/products.json?limit=250",
     "https://11six24.com/products.json?limit=250",
     "https://luzzpickleball.com/products.json?limit=250"
 ]
