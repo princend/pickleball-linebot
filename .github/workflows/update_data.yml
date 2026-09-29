@@ -34,7 +34,12 @@ jobs:
         run: python scripts/update_courts.py
         
       - name: Run Shopify paddles scraper
-        run: python scripts/auto_scrape_shopify.py
+        run: |
+          python scripts/auto_scrape_shopify.py
+          python scripts/merge_local_brands.py
+          
+      - name: Run colors extractor
+        run: python scripts/extract_colors.py
         
       - name: Run paddles updater
         run: python scripts/update_paddles.py
