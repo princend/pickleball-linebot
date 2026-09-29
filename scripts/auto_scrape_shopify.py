@@ -112,6 +112,32 @@ def main():
                     desc_text = re.sub(r'\s+', ' ', desc_text).strip()
                     desc = desc_text[:80] + "..." if len(desc_text) > 80 else desc_text
                     
+                    
+                    style_cat = "control"
+                    title_l = title.lower()
+                    desc_l = desc.lower()
+                    if any(w in title_l for w in ["power", "elongated", "fury", "cannon", "ignite"]):
+                        style_cat = "power"
+                    elif any(w in title_l for w in ["speed", "aero", "air", "swift", "glider", "flare"]):
+                        style_cat = "speed"
+                    elif any(w in title_l for w in ["spin", "grit", "ruby", "kevlar"]):
+                        style_cat = "spin"
+                    else:
+                        full_t = title_l + " " + desc_l
+                        p_score = sum(full_t.count(w) for w in ["power", "elongated", "smash", "drive", "pop"])
+                        s_score = sum(full_t.count(w) for w in ["speed", "aero", "aerodynamic", "fast", "quick", "maneuver"])
+                        sp_score = sum(full_t.count(w) for w in ["spin", "grit", "friction", "texture", "bite"])
+                        c_score = sum(full_t.count(w) for w in ["control", "precision", "soft", "touch", "forgiving", "sweet spot"])
+                        if "14mm" in title_l or "13mm" in title_l:
+                            p_score += 1
+                            s_score += 1
+                        elif "16mm" in title_l:
+                            c_score += 2
+                        scores = {"power": p_score, "speed": s_score, "spin": sp_score, "control": c_score}
+                        best_s = max(scores, key=scores.get)
+                        if scores[best_s] > 0:
+                            style_cat = best_s
+
                     if price < 1500:
                         budget_cat = "budget"
                     elif price < 3500:
@@ -127,7 +153,7 @@ def main():
                         "brand": brand,
                         "price_ntd": price,
                         "budget_category": budget_cat,
-                        "style_category": "control",
+                        "style_category": style_cat,
                         "thickness": thickness,
                         "weight": "8.0 oz",
                         "shape": "標準型",
