@@ -343,15 +343,15 @@ def create_paddle_recommendation_flex(
     paddles = filter_paddles(budget_key, style_key)
     bubbles = [create_paddle_card(p, budget_key, style_key) for p in paddles]
 
+    budget_info = BUDGET_MAP.get(budget_key, {"name": "自選預算"})
+    style_info = STYLE_MAP.get(style_key, {"name": "自選球風"})
+
     if not bubbles:
         from linebot.v3.messaging import TextMessage
         return TextMessage(
             text=f"目前在「{budget_info['name']}」且主打「{style_info['name']}」的分類中，還沒有找到符合的球拍喔！\n您可以試著調整預算或球風，探索更多球拍！",
             quick_reply=quick_reply
         )
-
-    budget_info = BUDGET_MAP.get(budget_key, {"name": "自選預算"})
-    style_info = STYLE_MAP.get(style_key, {"name": "自選球風"})
 
     alt_text = f"匹克球球拍推薦：{budget_info['name']} / {style_info['name']}"
     carousel = FlexCarousel(contents=bubbles)
