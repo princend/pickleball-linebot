@@ -54,7 +54,7 @@ def get_shopify_inventory():
 
 CUSTOM_FALLBACKS = {
     "DEFAULT": [
-        {"front": "https://images.unsplash.com/photo-1622227432807-91eb590c31bb?auto=format&fit=crop&w=400&q=80"} # General paddle-like image or just leave it
+        {"front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png"} 
     ]
 }
 
@@ -98,7 +98,7 @@ def match_images():
             current = p.get("image_front", "")
             if not current or "7c4fad2f-f7ff-4fd0" in current or "joola.tw/wp-content" in current:
                 # Give it a generic valid Unsplash paddle image instead of the wrong Six Zero one
-                p["image_front"] = "https://images.unsplash.com/photo-1622227432807-91eb590c31bb?auto=format&fit=crop&w=400&q=80"
+                p["image_front"] = "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png"
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(paddles, f, ensure_ascii=False, indent=2)

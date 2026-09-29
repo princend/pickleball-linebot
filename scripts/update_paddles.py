@@ -19,7 +19,7 @@ DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.
 # 安全的通用備援圖庫，保證不會擋 LINE (HTTP 403)，且不會有品牌爭議
 SAFE_FALLBACKS = {
     "DEFAULT": [
-        "https://images.unsplash.com/photo-1622227432807-91eb590c31bb?auto=format&fit=crop&w=400&q=80"
+        "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png"
     ]
 }
 
