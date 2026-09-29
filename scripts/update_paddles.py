@@ -16,17 +16,10 @@ from typing import Any, Dict, List
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.json")
 
-# 安全的同品牌/通用備援圖庫，保證不會擋 LINE (HTTP 403)
+# 安全的通用備援圖庫，保證不會擋 LINE (HTTP 403)，且不會有品牌爭議
 SAFE_FALLBACKS = {
-    "JOOLA": [
-        "https://joola.tw/wp-content/uploads/2023/11/Ben-Johns-Perseus-CFS-16-18516-Web-01.jpg",
-        "https://joola.tw/wp-content/uploads/2023/04/18507_Hyperion-CGS-14-1.jpg"
-    ],
-    "Six Zero": [
-        "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/FRONT_7c4fad2f-f7ff-4fd0-8627-edefac3f85f0.png"
-    ],
     "DEFAULT": [
-        "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png"
+        "https://images.unsplash.com/photo-1622227432807-91eb590c31bb?auto=format&fit=crop&w=400&q=80"
     ]
 }
 
