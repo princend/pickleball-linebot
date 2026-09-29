@@ -99,12 +99,21 @@ def main():
                     
                     desc = re.sub(r'<[^>]+>', '', prod.get('body_html', ''))[:80] + "..."
                     
+                    if price < 1500:
+                        budget_cat = "budget"
+                    elif price < 3500:
+                        budget_cat = "intermediate"
+                    elif price < 6500:
+                        budget_cat = "advanced"
+                    else:
+                        budget_cat = "flagship"
+
                     new_paddle = {
                         "id": pid,
                         "name": f"{brand} {title}",
                         "brand": brand,
                         "price_ntd": price,
-                        "budget_category": "advanced" if price > 5000 else "intermediate",
+                        "budget_category": budget_cat,
                         "style_category": "control",
                         "thickness": thickness,
                         "weight": "8.0 oz",
