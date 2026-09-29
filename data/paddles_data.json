@@ -25,8 +25,7 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
     "search_keyword": "JOOLA Ben Johns Perseus CFS 16 匹克球拍",
-    "description": "目前職業賽事能見度極高的旗艦拍，16mm 厚度帶來絕佳吸震與控制，搭配生碳纖維顆粒咬球強勁。",
-    "theme_color": "#9fa500"
+    "description": "目前職業賽事能見度極高的旗艦拍，16mm 厚度帶來絕佳吸震與控制，搭配生碳纖維顆粒咬球強勁。"
   },
   {
     "id": "selkirk-luxx-control-air",
@@ -54,8 +53,7 @@
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/PDP-LUXX-Infinigrit-Control-Air-Epic-Pickleball-Paddle-Red-03_323e9967-29a1-477e-833f-d025de74b4cf.png?v=1761255947",
     "search_keyword": "Selkirk LUXX Control Air Epic 匹克球拍",
-    "description": "防守與廚房戰的終極神拍，超厚拍身將對手的重砲完全吸收，適合講究落點與節奏控制的高手。",
-    "theme_color": "#a50005"
+    "description": "防守與廚房戰的終極神拍，超厚拍身將對手的重砲完全吸收，適合講究落點與節奏控制的高手。"
   },
   {
     "id": "prokennex-kinetic-pro",
@@ -81,10 +79,9 @@
       "舒適柔和",
       "關節友善"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "ProKennex Kinetic 匹克球拍",
-    "description": "專為預防運動傷害設計的醫療級減震球拍，手感純淨舒適，非常適合天天打球或有手腕痠痛困擾的球友。",
-    "theme_color": "#a5252e"
+    "description": "專為預防運動傷害設計的醫療級減震球拍，手感純淨舒適，非常適合天天打球或有手腕痠痛困擾的球友。"
   },
   {
     "id": "head-radical-tour-raw",
@@ -112,8 +109,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "HEAD Radical Tour Raw 匹克球拍",
-    "description": "網球轉匹克球玩家的最愛之一，提供熟悉的拍頭加速反饋與穩定的擊球爆發力。",
-    "theme_color": "#9e9ea5"
+    "description": "網球轉匹克球玩家的最愛之一，提供熟悉的拍頭加速反饋與穩定的擊球爆發力。"
   },
   {
     "id": "franklin-signature-16",
@@ -139,10 +135,9 @@
       "高CP實惠",
       "新手進階首選"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "Franklin Signature 匹克球拍 16mm",
-    "description": "全球銷量極高的入門進階經典拍，以親民價格提供正規比賽級手感與穩定控球表現。",
-    "theme_color": "#a5252e"
+    "description": "全球銷量極高的入門進階經典拍，以親民價格提供正規比賽級手感與穩定控球表現。"
   },
   {
     "id": "insum-t700-raw-carbon",
@@ -168,10 +163,9 @@
       "生碳纖維",
       "強咬球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Cleaning_Block_002_97478864-2d65-4b4a-8981-e48d563b87d5.jpg?v=1710357344",
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "Insum T700 匹克球拍",
-    "description": "預算兩千出頭即可買到日本東麗 T700 生碳纖維的驚人之作，是台灣球友升級換拍的超熱門性價比之王。",
-    "theme_color": "#8c8b94"
+    "description": "預算兩千出頭即可買到日本東麗 T700 生碳纖維的驚人之作，是台灣球友升級換拍的超熱門性價比之王。"
   },
   {
     "id": "babolat-rebel-touch",
@@ -199,8 +193,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "Babolat RNGD 匹克球拍",
-    "description": "輕巧好操控，出球活潑有彈性，適合女性球友、羽球玩家或偏好輕快網前打法的選手。",
-    "theme_color": "#9e9ea5"
+    "description": "輕巧好操控，出球活潑有彈性，適合女性球友、羽球玩家或偏好輕快網前打法的選手。"
   },
   {
     "id": "beginner-carbon-starter-set",
@@ -228,8 +221,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "匹克球拍 碳纖維 USAPA認證",
-    "description": "不想花大錢但想體驗正規碳纖維手感的最佳入門拍，適合剛上完新手體驗課打算穩定練球的朋友。",
-    "theme_color": "#9e9ea5"
+    "description": "不想花大錢但想體驗正規碳纖維手感的最佳入門拍，適合剛上完新手體驗課打算穩定練球的朋友。"
   },
   {
     "id": "beginner-duo-family-set",
@@ -257,8 +249,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "匹克球 雙拍套裝 4球",
-    "description": "新手第一次接觸、家庭休閒或揪朋友在公園練習的最佳無痛選擇，配備齊全一拆即打。",
-    "theme_color": "#9e9ea5"
+    "description": "新手第一次接觸、家庭休閒或揪朋友在公園練習的最佳無痛選擇，配備齊全一拆即打。"
   },
   {
     "id": "beginner-power-fiberglass",
@@ -286,8 +277,7 @@
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
     "search_keyword": "匹克球拍 玻璃纖維 初學",
-    "description": "彈性極佳且價格無負擔，初學者練習底線抽球的最佳入門練習拍。",
-    "theme_color": "#9e9ea5"
+    "description": "彈性極佳且價格無負擔，初學者練習底線抽球的最佳入門練習拍。"
   },
   {
     "id": "selkirk-vanguard-power-air-invikta",
@@ -313,8 +303,7 @@
       "進攻神器"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/S2BlackFront.jpg?v=1741737195",
-    "description": "Air Dynamic 破風挖洞設計 ProSpin+ 面漆提供極限旋轉 極致爆發力，適合進攻型玩家",
-    "theme_color": "#587c52"
+    "description": "Air Dynamic 破風挖洞設計 ProSpin+ 面漆提供極限旋轉 極致爆發力，適合進攻型玩家"
   },
   {
     "id": "joola-scorpeus-14",
@@ -340,8 +329,7 @@
       "網前極速"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/JOOLA_WBG_2025_ProIV_Scorpeus-Scorpeus14mm-01.jpg?v=1788364392",
-    "description": "Anna Bright 簽名款，專為女性與雙手反拍設計 寬體甜區極大，容錯率高 14mm 彈速極快，網前平抽極具優勢",
-    "theme_color": "#a5a20e"
+    "description": "Anna Bright 簽名款，專為女性與雙手反拍設計 寬體甜區極大，容錯率高 14mm 彈速極快，網前平抽極具優勢"
   },
   {
     "id": "sixzero-ruby",
@@ -367,9 +355,8 @@
       "強烈旋轉",
       "紅色神拍"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "市場首創 100% Kevlar 表面，紅色搶眼外觀 兼具碳纖維的咬球與超越玻璃纖維的韌性手感 控球極致柔軟，上旋力道卻異常強烈",
-    "theme_color": "#9e9ea5"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
+    "description": "市場首創 100% Kevlar 表面，紅色搶眼外觀 兼具碳纖維的咬球與超越玻璃纖維的韌性手感 控球極致柔軟，上旋力道卻異常強烈"
   },
   {
     "id": "gearbox-pro-power",
@@ -395,8 +382,7 @@
       "極靜音"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/1PROEU2-1_Gearbox_Pro_Ultimate_Power_14mm_1-min.jpg?v=1776058236",
-    "description": "告別傳統蜂巢，使用專利實心碳纖維柱，永不塌陷 出球極其安靜，但力量猶如火箭發射 2024 年度力量拍評測第一名，聲音特殊",
-    "theme_color": "#7e6980"
+    "description": "告別傳統蜂巢，使用專利實心碳纖維柱，永不塌陷 出球極其安靜，但力量猶如火箭發射 2024 年度力量拍評測第一名，聲音特殊"
   },
   {
     "id": "ronbus-r1-16",
@@ -422,8 +408,7 @@
       "控球優異"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0638/5270/7897/files/2G1A0001.jpg?v=1780929661",
-    "description": "中階價位享受頂級控球體驗，外觀低調沉穩 手感與 SixZero DBD 極度相似，但揮重更低更輕盈 防守手感絕佳，網前 Dink 穩定度極高",
-    "theme_color": "#0070a5"
+    "description": "中階價位享受頂級控球體驗，外觀低調沉穩 手感與 SixZero DBD 極度相似，但揮重更低更輕盈 防守手感絕佳，網前 Dink 穩定度極高"
   },
   {
     "id": "joola-hyperion-cfs-16",
@@ -449,8 +434,7 @@
       "底線火力"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
-    "description": "前一代球王戰拍，弧形拍頭降低風阻 拍頭偏重，慣性下壓殺球極具破壞力 適合喜歡底線重抽與重型火力的球友",
-    "theme_color": "#9fa500"
+    "description": "前一代球王戰拍，弧形拍頭降低風阻 拍頭偏重，慣性下壓殺球極具破壞力 適合喜歡底線重抽與重型火力的球友"
   },
   {
     "id": "paddletek-tempest-wave-pro-c",
@@ -476,8 +460,7 @@
       "奶油手感"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Tempest_WavePro-C_TraeYoung_12.7_Front.png?v=1785862792",
-    "description": "老牌大廠的經典控球拍，結合碳纖維帶來更佳的容錯率與手感 專利的 SRT 核心提供如奶油般的擊球觸感 深受許多傳統防守型打法的高階玩家推崇",
-    "theme_color": "#608da5"
+    "description": "老牌大廠的經典控球拍，結合碳纖維帶來更佳的容錯率與手感 專利的 SRT 核心提供如奶油般的擊球觸感 深受許多傳統防守型打法的高階玩家推崇"
   },
   {
     "id": "diadem-edge-18k",
@@ -503,8 +486,7 @@
       "網球大廠"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0253/6210/4402/files/Power_Pro_Model_Teal_front_a82c7074-6c88-43a6-920f-8f2379b19c73.png?v=1763068310",
-    "description": "3D 立體編織 18K 碳纖維表面，旋轉能力極限突破 網球大廠技術下放，擊球聲響獨特 外觀極具科技感，是 Diadem 產品線中的顏值擔當",
-    "theme_color": "#00a5a5"
+    "description": "3D 立體編織 18K 碳纖維表面，旋轉能力極限突破 網球大廠技術下放，擊球聲響獨特 外觀極具科技感，是 Diadem 產品線中的顏值擔當"
   },
   {
     "id": "volair-mach-1-forza",
@@ -530,8 +512,7 @@
       "熱血上旋"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7951/3064/files/Mach1Forza_BettyBoopCollection_01.png?v=1752180094",
-    "description": "職業選手 Julian Arnold 親自參與研發的熱門品牌 強調超強抓球力與頂級的旋轉表現，Andiamo! 適合喜歡重上旋底線與切球網前的高階球友",
-    "theme_color": "#a52324"
+    "description": "職業選手 Julian Arnold 親自參與研發的熱門品牌 強調超強抓球力與頂級的旋轉表現，Andiamo! 適合喜歡重上旋底線與切球網前的高階球友"
   },
   {
     "id": "onix-z5-graphite",
@@ -557,8 +538,7 @@
       "清脆響聲"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/onixz5-pink_pickleballpaddle_kz1500-pnkv3_1__KZ1500-PNKV3.jpg?v=1750338745",
-    "description": "歷史上最暢銷的經典入門/中階球拍之一，聲音極其響亮 Nomex 核心提供巨大的力量與無與倫比的爆發力 非常適合預算有限但想要體驗強大攻擊火力的初學者",
-    "theme_color": "#a5003b"
+    "description": "歷史上最暢銷的經典入門/中階球拍之一，聲音極其響亮 Nomex 核心提供巨大的力量與無與倫比的爆發力 非常適合預算有限但想要體驗強大攻擊火力的初學者"
   },
   {
     "id": "bread-and-butter-filth",
@@ -584,8 +564,7 @@
       "暴力美學"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "新興品牌中的一匹黑馬，以超高的 CP 值與強大火力著稱 熱壓一體成型技術，殺球威力與容錯率都極為出色 塗裝充滿街頭風格，年輕世代極度推薦",
-    "theme_color": "#9e9ea5"
+    "description": "新興品牌中的一匹黑馬，以超高的 CP 值與強大火力著稱 熱壓一體成型技術，殺球威力與容錯率都極為出色 塗裝充滿街頭風格，年輕世代極度推薦"
   },
   {
     "id": "gamma-obsidian-16",
@@ -611,8 +590,7 @@
       "雙手反拍"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "網球界知名大廠 Gamma 推出的高階黑曜石系列 握把錐度設計極佳，適合雙手反拍的轉換 以柔軟控球見長，防守吸震能力佳",
-    "theme_color": "#9e9ea5"
+    "description": "網球界知名大廠 Gamma 推出的高階黑曜石系列 握把錐度設計極佳，適合雙手反拍的轉換 以柔軟控球見長，防守吸震能力佳"
   },
   {
     "id": "pickleball-apes-pro-line",
@@ -638,8 +616,7 @@
       "單打利器"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "極為罕見的 Kevlar 與碳纖維混紡表面，提供獨特咬球感 手柄極長，幾乎是為雙手反拍重砲手量身打造 獨特的長條形拍面，單打時的覆蓋率極高",
-    "theme_color": "#9e9ea5"
+    "description": "極為罕見的 Kevlar 與碳纖維混紡表面，提供獨特咬球感 手柄極長，幾乎是為雙手反拍重砲手量身打造 獨特的長條形拍面，單打時的覆蓋率極高"
   },
   {
     "id": "niupipo-explorer",
@@ -664,9 +641,8 @@
       "性價比之王",
       "新手無腦入"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0461/1420/9941/files/41IJYRJTW0L_00fc105a-7272-421c-b4af-fe88d291882e.jpg?v=1724121246",
-    "description": "Amazon 霸榜多年的平價暢銷款，適合純新手第一把球拍 中規中矩的設計，重量適中不會造成手臂負擔 極致性價比，摔了也不心痛的過渡期好夥伴",
-    "theme_color": "#a53300"
+    "image_front": "https://cdn.shopify.com/s/files/1/0461/1420/9941/files/A-3-01_b6e53a79-f02c-4c02-a021-0abdc8ee4e5c.jpg?v=1726194796",
+    "description": "Amazon 霸榜多年的平價暢銷款，適合純新手第一把球拍 中規中矩的設計，重量適中不會造成手臂負擔 極致性價比，摔了也不心痛的過渡期好夥伴"
   },
   {
     "id": "electrum-pro-ii",
@@ -692,8 +668,7 @@
       "極簡美學"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/2468/9809/files/DSC08709.jpg?v=1700232553",
-    "description": "生碳纖維技術的先驅品牌，Pro II 在控球與旋轉達到完美平衡 表面極度粗糙，能輕鬆切出不規則下旋球 做工精良，外觀充滿極簡現代感",
-    "theme_color": "#829c67"
+    "description": "生碳纖維技術的先驅品牌，Pro II 在控球與旋轉達到完美平衡 表面極度粗糙，能輕鬆切出不規則下旋球 做工精良，外觀充滿極簡現代感"
   },
   {
     "id": "luzz-cannon-16",
@@ -718,9 +693,8 @@
       "高CP生碳",
       "防守吸震"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
-    "description": "中系高階品牌 Luzz 的主力戰拍 T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球 深受台灣進階球友喜愛，具有 USAPA 國際認證",
-    "theme_color": "#a5252e"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "中系高階品牌 Luzz 的主力戰拍 T700 生碳纖維提供頂級旋轉，16mm 帶來絕佳的吸震與控球 深受台灣進階球友喜愛，具有 USAPA 國際認證"
   },
   {
     "id": "luzz-glider-14",
@@ -746,8 +720,7 @@
       "輕量化"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "專為網前快節奏平抽設計的 14mm 薄拍 揮重極輕，在快速對峙中能取得絕對優勢 Luzz 旗下極具爆發力與速度感的熱銷款式",
-    "theme_color": "#9e9ea5"
+    "description": "專為網前快節奏平抽設計的 14mm 薄拍 揮重極輕，在快速對峙中能取得絕對優勢 Luzz 旗下極具爆發力與速度感的熱銷款式"
   },
   {
     "id": "napa-timeless-16",
@@ -773,8 +746,7 @@
       "時尚外觀"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "台灣新銳品牌 NAPA 誠意之作 一體成型設計搭配 Super Foam 核心，甜區極大 外觀時尚，性能均衡，非常適合從新手過渡到高階的玩家",
-    "theme_color": "#9e9ea5"
+    "description": "台灣新銳品牌 NAPA 誠意之作 一體成型設計搭配 Super Foam 核心，甜區極大 外觀時尚，性能均衡，非常適合從新手過渡到高階的玩家"
   },
   {
     "id": "jnice-hammer-ii",
@@ -800,8 +772,7 @@
       "暴力戰錘"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "台灣知名羽球大廠 JNICE 傾力打造的匹克球頂規戰拍 通過 USAPA 認證，具備高溫熱壓技術，耐撞擊且回彈力驚人 專利甜區配重設計，適合追求攻擊火力的進階選手",
-    "theme_color": "#9e9ea5"
+    "description": "台灣知名羽球大廠 JNICE 傾力打造的匹克球頂規戰拍 通過 USAPA 認證，具備高溫熱壓技術，耐撞擊且回彈力驚人 專利甜區配重設計，適合追求攻擊火力的進階選手"
   },
   {
     "id": "jnice-ice-edge",
@@ -827,8 +798,7 @@
       "台灣保固"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "使用 T700 碳纖維搭配特殊噴砂表面，大幅提升擊球摩擦力 能輕鬆打出強烈的旋球，是底線防守反擊的利器 原廠提供完美保固，售後無憂",
-    "theme_color": "#9e9ea5"
+    "description": "使用 T700 碳纖維搭配特殊噴砂表面，大幅提升擊球摩擦力 能輕鬆打出強烈的旋球，是底線防守反擊的利器 原廠提供完美保固，售後無憂"
   },
   {
     "id": "hudef-viva-pro-gen3",
@@ -854,8 +824,7 @@
       "海外神拍"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0631/4108/5429/files/hudef-viva-pro-gen-1-pickleball-paddle-black-red-full-front-view_63cbafc4-3c49-416f-a51b-7dab52bab705.jpg?v=1767088563",
-    "description": "北美極具盛名的直銷品牌，以業界罕見的『終身保固』聞名 第三代加入熱壓與發泡邊框技術，甜蜜點與力量再次升級 在國外論壇被譽為 100~150 鎂級距的 CP 值破表神拍",
-    "theme_color": "#a50011"
+    "description": "北美極具盛名的直銷品牌，以業界罕見的『終身保固』聞名 第三代加入熱壓與發泡邊框技術，甜蜜點與力量再次升級 在國外論壇被譽為 100~150 鎂級距的 CP 值破表神拍"
   },
   {
     "id": "defy-pro-16",
@@ -880,9 +849,8 @@
       "高性價比",
       "教練推薦"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/selkirk-labs-001-pickleball-net.jpg?v=1745939212",
-    "description": "台灣在地常見的新銳品牌 DEFY，主打高性價比的碳纖維體驗 擁有極佳的吸震能力與控球手感，是許多教練推薦的過渡拍 外觀簡約，實戰表現穩定，不挑球風",
-    "theme_color": "#a50009"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "台灣在地常見的新銳品牌 DEFY，主打高性價比的碳纖維體驗 擁有極佳的吸震能力與控球手感，是許多教練推薦的過渡拍 外觀簡約，實戰表現穩定，不挑球風"
   },
   {
     "id": "zcebra-osprey",
@@ -908,8 +876,7 @@
       "顏值巔峰"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "來自歐洲的頂級匹克球品牌，以獨特的美學與工藝聞名 Osprey 是其旗艦款式，融合高科技複合碳纖維，爆發力十足 獨樹一格的歐洲設計語彙，拿在場上絕對是目光焦點",
-    "theme_color": "#9e9ea5"
+    "description": "來自歐洲的頂級匹克球品牌，以獨特的美學與工藝聞名 Osprey 是其旗艦款式，融合高科技複合碳纖維，爆發力十足 獨樹一格的歐洲設計語彙，拿在場上絕對是目光焦點"
   },
   {
     "id": "mizuno-rb-pro",
@@ -935,8 +902,7 @@
       "極致穩定"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "日本百年運動大廠美津濃也參戰匹克球，帶來其獨家的發泡技術 手感極度扎實，日系工藝確保了每一把球拍的超高良率 適合重視防守穩定度與細膩手感的日系品牌愛好者",
-    "theme_color": "#9e9ea5"
+    "description": "日本百年運動大廠美津濃也參戰匹克球，帶來其獨家的發泡技術 手感極度扎實，日系工藝確保了每一把球拍的超高良率 適合重視防守穩定度與細膩手感的日系品牌愛好者"
   },
   {
     "id": "hudef-mage-pro",
@@ -962,8 +928,7 @@
       "超大甜區"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0631/4108/5429/files/hudef-mage-scf1-front-black-red-pickleball-paddle_5238851c-1568-44f8-8f42-ee1c196b5c5d.jpg?v=1767863870",
-    "description": "Hudef 另一款極受歡迎的控制型球拍 加大的甜區與柔軟的擊球感，讓你在網前 Dink 對峙中充滿自信 同樣享有終身保固的無敵承諾",
-    "theme_color": "#a53e76"
+    "description": "Hudef 另一款極受歡迎的控制型球拍 加大的甜區與柔軟的擊球感，讓你在網前 Dink 對峙中充滿自信 同樣享有終身保固的無敵承諾"
   },
   {
     "id": "jnice-prism",
@@ -989,8 +954,7 @@
       "新手升級"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "JNICE 定位為速度型的中階/入門球拍 超輕的 7.5 oz 揮重，適合女性或喜歡快節奏平抽的球友 外觀亮眼，是初學者升級的第一首選",
-    "theme_color": "#9e9ea5"
+    "description": "JNICE 定位為速度型的中階/入門球拍 超輕的 7.5 oz 揮重，適合女性或喜歡快節奏平抽的球友 外觀亮眼，是初學者升級的第一首選"
   },
   {
     "id": "joola-perseus-cfs-14",
@@ -1016,8 +980,7 @@
       "進階首選"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
-    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9fa500"
+    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-scorpeus-cfs-16",
@@ -1043,8 +1006,7 @@
       "選手御用"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/3_0015_2R1A3500-106.png?v=1789412408",
-    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#77a57b"
+    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-radius-cgs-14",
@@ -1070,8 +1032,7 @@
       "選手御用"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
-    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9fa500"
+    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-radius-cgs-16",
@@ -1096,9 +1057,8 @@
       "高性價比",
       "威力強大"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/17252G_Green_LOCK_1d7ca5b6-eb50-4bda-8c40-669963d45cc0.webp?v=1789485419",
-    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#002fa5"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-solaire-cfs-14",
@@ -1124,8 +1084,7 @@
       "絕佳手感"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
-    "description": "JOOLA 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9fa500"
+    "description": "JOOLA 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-vision-cgs-16",
@@ -1150,9 +1109,8 @@
       "快節奏",
       "底線重抽"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9e9ea5"
+    "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/3_0006_2R1A6395-11.jpg?v=1788368427",
+    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "joola-method-cgs-14",
@@ -1178,8 +1136,7 @@
       "進階首選"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Ben-Johns-Perseus-CFS-14-18515-Web-01.jpg?v=1788358697",
-    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9fa500"
+    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-vanguard-control-invikta",
@@ -1205,8 +1162,7 @@
       "選手御用"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Invikta-LT-blue.png?v=1761252778",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0081a5"
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-vanguard-control-epic",
@@ -1232,8 +1188,7 @@
       "極致下旋"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-Epic-LT-blue.png?v=1761251685",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0081a5"
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-luxx-control-air-s2",
@@ -1259,8 +1214,7 @@
       "高容錯"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/PDP-LUXX-Infinigrit-Control-Air-Epic-Pickleball-Paddle-Red-03_323e9967-29a1-477e-833f-d025de74b4cf.png?v=1761255947",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 20mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a50005"
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 20mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-amped-invikta",
@@ -1286,8 +1240,7 @@
       "網前小球"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-Parkinsons-Foundation-AmpedPro-Invikta-pickleball-paddle-4_6ee0fc95-f09a-40e3-923d-ab59062eb129.png?v=1761259221",
-    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0085a5"
+    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-amped-epic",
@@ -1313,8 +1266,7 @@
       "防守吸震"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/HOLDERNESS_AMPED_PRO_AIR_EPIC_01.jpg?v=1721684239",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#2c7ea5"
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-amped-s2",
@@ -1340,8 +1292,7 @@
       "高性價比"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-AMPED-Control-Pickleball-Paddle-S2-LT-blue_8e129ed8-2d94-4ed9-947f-600dc1b4f6f0.png?v=1761253744",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0080a5"
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-halo-power-xl",
@@ -1367,8 +1318,7 @@
       "網前小球"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/HALO_POWER_XL_13mm_BLUE_01_94f13935-4a81-4e79-9328-0be266bdac72.jpg?v=1724172822",
-    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0085a5"
+    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-halo-control-max",
@@ -1393,9 +1343,8 @@
       "底線重抽",
       "網前小球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/PDP-LUXX-Infinigrit-Control-Air-Epic-Pickleball-Paddle-Red-03_323e9967-29a1-477e-833f-d025de74b4cf.png?v=1761255947",
-    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a50005"
+    "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/Selkirk-Parkinsons-Foundation-SLK-EVO-Control-Max-pickleball-paddle-4_a0ee47b3-854f-4f4a-a245-4a6647fd3ebe.png?v=1761259403",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "selkirk-sport",
@@ -1421,8 +1370,7 @@
       "網前小球"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0152/5763/2822/files/vertical_PNG_1500x2000-selkirk-courtstrike-pro-3-womens-pickleball-shoes-black-gum-01.png?v=1780613426",
-    "description": "Selkirk 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a56402"
+    "description": "Selkirk 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "paddletek-bantam-ex-l",
@@ -1448,8 +1396,7 @@
       "威力強大"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Bantam-Composite_EX-L_Horizon_Front.png?v=1763069710",
-    "description": "Paddletek 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a57d00"
+    "description": "Paddletek 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "paddletek-bantam-ts-5",
@@ -1475,8 +1422,7 @@
       "底線重抽"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Bantam-Composite_TS-5_Horizon_Front.png?v=1763069945",
-    "description": "Paddletek 家族中專為 speed 取向設計的熱門拍款。 配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a57c00"
+    "description": "Paddletek 家族中專為 speed 取向設計的熱門拍款。 配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "paddletek-tempest-reign-pro",
@@ -1502,8 +1448,7 @@
       "高容錯"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Tempest_WavePro-C_TraeYoung_12.7_Front.png?v=1785862792",
-    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#608da5"
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "paddletek-tempest-wave-ii",
@@ -1529,8 +1474,7 @@
       "快節奏"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Tempest_WavePro-C_TraeYoung_12.7_Front.png?v=1785862792",
-    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#608da5"
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "paddletek-phoenix-g6",
@@ -1556,8 +1500,7 @@
       "威力強大"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/1096/9564/files/Paddletek_Phoenix_G6_Horizon_Front.png?v=1763071903",
-    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 15mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a57e00"
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 15mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-pro-control-elongated",
@@ -1583,8 +1526,7 @@
       "極致下旋"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/products/CX11E-control-8-5-orange_1.jpg?v=1776058881",
-    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a54200"
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-pro-control-integrated",
@@ -1610,8 +1552,7 @@
       "防守吸震"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/1PROFC1-1_Gearbox_Pro_Control_Fusion-2-min_c99a083c-a596-499e-80ee-e27e5f6d03ce.jpg?v=1701878104",
-    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#867869"
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-cx14e",
@@ -1636,9 +1577,8 @@
       "威力強大",
       "絕佳手感"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/Gearbox_3B38-2_Backpack-MutedGreen_1.jpg?v=1757622981",
-    "description": "Gearbox 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#64945b"
+    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/products/GBW_CX14E_Yellow_4-min.jpg?v=1677697209",
+    "description": "Gearbox 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-cx14h",
@@ -1663,9 +1603,8 @@
       "快節奏",
       "網前小球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/Gearbox_3B38-2_Backpack-MutedGreen_1.jpg?v=1757622981",
-    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#64945b"
+    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/products/CX14H_Ultimate_Power_2-min_f1287923-024f-476d-8510-3c32e815fa4a.jpg?v=1680541335",
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "gearbox-cp7",
@@ -1690,9 +1629,8 @@
       "進階首選",
       "防守吸震"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/Gearbox_3B38-2_Backpack-MutedGreen_1.jpg?v=1757622981",
-    "description": "Gearbox 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#64945b"
+    "image_front": "https://cdn.shopify.com/s/files/1/0648/4761/0072/files/GearboxCP7Lifestyle_1-min.jpg?v=1747946453",
+    "description": "Gearbox 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "onix-z5-composite",
@@ -1717,9 +1655,8 @@
       "威力強大",
       "網前小球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/batch-1-1__KZ1950-BLKRC.jpg?v=1779799471",
-    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 11mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#97949c"
+    "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/onixcompositeevoketeardrop-black_pickleballpaddle_kz1111-blk_1__KZ1111-BLK.jpg?v=1750258031",
+    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 11mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "onix-evoke-premier",
@@ -1745,8 +1682,7 @@
       "底線重抽"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/KZ1141-PNK_Evoke_Premier_Pink-8896__KZ1141-PNK-1.png?v=1750875377",
-    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a50050"
+    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "onix-evoke-pro",
@@ -1772,8 +1708,7 @@
       "底線重抽"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/onixcompositeevokepro-red_pickleballpaddle_kz1131-redv2-2_1__KZ1131-REDV2-2.jpg?v=1754667915",
-    "description": "Onix 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a50000"
+    "description": "Onix 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "onix-react",
@@ -1798,9 +1733,8 @@
       "高性價比",
       "網前小球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0481/9828/7516/files/batch-1-1__KZ1950-BLKRC.jpg?v=1779799471",
-    "description": "Onix 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#97949c"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "Onix 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "hudef-viva-pro-gen-2",
@@ -1826,8 +1760,7 @@
       "高容錯"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0631/4108/5429/files/hudef-viva-pro-gen-1-pickleball-paddle-black-red-full-front-view_63cbafc4-3c49-416f-a51b-7dab52bab705.jpg?v=1767088563",
-    "description": "Hudef 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a50011"
+    "description": "Hudef 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "hudef-hd4",
@@ -1852,9 +1785,8 @@
       "選手御用",
       "網前小球"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0631/4108/5429/files/01_7217769c-b6e1-4b2b-b849-f3e1ad8c3d50.jpg?v=1782811272",
-    "description": "Hudef 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a5906c"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "Hudef 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "hudef-hd6",
@@ -1879,9 +1811,8 @@
       "快節奏",
       "極致下旋"
     ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0631/4108/5429/files/01_7217769c-b6e1-4b2b-b849-f3e1ad8c3d50.jpg?v=1782811272",
-    "description": "Hudef 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a5906c"
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "Hudef 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "ronbus-r2-16",
@@ -1907,8 +1838,7 @@
       "極致下旋"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0638/5270/7897/files/QP_R2_058_01.jpg?v=1786371965",
-    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#007fa5"
+    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "ronbus-r3-16",
@@ -1934,8 +1864,7 @@
       "防守吸震"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0638/5270/7897/files/QP_R3_028_01.jpg?v=1786372418",
-    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#007ba5"
+    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "ronbus-r1-pulsar",
@@ -1961,8 +1890,7 @@
       "選手御用"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0638/5270/7897/files/2G1A0001.jpg?v=1780929661",
-    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#0070a5"
+    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "ronbus-r3-pulsar",
@@ -1988,8 +1916,7 @@
       "進階首選"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0638/5270/7897/files/QP_R3_028_01.jpg?v=1786372418",
-    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#007ba5"
+    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "ronbus-nova",
@@ -2015,8 +1942,7 @@
       "網前小球"
     ],
     "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "Ronbus 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#9e9ea5"
+    "description": "Ronbus 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "volair-mach-1-forza-14mm",
@@ -2042,8 +1968,7 @@
       "大甜區"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7951/3064/files/Mach1Forza_BettyBoopCollection_01.png?v=1752180094",
-    "description": "Volair 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。",
-    "theme_color": "#a52324"
+    "description": "Volair 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   },
   {
     "id": "sixzero-boulder-opal-14mm",
@@ -2067,8 +1992,7 @@
       "爬蟲自動同步"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
-    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-    "theme_color": "#5ba588"
+    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！"
   },
   {
     "id": "sixzero-black-opal-14mm-elongated",
@@ -2092,8 +2016,7 @@
       "爬蟲自動同步"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
-    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-    "theme_color": "#5f799d"
+    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！"
   },
   {
     "id": "crbn-pro-paddle-optimization-kit",
@@ -2117,8 +2040,7 @@
       "爬蟲自動同步"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_ListingImages_AccessoriesBundle_01_Main.jpg?v=1789067550",
-    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！",
-    "theme_color": "#0050a5"
+    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
   },
   {
     "id": "sixzero-coral-pro-16mm",
@@ -2143,8 +2065,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a5252e"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-coral-australian-edition-16mm",
@@ -2169,8 +2090,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_transparent.png?v=1776641954",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a50009"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-black-opal-year-of-the-horse-edition-14mm",
@@ -2195,8 +2115,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0002_f4c55ac6-0acb-48d7-9d40-c38d4e9cbd0e.jpg?v=1775520921",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a51e17"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-coral-16mm-lightweight",
@@ -2221,8 +2140,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007.png?v=1773972061",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#6596a5"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-paddle-hard-case",
@@ -2247,8 +2165,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/CASE-FRONT.png?v=1767044196",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#5c6464"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-coral-16mm",
@@ -2273,8 +2190,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0013.png?v=1787519945",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a5252e"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-black-opal-14mm",
@@ -2299,8 +2215,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#5f799d"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-ruby-pro-14mm",
@@ -2325,8 +2240,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/RubyProIOTYBadgeProductImage.png?v=1769724395",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a50100"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-infinity-edgeless-ruby",
@@ -2351,8 +2265,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2_0385f90b-d9c5-42f9-97bb-cf9af9fae819.png?v=1738734212",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a50010"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-sapphire",
@@ -2376,9 +2289,8 @@
       "Six Zero",
       "原廠直送"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#9e9ea5"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Sapphire.png?v=1758076467",
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-double-black-diamond-control",
@@ -2403,8 +2315,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Double-Black-Diamond-Control-Six-Zero-417078833.png?v=1771375300",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#8493a5"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-quartz",
@@ -2428,9 +2339,8 @@
       "Six Zero",
       "原廠直送"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#9e9ea5"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/4_a3062ec7-cc32-4a7e-b718-945634dde281.png?v=1762118618",
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-black-diamond-power",
@@ -2455,8 +2365,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Black-Diamond-Power-Six-Zero-152727513_22e8018f-ad9e-4acf-8848-e40a03e55060.png?v=1738734222",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#99a5a5"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "sixzero-infinity-edgeless-black-diamond-power",
@@ -2481,8 +2390,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/Infinity-Edgeless-Black-Diamond-Power-Six-Zero-152744287_84ee1ada-cb6f-499f-9079-19ab55a22b39.png?v=1738734275",
-    "description": "來自澳洲的 Six Zero 最新球拍",
-    "theme_color": "#a58785"
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
     "id": "crbn-crbn-x-series-12mm-paddle",
@@ -2507,8 +2415,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_Power_X_Series_Main_1xTW.jpg?v=1769621773",
-    "description": "來自美國的 CRBN 最新球拍",
-    "theme_color": "#a5282e"
+    "description": "來自美國的 CRBN 最新球拍"
   },
   {
     "id": "engage-alpha-pro--explore-the-axiom-series",
@@ -2533,8 +2440,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Alpha_Pro_Swatches.png?v=1758197289",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0053a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-encore-pro---4th-generation-graphics--true-carbon-fiber-skin-vip",
@@ -2559,8 +2465,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#a5937b"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-axiom-elongated-pickleball-paddle--durable-grit-vip",
@@ -2585,8 +2490,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Blue_Web_Swatches.jpg?v=1785937562",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0045a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-axiom-widebody-pickleball-paddle--durable-grit-vip",
@@ -2611,8 +2515,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Red_Wide_Swtches_Web.png?v=1785938989",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0018a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-axiom-widebody-pickleball-paddle--durable-grit",
@@ -2637,8 +2540,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Red_Wide_Swtches_Web.png?v=1785938989",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0018a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-axiom-elongated-pickleball-paddle--durable-grit",
@@ -2663,8 +2565,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Axiom_Blue_Web_Swatches.jpg?v=1785937562",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0045a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-new-graphic-pursuit-pro-mx-152--raw-carbon-fiber",
@@ -2689,8 +2590,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-engage-x2-elongated-pickleball-paddle",
@@ -2715,8 +2615,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#2f6da5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-engage-x2-widebody-pickleball-paddle",
@@ -2741,8 +2640,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#5284a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-encore-16mm--balanced-performance-uhspa",
@@ -2767,8 +2665,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore.png?v=1783014080",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#388ea5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-mx-152--raw-carbon-fiber-uhspa",
@@ -2793,8 +2690,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-mx-127--raw-carbon-fiber-uhspa",
@@ -2819,8 +2715,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#788495"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-ex-152--raw-carbon-fiber-uhspa",
@@ -2845,8 +2740,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#6b7b8f"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-ex-127--raw-carbon-fiber-uhspa",
@@ -2871,8 +2765,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration-uhspa",
@@ -2897,8 +2790,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#748c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration-uhspa",
@@ -2923,8 +2815,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber-uhspa",
@@ -2949,8 +2840,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#808c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber-uhspa",
@@ -2975,8 +2865,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_ea075b74-537a-40c4-9f30-8398d11cc0b0.png?v=1770232454",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-widebody-pickleball-paddle-uhspa",
@@ -3001,8 +2890,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#5284a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-elongated-pickleball-paddle-uhspa",
@@ -3027,8 +2915,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#2f6da5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-encore-pro--true-carbon-fiber-skin-uhspa",
@@ -3053,8 +2940,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#a5937b"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-encore-pro---4th-generation-graphics--true-carbon-fiber-skin",
@@ -3079,8 +2965,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreProV4BothWebSmall.png?v=1784238244",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#a5937b"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-encore-16mm--balanced-performance-vip",
@@ -3105,8 +2990,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Encore.png?v=1783014080",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#388ea5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-encore-16mm--balanced-performance",
@@ -3131,8 +3015,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/EncoreBluePinkWeb.png?v=1784301280",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#3c8aa5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-pursuit-v20--amplified-carbon-surface--hybrid-vip",
@@ -3157,8 +3040,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Crimson-Red-Pursuit_V2-Swatch.png?v=1740459519",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#006ba5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-ex-127--raw-carbon-fiber-vip",
@@ -3183,8 +3065,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-ex-152--raw-carbon-fiber-vip",
@@ -3209,8 +3090,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#6b7b8f"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-mx-127--raw-carbon-fiber-vip",
@@ -3235,8 +3115,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX12.7_Gold-Front_5297589b-a6c0-4884-b612-023594198cc2.png?v=1770232984",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#788495"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro-mx-152--raw-carbon-fiber-vip",
@@ -3261,8 +3140,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber-vip",
@@ -3287,8 +3165,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#808c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber-vip",
@@ -3313,8 +3190,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_ea075b74-537a-40c4-9f30-8398d11cc0b0.png?v=1770232454",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration-vip",
@@ -3339,8 +3215,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#748c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration-vip",
@@ -3365,8 +3240,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-profoam--high-density-foam-core-performance-vip",
@@ -3391,8 +3265,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0043a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-widebody-pickleball-paddle-vip",
@@ -3417,8 +3290,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#5284a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-elongated-pickleball-paddle-vip",
@@ -3443,8 +3315,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#2f6da5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-widebody-pickleball-paddle",
@@ -3469,8 +3340,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2Widebody-Front.png?v=1775834124",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#5284a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-engage-x2-elongated-pickleball-paddle",
@@ -3495,8 +3365,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/X2.png?v=1774334934",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#2f6da5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-new-profoam--high-density-foam-core-performance",
@@ -3521,8 +3390,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0043a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-new-graphic-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber",
@@ -3547,8 +3415,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_0d1d2b7e-ef85-4e2a-89c6-94c42ec519fe.png?v=1770232405",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-pursuit-pro1-innovation-127mm--torque-balanced-acceleration",
@@ -3573,8 +3440,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-slightly-used-new-graphic-pursuit-pro-mx-127--raw-carbon-fiber",
@@ -3599,8 +3465,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicMX12.7Swatch_9d23a623-6879-422b-988f-358ca33b040a.png?v=1770232984",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#a5a199"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-profoam--high-density-foam-core-performance",
@@ -3625,8 +3490,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Profoam_Swatches_2.png?v=1758899283",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0043a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro1-elongated-152-power-series--raw-carbon-fiber",
@@ -3651,8 +3515,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Elongated15.2_Gold-Front_f8ba971a-ab9c-4415-ac71-1c7a543e6d01.png?v=1770232195",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#808c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro1-elongated-127-power-series--raw-carbon-fiber",
@@ -3677,8 +3540,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicElongated12.7Swatch_0d1d2b7e-ef85-4e2a-89c6-94c42ec519fe.png?v=1770232405",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro-mx-152--raw-carbon-fiber",
@@ -3703,8 +3565,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProMX15.2_Gold-Front.png?v=1770927280",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro-mx-127--raw-carbon-fiber",
@@ -3729,8 +3590,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/NewGraphicMX12.7Swatch_9d23a623-6879-422b-988f-358ca33b040a.png?v=1770232984",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#a5a199"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro-ex-152--raw-carbon-fiber",
@@ -3755,8 +3615,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX15.2_Gold-Front.png?v=1770927437",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#6b7b8f"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-graphic-pursuit-pro-ex-127--raw-carbon-fiber",
@@ -3781,8 +3640,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitProEX12.7_Gold-Front.png?v=1770233102",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#868b94"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-152mm--torque-balanced-acceleration",
@@ -3807,8 +3665,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_ArcticGold_15.2_FR_d7286985-556e-4ff5-8fe0-5abd5cb1a406.png?v=1754577515",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#748c9d"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-pursuit-pro1-innovation-127mm--torque-balanced-acceleration",
@@ -3833,8 +3690,7 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/PursuitPro1Innovation_Swatch_12.7__2_25749c13-71da-4add-8978-b448123e6043.png?v=1754576856",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#0064a5"
+    "description": "來自美國的 Engage 最新球拍"
   },
   {
     "id": "engage-new-pursuit-v20--amplified-carbon-surface--hybrid",
@@ -3859,7 +3715,6 @@
       "原廠直送"
     ],
     "image_front": "https://cdn.shopify.com/s/files/1/0802/6445/files/Crimson-Red-Pursuit_V2-Swatch.png?v=1740459519",
-    "description": "來自美國的 Engage 最新球拍",
-    "theme_color": "#006ba5"
+    "description": "來自美國的 Engage 最新球拍"
   }
 ]
