@@ -7809,5 +7809,155 @@
     ],
     "image_front": "https://contents.mediadecathlon.com/p2625293/k$2c32cf9ff0fb3e9e3e7f45c92c89f5bc/sq/pickleball-paddle-pro.jpg?format=auto&f=800x0",
     "description": "提供更好的力量與旋轉，適合進階玩家"
+  },
+  {
+    "id": "jnice-beginner-set",
+    "name": "JNICE (久奈司) 匹克球入門雙拍套組",
+    "brand": "JNICE",
+    "price_ntd": 1280,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣本土羽網球知名品牌 JNICE 久奈司推出的高 CP 值套組",
+      "原廠官方說明：專為初學者設計，雙拍組合讓您能隨時與好友一起下場同樂。"
+    ],
+    "tags": [
+      "新手推薦",
+      "雙拍套組",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "入門雙拍套組，初學者的熱門選擇"
+  },
+  {
+    "id": "success-budget-paddle",
+    "name": "SUCCESS (成功體育) 平價碳纖維匹克球拍",
+    "brand": "SUCCESS",
+    "price_ntd": 850,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": false,
+    "features": [
+      "台灣老字號校園與大眾體育品牌 SUCCESS 成功體育",
+      "原廠官方說明：主打超高性價比，千元有找即可享受碳纖維拍面帶來的手感。"
+    ],
+    "tags": [
+      "極度平價",
+      "碳纖維",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "老字號體育品牌的超高性價比選擇"
+  },
+  {
+    "id": "tumaz-stylish-paddle",
+    "name": "Tumaz (月熊) 質感輕量匹克球拍",
+    "brand": "Tumaz",
+    "price_ntd": 1150,
+    "budget_category": "budget",
+    "style_category": "speed",
+    "thickness": "13mm",
+    "weight": "7.5 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣在地戶外與健身品牌 Tumaz (月熊) 用心之作",
+      "原廠官方說明：拍面圖案設計極具質感，主打輕量化，適合重視運動穿搭與外觀的年輕玩家。"
+    ],
+    "tags": [
+      "質感設計",
+      "輕量化",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "質感滿分，適合重視穿搭的玩家"
+  },
+  {
+    "id": "franklin-sports-basic",
+    "name": "Franklin Sports 休閒基礎玻纖套組",
+    "brand": "Franklin Sports",
+    "price_ntd": 1450,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.1 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "國際大廠 Franklin 針對大眾賣場推出的超值套組",
+      "原廠官方說明：兼具品質與價格優勢，是大賣場中最受歡迎的入門裝備。"
+    ],
+    "tags": [
+      "大廠出品",
+      "高性價比",
+      "休閒套組"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "Costco 等量販店常見的大廠入門套組"
+  },
+  {
+    "id": "fit-monster-budget",
+    "name": "FIT MONSTER (健身怪獸) 極致平價匹克球拍",
+    "brand": "FIT MONSTER",
+    "price_ntd": 799,
+    "budget_category": "budget",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.3 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "活躍於蝦皮與電商平台的新興品牌 FIT MONSTER",
+      "原廠官方說明：純粹想先買一把便宜球拍來玩玩的極低預算最佳解。"
+    ],
+    "tags": [
+      "極低預算",
+      "電商熱銷",
+      "新手體驗"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "千元有找的電商新興品牌選擇"
+  },
+  {
+    "id": "blazestar-budget",
+    "name": "BLAZESTAR 新手體驗匹克球拍",
+    "brand": "BLAZESTAR",
+    "price_ntd": 899,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "活躍於蝦皮與各大合作商城的新銳品牌 BLAZESTAR",
+      "原廠官方說明：以極低的門檻讓所有人都能輕鬆體驗匹克球的樂趣。"
+    ],
+    "tags": [
+      "極低預算",
+      "電商熱銷",
+      "新手體驗"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "輕鬆體驗匹克球樂趣的超值好拍"
   }
 ]
