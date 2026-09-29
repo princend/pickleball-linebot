@@ -346,5 +346,249 @@
     "image_back": "https://www.justpaddles.com/media/catalog/product/p/i/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
     "search_keyword": "匹克球拍 玻璃纖維 初學",
     "description": "彈性極佳且價格無負擔，初學者練習底線抽球的最佳入門練習拍。"
+  },
+  {
+    "id": "selkirk-vanguard-power-air-invikta",
+    "name": "Selkirk Vanguard Power Air Invikta",
+    "brand": "Selkirk",
+    "price_ntd": 7500,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "13mm",
+    "weight": "7.9 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "QuadFlex 碳纖維與玻璃纖維混紡",
+    "usapa_approved": true,
+    "features": [
+      "Air Dynamic 破風挖洞設計",
+      "ProSpin+ 面漆提供極限旋轉",
+      "極致爆發力，適合進攻型玩家"
+    ],
+    "tags": [
+      "破風科技",
+      "極致力量",
+      "進攻神器"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "Air Dynamic 破風挖洞設計 ProSpin+ 面漆提供極限旋轉 極致爆發力，適合進攻型玩家"
+  },
+  {
+    "id": "joola-scorpeus-14",
+    "name": "JOOLA Anna Bright Scorpeus CFS 14",
+    "brand": "JOOLA",
+    "price_ntd": 8200,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.8 oz",
+    "shape": "寬體標準型 (Scorpeus)",
+    "core": "Reactive Honeycomb",
+    "surface": "Carbon Friction Surface (CFS)",
+    "usapa_approved": true,
+    "features": [
+      "Anna Bright 簽名款，專為女性與雙手反拍設計",
+      "寬體甜區極大，容錯率高",
+      "14mm 彈速極快，網前平抽極具優勢"
+    ],
+    "tags": [
+      "AnnaBright",
+      "寬體大甜區",
+      "網前極速"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "Anna Bright 簽名款，專為女性與雙手反拍設計 寬體甜區極大，容錯率高 14mm 彈速極快，網前平抽極具優勢"
+  },
+  {
+    "id": "sixzero-ruby",
+    "name": "Six Zero Ruby 16mm (Kevlar)",
+    "brand": "Six Zero",
+    "price_ntd": 6500,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "混合型",
+    "core": "發泡聚合物蜂巢",
+    "surface": "100% 芳綸纖維 (Kevlar)",
+    "usapa_approved": true,
+    "features": [
+      "市場首創 100% Kevlar 表面，紅色搶眼外觀",
+      "兼具碳纖維的咬球與超越玻璃纖維的韌性手感",
+      "控球極致柔軟，上旋力道卻異常強烈"
+    ],
+    "tags": [
+      "Kevlar材質",
+      "頂級手感",
+      "強烈旋轉",
+      "紅色神拍"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "市場首創 100% Kevlar 表面，紅色搶眼外觀 兼具碳纖維的咬球與超越玻璃纖維的韌性手感 控球極致柔軟，上旋力道卻異常強烈"
+  },
+  {
+    "id": "gearbox-pro-power",
+    "name": "Gearbox Pro Power Elongated",
+    "brand": "Gearbox",
+    "price_ntd": 8800,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "加長型",
+    "core": "SST 專利實心碳纖維肋骨結構",
+    "surface": "TXR 表面",
+    "usapa_approved": true,
+    "features": [
+      "告別傳統蜂巢，使用專利實心碳纖維柱，永不塌陷",
+      "出球極其安靜，但力量猶如火箭發射",
+      "2024 年度力量拍評測第一名，聲音特殊"
+    ],
+    "tags": [
+      "專利無蜂巢",
+      "無敵力量",
+      "極靜音"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "告別傳統蜂巢，使用專利實心碳纖維柱，永不塌陷 出球極其安靜，但力量猶如火箭發射 2024 年度力量拍評測第一名，聲音特殊"
+  },
+  {
+    "id": "vatic-pro-prism-flash",
+    "name": "Vatic Pro Prism Flash 16mm",
+    "brand": "Vatic Pro",
+    "price_ntd": 3500,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "混合弧形",
+    "core": "聚氨酯發泡注入蜂巢",
+    "surface": "日本 Toray T700 碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "海外論壇公認 100 美金級距無敵性價比",
+      "高階熱壓拍的配置，手感柔和，非常適合控球防守",
+      "甜區寬廣，新手與進階球友的完美過渡拍"
+    ],
+    "tags": [
+      "百元美金神拍",
+      "極高CP值",
+      "控球首選"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "海外論壇公認 100 美金級距無敵性價比 高階熱壓拍的配置，手感柔和，非常適合控球防守 甜區寬廣，新手與進階球友的完美過渡拍"
+  },
+  {
+    "id": "engage-pursuit-pro-ex",
+    "name": "Engage Pursuit Pro EX 6.0",
+    "brand": "Engage",
+    "price_ntd": 7200,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Proprietary Control Pro Black Polymer",
+    "surface": "Raw Toray T800 Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "美國本土純手工製造，品質保證",
+      "T800 高階碳纖維，擊球瞬間手感極致回饋",
+      "網前防守與減震能力優異，深受中高齡進階玩家喜愛"
+    ],
+    "tags": [
+      "美國製造",
+      "T800碳纖維",
+      "柔和防守"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "美國本土純手工製造，品質保證 T800 高階碳纖維，擊球瞬間手感極致回饋 網前防守與減震能力優異，深受中高齡進階玩家喜愛"
+  },
+  {
+    "id": "ronbus-r1-16",
+    "name": "Ronbus R1.16",
+    "brand": "Ronbus",
+    "price_ntd": 3800,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "混合型",
+    "core": "發泡聚合物蜂巢",
+    "surface": "T700 Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "中階價位享受頂級控球體驗，外觀低調沉穩",
+      "手感與 SixZero DBD 極度相似，但揮重更低更輕盈",
+      "防守手感絕佳，網前 Dink 穩定度極高"
+    ],
+    "tags": [
+      "低調實力派",
+      "超低揮重",
+      "控球優異"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "中階價位享受頂級控球體驗，外觀低調沉穩 手感與 SixZero DBD 極度相似，但揮重更低更輕盈 防守手感絕佳，網前 Dink 穩定度極高"
+  },
+  {
+    "id": "joola-hyperion-cfs-16",
+    "name": "JOOLA Ben Johns Hyperion CFS 16",
+    "brand": "JOOLA",
+    "price_ntd": 6500,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.4 oz",
+    "shape": "加長弧頂型",
+    "core": "Reactive Honeycomb",
+    "surface": "Carbon Friction Surface",
+    "usapa_approved": true,
+    "features": [
+      "前一代球王戰拍，弧形拍頭降低風阻",
+      "拍頭偏重，慣性下壓殺球極具破壞力",
+      "適合喜歡底線重抽與重型火力的球友"
+    ],
+    "tags": [
+      "球王經典款",
+      "拍頭偏重",
+      "底線火力"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "前一代球王戰拍，弧形拍頭降低風阻 拍頭偏重，慣性下壓殺球極具破壞力 適合喜歡底線重抽與重型火力的球友"
+  },
+  {
+    "id": "crbn-2x-power-16",
+    "name": "CRBN 2X Power Series 16mm",
+    "brand": "CRBN",
+    "price_ntd": 7600,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "方形寬體 (Square)",
+    "core": "熱壓強化聚合物核心",
+    "surface": "T700 原生 Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "方正外型提供超越極限的防守甜區",
+      "結合熱壓力量與 16mm 控球，非常均衡",
+      "適合以網前快截擊為主體的防守反擊打法"
+    ],
+    "tags": [
+      "方形大甜區",
+      "熱壓力量",
+      "網前防守"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
+    "description": "方正外型提供超越極限的防守甜區 結合熱壓力量與 16mm 控球，非常均衡 適合以網前快截擊為主體的防守反擊打法"
   }
 ]
