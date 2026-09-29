@@ -1965,56 +1965,6 @@
     "theme_color": "#a52324"
   },
   {
-    "id": "sixzero-boulder-opal-14mm",
-    "name": "Six Zero Boulder Opal 14mm",
-    "brand": "Six Zero",
-    "price_ntd": 9600,
-    "budget_category": "flagship",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "自動化偵測核心",
-    "surface": "自動化偵測碳纖維",
-    "usapa_approved": true,
-    "features": [
-      "這是由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-      "產品原文描述摘要：<h2>Advanced Next Gem™ Technology: Boulder Opal</h..."
-    ],
-    "tags": [
-      "最新上架",
-      "爬蟲自動同步"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
-    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-    "theme_color": "#5ba588"
-  },
-  {
-    "id": "sixzero-black-opal-14mm-elongated",
-    "name": "Six Zero Black Opal 14mm Elongated",
-    "brand": "Six Zero",
-    "price_ntd": 5400,
-    "budget_category": "advanced",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "自動化偵測核心",
-    "surface": "自動化偵測碳纖維",
-    "usapa_approved": true,
-    "features": [
-      "這是由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-      "產品原文描述摘要：<h2>Advanced Next Gem™ Technology: Black Opal Elon..."
-    ],
-    "tags": [
-      "最新上架",
-      "爬蟲自動同步"
-    ],
-    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
-    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
-    "theme_color": "#5f799d"
-  },
-  {
     "id": "sixzero-coral-pro-16mm",
     "name": "Six Zero Coral Pro 16mm",
     "brand": "Six Zero",
@@ -7397,7 +7347,7 @@
     "usapa_approved": true,
     "features": [
       "來自美國的知名品牌 Luzz 最新款式",
-      "原廠官方說明：Supreme Power &amp; Control T700 Thermoformed RAW Carbon Fiber: Experience a rac..."
+      "原廠官方說明：Supreme Power & Control T700 Thermoformed RAW Carbon Fiber: Experience a rac..."
     ],
     "tags": [
       "最新上架",
@@ -7761,206 +7711,6 @@
     "theme_color": "#6794a5"
   },
   {
-    "id": "decathlon-kuikma-open",
-    "name": "Decathlon Kuikma Open",
-    "brand": "Decathlon",
-    "price_ntd": 1249,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": true,
-    "features": [
-      "法國知名運動品牌迪卡儂超高 CP 值入門拍",
-      "原廠官方說明：玻璃纖維拍面提供極佳的容錯率與舒適手感，是新手入門匹克球的最佳選擇。"
-    ],
-    "tags": [
-      "新手推薦",
-      "高性價比",
-      "迪卡儂"
-    ],
-    "image_front": "https://contents.mediadecathlon.com/p2625292/k$30f7112002f5a019dc5db5a1dc71fbaf/sq/pickleball-paddle-open.jpg?format=auto&f=800x0",
-    "description": "適合剛接觸匹克球的新手，好打易上手"
-  },
-  {
-    "id": "decathlon-kuikma-pro",
-    "name": "Decathlon Kuikma Pro",
-    "brand": "Decathlon",
-    "price_ntd": 2499,
-    "budget_category": "intermediate",
-    "style_category": "power",
-    "thickness": "16mm",
-    "weight": "8.2 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": true,
-    "features": [
-      "法國知名運動品牌迪卡儂進階碳纖維拍",
-      "原廠官方說明：碳纖維材質帶來更強的擊球威力與旋轉潛力，適合追求進階表現的球友。"
-    ],
-    "tags": [
-      "進階挑戰",
-      "迪卡儂",
-      "碳纖維"
-    ],
-    "image_front": "https://contents.mediadecathlon.com/p2625293/k$2c32cf9ff0fb3e9e3e7f45c92c89f5bc/sq/pickleball-paddle-pro.jpg?format=auto&f=800x0",
-    "description": "提供更好的力量與旋轉，適合進階玩家"
-  },
-  {
-    "id": "jnice-beginner-set",
-    "name": "JNICE (久奈司) 匹克球入門雙拍套組",
-    "brand": "JNICE",
-    "price_ntd": 1280,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "11mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": false,
-    "features": [
-      "台灣本土羽網球知名品牌 JNICE 久奈司推出的高 CP 值套組",
-      "原廠官方說明：專為初學者設計，雙拍組合讓您能隨時與好友一起下場同樂。"
-    ],
-    "tags": [
-      "新手推薦",
-      "雙拍套組",
-      "台灣品牌"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "入門雙拍套組，初學者的熱門選擇"
-  },
-  {
-    "id": "success-budget-paddle",
-    "name": "SUCCESS (成功體育) 平價碳纖維匹克球拍",
-    "brand": "SUCCESS",
-    "price_ntd": 850,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "11mm",
-    "weight": "7.8 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Carbon Fiber",
-    "usapa_approved": false,
-    "features": [
-      "台灣老字號校園與大眾體育品牌 SUCCESS 成功體育",
-      "原廠官方說明：主打超高性價比，千元有找即可享受碳纖維拍面帶來的手感。"
-    ],
-    "tags": [
-      "極度平價",
-      "碳纖維",
-      "台灣品牌"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "老字號體育品牌的超高性價比選擇"
-  },
-  {
-    "id": "tumaz-stylish-paddle",
-    "name": "Tumaz (月熊) 質感輕量匹克球拍",
-    "brand": "Tumaz",
-    "price_ntd": 1150,
-    "budget_category": "budget",
-    "style_category": "speed",
-    "thickness": "13mm",
-    "weight": "7.5 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": false,
-    "features": [
-      "台灣在地戶外與健身品牌 Tumaz (月熊) 用心之作",
-      "原廠官方說明：拍面圖案設計極具質感，主打輕量化，適合重視運動穿搭與外觀的年輕玩家。"
-    ],
-    "tags": [
-      "質感設計",
-      "輕量化",
-      "台灣品牌"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "質感滿分，適合重視穿搭的玩家"
-  },
-  {
-    "id": "franklin-sports-basic",
-    "name": "Franklin Sports 休閒基礎玻纖套組",
-    "brand": "Franklin Sports",
-    "price_ntd": 1450,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "14mm",
-    "weight": "8.1 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": true,
-    "features": [
-      "國際大廠 Franklin 針對大眾賣場推出的超值套組",
-      "原廠官方說明：兼具品質與價格優勢，是大賣場中最受歡迎的入門裝備。"
-    ],
-    "tags": [
-      "大廠出品",
-      "高性價比",
-      "休閒套組"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "Costco 等量販店常見的大廠入門套組"
-  },
-  {
-    "id": "fit-monster-budget",
-    "name": "FIT MONSTER (健身怪獸) 極致平價匹克球拍",
-    "brand": "FIT MONSTER",
-    "price_ntd": 799,
-    "budget_category": "budget",
-    "style_category": "power",
-    "thickness": "14mm",
-    "weight": "8.3 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": false,
-    "features": [
-      "活躍於蝦皮與電商平台的新興品牌 FIT MONSTER",
-      "原廠官方說明：純粹想先買一把便宜球拍來玩玩的極低預算最佳解。"
-    ],
-    "tags": [
-      "極低預算",
-      "電商熱銷",
-      "新手體驗"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "千元有找的電商新興品牌選擇"
-  },
-  {
-    "id": "blazestar-budget",
-    "name": "BLAZESTAR 新手體驗匹克球拍",
-    "brand": "BLAZESTAR",
-    "price_ntd": 899,
-    "budget_category": "budget",
-    "style_category": "control",
-    "thickness": "14mm",
-    "weight": "8.0 oz",
-    "shape": "標準型",
-    "core": "Polymer Honeycomb",
-    "surface": "Fiberglass",
-    "usapa_approved": false,
-    "features": [
-      "活躍於蝦皮與各大合作商城的新銳品牌 BLAZESTAR",
-      "原廠官方說明：以極低的門檻讓所有人都能輕鬆體驗匹克球的樂趣。"
-    ],
-    "tags": [
-      "極低預算",
-      "電商熱銷",
-      "新手體驗"
-    ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "輕鬆體驗匹克球樂趣的超值好拍"
-  },
-  {
     "id": "vaticpro-v-sol-tour-with-evergrit-16mm-includes-paddle-cover",
     "name": "Vatic Pro V-Sol Tour with Evergrit (16mm) (Includes Paddle Cover)",
     "brand": "Vatic Pro",
@@ -8195,6 +7945,256 @@
     "description": "來自美國的 Luzz 最新球拍"
   },
   {
+    "id": "jnice-beginner-set",
+    "name": "JNICE (久奈司) 匹克球入門雙拍套組",
+    "brand": "JNICE",
+    "price_ntd": 1280,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣實體通路 / 電商精選 JNICE 球拍",
+      "原廠官方說明：入門雙拍套組，初學者的熱門選擇"
+    ],
+    "tags": [
+      "新手推薦",
+      "雙拍套組",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "入門雙拍套組，初學者的熱門選擇"
+  },
+  {
+    "id": "success-budget-paddle",
+    "name": "SUCCESS (成功體育) 平價碳纖維匹克球拍",
+    "brand": "SUCCESS",
+    "price_ntd": 850,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": false,
+    "features": [
+      "台灣實體通路 / 電商精選 SUCCESS 球拍",
+      "原廠官方說明：老字號體育品牌的超高性價比選擇"
+    ],
+    "tags": [
+      "極度平價",
+      "碳纖維",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "老字號體育品牌的超高性價比選擇"
+  },
+  {
+    "id": "tumaz-stylish-paddle",
+    "name": "Tumaz (月熊) 質感輕量匹克球拍",
+    "brand": "Tumaz",
+    "price_ntd": 1150,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "13mm",
+    "weight": "7.5 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣實體通路 / 電商精選 Tumaz 球拍",
+      "原廠官方說明：質感滿分，適合重視穿搭的玩家"
+    ],
+    "tags": [
+      "質感設計",
+      "輕量化",
+      "台灣品牌"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "質感滿分，適合重視穿搭的玩家"
+  },
+  {
+    "id": "franklin-sports-basic",
+    "name": "Franklin Sports 休閒基礎玻纖套組",
+    "brand": "Franklin Sports",
+    "price_ntd": 1450,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.1 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "台灣實體通路 / 電商精選 Franklin Sports 球拍",
+      "原廠官方說明：Costco 等量販店常見的大廠入門套組"
+    ],
+    "tags": [
+      "大廠出品",
+      "高性價比",
+      "休閒套組"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "Costco 等量販店常見的大廠入門套組"
+  },
+  {
+    "id": "fit-monster-budget",
+    "name": "FIT MONSTER (健身怪獸) 極致平價匹克球拍",
+    "brand": "FIT MONSTER",
+    "price_ntd": 799,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.3 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣實體通路 / 電商精選 FIT MONSTER 球拍",
+      "原廠官方說明：千元有找的電商新興品牌選擇"
+    ],
+    "tags": [
+      "極低預算",
+      "電商熱銷",
+      "新手體驗"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "千元有找的電商新興品牌選擇"
+  },
+  {
+    "id": "blazestar-budget",
+    "name": "BLAZESTAR 新手體驗匹克球拍",
+    "brand": "BLAZESTAR",
+    "price_ntd": 899,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": false,
+    "features": [
+      "台灣實體通路 / 電商精選 BLAZESTAR 球拍",
+      "原廠官方說明：輕鬆體驗匹克球樂趣的超值好拍"
+    ],
+    "tags": [
+      "極低預算",
+      "電商熱銷",
+      "新手體驗"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "輕鬆體驗匹克球樂趣的超值好拍"
+  },
+  {
+    "id": "decathlon-kuikma-open",
+    "name": "Decathlon Kuikma Open",
+    "brand": "Decathlon",
+    "price_ntd": 1249,
+    "budget_category": "budget",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass",
+    "usapa_approved": true,
+    "features": [
+      "台灣實體通路 / 電商精選 Decathlon 球拍",
+      "原廠官方說明：適合剛接觸匹克球的新手，好打易上手"
+    ],
+    "tags": [
+      "新手推薦",
+      "高性價比",
+      "迪卡儂"
+    ],
+    "image_front": "https://contents.mediadecathlon.com/p2625292/k$30f7112002f5a019dc5db5a1dc71fbaf/sq/pickleball-paddle-open.jpg?format=auto&f=800x0",
+    "description": "適合剛接觸匹克球的新手，好打易上手"
+  },
+  {
+    "id": "decathlon-kuikma-pro",
+    "name": "Decathlon Kuikma Pro",
+    "brand": "Decathlon",
+    "price_ntd": 2499,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "台灣實體通路 / 電商精選 Decathlon 球拍",
+      "原廠官方說明：提供更好的力量與旋轉，適合進階玩家"
+    ],
+    "tags": [
+      "進階挑戰",
+      "迪卡儂",
+      "碳纖維"
+    ],
+    "image_front": "https://contents.mediadecathlon.com/p2625293/k$2c32cf9ff0fb3e9e3e7f45c92c89f5bc/sq/pickleball-paddle-pro.jpg?format=auto&f=800x0",
+    "description": "提供更好的力量與旋轉，適合進階玩家"
+  },
+  {
+    "id": "prokennex-black-ace-pro",
+    "name": "PROKENNEX Black Ace Pro",
+    "brand": "ProKennex",
+    "price_ntd": 7200,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "7.9 oz",
+    "shape": "標準型",
+    "core": "Kinetic System",
+    "surface": "Toray Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "台灣實體通路 / 電商精選 ProKennex 球拍",
+      "原廠官方說明：搭載動能微膠囊系統，物理減震最頂點"
+    ],
+    "tags": [
+      "物理減震",
+      "網球肘救星",
+      "台灣之光"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "搭載動能微膠囊系統，物理減震最頂點"
+  },
+  {
+    "id": "prokennex-black-ace-ovation",
+    "name": "PROKENNEX Black Ace Ovation",
+    "brand": "ProKennex",
+    "price_ntd": 7200,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "11mm",
+    "weight": "7.9 oz",
+    "shape": "橢圓型",
+    "core": "Kinetic System",
+    "surface": "Toray Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "台灣實體通路 / 電商精選 ProKennex 球拍",
+      "原廠官方說明：特殊的橢圓拍面設計，極速揮拍不震手"
+    ],
+    "tags": [
+      "極速破風",
+      "橢圓拍面",
+      "網球肘救星"
+    ],
+    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
+    "description": "特殊的橢圓拍面設計，極速揮拍不震手"
+  },
+  {
     "id": "slk-neo-set",
     "name": "SLK Neo (by Selkirk)",
     "brand": "SLK",
@@ -8208,8 +8208,8 @@
     "surface": "Fiberglass",
     "usapa_approved": true,
     "features": [
-      "Selkirk 子品牌 SLK 主打的入門名拍",
-      "原廠官方說明：多數俱樂部教練推薦的入門首選，通常以雙拍套組形式販售，極高性價比。"
+      "台灣實體通路 / 電商精選 SLK 球拍",
+      "原廠官方說明：入門名拍"
     ],
     "tags": [
       "入門名拍",
@@ -8233,8 +8233,8 @@
     "surface": "Graphite",
     "usapa_approved": true,
     "features": [
-      "Selkirk 子品牌 SLK 銷售主力",
-      "原廠官方說明：加大的甜區對擊球失誤容忍度極高，非常適合新手建立擊球自信。"
+      "台灣實體通路 / 電商精選 SLK 球拍",
+      "原廠官方說明：加大的甜區對擊球失誤容忍度極高"
     ],
     "tags": [
       "超大甜區",
@@ -8250,7 +8250,7 @@
     "brand": "Head",
     "price_ntd": 2900,
     "budget_category": "intermediate",
-    "style_category": "power",
+    "style_category": "control",
     "thickness": "15mm",
     "weight": "8.1 oz",
     "shape": "標準型",
@@ -8258,8 +8258,8 @@
     "surface": "Fiberglass",
     "usapa_approved": true,
     "features": [
-      "網球大廠 Head 技術下放經典款",
-      "原廠官方說明：拍框吸震和握把人體工學做得很到位，配色搶眼且控球穩定。"
+      "台灣實體通路 / 電商精選 Head 球拍",
+      "原廠官方說明：配色搶眼且控球穩定"
     ],
     "tags": [
       "網球大廠",
@@ -8283,8 +8283,8 @@
     "surface": "Hybrid",
     "usapa_approved": true,
     "features": [
-      "網球大廠 Head 主打輕量操控的款式",
-      "原廠官方說明：擁有極佳的操控性與敏捷度，特別適合喜歡在網前靈活移動的球友。"
+      "台灣實體通路 / 電商精選 Head 球拍",
+      "原廠官方說明：輕量操控的款式"
     ],
     "tags": [
       "輕量敏捷",
@@ -8295,53 +8295,55 @@
     "description": "輕量操控的款式"
   },
   {
-    "id": "prokennex-black-ace-pro",
-    "name": "PROKENNEX Black Ace Pro",
-    "brand": "ProKennex",
-    "price_ntd": 7200,
+    "id": "sixzero-boulder-opal-14mm",
+    "name": "Six Zero Boulder Opal 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 9600,
     "budget_category": "flagship",
     "style_category": "power",
-    "thickness": "11mm",
-    "weight": "7.9 oz",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
     "shape": "標準型",
-    "core": "Kinetic System",
-    "surface": "Toray Carbon Fiber",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
     "usapa_approved": true,
     "features": [
-      "台灣之光 ProKennex 針對進階市場推出的破風神拍",
-      "原廠官方說明：搭載獨家 Kinetic 動能微膠囊系統，在擊球瞬間能吸收有害的震動頻率，是物理減震的最頂點。"
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Advanced Next Gem™ Technology: Boulder Opal More Control. More Feel. The Same Op..."
     ],
     "tags": [
-      "物理減震",
-      "網球肘救星",
-      "台灣之光"
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "搭載動能微膠囊系統，物理減震最頂點"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
+    "image_back": "",
+    "description": "來自澳洲的 Six Zero 最新球拍"
   },
   {
-    "id": "prokennex-black-ace-ovation",
-    "name": "PROKENNEX Black Ace Ovation",
-    "brand": "ProKennex",
-    "price_ntd": 7200,
-    "budget_category": "flagship",
-    "style_category": "speed",
-    "thickness": "11mm",
-    "weight": "7.9 oz",
-    "shape": "橢圓型",
-    "core": "Kinetic System",
-    "surface": "Toray Carbon Fiber",
+    "id": "sixzero-black-opal-14mm-elongated",
+    "name": "Six Zero Black Opal 14mm Elongated",
+    "brand": "Six Zero",
+    "price_ntd": 5400,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Carbon Fiber",
     "usapa_approved": true,
     "features": [
-      "採用特殊橢圓 Ovation 拍型的 Black Ace 旗艦",
-      "原廠官方說明：獨特的無稜角橢圓拍面帶來極速揮拍體驗，搭配微膠囊減震，手感獨步全球。"
+      "來自澳洲的知名品牌 Six Zero 最新款式",
+      "原廠官方說明：Advanced Next Gem™ Technology: Black Opal Elongated Reach Further. Hit Harder. F..."
     ],
     "tags": [
-      "極速破風",
-      "橢圓拍面",
-      "網球肘救星"
+      "最新上架",
+      "Six Zero",
+      "原廠直送"
     ],
-    "image_front": "https://raw.githubusercontent.com/princend/pickleball-linebot/main/data/images/no_image.png",
-    "description": "特殊的橢圓拍面設計，極速揮拍不震手"
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
+    "image_back": "",
+    "description": "來自澳洲的 Six Zero 最新球拍"
   }
 ]

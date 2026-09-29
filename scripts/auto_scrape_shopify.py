@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import re
+import html
 import time
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.json")
@@ -112,7 +113,7 @@ def main():
                     html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
                     html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
                     desc_text = re.sub(r'<[^>]+>', ' ', html)
-                    desc_text = re.sub(r'\s+', ' ', desc_text).strip()
+                    desc_text = html.unescape(re.sub(r'\s+', ' ', desc_text).strip())
                     desc = desc_text[:80] + "..." if len(desc_text) > 80 else desc_text
                     
                     
