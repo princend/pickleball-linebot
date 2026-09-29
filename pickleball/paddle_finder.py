@@ -407,10 +407,17 @@ def create_paddle_recommendation_flex(
     budget_key: str,
     style_key: str,
     quick_reply: Optional[QuickReply] = None,
-) -> FlexMessage:
+) -> Any:
     """產生球拍推薦的 Flex Carousel 輪播訊息。"""
     paddles = filter_paddles(budget_key, style_key)
     bubbles = [create_paddle_card(p, budget_key, style_key) for p in paddles]
+
+    if not bubbles:
+        from linebot.v3.messaging import TextMessage
+        return TextMessage(
+            text="目前沒有符合條件的球拍資料，請稍後再試。",
+            quick_reply=quick_reply
+        )
 
     budget_info = BUDGET_MAP.get(budget_key, {"name": "自選預算"})
     style_info = STYLE_MAP.get(style_key, {"name": "自選球風"})
