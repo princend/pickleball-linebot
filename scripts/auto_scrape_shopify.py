@@ -105,7 +105,12 @@ def main():
                     elif "13mm" in title.lower(): thickness = "13mm"
                     elif "20mm" in title.lower(): thickness = "20mm"
                     
-                    desc = re.sub(r'<[^>]+>', '', prod.get('body_html', ''))[:80] + "..."
+                    html = prod.get('body_html', '') or ''
+                    html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
+                    html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
+                    desc_text = re.sub(r'<[^>]+>', ' ', html)
+                    desc_text = re.sub(r'\s+', ' ', desc_text).strip()
+                    desc = desc_text[:80] + "..." if len(desc_text) > 80 else desc_text
                     
                     if price < 1500:
                         budget_cat = "budget"
