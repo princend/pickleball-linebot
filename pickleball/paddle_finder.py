@@ -42,16 +42,55 @@ STYLE_MAP = {
 }
 
 
+import csv
+import io
+import requests
+import time
+
+PADDLES_CACHE = []
+LAST_FETCH_TIME = 0
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw/export?format=csv"
+
 def load_all_paddles() -> List[Dict[str, Any]]:
-    """讀取本地主流球拍資料。"""
-    if not os.path.exists(DATA_FILE):
-        return []
+    """從 Google Sheets 讀取球拍資料並快取。"""
+    global PADDLES_CACHE, LAST_FETCH_TIME
+    current_time = time.time()
+    
+    # 5 分鐘快取，避免頻繁發送請求
+    if PADDLES_CACHE and (current_time - LAST_FETCH_TIME < 300):
+        return PADDLES_CACHE
+        
     try:
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        r = requests.get(SHEET_URL, timeout=5)
+        r.encoding = 'utf-8'
+        reader = csv.DictReader(io.StringIO(r.text))
+        paddles = []
+        for row in reader:
+            row["price_ntd"] = int(row["price_ntd"]) if str(row["price_ntd"]).isdigit() else 0
+            row["usapa_approved"] = str(row["usapa_approved"]).upper() == "TRUE"
+            row["features"] = [f.strip() for f in row["features"].split("|") if f.strip()]
+            row["tags"] = [t.strip() for t in row["tags"].split("|") if t.strip()]
+            paddles.append(row)
+            
+        if paddles:
+            PADDLES_CACHE = paddles
+            LAST_FETCH_TIME = current_time
+            return paddles
     except Exception as e:
-        print(f"[錯誤] 讀取球拍資料庫失敗: {e}", flush=True)
-        return []
+        print(f"[警告] 讀取 Google Sheets 失敗: {e}", flush=True)
+        
+    # 如果抓取失敗且有快取，回傳快取
+    if PADDLES_CACHE:
+        return PADDLES_CACHE
+        
+    # 終極備援：讀取本機 JSON
+    if os.path.exists(DATA_FILE):
+        try:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return []
 
 
 def get_paddle_budget_quick_reply() -> QuickReply:
