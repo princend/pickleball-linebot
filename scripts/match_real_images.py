@@ -81,6 +81,10 @@ def match_images():
         best_match = None
         max_matches = 0
         
+        # 只有當圖片是預設的 no_image.png 時，才嘗試進行配對 (保留爬蟲的精準圖片)
+        if "no_image.png" not in p.get("image_front", "no_image.png"):
+            continue
+            
         for item in inventory:
             # 嚴格要求品牌必須吻合，避免 Insum 配到 Selkirk 的橡皮擦
             brand_match = brand.lower().replace(" ", "") in item["brand"].replace("-", "")
@@ -97,8 +101,9 @@ def match_images():
             
             common = len(words.intersection(item_words))
             
-            # We need at least 1 significant word match (like 'sapphire', 'ruby', 'perseus')
-            if common > max_matches and common >= 1:
+            # We require ALL words in the paddle name (excluding brand) to be present in the Shopify title
+            # This prevents Z5 Composite matching with Evoke Composite
+            if common == len(words) and common > max_matches:
                 max_matches = common
                 best_match = item
                 
