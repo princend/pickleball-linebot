@@ -131,8 +131,11 @@ def filter_paddles(budget_key: str, style_key: str) -> List[Dict[str, Any]]:
     if not matched:
         matched = [p for p in all_paddles if p.get("style_category") == style_key]
 
-    # 4. 最多回傳 3 款代表拍
-    return matched[:3] if matched else all_paddles[:3]
+    # 4. 隨機回傳最多 3 款代表拍 (使用戶每次查詢有不同結果)
+    import random
+    if matched:
+        return random.sample(matched, min(3, len(matched)))
+    return random.sample(all_paddles, min(3, len(all_paddles)))
 
 
 def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) -> FlexBubble:
