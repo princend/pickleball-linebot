@@ -1130,5 +1130,1598 @@
     "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
     "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
     "description": "JNICE 定位為速度型的中階/入門球拍 超輕的 7.5 oz 揮重，適合女性或喜歡快節奏平抽的球友 外觀亮眼，是初學者升級的第一首選"
+  },
+  {
+    "id": "joola-perseus-cfs-14",
+    "name": "JOOLA Perseus CFS 14",
+    "brand": "JOOLA",
+    "price_ntd": 6370,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.6 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 power 取向設計的熱門拍款。",
+      "配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "極致下旋",
+      "高性價比",
+      "進階首選"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-scorpeus-cfs-16",
+    "name": "JOOLA Scorpeus CFS 16",
+    "brand": "JOOLA",
+    "price_ntd": 6643,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "大甜區",
+      "選手御用"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-radius-cgs-14",
+    "name": "JOOLA Radius CGS 14",
+    "brand": "JOOLA",
+    "price_ntd": 5714,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "防守吸震",
+      "極致下旋",
+      "選手御用"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-radius-cgs-16",
+    "name": "JOOLA Radius CGS 16",
+    "brand": "JOOLA",
+    "price_ntd": 4554,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高容錯",
+      "高性價比",
+      "威力強大"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-solaire-cfs-14",
+    "name": "JOOLA Solaire CFS 14",
+    "brand": "JOOLA",
+    "price_ntd": 5125,
+    "budget_category": "advanced",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.7 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "防守吸震",
+      "絕佳手感"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-vision-cgs-16",
+    "name": "JOOLA Vision CGS 16",
+    "brand": "JOOLA",
+    "price_ntd": 3903,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.5 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "快節奏",
+      "底線重抽"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "joola-method-cgs-14",
+    "name": "JOOLA Method CGS 14",
+    "brand": "JOOLA",
+    "price_ntd": 3178,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.9 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "JOOLA 家族中專為 power 取向設計的熱門拍款。",
+      "配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "高容錯",
+      "進階首選"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "JOOLA 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-vanguard-control-invikta",
+    "name": "Selkirk Vanguard Control Invikta",
+    "brand": "Selkirk",
+    "price_ntd": 7965,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.5 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高容錯",
+      "快節奏",
+      "選手御用"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-vanguard-control-epic",
+    "name": "Selkirk Vanguard Control Epic",
+    "brand": "Selkirk",
+    "price_ntd": 6223,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.9 oz",
+    "shape": "無邊框型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "高性價比",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-luxx-control-air-s2",
+    "name": "Selkirk LUXX Control Air S2",
+    "brand": "Selkirk",
+    "price_ntd": 6580,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "20mm",
+    "weight": "7.7 oz",
+    "shape": "無邊框型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 20mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "防守吸震",
+      "高容錯"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 20mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-amped-invikta",
+    "name": "Selkirk AMPED Invikta",
+    "brand": "Selkirk",
+    "price_ntd": 4574,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "威力強大",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-amped-epic",
+    "name": "Selkirk AMPED Epic",
+    "brand": "Selkirk",
+    "price_ntd": 4744,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.6 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "進階首選",
+      "底線重抽",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-amped-s2",
+    "name": "Selkirk AMPED S2",
+    "brand": "Selkirk",
+    "price_ntd": 5233,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.9 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "高容錯",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-halo-power-xl",
+    "name": "Selkirk Halo Power XL",
+    "brand": "Selkirk",
+    "price_ntd": 5600,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "13mm",
+    "weight": "8.1 oz",
+    "shape": "混合型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 power 取向設計的熱門拍款。",
+      "配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高容錯",
+      "大甜區",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-halo-control-max",
+    "name": "Selkirk Halo Control Max",
+    "brand": "Selkirk",
+    "price_ntd": 5149,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.4 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "極致下旋",
+      "底線重抽",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "selkirk-sport",
+    "name": "Selkirk Sport",
+    "brand": "Selkirk",
+    "price_ntd": 1865,
+    "budget_category": "starter",
+    "style_category": "speed",
+    "thickness": "11mm",
+    "weight": "8.3 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Selkirk 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "快節奏",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Selkirk 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-1x-power-16mm",
+    "name": "CRBN CRBN 1X Power 16mm",
+    "brand": "CRBN",
+    "price_ntd": 7816,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "底線重抽",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-2x-power-14mm",
+    "name": "CRBN CRBN 2X Power 14mm",
+    "brand": "CRBN",
+    "price_ntd": 7366,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.9 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 power 取向設計的熱門拍款。",
+      "配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "高性價比",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-3x-power-16mm",
+    "name": "CRBN CRBN 3X Power 16mm",
+    "brand": "CRBN",
+    "price_ntd": 8067,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.7 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "網前小球",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-3x-power-14mm",
+    "name": "CRBN CRBN 3X Power 14mm",
+    "brand": "CRBN",
+    "price_ntd": 6282,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "8.4 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 power 取向設計的熱門拍款。",
+      "配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "防守吸震",
+      "選手御用",
+      "快節奏"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-1-control-16mm",
+    "name": "CRBN CRBN 1 Control 16mm",
+    "brand": "CRBN",
+    "price_ntd": 4967,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "混合型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "絕佳手感",
+      "極致下旋",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-1-control-14mm",
+    "name": "CRBN CRBN 1 Control 14mm",
+    "brand": "CRBN",
+    "price_ntd": 4673,
+    "budget_category": "advanced",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "進階首選",
+      "快節奏"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "crbn-crbn-2-control-16mm",
+    "name": "CRBN CRBN 2 Control 16mm",
+    "brand": "CRBN",
+    "price_ntd": 5209,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.6 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "CRBN 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "極致下旋",
+      "進階首選",
+      "大甜區"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "CRBN 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "six-zero-double-black-diamond-14mm",
+    "name": "Six Zero Double Black Diamond 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 4933,
+    "budget_category": "advanced",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.8 oz",
+    "shape": "無邊框型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Six Zero 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "快節奏",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Six Zero 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "six-zero-black-diamond-power-16mm",
+    "name": "Six Zero Black Diamond Power 16mm",
+    "brand": "Six Zero",
+    "price_ntd": 4590,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.9 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Six Zero 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "快節奏",
+      "高容錯"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Six Zero 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "six-zero-infinity",
+    "name": "Six Zero Infinity",
+    "brand": "Six Zero",
+    "price_ntd": 6790,
+    "budget_category": "flagship",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Six Zero 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "極致下旋",
+      "進階首選",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Six Zero 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "six-zero-sapphire",
+    "name": "Six Zero Sapphire",
+    "brand": "Six Zero",
+    "price_ntd": 4223,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.3 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Six Zero 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "進階首選",
+      "高容錯"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Six Zero 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "paddletek-bantam-ex-l",
+    "name": "Paddletek Bantam EX-L",
+    "brand": "Paddletek",
+    "price_ntd": 5774,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "13mm",
+    "weight": "7.8 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Paddletek 家族中專為 power 取向設計的熱門拍款。",
+      "配備 13mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高性價比",
+      "網前小球",
+      "威力強大"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Paddletek 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "paddletek-bantam-ts-5",
+    "name": "Paddletek Bantam TS-5",
+    "brand": "Paddletek",
+    "price_ntd": 5511,
+    "budget_category": "advanced",
+    "style_category": "speed",
+    "thickness": "13mm",
+    "weight": "8.4 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Paddletek 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "快節奏",
+      "底線重抽"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Paddletek 家族中專為 speed 取向設計的熱門拍款。 配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "paddletek-tempest-reign-pro",
+    "name": "Paddletek Tempest Reign Pro",
+    "brand": "Paddletek",
+    "price_ntd": 5989,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14.3mm",
+    "weight": "8.2 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Paddletek 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "網前小球",
+      "高容錯"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "paddletek-tempest-wave-ii",
+    "name": "Paddletek Tempest Wave II",
+    "brand": "Paddletek",
+    "price_ntd": 4414,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14.3mm",
+    "weight": "8.3 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Paddletek 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "極致下旋",
+      "快節奏"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 14.3mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "paddletek-phoenix-g6",
+    "name": "Paddletek Phoenix G6",
+    "brand": "Paddletek",
+    "price_ntd": 3989,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "15mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Paddletek 家族中專為 control 取向設計的熱門拍款。",
+      "配備 15mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "大甜區",
+      "威力強大"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Paddletek 家族中專為 control 取向設計的熱門拍款。 配備 15mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-pursuit-pro-mx-6-0",
+    "name": "Engage Pursuit Pro MX 6.0",
+    "brand": "Engage",
+    "price_ntd": 6721,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.6 oz",
+    "shape": "無邊框型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "高容錯",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-pursuit-ex",
+    "name": "Engage Pursuit EX",
+    "brand": "Engage",
+    "price_ntd": 5736,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "13mm",
+    "weight": "7.5 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 control 取向設計的熱門拍款。",
+      "配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "絕佳手感",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 control 取向設計的熱門拍款。 配備 13mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-pursuit-mx",
+    "name": "Engage Pursuit MX",
+    "brand": "Engage",
+    "price_ntd": 5741,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "13mm",
+    "weight": "8.2 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 power 取向設計的熱門拍款。",
+      "配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "高容錯",
+      "大甜區"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 13mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-encore-ex-6-0",
+    "name": "Engage Encore EX 6.0",
+    "brand": "Engage",
+    "price_ntd": 5865,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "防守吸震",
+      "底線重抽"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-encore-mx-6-0",
+    "name": "Engage Encore MX 6.0",
+    "brand": "Engage",
+    "price_ntd": 4505,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "絕佳手感",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "engage-omega",
+    "name": "Engage Omega",
+    "brand": "Engage",
+    "price_ntd": 4027,
+    "budget_category": "intermediate",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.7 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Engage 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "底線重抽",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Engage 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "gearbox-pro-control-elongated",
+    "name": "Gearbox Pro Control Elongated",
+    "brand": "Gearbox",
+    "price_ntd": 7784,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.6 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Gearbox 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "進階首選",
+      "選手御用",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "gearbox-pro-control-integrated",
+    "name": "Gearbox Pro Control Integrated",
+    "brand": "Gearbox",
+    "price_ntd": 8434,
+    "budget_category": "flagship",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "混合型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Gearbox 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "大甜區",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "gearbox-cx14e",
+    "name": "Gearbox CX14E",
+    "brand": "Gearbox",
+    "price_ntd": 5327,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "14mm",
+    "weight": "7.7 oz",
+    "shape": "混合型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Gearbox 家族中專為 power 取向設計的熱門拍款。",
+      "配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "極致下旋",
+      "威力強大",
+      "絕佳手感"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Gearbox 家族中專為 power 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "gearbox-cx14h",
+    "name": "Gearbox CX14H",
+    "brand": "Gearbox",
+    "price_ntd": 4511,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.8 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Gearbox 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "快節奏",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Gearbox 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "gearbox-cp7",
+    "name": "Gearbox CP7",
+    "brand": "Gearbox",
+    "price_ntd": 3525,
+    "budget_category": "intermediate",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.8 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Gearbox 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "進階首選",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Gearbox 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "onix-z5-composite",
+    "name": "Onix Z5 Composite",
+    "brand": "Onix",
+    "price_ntd": 1895,
+    "budget_category": "starter",
+    "style_category": "power",
+    "thickness": "11mm",
+    "weight": "7.7 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Onix 家族中專為 power 取向設計的熱門拍款。",
+      "配備 11mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "威力強大",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 11mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "onix-evoke-premier",
+    "name": "Onix Evoke Premier",
+    "brand": "Onix",
+    "price_ntd": 5259,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "加長型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Onix 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高性價比",
+      "極致下旋",
+      "底線重抽"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Onix 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "onix-evoke-pro",
+    "name": "Onix Evoke Pro",
+    "brand": "Onix",
+    "price_ntd": 5774,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.5 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Onix 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "極致下旋",
+      "底線重抽"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Onix 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "onix-react",
+    "name": "Onix React",
+    "brand": "Onix",
+    "price_ntd": 3720,
+    "budget_category": "intermediate",
+    "style_category": "speed",
+    "thickness": "11mm",
+    "weight": "7.6 oz",
+    "shape": "無邊框型",
+    "core": "Foam Core",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Onix 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 11mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "高性價比",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Onix 家族中專為 speed 取向設計的熱門拍款。 配備 11mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "hudef-viva-pro-gen-2",
+    "name": "Hudef Viva Pro Gen 2",
+    "brand": "Hudef",
+    "price_ntd": 4184,
+    "budget_category": "intermediate",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.7 oz",
+    "shape": "標準型",
+    "core": "Foam Core",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Hudef 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "網前小球",
+      "大甜區",
+      "高容錯"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Hudef 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 標準型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "hudef-hd4",
+    "name": "Hudef HD4",
+    "brand": "Hudef",
+    "price_ntd": 3781,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.2 oz",
+    "shape": "無邊框型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Hudef 家族中專為 control 取向設計的熱門拍款。",
+      "配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "大甜區",
+      "選手御用",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Hudef 家族中專為 control 取向設計的熱門拍款。 配備 14mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "hudef-hd6",
+    "name": "Hudef HD6",
+    "brand": "Hudef",
+    "price_ntd": 3953,
+    "budget_category": "intermediate",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "無邊框型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Hudef 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "快節奏",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Hudef 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "ronbus-r2-16",
+    "name": "Ronbus R2.16",
+    "brand": "Ronbus",
+    "price_ntd": 5658,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "加長型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Ronbus 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "防守吸震",
+      "威力強大",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 加長型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "ronbus-r3-16",
+    "name": "Ronbus R3.16",
+    "brand": "Ronbus",
+    "price_ntd": 5634,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Ronbus 家族中專為 control 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "選手御用",
+      "網前小球",
+      "防守吸震"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Ronbus 家族中專為 control 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "ronbus-r1-pulsar",
+    "name": "Ronbus R1 Pulsar",
+    "brand": "Ronbus",
+    "price_ntd": 7906,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "無邊框型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Ronbus 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "高容錯",
+      "底線重抽",
+      "選手御用"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 無邊框型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "ronbus-r3-pulsar",
+    "name": "Ronbus R3 Pulsar",
+    "brand": "Ronbus",
+    "price_ntd": 7916,
+    "budget_category": "flagship",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.6 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Ronbus 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "絕佳手感",
+      "高性價比",
+      "進階首選"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Ronbus 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "ronbus-nova",
+    "name": "Ronbus Nova",
+    "brand": "Ronbus",
+    "price_ntd": 6805,
+    "budget_category": "flagship",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.2 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Ronbus 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "底線重抽",
+      "威力強大",
+      "網前小球"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Ronbus 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "vatic-pro-prism-flash-14mm",
+    "name": "Vatic Pro Prism Flash 14mm",
+    "brand": "Vatic Pro",
+    "price_ntd": 4426,
+    "budget_category": "intermediate",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.9 oz",
+    "shape": "混合型",
+    "core": "Polymer Honeycomb",
+    "surface": "Fiberglass / Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Vatic Pro 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "快節奏",
+      "大甜區",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Vatic Pro 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "vatic-pro-v7-16mm",
+    "name": "Vatic Pro V7 16mm",
+    "brand": "Vatic Pro",
+    "price_ntd": 5133,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "7.5 oz",
+    "shape": "寬體型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Vatic Pro 家族中專為 power 取向設計的熱門拍款。",
+      "配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "進階首選",
+      "極致下旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Vatic Pro 家族中專為 power 取向設計的熱門拍款。 配備 16mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "vatic-pro-alchemy",
+    "name": "Vatic Pro Alchemy",
+    "brand": "Vatic Pro",
+    "price_ntd": 8281,
+    "budget_category": "flagship",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "7.6 oz",
+    "shape": "混合型",
+    "core": "Foam Core",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Vatic Pro 家族中專為 spin 取向設計的熱門拍款。",
+      "配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "防守吸震",
+      "網前小球",
+      "高性價比"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Vatic Pro 家族中專為 spin 取向設計的熱門拍款。 配備 16mm 核心與 混合型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "volair-mach-1-forza-14mm",
+    "name": "Volair Mach 1 Forza 14mm",
+    "brand": "Volair",
+    "price_ntd": 5338,
+    "budget_category": "advanced",
+    "style_category": "speed",
+    "thickness": "14mm",
+    "weight": "7.5 oz",
+    "shape": "寬體型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "Volair 家族中專為 speed 取向設計的熱門拍款。",
+      "配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。",
+      "不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+    ],
+    "tags": [
+      "威力強大",
+      "絕佳手感",
+      "大甜區"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Volair 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
   }
 ]
