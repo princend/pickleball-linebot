@@ -150,8 +150,8 @@ def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) 
     front_img = paddle.get("image_front", "")
     description = paddle.get("description", "")
 
-    # 標籤色
-    budget_color = BUDGET_MAP.get(budget_key, {}).get("color", "#2563EB")
+    # 標籤色 (優先使用球拍主題色，否則使用預算對應顏色)
+    budget_color = paddle.get("theme_color") or BUDGET_MAP.get(budget_key, {}).get("color", "#2563EB")
 
     # 單一圖片預覽區
     preview_box = FlexBox(
@@ -314,7 +314,7 @@ def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) 
             contents=[
                 FlexButton(
                     style="primary",
-                    color="#1E3A8A",
+                    color=budget_color,
                     height="sm",
                     action=MessageAction(
                         label="AI 深入解析這款",
