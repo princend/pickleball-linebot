@@ -1,7 +1,7 @@
 """匹克球主流球拍推薦模組。
 
 提供兩步速配問卷 (預算區間 -> 球風取向)、條件過濾篩選、
-以及包含球拍「正面與反面」高畫質圖片的 LINE Flex 輪播卡片 (Carousel)。
+以及包含球拍高畫質圖片的 LINE Flex 輪播卡片 (Carousel)。
 遵循無表情符號規範 (No Emoji Policy) 與優雅排版風格。
 """
 
@@ -136,7 +136,7 @@ def filter_paddles(budget_key: str, style_key: str) -> List[Dict[str, Any]]:
 
 
 def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) -> FlexBubble:
-    """建立單一球拍的 FlexBubble，特別強調球拍【正面與反面】雙重視覺展示。"""
+    """建立單一球拍的 FlexBubble，特別強調球拍視覺展示。"""
     name = paddle.get("name", "精選匹克球拍")
     brand = paddle.get("brand", "精選品牌")
     price = paddle.get("price_ntd", 0)
@@ -148,99 +148,31 @@ def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) 
     tags = paddle.get("tags", [])
     features = paddle.get("features", [])
     front_img = paddle.get("image_front", "")
-    back_img = paddle.get("image_back", "")
     description = paddle.get("description", "")
 
     # 標籤色
     budget_color = BUDGET_MAP.get(budget_key, {}).get("color", "#2563EB")
 
-    # 雙面圖片預覽區 (正面 vs 反面 並排)
+    # 單一圖片預覽區
     preview_box = FlexBox(
         layout="vertical",
         background_color="#F3F4F6",
         padding_all="md",
         contents=[
-            FlexText(
-                text="球拍雙面視圖展示 (正面 / 反面)",
-                size="xxs",
-                color="#6B7280",
-                align="center",
-                weight="bold",
-                margin="none",
-            ),
             FlexBox(
-                layout="horizontal",
-                spacing="md",
-                margin="sm",
+                layout="vertical",
+                background_color="#FFFFFF",
+                corner_radius="md",
+                padding_all="xs",
                 contents=[
-                    # 正面視圖
-                    FlexBox(
-                        layout="vertical",
-                        flex=1,
-                        background_color="#FFFFFF",
-                        corner_radius="md",
-                        padding_all="xs",
-                        contents=[
-                            FlexImage(
-                                url=front_img,
-                                size="full",
-                                aspect_ratio="1:1",
-                                aspect_mode="cover",
-                            ),
-                            FlexBox(
-                                layout="vertical",
-                                background_color="#1E3A8A",
-                                corner_radius="xs",
-                                margin="xs",
-                                padding_top="none",
-                                padding_bottom="none",
-                                contents=[
-                                    FlexText(
-                                        text="正面視圖",
-                                        size="xxs",
-                                        color="#FFFFFF",
-                                        align="center",
-                                        weight="bold",
-                                    )
-                                ],
-                            ),
-                        ],
-                    ),
-                    # 反面視圖
-                    FlexBox(
-                        layout="vertical",
-                        flex=1,
-                        background_color="#FFFFFF",
-                        corner_radius="md",
-                        padding_all="xs",
-                        contents=[
-                            FlexImage(
-                                url=back_img,
-                                size="full",
-                                aspect_ratio="1:1",
-                                aspect_mode="cover",
-                            ),
-                            FlexBox(
-                                layout="vertical",
-                                background_color="#4B5563",
-                                corner_radius="xs",
-                                margin="xs",
-                                padding_top="none",
-                                padding_bottom="none",
-                                contents=[
-                                    FlexText(
-                                        text="反面視圖",
-                                        size="xxs",
-                                        color="#FFFFFF",
-                                        align="center",
-                                        weight="bold",
-                                    )
-                                ],
-                            ),
-                        ],
-                    ),
+                    FlexImage(
+                        url=front_img,
+                        size="full",
+                        aspect_ratio="1:1",
+                        aspect_mode="cover",
+                    )
                 ],
-            ),
+            )
         ],
     )
 

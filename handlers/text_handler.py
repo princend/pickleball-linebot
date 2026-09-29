@@ -254,7 +254,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
                 reply_token=event.reply_token,
                 messages=[
                     TextMessage(
-                        text="請選擇您的預算範圍，小幫手將為您推薦符合需求且附有正反面圖片的熱門球拍：",
+                        text="請選擇您的預算範圍，小幫手將為您推薦符合需求的熱門球拍：",
                         quick_reply=paddle_qr,
                     )
                 ],

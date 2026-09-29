@@ -1,7 +1,7 @@
 """定時更新與驗證匹克球主流推薦球拍資料模組。
 
 定期檢查與維護 data/paddles_data.json 的完整性，包含：
-1. 欄位結構完整性驗證 (正面與反面圖片、規格、價格、預算與風格分類)。
+1. 欄位結構完整性驗證 (圖片、規格、價格、預算與風格分類)。
 2. 內容正確性驗證 (厚度必須為合理的 mm，重量必須為合理的 oz，價格必須 > 0)。
 3. 遠端圖片實際有效性驗證 (HTTP 200 檢查，排除 403/404)。
 4. 若資料有誤或圖片失效則自動修復或替換為同品牌備援圖。
@@ -32,7 +32,7 @@ SAFE_FALLBACKS = {
 
 REQUIRED_FIELDS = [
     "id", "name", "brand", "price_ntd", "budget_category", 
-    "style_category", "thickness", "weight", "image_front", "image_back"
+    "style_category", "thickness", "weight", "image_front"
 ]
 
 def load_paddles() -> List[Dict[str, Any]]:
@@ -109,7 +109,7 @@ def validate_and_update_paddles() -> bool:
             modified = True
 
         # 2. 嚴格驗證圖片有效性 (HTTP 200)
-        for img_field in ["image_front", "image_back"]:
+        for img_field in ["image_front"]:
             img_url = paddle.get(img_field, "")
             
             # 使用 cache 加速

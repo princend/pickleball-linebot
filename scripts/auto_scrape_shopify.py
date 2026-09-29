@@ -112,7 +112,7 @@ def main():
                         ],
                         "tags": ["最新上架", brand, "原廠直送"],
                         "image_front": front_img,
-                        "image_back": back_img,
+                        "image_back": "",
                         "description": f"來自{origin}的 {brand} 最新球拍"
                     }
                     
