@@ -590,5 +590,248 @@
     "image_front": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-front_4.jpg",
     "image_back": "https://www.justpaddles.com/media/catalog/product/c/r/crbn-1x-power-series-14mm-elongated-pickleball-paddle-back_4.jpg",
     "description": "方正外型提供超越極限的防守甜區 結合熱壓力量與 16mm 控球，非常均衡 適合以網前快截擊為主體的防守反擊打法"
+  },
+  {
+    "id": "paddletek-tempest-wave-pro-c",
+    "name": "Paddletek Tempest Wave Pro-C",
+    "brand": "Paddletek",
+    "price_ntd": 6200,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14.3mm",
+    "weight": "7.8 oz",
+    "shape": "標準型",
+    "core": "Tempest SRT Core",
+    "surface": "ICG Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "老牌大廠的經典控球拍，結合碳纖維帶來更佳的容錯率與手感",
+      "專利的 SRT 核心提供如奶油般的擊球觸感",
+      "深受許多傳統防守型打法的高階玩家推崇"
+    ],
+    "tags": [
+      "老牌經典",
+      "控球大師",
+      "奶油手感"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "老牌大廠的經典控球拍，結合碳纖維帶來更佳的容錯率與手感 專利的 SRT 核心提供如奶油般的擊球觸感 深受許多傳統防守型打法的高階玩家推崇"
+  },
+  {
+    "id": "diadem-edge-18k",
+    "name": "Diadem Edge 18k",
+    "brand": "Diadem",
+    "price_ntd": 6800,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "18k Triaxial Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "3D 立體編織 18K 碳纖維表面，旋轉能力極限突破",
+      "網球大廠技術下放，擊球聲響獨特",
+      "外觀極具科技感，是 Diadem 產品線中的顏值擔當"
+    ],
+    "tags": [
+      "18K立體碳纖維",
+      "極致旋轉",
+      "網球大廠"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "3D 立體編織 18K 碳纖維表面，旋轉能力極限突破 網球大廠技術下放，擊球聲響獨特 外觀極具科技感，是 Diadem 產品線中的顏值擔當"
+  },
+  {
+    "id": "volair-mach-1-forza",
+    "name": "Volair Mach 1 Forza 16mm",
+    "brand": "Volair",
+    "price_ntd": 5800,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.1 oz",
+    "shape": "加長型",
+    "core": "發泡聚合物蜂巢",
+    "surface": "T700 Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "職業選手 Julian Arnold 親自參與研發的熱門品牌",
+      "強調超強抓球力與頂級的旋轉表現，Andiamo!",
+      "適合喜歡重上旋底線與切球網前的高階球友"
+    ],
+    "tags": [
+      "職業球星創立",
+      "超強咬球",
+      "熱血上旋"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "職業選手 Julian Arnold 親自參與研發的熱門品牌 強調超強抓球力與頂級的旋轉表現，Andiamo! 適合喜歡重上旋底線與切球網前的高階球友"
+  },
+  {
+    "id": "onix-z5-graphite",
+    "name": "Onix Z5 Graphite",
+    "brand": "Onix",
+    "price_ntd": 2800,
+    "budget_category": "starter",
+    "style_category": "power",
+    "thickness": "11mm",
+    "weight": "7.9 oz",
+    "shape": "寬體標準型",
+    "core": "Nomex Honeycomb",
+    "surface": "Graphite",
+    "usapa_approved": true,
+    "features": [
+      "歷史上最暢銷的經典入門/中階球拍之一，聲音極其響亮",
+      "Nomex 核心提供巨大的力量與無與倫比的爆發力",
+      "非常適合預算有限但想要體驗強大攻擊火力的初學者"
+    ],
+    "tags": [
+      "史上最暢銷",
+      "超大爆發力",
+      "清脆響聲"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "歷史上最暢銷的經典入門/中階球拍之一，聲音極其響亮 Nomex 核心提供巨大的力量與無與倫比的爆發力 非常適合預算有限但想要體驗強大攻擊火力的初學者"
+  },
+  {
+    "id": "bread-and-butter-filth",
+    "name": "Bread & Butter The Filth",
+    "brand": "Bread & Butter",
+    "price_ntd": 5200,
+    "budget_category": "advanced",
+    "style_category": "power",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "加長型",
+    "core": "Thermoformed Honeycomb",
+    "surface": "T700 Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "新興品牌中的一匹黑馬，以超高的 CP 值與強大火力著稱",
+      "熱壓一體成型技術，殺球威力與容錯率都極為出色",
+      "塗裝充滿街頭風格，年輕世代極度推薦"
+    ],
+    "tags": [
+      "街頭潮牌",
+      "熱壓黑馬",
+      "暴力美學"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "新興品牌中的一匹黑馬，以超高的 CP 值與強大火力著稱 熱壓一體成型技術，殺球威力與容錯率都極為出色 塗裝充滿街頭風格，年輕世代極度推薦"
+  },
+  {
+    "id": "gamma-obsidian-16",
+    "name": "Gamma Obsidian 16mm",
+    "brand": "Gamma",
+    "price_ntd": 5000,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "7.8 oz",
+    "shape": "加長型",
+    "core": "NeuCore Polymer",
+    "surface": "Raw Carbon",
+    "usapa_approved": true,
+    "features": [
+      "網球界知名大廠 Gamma 推出的高階黑曜石系列",
+      "握把錐度設計極佳，適合雙手反拍的轉換",
+      "以柔軟控球見長，防守吸震能力佳"
+    ],
+    "tags": [
+      "網球名廠",
+      "吸震極佳",
+      "雙手反拍"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "網球界知名大廠 Gamma 推出的高階黑曜石系列 握把錐度設計極佳，適合雙手反拍的轉換 以柔軟控球見長，防守吸震能力佳"
+  },
+  {
+    "id": "pickleball-apes-pro-line",
+    "name": "Pickleball Apes Pro Line Energy",
+    "brand": "Pickleball Apes",
+    "price_ntd": 4800,
+    "budget_category": "intermediate",
+    "style_category": "spin",
+    "thickness": "16.5mm",
+    "weight": "8.1 oz",
+    "shape": "加長加長型 (Extra Elongated)",
+    "core": "Polymer Honeycomb",
+    "surface": "Kevlar & Carbon Fiber Blend",
+    "usapa_approved": true,
+    "features": [
+      "極為罕見的 Kevlar 與碳纖維混紡表面，提供獨特咬球感",
+      "手柄極長，幾乎是為雙手反拍重砲手量身打造",
+      "獨特的長條形拍面，單打時的覆蓋率極高"
+    ],
+    "tags": [
+      "混紡材質",
+      "超長握把",
+      "單打利器"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "極為罕見的 Kevlar 與碳纖維混紡表面，提供獨特咬球感 手柄極長，幾乎是為雙手反拍重砲手量身打造 獨特的長條形拍面，單打時的覆蓋率極高"
+  },
+  {
+    "id": "niupipo-explorer",
+    "name": "Niupipo Explorer Pro",
+    "brand": "Niupipo",
+    "price_ntd": 1800,
+    "budget_category": "starter",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "7.9 oz",
+    "shape": "標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Graphite",
+    "usapa_approved": true,
+    "features": [
+      "Amazon 霸榜多年的平價暢銷款，適合純新手第一把球拍",
+      "中規中矩的設計，重量適中不會造成手臂負擔",
+      "極致性價比，摔了也不心痛的過渡期好夥伴"
+    ],
+    "tags": [
+      "Amazon銷冠",
+      "性價比之王",
+      "新手無腦入"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "Amazon 霸榜多年的平價暢銷款，適合純新手第一把球拍 中規中矩的設計，重量適中不會造成手臂負擔 極致性價比，摔了也不心痛的過渡期好夥伴"
+  },
+  {
+    "id": "electrum-pro-ii",
+    "name": "Electrum Pro II",
+    "brand": "Electrum",
+    "price_ntd": 5600,
+    "budget_category": "advanced",
+    "style_category": "spin",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "寬體標準型",
+    "core": "Polymer Honeycomb",
+    "surface": "Raw Carbon Fiber",
+    "usapa_approved": true,
+    "features": [
+      "生碳纖維技術的先驅品牌，Pro II 在控球與旋轉達到完美平衡",
+      "表面極度粗糙，能輕鬆切出不規則下旋球",
+      "做工精良，外觀充滿極簡現代感"
+    ],
+    "tags": [
+      "生碳先驅",
+      "極致下旋",
+      "極簡美學"
+    ],
+    "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
+    "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
+    "description": "生碳纖維技術的先驅品牌，Pro II 在控球與旋轉達到完美平衡 表面極度粗糙，能輕鬆切出不規則下旋球 做工精良，外觀充滿極簡現代感"
   }
 ]
