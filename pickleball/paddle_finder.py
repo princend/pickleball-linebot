@@ -18,6 +18,7 @@ from linebot.v3.messaging import (
     FlexMessage,
     FlexSeparator,
     FlexText,
+    MessageAction,
     PostbackAction,
     QuickReply,
     QuickReplyItem,
@@ -383,11 +384,9 @@ def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) 
                     style="primary",
                     color="#1E3A8A",
                     height="sm",
-                    action=PostbackAction(
-                        label="AI 深入解析這款球拍",
-                        data=f"action=ai_qa_prompt&q={urllib.parse.quote('請分析 ' + name + ' 的優缺點與適合對象')}",
-                        input_option="openKeyboard",
-                        fill_in_text=f"!ai 請分析 {name} 的優缺點與適合對象",
+                    action=MessageAction(
+                        label="AI 深入解析這款",
+                        text=f"!ai 請分析 {name} 的優缺點",
                     ),
                 ),
                 FlexButton(
