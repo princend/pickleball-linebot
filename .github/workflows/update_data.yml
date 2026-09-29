@@ -33,6 +33,9 @@ jobs:
       - name: Run courts scraper
         run: python scripts/update_courts.py
         
+      - name: Run Shopify paddles scraper
+        run: python scripts/auto_scrape_shopify.py
+        
       - name: Run paddles updater
         run: python scripts/update_paddles.py
         

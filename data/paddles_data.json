@@ -2723,5 +2723,130 @@
     "image_front": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-front_3.jpg",
     "image_back": "https://www.justpaddles.com/media/catalog/product/p/a/paddletek-bantam-ts-5-standard-pickleball-paddle---blue-back_3.jpg",
     "description": "Volair 家族中專為 speed 取向設計的熱門拍款。 配備 14mm 核心與 寬體型 拍面，提供絕佳的容錯率與舒適度。 不僅適合賽事競技，也深受休閒玩家推崇，CP 值優異。"
+  },
+  {
+    "id": "sixzero-boulder-opal-14mm",
+    "name": "Six Zero Boulder Opal 14mm",
+    "brand": "Six Zero",
+    "price_ntd": 9600,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "自動化偵測核心",
+    "surface": "自動化偵測碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "這是由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
+      "產品原文描述摘要：<h2>Advanced Next Gem™ Technology: Boulder Opal</h..."
+    ],
+    "tags": [
+      "最新上架",
+      "爬蟲自動同步"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0007_1566d729-dacd-4b74-bca7-dcf390b79c07.png?v=1790025834",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/DSC_9596-2.jpg?v=1786583414",
+    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！"
+  },
+  {
+    "id": "sixzero-black-opal-14mm-elongated",
+    "name": "Six Zero Black Opal 14mm Elongated",
+    "brand": "Six Zero",
+    "price_ntd": 5400,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "14mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "自動化偵測核心",
+    "surface": "自動化偵測碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "這是由爬蟲自動從 Six Zero 官網抓取的最新球拍！",
+      "產品原文描述摘要：<h2>Advanced Next Gem™ Technology: Black Opal Elon..."
+    ],
+    "tags": [
+      "最新上架",
+      "爬蟲自動同步"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/2G1A0014.png?v=1785106039",
+    "image_back": "https://cdn.shopify.com/s/files/1/0667/7348/3824/files/NEXTGEMTECHSQUARE.png?v=1785106039",
+    "description": "由爬蟲自動從 Six Zero 官網抓取的最新球拍！"
+  },
+  {
+    "id": "crbn-pro-paddle-optimization-kit",
+    "name": "CRBN Pro Paddle Optimization Kit",
+    "brand": "CRBN",
+    "price_ntd": 1969,
+    "budget_category": "intermediate",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "自動化偵測核心",
+    "surface": "自動化偵測碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "這是由爬蟲自動從 CRBN 官網抓取的最新球拍！",
+      "產品原文描述摘要：<p dir=\"ltr\"> </p>\n<p dir=\"ltr\">Everything you nee..."
+    ],
+    "tags": [
+      "最新上架",
+      "爬蟲自動同步"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_ListingImages_AccessoriesBundle_01_Main.jpg?v=1789067550",
+    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_ListingImages_CounterCoins_02_Materials_657cf171-5de1-4e12-8217-0bc6dd5e4638.jpg?v=1786378244",
+    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
+  },
+  {
+    "id": "crbn-crbn-trufoam-barrage-elongated-long-handle",
+    "name": "CRBN CRBN¹ TruFoam Barrage (Elongated, Long Handle)",
+    "brand": "CRBN",
+    "price_ntd": 8959,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "自動化偵測核心",
+    "surface": "自動化偵測碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "這是由爬蟲自動從 CRBN 官網抓取的最新球拍！",
+      "產品原文描述摘要：<h2 dir=\"ltr\"><span>Relentless by Design</span></h..."
+    ],
+    "tags": [
+      "最新上架",
+      "爬蟲自動同步"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB1_Rust_PaddleOnly.jpg?v=1780081421",
+    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TruFoamBarrage_AMZ_05_CoreExplainer_85d9c918-01dc-4399-84c6-2791c63942ea.jpg?v=1773237019",
+    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
+  },
+  {
+    "id": "crbn-crbn-trufoam-barrage-elongated",
+    "name": "CRBN CRBN³ TruFoam Barrage (Elongated)",
+    "brand": "CRBN",
+    "price_ntd": 8959,
+    "budget_category": "advanced",
+    "style_category": "control",
+    "thickness": "16mm",
+    "weight": "8.0 oz",
+    "shape": "標準型",
+    "core": "自動化偵測核心",
+    "surface": "自動化偵測碳纖維",
+    "usapa_approved": true,
+    "features": [
+      "這是由爬蟲自動從 CRBN 官網抓取的最新球拍！",
+      "產品原文描述摘要：<h2 dir=\"ltr\"><span>Relentless by Design</span></h..."
+    ],
+    "tags": [
+      "最新上架",
+      "爬蟲自動同步"
+    ],
+    "image_front": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TFB3_Rust_PaddleOnly.jpg?v=1780081459",
+    "image_back": "https://cdn.shopify.com/s/files/1/0577/8944/8344/files/CRBN_TruFoamBarrage_AMZ_05_CoreExplainer_c527fa67-b05f-4d32-ae5c-a1b4a2520d21.jpg?v=1773237411",
+    "description": "由爬蟲自動從 CRBN 官網抓取的最新球拍！"
   }
 ]
