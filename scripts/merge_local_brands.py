@@ -34,6 +34,8 @@ def determine_style(title_l, desc_l):
         best_s = max(scores, key=scores.get)
         if scores[best_s] > 0:
             style_cat = best_s
+    if style_cat in ["speed", "spin"]:
+        style_cat = "all_around"
     return style_cat
 
 def main():

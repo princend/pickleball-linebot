@@ -35,10 +35,9 @@ BUDGET_MAP = {
 }
 
 STYLE_MAP = {
-    "control": {"name": "控球防守", "desc": "重視手感與廚房區 Dink", "badge": "控球防守型"},
-    "power": {"name": "力量攻擊", "desc": "重視底線重抽與殺球速度", "badge": "力量攻擊型"},
-    "speed": {"name": "極速靈活", "desc": "主打輕量破風與網前敏捷", "badge": "極速靈活型"},
-    "spin": {"name": "旋轉均衡", "desc": "重視生碳纖維咬球與全能", "badge": "旋轉均衡型"},
+    "control": {"name": "控制防守", "desc": "重視手感與放小球", "badge": "控制防守型"},
+    "power": {"name": "力量攻擊", "desc": "重視底線重抽與殺球", "badge": "力量攻擊型"},
+    "all_around": {"name": "全面均衡", "desc": "攻守兼備的全能球拍", "badge": "全面均衡型"},
 }
 
 
@@ -70,6 +69,12 @@ def load_all_paddles() -> List[Dict[str, Any]]:
             row["usapa_approved"] = str(row["usapa_approved"]).upper() == "TRUE"
             row["features"] = [f.strip() for f in row["features"].split("|") if f.strip()]
             row["tags"] = [t.strip() for t in row["tags"].split("|") if t.strip()]
+            
+            # 將舊的 speed, spin 映射為 all_around，並相容使用者直接輸入的變形
+            cat = str(row.get("style_category", "")).lower()
+            if cat in ["speed", "spin", "all-around", "all_around", "全面", "全面型"]:
+                row["style_category"] = "all_around"
+                
             paddles.append(row)
             
         if paddles:

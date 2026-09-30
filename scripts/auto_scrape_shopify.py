@@ -32,7 +32,7 @@ def ai_analyze_paddle(title, html_desc):
 
 請嚴格遵守以下 JSON 格式回傳（不需要 markdown 標記，直接回傳純 JSON）：
 {{
-    "style_category": "力量/控制/速度/旋轉 四選一。如果介紹強調 power/elongated/smash 則為 power；強調 control/forgiving/touch/16mm 為 control；強調 aero/lightweight/speed/13mm 為 speed；強調 spin/grit/kevlar/texture 為 spin。請回傳英文代碼：power, control, speed, or spin",
+    "style_category": "控制/力量/全面均衡 三選一。如果介紹強調 power/elongated/smash 則為 power；強調 control/forgiving/touch/16mm 為 control；如果是攻守兼備、主打全能、或是同時強調 spin(旋轉)與 speed(速度)，則為 all_around。請回傳英文代碼：control, power, or all_around",
     "zh_summary": "用繁體中文寫一段約 50~80 字的精華摘要，語氣要專業生動，吸引人購買，絕對不要出現 HTML 標籤。"
 }}
 '''
@@ -43,7 +43,7 @@ def ai_analyze_paddle(title, html_desc):
         text = response.text.replace("```json", "").replace("```", "").strip()
         import json
         result = json.loads(text)
-        if result.get("style_category") in ["power", "control", "speed", "spin"] and result.get("zh_summary"):
+        if result.get("style_category") in ["power", "control", "all_around"] and result.get("zh_summary"):
             return result
     except Exception as e:
         print(f"  [AI 分析失敗] {e}")
@@ -194,6 +194,9 @@ def main():
                             best_s = max(scores, key=scores.get)
                             if scores[best_s] > 0:
                                 style_cat = best_s
+                        
+                        if style_cat in ["speed", "spin"]:
+                            style_cat = "all_around"
 
                     if price < 1500:
                         budget_cat = "budget"
