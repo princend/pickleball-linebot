@@ -76,8 +76,7 @@ def ask_pickleball_ai(question: str) -> str:
     if not paddles_kb:
         paddles_kb = "（目前本地資料庫暫無資料，請依您的內建知識庫回答）"
     else:
-        paddles_kb = f"【台灣市售熱門球拍知識庫（即時庫存動態產生）】
-{paddles_kb}"
+        paddles_kb = f"【台灣市售熱門球拍知識庫（即時庫存動態產生）】\n{paddles_kb}"
 
     system_instruction = (
         "你是專業的匹克球小幫手與球具教練。你的任務是解答使用者的【匹克球 (Pickleball)】相關問題。\n\n"
