@@ -171,11 +171,38 @@ def filter_paddles(budget_key: str, style_key: str) -> List[Dict[str, Any]]:
     # 使用者要求：絕對不要 fallback，沒有就是沒有
     # (原本的 fallback 邏輯已移除，確保只推薦100%符合條件的球拍)
 
-    # 4. 隨機回傳最多 3 款代表拍 (使用戶每次查詢有不同結果)
+    # 4. 隨機回傳最多 5 款代表拍，並盡量確保品牌不重複
     import random
-    if matched:
-        return random.sample(matched, min(3, len(matched)))
-    return []
+    if not matched:
+        return []
+        
+    # 將符合條件的球拍依照品牌分組
+    brand_groups = {}
+    for p in matched:
+        b = p.get("brand", "Unknown")
+        if b not in brand_groups:
+            brand_groups[b] = []
+        brand_groups[b].append(p)
+        
+    # 打亂每個品牌內的球拍順序
+    for b in brand_groups:
+        random.shuffle(brand_groups[b])
+        
+    # 打亂品牌輪詢順序
+    brands = list(brand_groups.keys())
+    random.shuffle(brands)
+    
+    selected = []
+    # 輪流從每個品牌中抽出 1 支球拍，直到滿 5 支或抽完為止
+    while brands and len(selected) < 5:
+        for b in list(brands):
+            if len(selected) >= 5:
+                break
+            selected.append(brand_groups[b].pop(0))
+            if not brand_groups[b]:
+                brands.remove(b)
+                
+    return selected
 
 
 def create_paddle_card(paddle: Dict[str, Any], budget_key: str, style_key: str) -> FlexBubble:
