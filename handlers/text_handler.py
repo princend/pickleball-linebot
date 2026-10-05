@@ -70,8 +70,8 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     # 0-0. 檢查是否處於等待 AI 輸入狀態
     if is_awaiting_ai_input(user_id) and not stripped_text.startswith("!"):
         clear_awaiting_ai_input(user_id)
-        # 將一般文字偽裝成 AI 指令，向下傳遞給原有邏輯
-        stripped_text = f"!ai {stripped_text}"
+        # 加上明確的匹克球前綴，確保如「長丁克」等簡短名詞不會被 AI 誤判拒答
+        stripped_text = f"!ai 關於匹克球，請告訴我：{stripped_text}"
 
     # 0-1. 檢查是否正處於七步驟開團對話會話中
     creation_session = get_group_creation_session(effective_target_id)
