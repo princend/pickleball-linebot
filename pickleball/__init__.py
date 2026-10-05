@@ -32,6 +32,7 @@ from pickleball.quick_reply import (
     get_pickleball_cancel_quick_reply,
     get_pickleball_quick_reply,
     get_remove_player_quick_reply,
+    get_pre_grouping_quick_reply,
 )
 from pickleball.highlights import (
     create_pickleball_highlight_flex,
@@ -105,6 +106,7 @@ __all__ = [
     "get_pickleball_quick_reply",
     "get_pickleball_cancel_quick_reply",
     "get_remove_player_quick_reply",
+    "get_pre_grouping_quick_reply",
     "get_pickleball_highlight_video",
     "create_pickleball_highlight_flex",
     "COUNTIES",

@@ -35,6 +35,7 @@ from pickleball import (
     get_paddle_budget_quick_reply,
     get_paddle_style_quick_reply,
     get_pickleball_cancel_quick_reply,
+    get_pre_grouping_quick_reply,
     get_pickleball_highlight_video,
     get_pickleball_quick_reply,
     get_pickleball_session,
@@ -463,6 +464,30 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         p_wait, c_wait, r_wait, gc_wait, pg_wait, m_wait, w_wait = parse_player_input(stripped_text)
         if p_wait and len(p_wait) >= 1:
             clear_awaiting_pickleball_input(effective_target_id)
+            
+            # 若為預設模式且使用者未指定場地或輪數，先詢問排賽程條件
+            if m_wait == "doubles" and c_wait is None and r_wait is None:
+                save_pickleball_session(
+                    target_id=effective_target_id,
+                    players=p_wait,
+                    court_limit=None,
+                    waitlist=w_wait,
+                    last_result=None,
+                )
+                pre_group_qr = get_pre_grouping_quick_reply(len(p_wait))
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[
+                            TextMessage(
+                                text=f"成功解析名單，正選共 {len(p_wait)} 人！\n請問您想排幾輪賽程或使用幾面場地？（預設為 1 面場、單輪）",
+                                quick_reply=pre_group_qr,
+                            )
+                        ],
+                    )
+                )
+                return "OK", 200
+
             group_result = random_group(
                 players=p_wait,
                 court_limit=c_wait,
@@ -547,6 +572,29 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[TextMessage(text=GROUPING_HELP_TEXT)],
+            )
+        )
+        return "OK", 200
+
+    # 若為預設模式且使用者未指定場地或輪數，先詢問排賽程條件
+    if mode == "doubles" and court_limit is None and rounds is None:
+        save_pickleball_session(
+            target_id=effective_target_id,
+            players=players,
+            court_limit=None,
+            waitlist=waitlist,
+            last_result=None,
+        )
+        pre_group_qr = get_pre_grouping_quick_reply(len(players))
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[
+                    TextMessage(
+                        text=f"成功解析名單，正選共 {len(players)} 人！\n請問您想排幾輪賽程或使用幾面場地？（預設為 1 面場、單輪）",
+                        quick_reply=pre_group_qr,
+                    )
+                ],
             )
         )
         return "OK", 200

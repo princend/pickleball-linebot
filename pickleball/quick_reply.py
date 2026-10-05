@@ -174,3 +174,71 @@ def get_remove_player_quick_reply(players: List[str]) -> QuickReply:
     )
 
     return QuickReply(items=items)
+
+def get_pre_grouping_quick_reply(total_players: int) -> QuickReply:
+    """產生分組前的詢問賽制 QuickReply 快捷按鈕。"""
+    items = []
+
+    items.append(
+        QuickReplyItem(
+            action=PostbackAction(
+                label="排 1 輪 (單輪)",
+                data="action=pickle_action&sub=rounds&rounds=1",
+                display_text="排 1 輪 (單輪)",
+            )
+        )
+    )
+
+    items.append(
+        QuickReplyItem(
+            action=PostbackAction(
+                label="排 2 輪賽程",
+                data="action=pickle_action&sub=rounds&rounds=2",
+                display_text="排 2 輪賽程",
+            )
+        )
+    )
+
+    items.append(
+        QuickReplyItem(
+            action=PostbackAction(
+                label="排 3 輪賽程",
+                data="action=pickle_action&sub=rounds&rounds=3",
+                display_text="排 3 輪賽程",
+            )
+        )
+    )
+
+    if total_players >= DEFAULT_COURT_SIZE * 2:
+        items.append(
+            QuickReplyItem(
+                action=PostbackAction(
+                    label="使用 2 面場地",
+                    data="action=pickle_action&sub=court&court=2",
+                    display_text="使用 2 面場地",
+                )
+            )
+        )
+        
+    if total_players >= DEFAULT_COURT_SIZE * 3:
+        items.append(
+            QuickReplyItem(
+                action=PostbackAction(
+                    label="使用 3 面場地",
+                    data="action=pickle_action&sub=court&court=3",
+                    display_text="使用 3 面場地",
+                )
+            )
+        )
+
+    items.append(
+        QuickReplyItem(
+            action=PostbackAction(
+                label="取消",
+                data="action=pickle_action&sub=cancel",
+                display_text="取消",
+            )
+        )
+    )
+
+    return QuickReply(items=items)
