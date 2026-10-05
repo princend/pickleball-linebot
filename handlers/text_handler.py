@@ -44,6 +44,7 @@ from pickleball import (
     random_group,
     save_pickleball_session,
     set_group_creation_session,
+    set_awaiting_pickleball_input,
 )
 
 
@@ -514,13 +515,26 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     if not matched_keyword:
         return None
 
-    # 如果僅輸入關鍵字，或輸入「分組說明」，純文字回傳操作指引說明 (不帶 quick_reply，保持畫面乾淨)
+    # 如果輸入「分組說明」，純文字回傳操作指引說明
     content_after_keyword = stripped_text[len(matched_keyword):].strip()
-    if not content_after_keyword or stripped_text in ["!分組說明", "!匹克球說明"]:
+    
+    if stripped_text in ["!分組說明", "!匹克球說明"]:
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[TextMessage(text=GROUPING_HELP_TEXT)],
+            )
+        )
+        return "OK", 200
+
+    # 如果僅輸入關鍵字，進入等待輸入名單狀態
+    if not content_after_keyword:
+        set_awaiting_pickleball_input(effective_target_id)
+        cancel_qr = get_pickleball_cancel_quick_reply()
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[TextMessage(text="請輸入開團文或成員名單", quick_reply=cancel_qr)],
             )
         )
         return "OK", 200
