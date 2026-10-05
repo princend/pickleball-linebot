@@ -27,6 +27,9 @@ from pickleball.cache import (
     save_pickleball_session,
     set_awaiting_pickleball_input,
     set_group_creation_session,
+    set_awaiting_ai_input,
+    is_awaiting_ai_input,
+    clear_awaiting_ai_input,
 )
 from pickleball.quick_reply import (
     get_pickleball_cancel_quick_reply,
@@ -146,4 +149,7 @@ __all__ = [
     "GROUPING_HELP_TEXT",
     "search_youtube_video",
     "create_video_flex",
+    "set_awaiting_ai_input",
+    "is_awaiting_ai_input",
+    "clear_awaiting_ai_input",
 ]

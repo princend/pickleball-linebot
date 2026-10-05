@@ -48,6 +48,9 @@ from pickleball import (
     set_awaiting_pickleball_input,
     search_youtube_video,
     create_video_flex,
+    set_awaiting_ai_input,
+    is_awaiting_ai_input,
+    clear_awaiting_ai_input,
 )
 
 
@@ -63,6 +66,12 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     """
     stripped_text = text.strip().replace("！", "!")
     effective_target_id = target_id or user_id
+
+    # 0-0. 檢查是否處於等待 AI 輸入狀態
+    if is_awaiting_ai_input(user_id) and not stripped_text.startswith("!"):
+        clear_awaiting_ai_input(user_id)
+        # 將一般文字偽裝成 AI 指令，向下傳遞給原有邏輯
+        stripped_text = f"!ai {stripped_text}"
 
     # 0-1. 檢查是否正處於七步驟開團對話會話中
     creation_session = get_group_creation_session(effective_target_id)
@@ -221,28 +230,30 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         return "OK", 200
 
     if stripped_text == "!AI問答" or stripped_text == "!ai問答":
+        set_awaiting_ai_input(user_id)
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
                 reply_token=event.reply_token,
-                messages=[TextMessage(text="【AI 匹克球教練】\n請直接手動輸入您的問題（開頭需加上 !ai），例如：\n\n!ai 匹克球發球規則是什麼？\n!ai 推薦適合新手的球拍")]
+                messages=[TextMessage(text="【AI 匹克球教練】\n請直接輸入您的問題（不需加 !ai），例如：\n\n「匹克球發球規則是什麼？」\n「推薦適合新手的球拍」")]
             )
         )
         return "OK", 200
 
     if stripped_text == "!球路教學":
+        set_awaiting_ai_input(user_id)
         from linebot.v3.messaging import QuickReply, QuickReplyItem, MessageAction
         qr = QuickReply(items=[
-            QuickReplyItem(action=MessageAction(label="短丁 (Dink)", text="!ai 球路教學: 短丁")),
-            QuickReplyItem(action=MessageAction(label="抽球 (Drive)", text="!ai 球路教學: 抽球")),
-            QuickReplyItem(action=MessageAction(label="第三板 (Drop)", text="!ai 球路教學: 第三板過渡")),
-            QuickReplyItem(action=MessageAction(label="挑高球 (Lob)", text="!ai 球路教學: 挑高球")),
-            QuickReplyItem(action=MessageAction(label="ATP", text="!ai 球路教學: ATP")),
-            QuickReplyItem(action=MessageAction(label="Erne", text="!ai 球路教學: Erne")),
+            QuickReplyItem(action=MessageAction(label="短丁 (Dink)", text="短丁")),
+            QuickReplyItem(action=MessageAction(label="抽球 (Drive)", text="抽球")),
+            QuickReplyItem(action=MessageAction(label="第三板 (Drop)", text="第三板過渡")),
+            QuickReplyItem(action=MessageAction(label="挑高球 (Lob)", text="挑高球")),
+            QuickReplyItem(action=MessageAction(label="ATP", text="ATP")),
+            QuickReplyItem(action=MessageAction(label="Erne", text="Erne")),
         ])
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
                 reply_token=event.reply_token,
-                messages=[TextMessage(text="【球路教學影片搜尋】\n請點擊下方快速按鈕，或手動輸入（例如：!ai 球路教學: Bert）來查詢：", quick_reply=qr)]
+                messages=[TextMessage(text="【球路教學影片搜尋】\n請點擊下方快速按鈕，或手動直接輸入（例如：長丁克）來查詢：", quick_reply=qr)]
             )
         )
         return "OK", 200

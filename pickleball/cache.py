@@ -171,3 +171,29 @@ def clear_group_creation_session(target_id: str) -> bool:
         del _GROUP_CREATION_SESSIONS[target_id]
         return True
     return False
+
+# 等待 AI 或球路查詢輸入狀態管理: { user_id: timestamp }
+_AWAITING_AI_INPUT: Dict[str, float] = {}
+AWAITING_AI_EXPIRATION_SECONDS = 300  # 5 分鐘有效
+
+def set_awaiting_ai_input(user_id: str) -> None:
+    """設定特定使用者處於等待輸入 AI 問題或球路查詢之狀態。"""
+    if user_id:
+        _AWAITING_AI_INPUT[user_id] = time.time()
+
+def is_awaiting_ai_input(user_id: str) -> bool:
+    """檢查特定使用者是否處於等待 AI 輸入狀態。"""
+    if not user_id or user_id not in _AWAITING_AI_INPUT:
+        return False
+    elapsed = time.time() - _AWAITING_AI_INPUT[user_id]
+    if elapsed > AWAITING_AI_EXPIRATION_SECONDS:
+        del _AWAITING_AI_INPUT[user_id]
+        return False
+    return True
+
+def clear_awaiting_ai_input(user_id: str) -> bool:
+    """清除特定使用者等待 AI 輸入之狀態。"""
+    if user_id in _AWAITING_AI_INPUT:
+        del _AWAITING_AI_INPUT[user_id]
+        return True
+    return False
