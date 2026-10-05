@@ -568,11 +568,9 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
-                            action=PostbackAction(
+                            action=MessageAction(
                                 label="AI匹克球問答",
-                                data="action=ai_qa_prompt",
-                                input_option="openKeyboard",
-                                fill_in_text="!ai ",
+                                text="!AI問答",
                             ),
                         ),
                         FlexButton(
@@ -590,11 +588,9 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         FlexButton(
                             style="secondary",
                             height="sm",
-                            action=PostbackAction(
+                            action=MessageAction(
                                 label="球路教學 (影片)",
-                                data="action=ai_video_prompt",
-                                input_option="openKeyboard",
-                                fill_in_text="!ai 球路教學: ",
+                                text="!球路教學",
                             ),
                         )
                     ]
