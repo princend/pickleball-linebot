@@ -465,22 +465,23 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         if p_wait and len(p_wait) >= 1:
             clear_awaiting_pickleball_input(effective_target_id)
             
-            # 若為預設模式且使用者未指定場地或輪數，先詢問排賽程條件
-            if m_wait == "doubles" and c_wait is None and r_wait is None:
+            # 若為預設模式且使用者未明確指定輪數，先詢問排賽程條件
+            if m_wait == "doubles" and r_wait is None:
                 save_pickleball_session(
                     target_id=effective_target_id,
                     players=p_wait,
-                    court_limit=None,
+                    court_limit=c_wait,
                     waitlist=w_wait,
                     last_result=None,
                 )
                 pre_group_qr = get_pre_grouping_quick_reply(len(p_wait))
+                court_msg = f" (系統偵測為 {c_wait} 面場)" if c_wait else ""
                 line_bot_api.reply_message_with_http_info(
                     ReplyMessageRequest(
                         reply_token=event.reply_token,
                         messages=[
                             TextMessage(
-                                text=f"成功解析名單，正選共 {len(p_wait)} 人！\n請問您想排幾輪賽程或使用幾面場地？（預設為 1 面場、單輪）",
+                                text=f"成功解析名單，正選共 {len(p_wait)} 人！{court_msg}\n請問您想排幾輪賽程或調整場地數？",
                                 quick_reply=pre_group_qr,
                             )
                         ],
@@ -576,22 +577,23 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
-    # 若為預設模式且使用者未指定場地或輪數，先詢問排賽程條件
-    if mode == "doubles" and court_limit is None and rounds is None:
+    # 若為預設模式且使用者未明確指定輪數，先詢問排賽程條件
+    if mode == "doubles" and rounds is None:
         save_pickleball_session(
             target_id=effective_target_id,
             players=players,
-            court_limit=None,
+            court_limit=court_limit,
             waitlist=waitlist,
             last_result=None,
         )
         pre_group_qr = get_pre_grouping_quick_reply(len(players))
+        court_msg = f" (系統偵測為 {court_limit} 面場)" if court_limit else ""
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[
                     TextMessage(
-                        text=f"成功解析名單，正選共 {len(players)} 人！\n請問您想排幾輪賽程或使用幾面場地？（預設為 1 面場、單輪）",
+                        text=f"成功解析名單，正選共 {len(players)} 人！{court_msg}\n請問您想排幾輪賽程或調整場地數？",
                         quick_reply=pre_group_qr,
                     )
                 ],
