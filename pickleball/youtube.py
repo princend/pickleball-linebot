@@ -19,10 +19,68 @@ from linebot.v3.messaging import (
     URIAction,
 )
 
+import csv
+import io
+import time
+import requests
 from config import youtube_api_key
 
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw/export?format=csv&gid=1618436444"
+VIDEO_CACHE = {}
+LAST_FETCH_TIME = 0
+
+def _get_video_from_sheet(query: str) -> Optional[Dict[str, str]]:
+    """優先從 Google Sheets 查詢精選影片。"""
+    global VIDEO_CACHE, LAST_FETCH_TIME
+    current_time = time.time()
+    
+    # 5 分鐘快取
+    if current_time - LAST_FETCH_TIME > 300:
+        try:
+            r = requests.get(SHEET_URL, timeout=5)
+            r.encoding = 'utf-8'
+            reader = csv.reader(io.StringIO(r.text))
+            rows = list(reader)
+            
+            new_cache = {}
+            if len(rows) > 1:
+                # 假設第一列為標題，資料從第二列開始
+                # 欄位順序預設：A(關鍵字), B(標題), C(網址)
+                for row in rows[1:]:
+                    if len(row) >= 3:
+                        kw = row[0].strip().lower()
+                        if kw:
+                            title = row[1].strip()
+                            url = row[2].strip()
+                            
+                            video_id = ""
+                            if "v=" in url:
+                                video_id = url.split("v=")[1].split("&")[0]
+                            elif "youtu.be/" in url:
+                                video_id = url.split("youtu.be/")[1].split("?")[0]
+                                
+                            thumb_url = f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg" if video_id else ""
+                            
+                            new_cache[kw] = {
+                                "title": title,
+                                "video_id": video_id,
+                                "video_url": url,
+                                "thumbnail_url": thumb_url
+                            }
+            VIDEO_CACHE = new_cache
+            LAST_FETCH_TIME = current_time
+        except Exception as e:
+            print(f"[警告] 讀取影片表單失敗: {e}", flush=True)
+
+    query_lower = query.lower()
+    for kw, data in VIDEO_CACHE.items():
+        if kw in query_lower:
+            return data
+            
+    return None
+
 def search_youtube_video(query: str) -> Optional[Dict[str, str]]:
-    """透過 YouTube Data API v3 搜尋第一部符合條件的影片。
+    """透過 Google Sheets 或 YouTube Data API v3 搜尋影片。
     
     回傳字典包含:
         - title: 影片標題
@@ -31,6 +89,12 @@ def search_youtube_video(query: str) -> Optional[Dict[str, str]]:
         - thumbnail_url: 影片縮圖網址
     若失敗或無設定 API Key 則傳回 None。
     """
+    # 1. 優先查表
+    sheet_data = _get_video_from_sheet(query)
+    if sheet_data:
+        return sheet_data
+
+    # 2. 找不到則降級回 YouTube API
     if not youtube_api_key:
         return None
         
