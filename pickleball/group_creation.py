@@ -6,6 +6,7 @@
 """
 
 import re
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, Optional, Tuple
 from pickleball.court_finder import COUNTIES
@@ -213,11 +214,14 @@ def get_step_prompt_and_quick_reply(
         
         display_counties = list(COUNTIES.keys())[:11] # Reduce to 11 to be absolutely safe (11 + 1 cancel = 12 items)
         for county_name in display_counties:
+            county_slug = COUNTIES[county_name]
+            encoded_name = urllib.parse.quote(county_name)
             items.append(
                 QuickReplyItem(
-                    action=MessageAction(
+                    action=PostbackAction(
                         label=county_name,
-                        text=county_name
+                        data=f"action=pickle_action&sub=pick_county_for_location&county={county_slug}&name={encoded_name}",
+                        display_text=county_name
                     )
                 )
             )
