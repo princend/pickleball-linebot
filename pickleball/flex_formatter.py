@@ -582,6 +582,24 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                         ),
                     ]
                 ),
+                # Row 6
+                FlexBox(
+                    layout="horizontal",
+                    spacing="md",
+                    contents=[
+                        FlexButton(
+                            style="primary",
+                            color="#1E3A8A",
+                            height="sm",
+                            action=PostbackAction(
+                                label="球路教學 (影片)",
+                                data="action=ai_video_prompt",
+                                input_option="openKeyboard",
+                                fill_in_text="!ai 球路教學: ",
+                            ),
+                        )
+                    ]
+                ),
             ],
         ),
     )

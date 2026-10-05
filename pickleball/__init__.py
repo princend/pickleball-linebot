@@ -83,6 +83,10 @@ from pickleball.paddle_finder import (
     get_paddle_budget_quick_reply,
     get_paddle_style_quick_reply,
 )
+from pickleball.youtube import (
+    search_youtube_video,
+    create_video_flex,
+)
 
 __all__ = [
     "create_menu_flex",
@@ -140,4 +144,6 @@ __all__ = [
     "DEFAULT_COURT_SIZE",
     "DEFAULT_TEAM_SIZE",
     "GROUPING_HELP_TEXT",
+    "search_youtube_video",
+    "create_video_flex",
 ]

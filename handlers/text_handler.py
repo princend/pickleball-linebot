@@ -46,6 +46,8 @@ from pickleball import (
     save_pickleball_session,
     set_group_creation_session,
     set_awaiting_pickleball_input,
+    search_youtube_video,
+    create_video_flex,
 )
 
 
@@ -229,16 +231,41 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             question = stripped_text[3:].strip()
 
         if not question:
-            reply_text = "請在指令後方輸入問題，例如：!ai 匹克球發球規則是什麼？"
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text="請在指令後方輸入問題，例如：!ai 匹克球發球規則是什麼？")]
+                )
+            )
         else:
             reply_text = ask_pickleball_ai(question)
+            
+            # 解析是否帶有 [VIDEO_QUERY] 標記
+            video_query_marker = "[VIDEO_QUERY]"
+            messages = []
+            if video_query_marker in reply_text:
+                parts = reply_text.split(video_query_marker)
+                main_text = parts[0].strip()
+                query = parts[1].strip()
+                
+                # 若 AI 提供了解釋，加入文字訊息
+                if main_text:
+                    messages.append(TextMessage(text=main_text))
+                    
+                # 搜尋影片並建立 Flex Message
+                video_data = search_youtube_video(query)
+                video_flex = create_video_flex(query, video_data)
+                messages.append(video_flex)
+            else:
+                messages.append(TextMessage(text=reply_text))
 
-        line_bot_api.reply_message_with_http_info(
-            ReplyMessageRequest(
-                reply_token=event.reply_token,
-                messages=[TextMessage(text=reply_text)],
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=messages,
+                )
             )
-        )
+        return "OK", 200
     # 0-4. 球拍推薦指令 (!選球拍 / !推薦球拍 / !球拍推薦 / !球拍)
     paddle_keywords = [
         "!選球拍",
