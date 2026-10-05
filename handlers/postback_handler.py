@@ -313,17 +313,91 @@ def process_postback(event, line_bot_api, target_id):
             result = random_group(players, court_limit=court_limit)
             save_pickleball_session(target_id, players, court_limit, waitlist=session.get("waitlist", []), last_result=result)
 
-            waitlist = session.get("waitlist", [])
-            reply_messages = []
-            reply_messages.append(create_pickleball_group_flex(result))
+            qr = get_pickleball_quick_reply(len(players), result.get("court_count", 1), 1)
+            reply_messages = [create_pickleball_group_flex(result, quick_reply=qr)]
             
-            if result.get("courts"):
-                reply_messages.append(
-                    TextMessage(
-                        text=format_group_result(result, waitlist),
-                        quick_reply=get_pickleball_quick_reply()
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=reply_messages,
+                )
+            )
+            return "OK", 200
+
+        if sub == "rounds":
+            session = get_pickleball_session(target_id)
+            if not session or not session.get("players"):
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[TextMessage(text="查無有效的分組紀錄，請重新傳送名單。")],
                     )
                 )
+                return "OK", 200
+            
+            rounds_val = int(parsed_data.get("rounds", ["1"])[0])
+            players = session["players"]
+            court_limit = session.get("court_limit")
+            waitlist = session.get("waitlist", [])
+            
+            result = random_group(players, court_limit=court_limit, rounds=rounds_val, waitlist=waitlist)
+            save_pickleball_session(target_id, players, court_limit, waitlist=waitlist, last_result=result)
+            
+            qr = get_pickleball_quick_reply(len(players), result.get("court_count", 1), rounds_val)
+            reply_messages = [create_pickleball_group_flex(result, quick_reply=qr)]
+            
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=reply_messages,
+                )
+            )
+            return "OK", 200
+
+        if sub == "court":
+            session = get_pickleball_session(target_id)
+            if not session or not session.get("players"):
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[TextMessage(text="查無有效的分組紀錄，請重新傳送名單。")],
+                    )
+                )
+                return "OK", 200
+            
+            court_val = int(parsed_data.get("court", ["1"])[0])
+            players = session["players"]
+            waitlist = session.get("waitlist", [])
+            
+            result = random_group(players, court_limit=court_val, waitlist=waitlist)
+            save_pickleball_session(target_id, players, court_val, waitlist=waitlist, last_result=result)
+            
+            qr = get_pickleball_quick_reply(len(players), result.get("court_count", court_val), 1)
+            reply_messages = [create_pickleball_group_flex(result, quick_reply=qr)]
+            
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=reply_messages,
+                )
+            )
+            return "OK", 200
+
+        if sub == "text_mode":
+            session = get_pickleball_session(target_id)
+            if not session or not session.get("last_result"):
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[TextMessage(text="查無有效的分組紀錄，請重新傳送名單。")],
+                    )
+                )
+                return "OK", 200
+            
+            result = session["last_result"]
+            qr = get_pickleball_quick_reply(len(session.get("players", [])), result.get("court_count", 1), result.get("rounds", 1))
+            reply_messages = [TextMessage(text=format_group_result(result), quick_reply=qr)]
+            
             line_bot_api.reply_message_with_http_info(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,

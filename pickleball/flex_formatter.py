@@ -334,7 +334,7 @@ def _build_statistics_bubble(
 
 def _build_single_round_bubble(group_result: Dict[str, Any]) -> FlexBubble:
     """建構單輪雙打分組結果的單張卡片 (Bubble)。"""
-    total = group_result.get("total", 0)
+    total = group_result.get("total_players", 0)
     courts = group_result.get("courts", [])
     waiting = group_result.get("waiting", [])
     waitlist = group_result.get("waitlist", [])
@@ -419,7 +419,7 @@ def create_pickleball_group_flex(
 
     if mode == "multi_round":
         schedule = group_result.get("schedule", [])
-        total_players = group_result.get("total", 0)
+        total_players = group_result.get("total_players", 0)
         court_count = group_result.get("court_count", 1)
         total_rounds = group_result.get("rounds", len(schedule))
         play_counts = group_result.get("play_counts", {})
@@ -459,7 +459,7 @@ def create_pickleball_group_flex(
 
     # 單輪雙打分組
     bubble = _build_single_round_bubble(group_result)
-    total = group_result.get("total", 0)
+    total = group_result.get("total_players", 0)
     alt_text = f"匹克球隨機分組結果 (共 {total} 人)"
     return FlexMessage(
         alt_text=alt_text,
