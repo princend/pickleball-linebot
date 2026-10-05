@@ -588,8 +588,7 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                     spacing="md",
                     contents=[
                         FlexButton(
-                            style="primary",
-                            color="#1E3A8A",
+                            style="secondary",
                             height="sm",
                             action=PostbackAction(
                                 label="球路教學 (影片)",
