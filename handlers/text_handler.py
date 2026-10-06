@@ -239,7 +239,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
-    if stripped_text == "!球路教學":
+    if stripped_text in ["!球路教學", "!球路"]:
         set_awaiting_ai_input(user_id)
         from linebot.v3.messaging import QuickReply, QuickReplyItem, MessageAction
         qr = QuickReply(items=[
