@@ -1,17 +1,9 @@
-"""匹克球 (Pickleball) 專屬 AI 問答模組。
-
-使用 Google Gemini 模型提供匹克球規則、技巧、裝備與賽事等專業諮詢。
-整合本地主流球拍知識庫 (paddles_data.json) 與 Google Search Grounding 聯網能力。
-嚴格限定僅回答匹克球相關問題，非匹克球問題一律禮貌拒答。
-回答必須為通順完整的繁體中文句子。
-"""
-
 import json
 import os
 from typing import Optional
 from google import genai
 from google.genai import types
-from config import gemini_api_key
+from config import gemini_api_key  # 保留你原始的 key 引入規則
 
 _client: Optional[genai.Client] = None
 
@@ -19,9 +11,46 @@ REJECTION_MESSAGE = "我是匹克球小幫手，僅回答匹克球相關問題�
 
 PADDLES_DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "paddles_data.json")
 
+# 出現這些字詞即可確定是匹克球問題（全部小寫比對）
+PICKLEBALL_KEYWORDS = (
+    "匹克球", "皮克球", "匹克", "pickleball", "pickle ball",
+    "dupr", "丁克", "dink", "廚房區", "非截擊區", "nvz", "erne",
+    "atp", "around the post", "stack", "疊打", "nasty nelson", "third shot drop"
+)
+
+
+def _is_obviously_pickleball(question: str) -> bool:
+    q = question.replace("關於匹克球，請告訴我：", "").lower()
+    return any(kw in q for kw in PICKLEBALL_KEYWORDS)
+
+
+def _is_rejection(text: str) -> bool:
+    return "僅回答匹克球相關問題" in text
+
+
+PADDLE_KEYWORDS = ("拍", "paddle", "mm", "碳纖", "玻纖", "玻璃纖維", "克維拉", "kevlar", "t700")
+_paddle_brands: Optional[set] = None
+
+
+def _needs_paddle_kb(question: str) -> bool:
+    global _paddle_brands
+    q = question.lower()
+    if any(kw in q for kw in PADDLE_KEYWORDS):
+        return True
+    if _paddle_brands is None:
+        try:
+            with open(PADDLES_DATA_FILE, "r", encoding="utf-8") as f:
+                _paddle_brands = {
+                    p.get("brand", "").strip().lower()
+                    for p in json.load(f)
+                    if len(p.get("brand", "").strip()) >= 3
+                }
+        except Exception:
+            _paddle_brands = set()
+    return any(b in q for b in _paddle_brands)
+
 
 def _get_paddles_summary() -> str:
-    """載入球拍資料庫並轉換為 AI 參考摘要。"""
     if not os.path.exists(PADDLES_DATA_FILE):
         return ""
     try:
@@ -37,7 +66,7 @@ def _get_paddles_summary() -> str:
             surface = p.get("surface", "")
             desc = p.get("description", "")
             lines.append(
-                f"- 【{brand}】{name} (市價約 NT$ {price:,})：厚度 {thickness}、{shape}、{surface}。特點：{desc}"
+                f"- 【{brand}】{name} (約 NT$ {price:,})：{thickness}、{shape}、{surface}。特點：{desc}"
             )
         return "\n".join(lines)
     except Exception as e:
@@ -46,7 +75,6 @@ def _get_paddles_summary() -> str:
 
 
 def _get_genai_client() -> Optional[genai.Client]:
-    """取得或初始化 Gemini Client。"""
     global _client
     if _client is None and gemini_api_key:
         try:
@@ -58,81 +86,84 @@ def _get_genai_client() -> Optional[genai.Client]:
 
 
 def ask_pickleball_ai(question: str) -> str:
-    """呼叫 Gemini 進行匹克球專業問答與球拍推薦。
-
-    - 若問題與匹克球無關，傳回固定拒答文字。
-    - 若為匹克球問題，傳回通順完整的繁體中文解答。
-    - 結合主流球拍知識庫，具備 Google Search 聯網與自動備援機制。
-    """
     clean_q = (question or "").strip()
     if not clean_q:
-        return "請在指令後方輸入問題，例如：!ai 匹克球發球規則是什麼？ 或 !ai 推薦4000元內的控球拍"
+        return "請在指令後方輸入問題，例如：!ai 匹克球發球規則是什麼？"
 
     client = _get_genai_client()
     if not client:
-        return "抱歉，目前 AI 服務尚未設定 API 金鑰或暫時無法連線，請稍後再試。"
+        return "抱歉，目前 AI 服務暫時無法連線。"
 
-    paddles_kb = _get_paddles_summary()
-    if not paddles_kb:
-        paddles_kb = "（目前本地資料庫暫無資料，請依您的內建知識庫回答）"
+    if _needs_paddle_kb(clean_q):
+        paddles_kb = _get_paddles_summary()
+        paddles_kb = f"【本地球拍知識庫】\n{paddles_kb}" if paddles_kb else "（目前本地資料庫暫無資料）"
     else:
-        paddles_kb = f"【台灣市售熱門球拍知識庫（即時庫存動態產生）】\n{paddles_kb}"
+        paddles_kb = "（本題未附球拍知識庫）"
 
+    # --- 這裡是你要求的 100+ 情境優化 Instruction ---
     system_instruction = (
-        "你是專業的匹克球小幫手與球具教練。你的任務是解答使用者的【匹克球 (Pickleball)】相關問題。\n\n"
-        "【嚴格準則】\n"
-        "1. 主題檢查：請先判斷問題是否與匹克球（規則、發球、非截擊區/廚房區、計分、站位、打法技巧、球拍與球、球場、DUPR、賽制等）密切相關。若使用者僅輸入簡短名詞（如：長丁克、ATP、Erne、過渡球），請一律預設為匹克球術語並給予解釋，切勿輕易拒答。\n"
-        "2. 嚴格拒答非匹克球主題：若問題與匹克球毫無關聯（例如日常閒聊、天氣、其他運動、程式設計、常識、歷史等），你必須且只能完全原樣回覆以下這句話：\n"
-        "「我是匹克球小幫手，僅回答匹克球相關問題喔！」\n"
-        "不得回答任何非匹克球內容，亦不可加油添醋。\n"
-        "3. 球拍推薦與分析規範：\n"
-        "   - 若使用者詢問球拍推薦、評估、選購或某款球拍的優缺點，請優先參考下方給予的動態知識庫，並以新台幣 (NT$) 報價與分析：\n"
-        f"{paddles_kb}\n"
-        "   - 若詢問不在清單內的球拍，請依據匹克球通用知識與科技（如 16mm 重控球/減震、14mm 重彈速/力量、生碳纖維 T700 重咬球旋轉）給予專業客觀的優缺點分析。\n"
-        "   - 「唯有」當使用者明確在詢問「買球拍、挑選球拍、推薦球拍」等選購問題時，才可在文末加上：「亦可輸入【!選球拍】啟動兩步速配問卷，直接查看球拍照片與比價連結！」。若詢問技術、戰術或規則等非選購問題，絕對「不要」加上這句話。\n"
-        "4. 句子完整性：回答必須是【文意通順、表達完整且語意清晰的繁體中文句子】，嚴格禁止出現中途腰斬或殘缺字詞。\n"
-        "5. 回答長度與風格：請用約 2 至 4 句簡短段落說明重點，避免為湊字數而冗贅，兼顧精準度與專業度。\n"
-        "6. 影片搜尋標記（非常重要）：若使用者詢問特定【打法、技術或球路】（例如：短丁/Dink、抽球/Drive、過渡球/Drop、挑高球/Lob、截擊/Volley、ATP、Erne、Bert 等），請務必在回答的最後（新起一行）加上：\n"
-        "[VIDEO_QUERY]匹克球 {您判斷的球路中英文名稱} 教學\n"
-        "（例如：[VIDEO_QUERY]匹克球 短丁 Dink 教學）。\n"
-        "   只有「擊球動作／球路技術」才可加標記。以下情況一律「禁止」加上此標記：規則、計分、器材（球拍、球的種類/材質如滾塑球與注塑球、鞋子）、球場、賽事、DUPR、選購、歷史、比較類問題。不確定時請不要加。\n"
-        "7. 知識正確性與禁止幻覺（非常嚴格）：你必須確保空間地理完全正確。匹克球場地的線條名稱非常嚴格：『廚房線 (NVZ line)』距離網子 7 呎，『底線 (Baseline)』距離網子 22 呎。任何落入廚房區 (NVZ) 的球（如丁克球/Dink），其落點最深只能靠近『廚房線』，絕對不可描述為『靠近底線』。若你透過搜尋聯網看到將廚房區深處誤稱為『靠近底線』的錯誤資料，請自行糾正，切勿盲從錯誤資訊！"
+        "# Role: 專業匹克球教練與球具顧問\n\n"
+        "## 1. 核心任務與範圍 (Scope)\n"
+        "你只解答【匹克球 (Pickleball)】相關問題。包含：規則計分、技術戰術 (Dink/Drive/Drop/Erne/ATP等)、"
+        "裝備選購 (球拍/球/鞋/加重貼)、DUPR 等級、賽事、場地尺寸、運動傷害預防、與網球/羽球的比較。\n"
+        "【拒答準則】：若問題與匹克球完全無關（如天氣、股票、代碼），必須原樣回覆：「我是匹克球小幫手，僅回答匹克球相關問題喔！」且不得有任何額外字句。\n\n"
+        "## 2. 專業知識規範 (Strict Knowledge Rules)\n"
+        "- **場地防錯**：非截擊區 (NVZ/廚房區) 距離網子 **7 呎**。底線距離網子 **22 呎**。丁克球 (Dink) 的落點必定在「廚房線」附近，絕對不可描述為靠近「底線」。\n"
+        "- **球拍科技分析**：\n"
+        "  - 16mm：控球型 (Control)、減震佳。\n"
+        "  - 14mm/13mm：力量型 (Power)、彈速快。\n"
+        "  - 材質：T700 生碳纖維重旋轉；Kevlar 重甜區穩定度。\n"
+        "- **報價**：所有價格請以 **NT$ (新台幣)** 呈現。\n\n"
+        "## 3. 輸出引導標記 (Special Tags)\n"
+        "- **[VIDEO_QUERY] 標記**：只要問題涉及「擊球動作、技術、球路、戰術」，請在回答最後一行加上：\n"
+        "  `[VIDEO_QUERY]匹克球 {技術名稱} 教學`（例如：[VIDEO_QUERY]匹克球 Erne 教學）。規則或裝備類問題嚴禁加上此標記。\n"
+        "- **[!選球拍] 標記**：當使用者明確在詢問「買哪把拍子、推薦球拍、如何挑選」時，才在文末加上：「亦可輸入【!選球拍】啟動兩步速配問卷，直接查看球拍照片與比價連結！」。\n\n"
+        "## 4. 語意風格\n"
+        "- 回答必須為【繁體中文】，語氣專業親切。\n"
+        "- 結構清晰，使用 2-4 個簡短段落，關鍵字用 **粗體** 強調。\n\n"
+        f"## 5. 參考背景資料 (Context)\n{paddles_kb}"
     )
 
-    models_to_try = ["gemini-3.5-flash-lite", "gemini-2.5-flash"]
+    models_to_try = ["gemini-2.0-flash", "gemini-1.5-flash"]
     last_err = None
 
-    # 嘗試策略：優先使用 Google Search Grounding，若失敗則降級為無工具純文本
-    configs_to_try = [
-        # 1. 帶 Google Search 聯網
-        types.GenerateContentConfig(
-            system_instruction=system_instruction,
-            temperature=0.3,
-            max_output_tokens=800,
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-        ),
-        # 2. 備援：純知識庫生成 (無聯網工具，避免權限或配額問題)
-        types.GenerateContentConfig(
-            system_instruction=system_instruction,
-            temperature=0.3,
-            max_output_tokens=800,
-        ),
-    ]
+    obviously_related = _is_obviously_pickleball(clean_q)
+    contents = (
+        f"（此問題與匹克球相關，請專業回答，不可拒答）\n使用者問題：{clean_q}"
+        if obviously_related
+        else clean_q
+    )
 
     for model_name in models_to_try:
+        # 優先嘗試帶 Search 的 Config
+        configs_to_try = [
+            types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                temperature=0.3,
+                max_output_tokens=800,
+                tools=[types.Tool(google_search=types.GoogleSearch())],
+            ),
+            types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                temperature=0.3,
+                max_output_tokens=800,
+            ),
+        ]
+
         for gen_config in configs_to_try:
             try:
                 response = client.models.generate_content(
                     model=model_name,
-                    contents=clean_q,
+                    contents=contents,
                     config=gen_config,
                 )
                 if response and response.text:
-                    return response.text.strip()
+                    text = response.text.strip()
+                    if obviously_related and _is_rejection(text):
+                        continue
+                    return text
             except Exception as e:
                 last_err = e
-                # 換下一個 config 或 model 嘗試
                 continue
 
-    print(f"[錯誤] 所有 AI 模型與設定呼叫皆失敗: {last_err}", flush=True)
-    return "抱歉，AI 服務連線異常，請稍後再試。"
+    return "抱歉，目前 AI 服務暫時無法正確回應，請換個方式詢問或稍後再試。"
