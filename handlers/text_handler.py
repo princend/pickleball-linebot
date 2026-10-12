@@ -282,18 +282,22 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             video_query_marker = "[VIDEO_QUERY]"
             messages = []
             if video_query_marker in reply_text:
-                parts = reply_text.split(video_query_marker)
+                parts = reply_text.split(video_query_marker, 1)
                 main_text = parts[0].strip()
-                query = parts[1].strip()
+                query = parts[1].strip().splitlines()[0].strip() if parts[1].strip() else ""
                 
                 # 若 AI 提供了解釋，加入文字訊息
                 if main_text:
                     messages.append(TextMessage(text=main_text))
                     
-                # 搜尋影片並建立 Flex Message
-                video_data = search_youtube_video(query)
-                video_flex = create_video_flex(query, video_data)
-                messages.append(video_flex)
+                # 只附上「精選表單」命中的影片，不降級呼叫 YouTube API。
+                # 避免 AI 對非球路問題（如器材、規則）誤加標記時，搜到不相關的熱門影片。
+                video_data = search_youtube_video(query, allow_api_fallback=False) if query else None
+                if video_data:
+                    messages.append(create_video_flex(query, video_data))
+
+                if not messages:
+                    messages.append(TextMessage(text=reply_text.replace(video_query_marker, "").strip()))
             else:
                 messages.append(TextMessage(text=reply_text))
 
