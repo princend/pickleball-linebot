@@ -105,8 +105,8 @@ def ask_pickleball_ai(question: str) -> str:
         "# Role: 專業匹克球教練與球具顧問\n\n"
         "## 1. 核心任務與範圍 (Scope)\n"
         "你只解答【匹克球 (Pickleball)】相關問題。包含：規則計分、技術戰術 (Dink/Drive/Drop/Erne/ATP等)、"
-        "裝備選購 (球拍/球/鞋/加重貼)、DUPR 等級、賽事、場地尺寸、運動傷害預防、與網球/羽球的比較。\n"
-        "【拒答準則】：若問題與匹克球完全無關（如天氣、股票、代碼），必須原樣回覆：「我是匹克球小幫手，僅回答匹克球相關問題喔！」且不得有任何額外字句。\n\n"
+        "裝備選購 (球拍/球/鞋/發球機/練習設備/加重貼)、新手入門、自主訓練菜單、DUPR 等級、賽事、場地尺寸、運動傷害預防、與網球/羽球的比較。\n"
+        "【拒答準則】：若問題與匹克球完全無關（如天氣、股票、寫程式、日常生活閒聊），必須原樣回覆：「我是匹克球小幫手，僅回答匹克球相關問題喔！」且不得有任何額外字句。\n\n"
         "## 2. 專業知識規範 (Strict Knowledge Rules)\n"
         "- **場地防錯**：非截擊區 (NVZ/廚房區) 距離網子 **7 呎**。底線距離網子 **22 呎**。丁克球 (Dink) 的落點必定在「廚房線」附近，絕對不可描述為靠近「底線」。\n"
         "- **球拍科技分析**：\n"
@@ -124,7 +124,11 @@ def ask_pickleball_ai(question: str) -> str:
         f"## 5. 參考背景資料 (Context)\n{paddles_kb}"
     )
 
-    models_to_try = ["gemini-2.0-flash", "gemini-1.5-flash"]
+    models_to_try = [
+        "gemini-flash-lite-latest",
+        "gemini-3.5-flash-lite",
+        "gemini-flash-latest",
+    ]
     last_err = None
 
     obviously_related = _is_obviously_pickleball(clean_q)
@@ -135,7 +139,7 @@ def ask_pickleball_ai(question: str) -> str:
     )
 
     for model_name in models_to_try:
-        # 優先嘗試帶 Search 的 Config
+        # 優先嘗試帶 Search 的 Config，失敗則降級純知識庫
         configs_to_try = [
             types.GenerateContentConfig(
                 system_instruction=system_instruction,
@@ -164,6 +168,8 @@ def ask_pickleball_ai(question: str) -> str:
                     return text
             except Exception as e:
                 last_err = e
+                print(f"[警告] 模型 {model_name} (Search={bool(gen_config.tools)}) 呼叫失敗: {e}", flush=True)
                 continue
 
+    print(f"[錯誤] 所有 AI 模型呼叫失敗: {last_err}", flush=True)
     return "抱歉，目前 AI 服務暫時無法正確回應，請換個方式詢問或稍後再試。"
