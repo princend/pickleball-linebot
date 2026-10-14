@@ -1058,6 +1058,24 @@
         "line_url": null,
         "address": "台中市北區健行路201號",
         "district": "北區"
+      },
+      {
+        "name": "豐原國民暨兒童運動中心",
+        "url": "https://www.facebook.com/FYCSC04/",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心公告",
+        "line_url": null,
+        "address": "臺中市豐原區豐裕路8號",
+        "district": "豐原區"
+      },
+      {
+        "name": "臺中市清水國民暨兒童運動中心",
+        "url": "https://www.taichung.gov.tw/",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心公告",
+        "line_url": null,
+        "address": "臺中市清水區鎮政路",
+        "district": "清水區"
       }
     ]
   },

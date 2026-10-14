@@ -438,44 +438,9 @@ def create_all_districts_courts_flex(
     sorted_districts = sorted(dist_map.keys(), key=lambda d: len(dist_map[d]), reverse=True)
 
     bubbles = []
-    # LINE Carousel 最多 12 個 Bubble，保留 1 個給「查看更多」引導卡
-    for dist in sorted_districts[:11]:
+    # LINE Carousel 最多支援 12 個 Bubble，專注呈現各行政區球場卡片
+    for dist in sorted_districts[:12]:
         bubbles.append(_build_district_bubble(dist, dist_map[dist], county_name))
-
-    if len(sorted_districts) > 11 or more_url:
-        more_bubble = FlexBubble(
-            size="mega",
-            body=FlexBox(
-                layout="vertical",
-                justify_content="center",
-                spacing="md",
-                padding_all="lg",
-                contents=[
-                    FlexText(
-                        text=f"{county_name} 全區共 {len(courts)} 座球場",
-                        size="xs",
-                        color="#6B7280",
-                        align="center",
-                    ),
-                    FlexText(
-                        text="查看完整清單與地圖",
-                        weight="bold",
-                        size="sm",
-                        color="#2563EB",
-                        align="center",
-                        action=URIAction(label="前往網站", uri=more_url),
-                    ),
-                    FlexText(
-                        text="資料來源：ipickleball.com.tw",
-                        size="xxs",
-                        color="#9CA3AF",
-                        align="center",
-                        margin="sm",
-                    ),
-                ],
-            ),
-        )
-        bubbles.append(more_bubble)
 
     return FlexMessage(
         alt_text=f"{county_name} 各區匹克球球場列表",
