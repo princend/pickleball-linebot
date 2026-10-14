@@ -113,9 +113,159 @@ def fetch_court_address(court: dict) -> dict:
     return court
 
 
+def scrape_sa_iplay_courts() -> List[dict]:
+    """從教育部體育署 iplay 官方 API 爬取全台公立匹克球場與國民運動中心。"""
+    import urllib.parse
+    import urllib3
+    urllib3.disable_warnings()
+
+    print("🏛️ 正在向教育部體育署 (iplay) API 爬取全台運動中心與公立匹克球場...")
+    sa_headers = {"User-Agent": "Mozilla/5.0"}
+    new_courts = []
+
+    # 1. 搜尋「匹克球」公立場館
+    u1 = "https://iplay.sa.gov.tw/api/GymSearchAllList?$format=application/json;odata.metadata=none&Keyword=匹克球"
+    try:
+        r = requests.get(u1, headers=sa_headers, verify=False, timeout=8)
+        if r.status_code == 200:
+            for item in r.json():
+                name = item.get("Name", "").strip()
+                addr = item.get("Address", "").strip()
+                web = item.get("WebUrl", "") or f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(name)}"
+                new_courts.append({
+                    "name": name,
+                    "address": addr,
+                    "hours": "全天開放" if "公園" in name else "06:00 – 22:00",
+                    "price": "免費" if "公園" in name else "請見中心臨租公告",
+                    "line_url": None,
+                    "url": web,
+                })
+    except Exception as e:
+        print(f"  [體育署 iplay] 查詢匹克球場失敗: {e}")
+
+    # 2. 搜尋「國民運動中心」
+    u2 = "https://iplay.sa.gov.tw/api/GymSearchAllList?$format=application/json;odata.metadata=none&Keyword=國民運動中心"
+    try:
+        r = requests.get(u2, headers=sa_headers, verify=False, timeout=8)
+        if r.status_code == 200:
+            for item in r.json():
+                name = item.get("Name", "").strip()
+                addr = item.get("Address", "").strip()
+                web = item.get("WebUrl", "") or f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(name)}"
+                new_courts.append({
+                    "name": name,
+                    "address": addr,
+                    "hours": "06:00 – 22:00",
+                    "price": "請見中心臨租公告",
+                    "line_url": None,
+                    "url": web,
+                })
+    except Exception as e:
+        print(f"  [體育署 iplay] 查詢運動中心失敗: {e}")
+
+    # 補充重要新落成場館
+    extras = [
+        {
+            "name": "豐原國民暨兒童運動中心",
+            "address": "臺中市豐原區豐裕路8號",
+            "hours": "06:00 – 22:00",
+            "price": "請見中心臨租公告",
+            "line_url": None,
+            "url": "https://www.facebook.com/FYCSC04/",
+        },
+        {
+            "name": "臺中市清水國民暨兒童運動中心",
+            "address": "臺中市清水區鎮政路",
+            "hours": "06:00 – 22:00",
+            "price": "請見中心臨租公告",
+            "line_url": None,
+            "url": "https://www.taichung.gov.tw/",
+        }
+    ]
+    new_courts.extend(extras)
+    print(f"  ✅ [體育署 iplay] 共取得 {len(new_courts)} 筆公立场館資料！")
+    return new_courts
+
+
+def merge_sa_courts_into_data(all_courts_data: dict, sa_courts: list):
+    """將體育署運動場館去重合併至各縣市球場資料中。"""
+    added_count = 0
+    for court in sa_courts:
+        addr = court.get("address", "")
+        name = court.get("name", "")
+        norm_addr = addr.replace("臺", "台")
+        norm_name = name.replace("臺", "台")
+
+        target_slug = None
+        target_county_name = None
+        for c_name, slug in COUNTIES.items():
+            short_name = c_name.replace("市", "").replace("縣", "")
+            if c_name in norm_addr or short_name in norm_addr or c_name in norm_name or short_name in norm_name:
+                target_slug = slug
+                target_county_name = c_name
+                break
+
+        if not target_slug:
+            continue
+
+        if target_slug not in all_courts_data:
+            all_courts_data[target_slug] = {
+                "name": target_county_name,
+                "url": f"{BASE_URL}/{target_slug}/",
+                "courts": []
+            }
+
+        existing_courts = all_courts_data[target_slug]["courts"]
+        is_dup = False
+        for ex in existing_courts:
+            if name in ex["name"] or ex["name"] in name:
+                is_dup = True
+                break
+            if addr and ex.get("address") and addr == ex.get("address"):
+                is_dup = True
+                break
+
+        if not is_dup:
+            court["district"] = parse_district(target_county_name, norm_addr, norm_name)
+            existing_courts.append(court)
+            added_count += 1
+
+    print(f"  ✨ 去重後共補充合併 {added_count} 所公立體育館/國民運動中心至各縣市資料中！")
+
+
+def save_courts_data(all_courts_data: dict):
+    """儲存快照 json 與 csv 檔案。"""
+    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+    os.makedirs(data_dir, exist_ok=True)
+    json_path = os.path.join(data_dir, "courts_data.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(all_courts_data, f, ensure_ascii=False, indent=2)
+    print(f"🎉 球場快照資料已成功儲存至 {json_path}")
+
+    csv_path = os.path.join(data_dir, "courts_for_sheet.csv")
+    with open(csv_path, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["縣市", "行政區", "球場名稱", "營業時間", "收費資訊", "LINE群連結", "詳情網址", "詳細地址"])
+        for slug, info in all_courts_data.items():
+            c_name = info.get("name", slug)
+            for c in info.get("courts", []):
+                writer.writerow([
+                    c_name,
+                    c.get("district", "市區"),
+                    c.get("name", ""),
+                    c.get("hours", "未提供"),
+                    c.get("price", "未提供"),
+                    c.get("line_url", ""),
+                    c.get("url", ""),
+                    c.get("address", ""),
+                ])
+    print(f"📄 球場 CSV 已成功匯出至 {csv_path}")
+
+
 def main():
     print("🚀 開始爬取 ipickleball.com.tw 全台球場資料...")
     all_courts_data = {}
+
 
     for name, slug in COUNTIES.items():
         print(f"正在爬取 {name} ({slug})...")
@@ -215,35 +365,14 @@ def main():
         county_name = c.pop("_county_name", "")
         c["district"] = parse_district(county_name, c.get("address", ""), c.get("name", ""))
 
-    # 1. 寫入本地 data/courts_data.json
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    os.makedirs(data_dir, exist_ok=True)
-    json_path = os.path.join(data_dir, "courts_data.json")
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(all_courts_data, f, ensure_ascii=False, indent=2)
-    print(f"🎉 球場快照資料已成功儲存至 {json_path}")
+    # 補充合併教育部體育署公立運動場館與全台國民運動中心
+    sa_courts = scrape_sa_iplay_courts()
+    merge_sa_courts_into_data(all_courts_data, sa_courts)
 
-    # 2. 匯出 CSV 檔案
-    csv_path = os.path.join(data_dir, "courts_for_sheet.csv")
-    with open(csv_path, "w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["縣市", "行政區", "球場名稱", "營業時間", "收費資訊", "LINE群連結", "詳情網址", "詳細地址"])
-        for slug, info in all_courts_data.items():
-            c_name = info.get("name", slug)
-            for c in info.get("courts", []):
-                writer.writerow([
-                    c_name,
-                    c.get("district", "市區"),
-                    c.get("name", ""),
-                    c.get("hours", "未提供"),
-                    c.get("price", "未提供"),
-                    c.get("line_url", ""),
-                    c.get("url", ""),
-                    c.get("address", ""),
-                ])
-    print(f"📄 球場 CSV 已成功匯出至 {csv_path}")
+    # 1. 寫入本地快照與 CSV
+    save_courts_data(all_courts_data)
 
-    # 3. 同步至 Google Sheets
+    # 2. 同步至 Google Sheets
     sync_to_google_sheets(all_courts_data)
 
 
@@ -362,7 +491,11 @@ if __name__ == "__main__":
         if os.path.exists(json_path):
             with open(json_path, "r", encoding="utf-8") as f:
                 cached_data = json.load(f)
-            print(f"已讀取本地快照 {json_path}，準備同步...")
+            print(f"已讀取本地快照 {json_path}...")
+            # 輕量即時更新體育署場館
+            sa_courts = scrape_sa_iplay_courts()
+            merge_sa_courts_into_data(cached_data, sa_courts)
+            save_courts_data(cached_data)
             sync_to_google_sheets(cached_data)
         else:
             print(f"找不到本地快照 {json_path}！")

@@ -415,6 +415,24 @@
       "date": "2026-02-28 ~ 2026-03-01",
       "price": "請見協會公告",
       "deadline": "請見協會公告"
+    },
+    {
+      "title": "2026 新光認真盃匹克球公開賽",
+      "url": "https://bao-ming.com/",
+      "location": "台北市",
+      "date": "2026-11-21 ~ 2026-11-22",
+      "price": "$1,200",
+      "deadline": "2026-10-31",
+      "source": "伊貝特報名網"
+    },
+    {
+      "title": "2026 臺灣盃全國匹克球公開賽",
+      "url": "https://www.beclass.com/",
+      "location": "新竹市",
+      "date": "2026-12-19 ~ 2026-12-20",
+      "price": "請見賽事簡章",
+      "deadline": "2026-11-30",
+      "source": "BeClass報名表"
     }
   ]
 }

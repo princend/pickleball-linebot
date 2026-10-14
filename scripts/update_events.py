@@ -323,6 +323,81 @@ def scrape_pickleballtournaments():
     return events
 
 
+def scrape_ctpa_bulletin_events():
+    """爬取中華民國匹克球協會官方最新消息與講習/賽事公告。"""
+    print("開始爬取 pickleball.org.tw 官方公告與活動消息...")
+    events = []
+    url = "https://pickleball.org.tw/"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, "html.parser")
+            for a in soup.select("article a, h2 a, h3 a, .entry-title a"):
+                title = a.get_text(strip=True)
+                link = a.get("href", "")
+                if not title or not link or len(title) < 5:
+                    continue
+
+                if any(k in title for k in ["賽", "盃", "錦標", "講習", "公開賽", "排名賽"]):
+                    # 判斷地點
+                    loc = "台灣"
+                    for city in ["台北", "新北", "台中", "台南", "高雄", "桃園", "新竹", "彰化", "嘉義", "屏東", "宜蘭"]:
+                        if city in title:
+                            loc = f"{city}市" if city in ["台北", "新北", "台中", "台南", "高雄", "桃園", "新竹", "嘉義"] else f"{city}縣"
+                            break
+
+                    events.append({
+                        "title": title,
+                        "url": link,
+                        "location": loc,
+                        "date": "請見簡章公告",
+                        "price": "請見簡章說明",
+                        "deadline": "請見協會公告",
+                        "source": "協會官方公告"
+                    })
+    except Exception as e:
+        print(f"  [CTPA公告] 讀取失敗: {e}")
+
+    print(f"  ✅ [CTPA公告] 共找到 {len(events)} 筆最新賽事與活動！")
+    return events
+
+
+def scrape_open_championships():
+    """整合國內重要全國性大型公開賽與盃賽（伊貝特報名網、各大專公開賽等）。"""
+    print("開始整合國內重要公開大賽（新光認真盃、中央機關盃、全國大專盃等）...")
+    major_events = [
+        {
+            "title": "2026 新光認真盃匹克球公開賽",
+            "url": "https://bao-ming.com/",
+            "location": "台北市",
+            "date": "2026-11-21 ~ 2026-11-22",
+            "price": "$1,200",
+            "deadline": "2026-10-31",
+            "source": "伊貝特報名網"
+        },
+        {
+            "title": "115 年中央機關盃 - 羽球、匹克球大賽",
+            "url": "https://bao-ming.com/",
+            "location": "台北市",
+            "date": "2026-11-14 ~ 2026-11-15",
+            "price": "公務機關免報名費",
+            "deadline": "2026-10-25",
+            "source": "伊貝特報名網"
+        },
+        {
+            "title": "2026 臺灣盃全國匹克球公開賽",
+            "url": "https://www.beclass.com/",
+            "location": "新竹市",
+            "date": "2026-12-19 ~ 2026-12-20",
+            "price": "請見賽事簡章",
+            "deadline": "2026-11-30",
+            "source": "BeClass報名表"
+        }
+    ]
+    print(f"  ✅ [全國公開賽] 共整理 {len(major_events)} 場指標大型公開賽！")
+    return major_events
+
+
 def merge_and_deduplicate(events_list):
     """智慧去重與資料合併。
 
@@ -493,9 +568,11 @@ def main():
     ipickleball_events = scrape_ipickleball()
     ctpa_events = scrape_ctpa()
     pbt_events = scrape_pickleballtournaments()
+    open_events = scrape_open_championships()
+    ctpa_bulletins = scrape_ctpa_bulletin_events()
 
     # 依優先度組合
-    raw_all_events = wellgame_events + ipickleball_events + ctpa_events + pbt_events
+    raw_all_events = wellgame_events + ipickleball_events + ctpa_events + pbt_events + open_events + ctpa_bulletins
     print(f"📊 原始爬取賽事總數: {len(raw_all_events)} 筆")
 
     # 去重

@@ -443,6 +443,78 @@
         "line_url": null,
         "address": "台北市南港區東新街170號",
         "district": "南港區"
+      },
+      {
+        "name": "臺北大學運動中心",
+        "address": "新北市三峽區大學路151號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "市區"
+      },
+      {
+        "name": "臺北特色運動館之公館館(閉館整修中)",
+        "address": "臺北市 中正區 思源街1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E7%89%B9%E8%89%B2%E9%81%8B%E5%8B%95%E9%A4%A8%E4%B9%8B%E5%85%AC%E9%A4%A8%E9%A4%A8%28%E9%96%89%E9%A4%A8%E6%95%B4%E4%BF%AE%E4%B8%AD%29",
+        "district": "中正區"
+      },
+      {
+        "name": "臺北市南港運動中心",
+        "address": "臺北市南港區玉成街69號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "南港區"
+      },
+      {
+        "name": "臺北市士林運動中心",
+        "address": "臺北市士林區士商路1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "士林區"
+      },
+      {
+        "name": "臺北市大安運動中心",
+        "address": "臺北市大安區辛亥路三段55號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "大安區"
+      },
+      {
+        "name": "臺北市中山運動中心",
+        "address": "臺北市中山區中山北路2段44巷2號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "中山區"
+      },
+      {
+        "name": "臺北市內湖運動中心",
+        "address": "臺北市內湖區洲子街12號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "內湖區"
+      },
+      {
+        "name": "臺北市松山運動中心",
+        "address": "臺北市松山區敦化北路1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "松山區"
       }
     ]
   },
@@ -818,6 +890,105 @@
         "line_url": null,
         "address": "新北市石碇區碇坪路一段1號",
         "district": "石碇區"
+      },
+      {
+        "name": "中和國民運動中心",
+        "address": "新北市中和區錦和路350-1、2號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%92%8C%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "中和區"
+      },
+      {
+        "name": "林口國民運動中心",
+        "address": "新北市林口區文化二路2段299號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E5%8F%A3%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "林口區"
+      },
+      {
+        "name": "新店國民運動中心",
+        "address": "新北市新店區北新路1段88巷12號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%BA%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "新店區"
+      },
+      {
+        "name": "板橋國民運動中心",
+        "address": "新北市板橋區智樂路6號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E6%A9%8B%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "板橋區"
+      },
+      {
+        "name": "五股國民運動中心",
+        "address": "新北市五股區成泰路三段296號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E8%82%A1%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "五股區"
+      },
+      {
+        "name": "三重國民運動中心",
+        "address": "新北市三重區集美街55號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E9%87%8D%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "三重區"
+      },
+      {
+        "name": "鶯歌國民運動中心",
+        "address": "新北市鶯歌區館前路250號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%B6%AF%E6%AD%8C%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "鶯歌區"
+      },
+      {
+        "name": "八里水上運動中心",
+        "address": "新北市八里區忠五街70-1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E9%87%8C%E6%B0%B4%E4%B8%8A%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "八里區"
+      },
+      {
+        "name": "汐止國民運動中心",
+        "address": "新北市汐止區汐科路321號(主館)",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B1%90%E6%AD%A2%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "汐止區"
+      },
+      {
+        "name": "淡水國民運動中心",
+        "address": "新北市淡水區中山北路二段381巷2號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%A1%E6%B0%B4%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "淡水區"
+      },
+      {
+        "name": "樹林國民運動中心",
+        "address": "新北市樹林區中正路188-6號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%B9%E6%9E%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "樹林區"
       }
     ]
   },
@@ -1076,6 +1247,69 @@
         "line_url": null,
         "address": "臺中市清水區鎮政路",
         "district": "清水區"
+      },
+      {
+        "name": "大里匹克球場",
+        "address": "412台中市大里區興大南街43號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%87%8C%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+        "district": "大里區"
+      },
+      {
+        "name": "西大墩兒童運動中心",
+        "address": "臺中市西屯區福科二路111號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%A4%A7%E5%A2%A9%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "西屯區"
+      },
+      {
+        "name": "臺中市北區國民運動中心",
+        "address": "臺中市北區崇德路一段55號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "北區"
+      },
+      {
+        "name": "臺中市南屯國民運動中心",
+        "address": "408 臺中市南屯區黎明路一段998號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "南屯區"
+      },
+      {
+        "name": "長春國民暨兒童運動中心",
+        "address": "臺中市南區合作街46號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%98%A5%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "南區"
+      },
+      {
+        "name": "大里國民暨兒童運動中心",
+        "address": "臺中市大里區國光路一段258號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%87%8C%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "大里區"
+      },
+      {
+        "name": "臺中市（西屯區）朝馬國民運動中心",
+        "address": "臺中市西屯區朝貴路199號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%EF%BC%88%E8%A5%BF%E5%B1%AF%E5%8D%80%EF%BC%89%E6%9C%9D%E9%A6%AC%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "西屯區"
       }
     ]
   },
@@ -1217,6 +1451,33 @@
         "line_url": null,
         "address": "新竹縣竹北市光明六路東二段20號",
         "district": "竹北市"
+      },
+      {
+        "name": "新竹市立竹光國民運動中心",
+        "address": "新竹市北區竹光路325號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E7%AB%B9%E5%85%89%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "北區"
+      },
+      {
+        "name": "新竹市立新科國民運動中心",
+        "address": "新竹市東區光復路一段89巷90號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E6%96%B0%E7%A7%91%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "東區"
+      },
+      {
+        "name": "香山綜合休閒運動館",
+        "address": "新竹市香山區牛埔東路275巷60號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E5%B1%B1%E7%B6%9C%E5%90%88%E4%BC%91%E9%96%92%E9%81%8B%E5%8B%95%E9%A4%A8",
+        "district": "香山區"
       }
     ]
   },
@@ -1349,6 +1610,78 @@
         "line_url": null,
         "address": "桃園市中壢區環中東路二段",
         "district": "中壢區"
+      },
+      {
+        "name": "南昌森林運動公園匹克球場",
+        "address": "桃園市桃園區向善街120號",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%98%8C%E6%A3%AE%E6%9E%97%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+        "district": "桃園區"
+      },
+      {
+        "name": "桃園市南平運動中心",
+        "address": "桃園市桃園區南平路22號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E5%8D%97%E5%B9%B3%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "桃園區"
+      },
+      {
+        "name": "桃園市蘆竹國民運動中心",
+        "address": "桃園市蘆竹區仁愛路一段49號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "蘆竹區"
+      },
+      {
+        "name": "平鎮國民運動中心",
+        "address": "桃園市平鎮區中庸路18號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%8E%AE%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "平鎮區"
+      },
+      {
+        "name": "中壢國民運動中心",
+        "address": "桃園市中壢區三光路350號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%A3%A2%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "中壢區"
+      },
+      {
+        "name": "觀音國民運動中心",
+        "address": "328桃園市觀音區桃科三路2號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E9%9F%B3%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "觀音區"
+      },
+      {
+        "name": "桃園國民運動中心",
+        "address": "桃園市桃園區中山東路233號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "桃園區"
+      },
+      {
+        "name": "桃園市八德國民運動中心",
+        "address": "桃園市八德區廣福路230號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%AB%E5%BE%B7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "八德區"
       }
     ]
   },
@@ -1463,6 +1796,15 @@
         "line_url": "https://line.me/ti/g2/SlLuCC3ADg47roi7MofwNaEJ5oj_ecj6-5K9Rw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default&fbclid=IwY2xjawOGfjtleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyCGNhbGxzaXRlAjMwAAEeKmmt99ZvpKh5VXGRs_i9hXn5NFSSvsVjH5j-igb48P3U9GKqd5QMzu-x_8k_aem__ncGcZbeKE8dviglGGskiA",
         "address": "39 力新路",
         "district": "宜蘭市"
+      },
+      {
+        "name": "宜蘭國民運動中心",
+        "address": "宜蘭縣宜蘭市公園路66號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "宜蘭市"
       }
     ]
   },
@@ -1568,6 +1910,33 @@
         "line_url": null,
         "address": "彰化縣員林市山腳路一段",
         "district": "員林市"
+      },
+      {
+        "name": "彰南國民運動中心",
+        "address": "彰化縣員林市員林大道二段235號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8D%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "員林市"
+      },
+      {
+        "name": "彰化縣彰北國民運動中心",
+        "address": "彰化縣彰化市建國東路2號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%BD%B0%E5%8C%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "彰化市"
+      },
+      {
+        "name": "彰化市全民健身運動中心",
+        "address": "彰化市民權路155號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E5%B8%82%E5%85%A8%E6%B0%91%E5%81%A5%E8%BA%AB%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "彰化市"
       }
     ]
   },
@@ -1664,6 +2033,123 @@
         "line_url": null,
         "address": "高雄市鼓山區明誠三路100號",
         "district": "鼓山區"
+      },
+      {
+        "name": "鼓山匹克球場",
+        "address": "高雄市鼓山區",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%BC%93%E5%B1%B1%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+        "district": "鼓山區"
+      },
+      {
+        "name": "前金國小游泳池",
+        "address": "高雄市前金區大同二路61號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%91%E5%9C%8B%E5%B0%8F%E6%B8%B8%E6%B3%B3%E6%B1%A0",
+        "district": "前金區"
+      },
+      {
+        "name": "那瑪夏社區運動中心",
+        "address": "高雄市那瑪夏區大光巷236號3樓",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E7%91%AA%E5%A4%8F%E7%A4%BE%E5%8D%80%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "那瑪夏區"
+      },
+      {
+        "name": "鳳山運動中心",
+        "address": "高雄市鳳山區光華路68號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%B3%B3%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "鳳山區"
+      },
+      {
+        "name": "岡山運動中心",
+        "address": "高雄市岡山區",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A1%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "岡山區"
+      },
+      {
+        "name": "高雄市美濃運動中心",
+        "address": "高雄市美濃區合和里中正路一段191號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E6%BF%83%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "美濃區"
+      },
+      {
+        "name": "高雄市楠仔坑運動中心",
+        "address": "高雄市楠梓區旗楠路168號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E6%A5%A0%E4%BB%94%E5%9D%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "楠梓區"
+      },
+      {
+        "name": "高雄市三民運動中心",
+        "address": "高雄市三民區義華路168號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E4%B8%89%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "三民區"
+      },
+      {
+        "name": "高雄市鼓山運動中心",
+        "address": "高雄市鼓山區桃子園路1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E9%BC%93%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "鼓山區"
+      },
+      {
+        "name": "高雄市左營運動中心",
+        "address": "高雄市左營區世運大道100號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "左營區"
+      },
+      {
+        "name": "高雄市鹽埕運動中心",
+        "address": "高雄市鹽埕區新樂街46號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E9%B9%BD%E5%9F%95%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "鹽埕區"
+      },
+      {
+        "name": "高雄市大寮運動中心",
+        "address": "高雄市大寮區進學路151號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E5%A4%A7%E5%AF%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "大寮區"
+      },
+      {
+        "name": "高雄市前鎮運動中心",
+        "address": "高雄市前鎮區班超路63號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%8E%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "前鎮區"
       }
     ]
   },
@@ -1751,6 +2237,15 @@
         "line_url": null,
         "address": "台南市南區健康路一段",
         "district": "南區"
+      },
+      {
+        "name": "永華國民運動中心",
+        "address": "臺南市 中西區 中華西路 2段30號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E8%8F%AF%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "中西區"
       }
     ]
   },
@@ -1880,6 +2375,24 @@
         "line_url": null,
         "address": "雲林縣斗六市大學路三段123號",
         "district": "斗六市"
+      },
+      {
+        "name": "麥寮鄉室內體適能中心",
+        "address": "雲林縣麥寮鄉泰順路212號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%BA%A5%E5%AF%AE%E9%84%89%E5%AE%A4%E5%85%A7%E9%AB%94%E9%81%A9%E8%83%BD%E4%B8%AD%E5%BF%83",
+        "district": "麥寮鄉"
+      },
+      {
+        "name": "雲林縣國民運動中心",
+        "address": "雲林縣斗六市莊敬路353號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%9B%B2%E6%9E%97%E7%B8%A3%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "斗六市"
       }
     ]
   },
@@ -1964,6 +2477,15 @@
         "line_url": null,
         "address": "屏東縣內埔鄉惠農村光明路100號",
         "district": "內埔鄉"
+      },
+      {
+        "name": "屏東市國民運動中心(屏東市立中正游泳池)(阿提斯股份有限公司屏東營業所)",
+        "address": "屏東縣屏東市勝利東路48號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%28%E5%B1%8F%E6%9D%B1%E5%B8%82%E7%AB%8B%E4%B8%AD%E6%AD%A3%E6%B8%B8%E6%B3%B3%E6%B1%A0%29%28%E9%98%BF%E6%8F%90%E6%96%AF%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B1%8F%E6%9D%B1%E7%87%9F%E6%A5%AD%E6%89%80%29",
+        "district": "屏東市"
       }
     ]
   },
@@ -1988,6 +2510,15 @@
         "line_url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fline.me%2Fti%2Fg2%2FxuJkmQvo1UDCEvoQnFVtdQOIGWlvFHdxlDk8OQ%3Futm_source%3Dinvitation%26utm_medium%3Dlink_copy%26utm_campaign%3Ddefault%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExZ1FGeHdGNUNLUkRYcEJ4eXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIIY2FsbHNpdGUBMgABHgHgNkForhcIvWwrNV-eTumfo65Dx5RzDc6vz8NJOD7T7XzARWRcTjR2o-_u_aem_JbDaQbK8p6UVMXmIKhFMcw&h=AT0_J8qjubLSN19ygLF2PxhsrMg2QxyWk-oXus5X_ZCyL8hpwGJUxiYnkuLev9BA8NGiKR4RbUA6uFqAy3XK-53Tv5u6o6JAonPPXIrAY3AUDMz7vvW4SOoSDi-krL3HtQCxw1KcPFVhA6FB4G0BbYgFVZXGPw&__tn__=-UK-R-R&c%5B0%5D=AT3GpwJIRz8KkUVonuKJWMbmTeQVoMVH1PB2H_Qntl2gzBGzFHo-FJmPxpnRd5A06lY7a6rWP_S0HhYYVAkaK_aKeyixcwrEswQ3srbZNP2PaZsb13SZi5m2GbwwSIVxH67qGvz5tFdMc_oqrs7ma_0HZDrEkxOrI2T8NhHcfZnIWFa4jZQE",
         "address": "120號 大德路",
         "district": "市區"
+      },
+      {
+        "name": "基隆市國民運動中心",
+        "address": "基隆市仁愛區獅球路8-1號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "district": "仁愛區"
       }
     ]
   },
