@@ -6,7 +6,7 @@
       "location": "台中市",
       "date": "2026-10-18",
       "price": "請見賽事簡章",
-      "deadline": "2026-10-04"
+      "deadline": "2026-10-13"
     },
     {
       "title": "2026 Taichung Open Pickleball Championship (台中國際匹克球公開賽)",
@@ -14,7 +14,7 @@
       "location": "台中市 (國際網球中心)",
       "date": "2026-10-14 ~ 2026-10-17",
       "price": "請見賽事簡章",
-      "deadline": "2026-09-29"
+      "deadline": "2026-10-01"
     },
     {
       "title": "114 年度新竹市長盃匹克球賽",
@@ -343,6 +343,70 @@
       "date": "2026-10-09",
       "price": "$2,500",
       "deadline": "2026-09-20"
+    },
+    {
+      "title": "2026臺中國際匹克球公開賽",
+      "url": "https://ipickleball.com.tw/events/2026%e8%87%ba%e4%b8%ad%e5%9c%8b%e9%9a%9b%e5%8c%b9%e5%85%8b%e7%90%83%e5%85%ac%e9%96%8b%e8%b3%bd/",
+      "location": "台中",
+      "date": "2026-10-14 ~ 2026-10-17",
+      "price": "未提供",
+      "deadline": "2026-09-26"
+    },
+    {
+      "title": "2026喬山盃匹克球適應體育公益賽",
+      "url": "https://ipickleball.com.tw/events/2026%e5%96%ac%e5%b1%b1%e7%9b%83%e5%8c%b9%e5%85%8b%e7%90%83%e9%81%a9%e6%87%89%e9%ab%94%e8%82%b2%e5%85%ac%e7%9b%8a%e8%b3%bd/",
+      "location": "台中",
+      "date": "2026-10-18 ~ 2026-10-19",
+      "price": "$800",
+      "deadline": "未提供"
+    },
+    {
+      "title": "115年新北市桐花盃第二屆匹克球錦標賽",
+      "url": "https://ipickleball.com.tw/events/115%e5%b9%b4%e6%96%b0%e5%8c%97%e5%b8%82%e6%a1%90%e8%8a%b1%e7%9b%83%e7%ac%ac%e4%ba%8c%e5%b1%86%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6%e6%a8%99%e8%b3%bd/",
+      "location": "新北市",
+      "date": "2026-10-24 ~ 2026-10-25",
+      "price": "未提供",
+      "deadline": "2026-09-18"
+    },
+    {
+      "title": "2026 NAPA PICKLEBALL 麗寶場開幕賽",
+      "url": "https://ipickleball.com.tw/events/2026-napa-pickleball-%e9%ba%97%e5%af%b6%e5%a0%b4%e9%96%8b%e5%b9%95%e8%b3%bd/",
+      "location": "台中",
+      "date": "2026-10-24 ~ 2026-11-15",
+      "price": "$1,600",
+      "deadline": "2026-10-21"
+    },
+    {
+      "title": "2026新光認真盃匹克球公開賽",
+      "url": "https://ipickleball.com.tw/events/2026%e6%96%b0%e5%85%89%e8%aa%8d%e7%9c%9f%e7%9b%83%e5%8c%b9%e5%85%8b%e7%90%83%e5%85%ac%e9%96%8b%e8%b3%bd/",
+      "location": "台北市",
+      "date": "2026-11-14 ~ 2026-11-15",
+      "price": "未提供",
+      "deadline": "2026-10-18"
+    },
+    {
+      "title": "2026讓礙同行Pickle Love 匹克球公益賽",
+      "url": "https://ipickleball.com.tw/events/2026%e8%ae%93%e7%a4%99%e5%90%8c%e8%a1%8cpickle-love-%e5%8c%b9%e5%85%8b%e7%90%83%e5%85%ac%e7%9b%8a%e8%b3%bd/",
+      "location": "台中",
+      "date": "2026-11-21 ~ 2026-11-22",
+      "price": "未提供",
+      "deadline": "2026-10-25"
+    },
+    {
+      "title": "115年第一屆高雄匹克球發展協會全國學生匹克球錦標賽",
+      "url": "https://ipickleball.com.tw/events/115%e5%b9%b4%e7%ac%ac%e4%b8%80%e5%b1%86%e9%ab%98%e9%9b%84%e5%8c%b9%e5%85%8b%e7%90%83%e7%99%bc%e5%b1%95%e5%8d%94%e6%9c%83%e5%85%a8%e5%9c%8b%e5%ad%b8%e7%94%9f%e5%8c%b9%e5%85%8b%e7%90%83%e9%8c%a6/",
+      "location": "高雄",
+      "date": "2026-11-21 ~ 2026-11-22",
+      "price": "$700",
+      "deadline": "2026-11-08"
+    },
+    {
+      "title": "2026星動盃明星匹克球公益賽",
+      "url": "https://ipickleball.com.tw/events/2026%e6%98%9f%e5%8b%95%e7%9b%83%e6%98%8e%e6%98%9f%e5%8c%b9%e5%85%8b%e7%90%83%e5%85%ac%e7%9b%8a%e8%b3%bd/",
+      "location": "台北市",
+      "date": "2026-12-06 ~ 2026-12-07",
+      "price": "未提供",
+      "deadline": "未提供"
     },
     {
       "title": "2026NAPA盃全國匹克球錦標賽",

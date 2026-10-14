@@ -1,13 +1,15 @@
 name: Daily Pickleball Data Scraper
 
 on:
-  # schedule:
-  #   - cron: '0 16 * * *' # 每天台灣時間凌晨0點 (UTC 16:00)
+  schedule:
+    - cron: '0 16 * * *' # 每天台灣時間凌晨0點 (UTC 16:00)
   workflow_dispatch: # 允許手動觸發
 
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,3 +30,22 @@ jobs:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
         run: |
           python scripts/auto_scrape_shopify.py
+
+      - name: Run Events Scraper (Directly to Google Sheets)
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python scripts/update_events.py
+
+      - name: Commit & Push updated data snapshot (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events_data.json data/events_for_sheet.csv || true
+          if git diff --staged --quiet; then
+            echo "No data snapshot changes to commit"
+          else
+            git commit -m "chore: 定期自動更新賽事快照資料 [skip ci]"
+            git push || echo "Push skipped or not permitted"
+          fi
+

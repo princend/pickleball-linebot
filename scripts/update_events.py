@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 import re
@@ -12,6 +13,11 @@ HEADERS = {
 }
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "events_data.json")
+CSV_EXPORT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "events_for_sheet.csv")
+
+SHEET_ID = "1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw"
+EVENTS_GID = 1270824619
+
 
 
 def scrape_ipickleball():
@@ -363,6 +369,122 @@ def merge_and_deduplicate(events_list):
     return merged
 
 
+def export_to_csv(events: list):
+    """將賽事資料匯出為 CSV 檔案，便於手動上傳或離線備份。"""
+    try:
+        os.makedirs(os.path.dirname(CSV_EXPORT_FILE), exist_ok=True)
+        with open(CSV_EXPORT_FILE, "w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["賽事名稱", "比賽日期", "地點", "報名截止日", "報名費用", "賽事詳情連結", "資料來源"])
+            for e in events:
+                writer.writerow([
+                    e.get("title", ""),
+                    e.get("date", ""),
+                    e.get("location", ""),
+                    e.get("deadline", ""),
+                    e.get("price", ""),
+                    e.get("url", ""),
+                    e.get("source", "自動爬蟲"),
+                ])
+        print(f"📄 賽事 CSV 檔案已匯出至 {CSV_EXPORT_FILE}！")
+    except Exception as e:
+        print(f"[警告] 匯出 CSV 失敗: {e}")
+
+
+def sync_to_google_sheets(events: list) -> bool:
+    """將賽事資料同步至線上 Google Sheets (gid=1270824619)。"""
+    creds_json = os.environ.get("GOOGLE_CREDENTIALS")
+    if not creds_json:
+        print("ℹ️ 未偵測到 GOOGLE_CREDENTIALS 環境變數，跳過線上 Google Sheets 寫入。（在 GitHub Actions 執行時將會自動同步）")
+        return False
+
+    try:
+        import gspread
+        from google.oauth2.service_account import Credentials
+
+        print("🔄 正在連線至 Google Sheets 並進行賽事同步...")
+        creds_dict = json.loads(creds_json)
+        scopes = [
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive"
+        ]
+        credentials = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+        gc = gspread.authorize(credentials)
+        sh = gc.open_by_key(SHEET_ID)
+
+        # 根據 GID 尋找目標工作表
+        worksheet = None
+        for ws in sh.worksheets():
+            if str(ws.id) == str(EVENTS_GID):
+                worksheet = ws
+                break
+
+        if not worksheet:
+            # 備援：若找不到特定 GID，尋找名稱中包含「賽事」或「event」的工作表
+            for ws in sh.worksheets():
+                if "賽事" in ws.title or "event" in ws.title.lower():
+                    worksheet = ws
+                    break
+
+        if not worksheet:
+            print(f"[錯誤] 找不到 GID 為 {EVENTS_GID} 的工作表！")
+            return False
+
+        header = ["賽事名稱", "比賽日期", "地點", "報名截止日", "報名費用", "賽事詳情連結", "資料來源"]
+        all_values = worksheet.get_all_values()
+
+        # 若工作表為空，先寫入標題列
+        if not all_values or len(all_values) == 0:
+            worksheet.append_row(header)
+            all_values = [header]
+        elif len(all_values) == 1 and all(c.strip() == "" for c in all_values[0]):
+            worksheet.update("A1:G1", [header])
+            all_values = [header]
+
+        # 收集現有賽事的比對鍵（以標題+日期或網址進行去重）
+        existing_keys = set()
+        for row in all_values[1:]:
+            if row:
+                t = row[0].strip() if len(row) > 0 else ""
+                d = row[1].strip() if len(row) > 1 else ""
+                u = row[5].strip() if len(row) > 5 else ""
+                if t:
+                    existing_keys.add(f"{t}::{d}")
+                if u:
+                    existing_keys.add(u)
+
+        # 篩選全新賽事
+        new_rows = []
+        for e in events:
+            t = e.get("title", "").strip()
+            d = e.get("date", "").strip()
+            loc = e.get("location", "").strip()
+            dl = e.get("deadline", "").strip()
+            pr = e.get("price", "").strip()
+            u = e.get("url", "").strip()
+            src = e.get("source", "自動爬蟲").strip()
+
+            key = f"{t}::{d}"
+            if key in existing_keys or (u and u in existing_keys):
+                continue
+
+            new_rows.append([t, d, loc, dl, pr, u, src])
+            existing_keys.add(key)
+            if u:
+                existing_keys.add(u)
+
+        if new_rows:
+            worksheet.append_rows(new_rows)
+            print(f"🎉 成功寫入 {len(new_rows)} 筆全新賽事至 Google Sheets (分頁 GID: {EVENTS_GID})！")
+        else:
+            print(f"✅ Google Sheets 上的賽事資料已是最新，無需追加。")
+
+        return True
+    except Exception as e:
+        print(f"[錯誤] 同步至 Google Sheets 失敗: {e}")
+        return False
+
+
 def main():
     print("🚀 開始執行全台匹克球賽事多來源整合爬蟲...")
 
@@ -380,13 +502,19 @@ def main():
     unique_events = merge_and_deduplicate(raw_all_events)
     print(f"✨ 去重後有效賽事總數: {len(unique_events)} 筆")
 
-    # 寫入 data/events_data.json
+    # 1. 寫入本地 data/events_data.json（備援快照）
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump({"events": unique_events}, f, ensure_ascii=False, indent=2)
+    print(f"🎉 本地賽事資料快照已寫入 {DATA_FILE}！")
 
-    print(f"🎉 賽事資料已成功更新並寫入 {DATA_FILE}！")
+    # 2. 匯出 CSV 檔案（便於手動匯入或離線檢視）
+    export_to_csv(unique_events)
+
+    # 3. 同步至 Google Sheets
+    sync_to_google_sheets(unique_events)
 
 
 if __name__ == "__main__":
     main()
+

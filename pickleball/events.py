@@ -1,8 +1,12 @@
+import csv
+import io
 import json
 import os
 import re
+import time
 from datetime import datetime
-from typing import List
+from typing import Dict, List, Optional
+import requests
 from linebot.v3.messaging import (
     FlexBox,
     FlexBubble,
@@ -15,6 +19,88 @@ from linebot.v3.messaging import (
 )
 
 EVENTS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "events_data.json")
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw/export?format=csv&gid=1270824619"
+EVENTS_CACHE: List[dict] = []
+LAST_FETCH_TIME = 0
+
+
+def load_all_events() -> List[dict]:
+    """從 Google Sheets 即時讀取賽事資料，具備 5 分鐘快取與本地備援機制。"""
+    global EVENTS_CACHE, LAST_FETCH_TIME
+    current_time = time.time()
+
+    # 5 分鐘快取機制，避免頻繁請求造成延遲
+    if EVENTS_CACHE and (current_time - LAST_FETCH_TIME < 300):
+        return EVENTS_CACHE
+
+    try:
+        r = requests.get(SHEET_URL, timeout=5)
+        r.encoding = "utf-8"
+        reader = csv.reader(io.StringIO(r.text))
+        rows = list(reader)
+
+        if len(rows) > 1:
+            header = [col.strip().lower() for col in rows[0]]
+
+            # 動態比對標題列欄位索引
+            def find_idx(keywords: List[str], default_idx: int) -> int:
+                for idx, col_name in enumerate(header):
+                    if any(kw in col_name for kw in keywords):
+                        return idx
+                return default_idx
+
+            idx_title = find_idx(["賽事", "名稱", "title"], 0)
+            idx_date = find_idx(["日期", "時間", "date"], 1)
+            idx_loc = find_idx(["地點", "縣市", "location"], 2)
+            idx_dl = find_idx(["截止", "報名截止", "deadline"], 3)
+            idx_price = find_idx(["費用", "報名費", "price"], 4)
+            idx_url = find_idx(["連結", "網址", "url", "link"], 5)
+
+            events = []
+            for row in rows[1:]:
+                # 跳過空白列
+                if not any(c.strip() for c in row):
+                    continue
+                title = row[idx_title].strip() if len(row) > idx_title else ""
+                if not title:
+                    continue
+                date_text = row[idx_date].strip() if len(row) > idx_date else "未提供日期"
+                loc = row[idx_loc].strip() if len(row) > idx_loc else "未知地點"
+                dl = row[idx_dl].strip() if len(row) > idx_dl else "未提供"
+                price = row[idx_price].strip() if len(row) > idx_price else "請見賽事簡章"
+                url = row[idx_url].strip() if len(row) > idx_url else ""
+
+                events.append({
+                    "title": title,
+                    "date": date_text,
+                    "location": loc,
+                    "deadline": dl,
+                    "price": price,
+                    "url": url,
+                })
+
+            if events:
+                EVENTS_CACHE = events
+                LAST_FETCH_TIME = current_time
+                return events
+    except Exception as e:
+        print(f"[警告] 讀取 Google Sheets 賽事失敗: {e}", flush=True)
+
+    # 若抓取失敗但過去有快取，回傳快取
+    if EVENTS_CACHE:
+        return EVENTS_CACHE
+
+    # 降級備援機制：讀取本地 JSON
+    if os.path.exists(EVENTS_FILE):
+        try:
+            with open(EVENTS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return data.get("events", [])
+        except Exception as e:
+            print(f"[警告] 讀取本地賽事快照失敗: {e}", flush=True)
+
+    return []
+
 
 def _build_compact_event_box(event: dict, index: int) -> FlexBox:
     title = event.get("title", "未知賽事")
@@ -135,17 +221,14 @@ def get_event_region_quick_reply() -> QuickReply:
     return QuickReply(items=items)
 
 def create_events_flex(region: str = "全部", quick_reply: QuickReply = None) -> FlexMessage:
-    if not os.path.exists(EVENTS_FILE):
+    all_events = load_all_events()
+    if not all_events:
         return FlexMessage(
             alt_text="目前尚無賽事資料",
             contents=FlexBubble(body=FlexBox(layout="vertical", contents=[FlexText(text="目前尚無賽事資料")])),
             quick_reply=quick_reply
         )
-        
-    with open(EVENTS_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        
-    all_events = data.get("events", [])
+
     
     # 取得今天的日期字串 (YYYY-MM-DD) 以過濾過期賽事
     today_str = datetime.now().strftime("%Y-%m-%d")
