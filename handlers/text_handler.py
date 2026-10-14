@@ -29,6 +29,11 @@ from pickleball import (
     format_time_input,
     generate_group_announcement,
     get_county_quick_reply,
+    get_district_quick_reply,
+    create_all_districts_courts_flex,
+    create_district_courts_flex,
+    scrape_courts_by_county,
+    COUNTIES,
     get_event_region_quick_reply,
     get_group_creation_session,
     create_paddle_recommendation_flex,
@@ -333,29 +338,106 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         )
         return "OK", 200
 
-    # 1. 匹克球球場查詢指令 (顯示縣市 QuickReply，由 PostbackHandler 接手爬取球場資料)
+    # 1. 匹克球球場查詢指令
     court_keywords = [
         "!匹克球球場",
         "!查球場",
         "!球場查詢",
         "!匹克球場地",
         "!附近球場",
+        "!球場",
         "!pickleball courts",
     ]
-    if stripped_text.lower() in [k.lower() for k in court_keywords]:
-        county_qr = get_county_quick_reply()
-        line_bot_api.reply_message_with_http_info(
-            ReplyMessageRequest(
-                reply_token=event.reply_token,
-                messages=[
-                    TextMessage(
-                        text="請選擇要查詢的縣市，Bot 將即時從 ipickleball.com.tw 取得最新球場資料。",
-                        quick_reply=county_qr,
-                    )
-                ],
+    is_court_cmd = False
+    court_args = ""
+    for k in court_keywords:
+        if stripped_text.lower() == k.lower():
+            is_court_cmd = True
+            court_args = ""
+            break
+        elif stripped_text.lower().startswith(k.lower() + " ") or stripped_text.lower().startswith(k.lower() + "　"):
+            is_court_cmd = True
+            court_args = stripped_text[len(k):].strip()
+            break
+
+    if is_court_cmd:
+        if not court_args:
+            # 無參數：跳出縣市選擇選單
+            county_qr = get_county_quick_reply()
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[
+                        TextMessage(
+                            text="請選擇要查詢的縣市：",
+                            quick_reply=county_qr,
+                        )
+                    ],
+                )
             )
-        )
+        else:
+            # 有參數（例如「台中」或「台中 豐原」）
+            parts = court_args.split()
+            target_county = parts[0]
+            target_dist = parts[1] if len(parts) > 1 else None
+
+            # 比對縣市 slug
+            matched_slug = None
+            matched_county_name = None
+            for c_name, slug in COUNTIES.items():
+                if target_county in c_name or c_name in target_county:
+                    matched_slug = slug
+                    matched_county_name = c_name
+                    break
+
+            if matched_slug:
+                courts, more_url = scrape_courts_by_county(matched_slug)
+                if not target_dist:
+                    # 使用者只輸入縣市（例如 !查球場 台中），回傳行政區 QuickReply
+                    dist_qr = get_district_quick_reply(matched_slug, matched_county_name)
+                    line_bot_api.reply_message_with_http_info(
+                        ReplyMessageRequest(
+                            reply_token=event.reply_token,
+                            messages=[
+                                TextMessage(
+                                    text=f"請選擇要查詢【{matched_county_name}】的行政區：\n（點擊『全部』可依各區瀏覽所有球場）",
+                                    quick_reply=dist_qr,
+                                )
+                            ],
+                        )
+                    )
+                elif target_dist == "全部":
+                    flex_msg = create_all_districts_courts_flex(courts, matched_county_name, more_url)
+                    line_bot_api.reply_message_with_http_info(
+                        ReplyMessageRequest(
+                            reply_token=event.reply_token,
+                            messages=[flex_msg],
+                        )
+                    )
+                else:
+                    flex_msg = create_district_courts_flex(courts, matched_county_name, target_dist, more_url)
+                    line_bot_api.reply_message_with_http_info(
+                        ReplyMessageRequest(
+                            reply_token=event.reply_token,
+                            messages=[flex_msg],
+                        )
+                    )
+            else:
+                # 找不到特定縣市，跳出縣市選單
+                county_qr = get_county_quick_reply()
+                line_bot_api.reply_message_with_http_info(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=[
+                            TextMessage(
+                                text=f"找不到「{target_county}」之球場，請直接點選下方選單選擇縣市：",
+                                quick_reply=county_qr,
+                            )
+                        ],
+                    )
+                )
         return "OK", 200
+
 
     # 2. 匹克球賽事精華推薦指令 (關鍵字均需明確包含「匹克球」，避免誤觸其他主題)
     highlight_keywords = [

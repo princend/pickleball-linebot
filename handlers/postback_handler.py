@@ -29,6 +29,9 @@ from pickleball import (
     set_awaiting_pickleball_input,
     set_group_creation_session,
     create_courts_flex,
+    create_all_districts_courts_flex,
+    create_district_courts_flex,
+    get_district_quick_reply,
     scrape_courts_by_county,
     create_paddle_recommendation_flex,
     get_paddle_budget_quick_reply,
@@ -49,17 +52,45 @@ def process_postback(event, line_bot_api, target_id):
         county_slug = parsed_data.get("county", [""])[0]
         county_name = parsed_data.get("name", ["未知縣市"])[0]
         county_name = urllib.parse.unquote(county_name)
+        district = parsed_data.get("district", [None])[0]
 
-        if county_slug:
-            courts, more_url = scrape_courts_by_county(county_slug)
-            flex_msg = create_courts_flex(courts, county_name, more_url)
+        if not county_slug:
+            return "OK", 200
+
+        courts, more_url = scrape_courts_by_county(county_slug)
+
+        # 若尚未選擇行政區，提供第二段：行政區選擇 QuickReply (第一項為全部)
+        if district is None:
+            dist_qr = get_district_quick_reply(county_slug, county_name)
             line_bot_api.reply_message_with_http_info(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
-                    messages=[flex_msg],
+                    messages=[
+                        TextMessage(
+                            text=f"請選擇要查詢【{county_name}】的行政區：\n（點擊『全部』可依各區瀏覽所有球場）",
+                            quick_reply=dist_qr,
+                        )
+                    ],
                 )
             )
+            return "OK", 200
+
+        district = urllib.parse.unquote(district)
+        if district == "全部":
+            # 使用者選擇某個市的全部區：用 "區" 來區分卡片
+            flex_msg = create_all_districts_courts_flex(courts, county_name, more_url)
+        else:
+            # 使用者選擇特定行政區（如：豐原區）
+            flex_msg = create_district_courts_flex(courts, county_name, district, more_url)
+
+        line_bot_api.reply_message_with_http_info(
+            ReplyMessageRequest(
+                reply_token=event.reply_token,
+                messages=[flex_msg],
+            )
+        )
         return "OK", 200
+
 
     elif data.startswith("action=paddle_action"):
         parsed_data = urllib.parse.parse_qs(data)
