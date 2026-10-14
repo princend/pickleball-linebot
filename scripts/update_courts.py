@@ -233,6 +233,577 @@ def merge_sa_courts_into_data(all_courts_data: dict, sa_courts: list):
     print(f"  ✨ 去重後共補充合併 {added_count} 所公立體育館/國民運動中心至各縣市資料中！")
 
 
+TAICHUNG_VERIFIED_COURTS = [
+    # 西屯區
+    {
+        "name": "Pickzone 匹克球場（朝馬館）",
+        "district": "西屯區",
+        "address": "台中市西屯區環中路三段98-2A號",
+        "hours": "24小時營業",
+        "price": "約 $300~$600/時，臨打約 $150~$200",
+        "line_url": "https://line.me/R/ti/p/@336xlhhb",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pickzone%E6%9C%9D%E9%A6%AC%E9%A4%A8",
+    },
+    {
+        "name": "Pickzone 匹克球場（凱旋館）",
+        "district": "西屯區",
+        "address": "台中市西屯區環中路二段300-4號",
+        "hours": "24小時營業",
+        "price": "約 $300~$600/時，臨打約 $150~$200",
+        "line_url": "https://line.me/R/ti/p/@336xlhhb",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pickzone%E5%87%B1%E6%97%8B%E9%A4%A8",
+    },
+    {
+        "name": "GooDink 匹克球俱樂部",
+        "district": "西屯區",
+        "address": "台中市西屯區甘河路108號",
+        "hours": "09:00 – 23:00",
+        "price": "場租/臨打收費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=GooDink%E5%8C%B9%E5%85%8B%E7%90%83%E4%bf%B1%E6%a8%82%E9%83%a8",
+    },
+    {
+        "name": "臺中市朝馬國民運動中心",
+        "district": "西屯區",
+        "address": "臺中市西屯區朝貴路199號",
+        "hours": "06:00 – 22:00",
+        "price": "綜合球場依中心公告",
+        "line_url": None,
+        "url": "https://cmcsc.cyc.org.tw/",
+    },
+    {
+        "name": "西大墩兒童運動中心",
+        "district": "西屯區",
+        "address": "臺中市西屯區福科二路111號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%A4%A7%E5%A2%A9%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    {
+        "name": "優漾複合運動會館",
+        "district": "西屯區",
+        "address": "臺中市西屯區福科路207號",
+        "hours": "06:00 – 23:00",
+        "price": "會員/租場收費",
+        "line_url": None,
+        "url": "https://www.allyoungsports.com/",
+    },
+    {
+        "name": "逢甲大學體育館（綜合球場）",
+        "district": "西屯區",
+        "address": "台中市西屯區文華路100號",
+        "hours": "依校方開放時間",
+        "price": "依校方公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8",
+    },
+    {
+        "name": "西苑高中匹克球場",
+        "district": "西屯區",
+        "address": "台中市西屯區西苑路268號",
+        "hours": "06:30 – 22:30",
+        "price": "100~200",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%8B%91%E9%AB%98%E4%B8%AD",
+    },
+    {
+        "name": "福雅里社區活動中心",
+        "district": "西屯區",
+        "address": "台中市西屯區福雅路111號",
+        "hours": "依社區公告",
+        "price": "100~200",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E9%9B%85%E9%87%8C%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    # 南屯區
+    {
+        "name": "日落匹克球 (Sunset Pickleball)",
+        "district": "南屯區",
+        "address": "台中市南屯區嶺東路109-12號",
+        "hours": "24小時營業",
+        "price": "24H預約制（附借拍與球）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=Sunset+Pickleball+%E6%97%A5%E8%90%BD%E5%8C%B9%E5%85%8B%E7%90%83",
+    },
+    {
+        "name": "LaLa Dink 匹克球俱樂部",
+        "district": "南屯區",
+        "address": "台中市南屯區文心南三路996巷1號",
+        "hours": "24小時營業 / 預約制",
+        "price": "Open Play約 $200~$250",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=LaLa+Dink+Pickleball",
+    },
+    {
+        "name": "匹克王 (PICKLE KING)",
+        "district": "南屯區",
+        "address": "台中市南屯區環中路四段2號",
+        "hours": "10:00 – 00:00",
+        "price": "依低消與場租公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%B9%E5%85%8B%E7%8E%8B+PICKLE+KING",
+    },
+    {
+        "name": "嗨賴運動俱樂部 (Hi-Light)",
+        "district": "南屯區",
+        "address": "台中市南屯區龍富二路298號",
+        "hours": "08:00 – 22:00",
+        "price": "依館內公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%97%A8%E8%B3%B4%E9%81%8B%E5%8B%95%E4%bf%B1%E6%a8%82%E9%83%a8",
+    },
+    {
+        "name": "臺中市南屯國民運動中心",
+        "district": "南屯區",
+        "address": "臺中市南屯區黎明路一段998號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": None,
+        "url": "https://hbsc.cyc.org.tw/",
+    },
+    {
+        "name": "文心森林公園戶外運動場",
+        "district": "南屯區",
+        "address": "台中市南屯區文心路一段289號",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E5%BF%83%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92",
+    },
+    # 北屯區
+    {
+        "name": "Pickle Park 匹克公園（北屯場）",
+        "district": "北屯區",
+        "address": "台中市北屯區敦和路125號",
+        "hours": "08:00 – 22:00",
+        "price": "依場租預約公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=Pickle+Park+%E5%8C%B9%E5%85%8B%E5%85%AC%E5%9C%92",
+    },
+    {
+        "name": "臺中市國際網球中心（匹克球專用場）",
+        "district": "北屯區",
+        "address": "台中市北屯區祥順二路224號",
+        "hours": "06:00 – 22:00",
+        "price": "約 100~200元",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%9C%8B%E9%9A%9B%E7%b6%b2%E7%90%83%E4%b8%ad%e5%bf%83",
+    },
+    {
+        "name": "舊社公園匹克球場",
+        "district": "北屯區",
+        "address": "台中市北屯區松竹路二段59巷5號",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%88%8A%E7%A4%BE%E5%85%AC%E5%9C%92",
+    },
+    {
+        "name": "四張犁公園匹克球場",
+        "district": "北屯區",
+        "address": "台中市北屯區松竹路一段1000號",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%BC%B5%E7%A2%81%E5%85%AC%E5%9C%92",
+    },
+    {
+        "name": "台中市游泳訓練中心綜合球場",
+        "district": "北屯區",
+        "address": "台中市北屯區景賢南一路26號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%B8%B8%E6%B3%B3%E8%A8%93%E7%B7%B4%E4%B8%AD%E5%BF%83",
+    },
+    # 東區
+    {
+        "name": "西雅圖室內匹克球俱樂部 (Seattle Pickleball Club)",
+        "district": "東區",
+        "address": "台中市東區環中東路五段52號",
+        "hours": "24小時營業 / 線上預約制",
+        "price": "線上場租（附免費借球拍與球）",
+        "line_url": None,
+        "url": "https://www.booknow.com.tw/seattlepickleball",
+    },
+    # 西區
+    {
+        "name": "PiCKLE & CHiLL（誠星勤美高空球場）",
+        "district": "西區",
+        "address": "台中市西區公益路68號15樓",
+        "hours": "10:00 – 22:00",
+        "price": "線上預約 / 房客優惠",
+        "line_url": None,
+        "url": "https://www.starhostelparklane.com/",
+    },
+    # 北區
+    {
+        "name": "臺中市北區國民運動中心",
+        "district": "北區",
+        "address": "臺中市北區崇德路一段55號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心臨租公告（現場可租借球具）",
+        "line_url": None,
+        "url": "https://tndcsc.com.tw/",
+    },
+    {
+        "name": "健行國小匹克球場",
+        "district": "北區",
+        "address": "台中市北區健行路201號",
+        "hours": "課後及假日開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%81%A5%E8%A1%8C%E5%9C%8B%E5%B0%8F",
+    },
+    # 南區
+    {
+        "name": "長春國民暨兒童運動中心",
+        "district": "南區",
+        "address": "臺中市南區合作街46號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心臨租公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%98%A5%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    {
+        "name": "國立中興大學綜合體育館",
+        "district": "南區",
+        "address": "台中市南區興大路145號",
+        "hours": "依校方公告開放時間",
+        "price": "校內/社團租借公告",
+        "line_url": None,
+        "url": "https://osa.nchu.edu.tw/",
+    },
+    # 大里區
+    {
+        "name": "大里康橋匹克球場（國光公園 / 二二八公園內）",
+        "district": "大里區",
+        "address": "台中市大里區興大南街43號",
+        "hours": "06:00 – 22:00",
+        "price": "免費（台中示範基地）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%87%8C%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+    },
+    {
+        "name": "大里國民暨兒童運動中心",
+        "district": "大里區",
+        "address": "臺中市大里區國光路一段258號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心臨租公告",
+        "line_url": None,
+        "url": "https://dlcsc.cyc.org.tw/",
+    },
+    {
+        "name": "大里樹王里橋下運動場地",
+        "district": "大里區",
+        "address": "台中市大里區中投西路三段橋下",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%8A%95%E5%85%AC%E8%B7%AF%E6%A9%8B%E4%B8%8B",
+    },
+    {
+        "name": "霧社公園運動場",
+        "district": "大里區",
+        "address": "台中市大里區東昇路591巷",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%9C%A7%E7%A4%BE%E5%85%AC%E5%9C%92",
+    },
+    # 太平區
+    {
+        "name": "太平國民暨兒童運動中心",
+        "district": "太平區",
+        "address": "台中市太平區中山路二段433號",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%B9%B3%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    {
+        "name": "坪林森林公園綜合運動場",
+        "district": "太平區",
+        "address": "台中市太平區中山路二段418號",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9D%AA%E6%9E%97%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92",
+    },
+    # 豐原區
+    {
+        "name": "豐原國民暨兒童運動中心",
+        "district": "豐原區",
+        "address": "臺中市豐原區豐裕路8號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": None,
+        "url": "https://www.facebook.com/FYCSC04/",
+    },
+    {
+        "name": "豐原武明山公園球場",
+        "district": "豐原區",
+        "address": "臺中市豐原區南陽路59巷3-2號",
+        "hours": "19:30 – 22:00",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%90%E5%8E%9F%E6%AD%A6%E6%98%8E%E5%B1%B1%E5%85%AC%E5%9C%92%E7%90%83%E5%A0%B4",
+    },
+    {
+        "name": "豐原國四高架橋下球場",
+        "district": "豐原區",
+        "address": "台中市豐原區國道四號高架橋下",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E9%81%93%E5%9B%9B%E8%99%9F%E9%AB%98%E6%9E%B6%E6%A9%8B%E4%B8%8B%E7%90%83%E5%A0%B4",
+    },
+    # 后里區
+    {
+        "name": "NAPA Pickleball 麗寶館（室內旗艦館）",
+        "district": "后里區",
+        "address": "台中市后里區福容路201號（麗寶OUTLET MALL A區 2F）",
+        "hours": "10:00 – 21:30",
+        "price": "依時段場租/臨打約 $200~$300",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=NAPA+Pickleball+%E9%BA%97%E5%AF%B6%E9%A4%A8",
+    },
+    # 潭子區
+    {
+        "name": "一一匹克 (YIYI PICKLE)",
+        "district": "潭子區",
+        "address": "台中市潭子區大富路三段165巷12-18號",
+        "hours": "24小時營業",
+        "price": "場租約 $300~$500/時",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E4%B8%80%E5%8C%B9%E5%85%8B+YIYI+PICKLE",
+    },
+    {
+        "name": "潭子國民暨兒童運動中心",
+        "district": "潭子區",
+        "address": "台中市潭子區勝利路140號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%BD%AD%E5%AD%90%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    # 烏日區
+    {
+        "name": "匹克領域 (PB-Club)",
+        "district": "烏日區",
+        "address": "台中市烏日區溪南路一段348巷33號",
+        "hours": "08:00 – 23:00 / 預約制",
+        "price": "依預約場租公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%B9%E5%85%8B%E9%A0%98%E5%9F%9F+PB-Club",
+    },
+    {
+        "name": "Hype Pick Club 熱潮匹克球俱樂部",
+        "district": "烏日區",
+        "address": "台中市烏日區溪南路一段680巷450弄12號",
+        "hours": "09:00 – 23:00",
+        "price": "依場租/臨打公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=Hype+Pick+Club+%E7%86%B1%E6%BD%AE%E5%8C%B9%E5%85%8B%E7%90%83",
+    },
+    # 霧峰區
+    {
+        "name": "霧峰國道三號橋下匹克球場",
+        "district": "霧峰區",
+        "address": "台中市霧峰區四德路498巷旁（國道三號高架橋下）",
+        "hours": "全天開放",
+        "price": "免費公立場地（共3面球場）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%9C%A7%E5%B3%B0%E5%9C%8B%E9%81%93%E4%B8%89%E8%99%9F%E6%A9%8B%E4%B8%8B%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+    },
+    {
+        "name": "朝陽科技大學綜合體育館",
+        "district": "霧峰區",
+        "address": "台中市霧峰區吉峰東路168號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9D%E9%99%BD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8",
+    },
+    # 清水區
+    {
+        "name": "臺中市清水國民暨兒童運動中心",
+        "district": "清水區",
+        "address": "台中市清水區鎮政路358號",
+        "hours": "06:00 – 22:00",
+        "price": "請見中心臨租公告（3F綜合球場）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E5%9C%8B%E6%B0%91%E6%9A%A8%E5%85%92%E7%AB%A5%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+    },
+    # 沙鹿區
+    {
+        "name": "XC.Pickleball 沙鹿室內匹克球俱樂部",
+        "district": "沙鹿區",
+        "address": "台中市沙鹿區東英路56巷60號",
+        "hours": "08:00 – 22:00",
+        "price": "約 $150~$250 / 臨打或包場",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=XC.Pickleball+%E6%B2%99%E9%B9%BF",
+    },
+    {
+        "name": "臺中市港區運動公園",
+        "district": "沙鹿區",
+        "address": "台中市沙鹿區自強路301號",
+        "hours": "06:00 – 22:00",
+        "price": "依園區公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B8%AF%E5%8D%80%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92",
+    },
+    {
+        "name": "靜宜大學若望保祿二世體育館",
+        "district": "沙鹿區",
+        "address": "台中市沙鹿區臺灣大道七段200號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%9C%E5%AE%9C%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8",
+    },
+    # 梧棲區
+    {
+        "name": "梧棲文高8公有匹克球場",
+        "district": "梧棲區",
+        "address": "台中市梧棲區文昌路與民安路口",
+        "hours": "全天開放（附夜間照明）",
+        "price": "免費（海線首座公有專用球場）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A2%A7%E6%A3%B2%E6%96%87%E9%AB%988%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+    },
+    {
+        "name": "優選港合運動會館",
+        "district": "梧棲區",
+        "address": "台中市梧棲區港埠路一段888號",
+        "hours": "06:00 – 00:00",
+        "price": "100~200",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%84%AA%E9%81%B8%E6%B8%AF%E5%90%88%E9%81%8B%E5%8B%95%E6%9C%83%E9%A4%A8",
+    },
+    # 龍井區
+    {
+        "name": "龍井匹克球場",
+        "district": "龍井區",
+        "address": "台中市龍井區竹師路二段112巷附近",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%BE%8D%E4%BA%95%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+    },
+    # 大安區
+    {
+        "name": "大安西濱橋下匹克球場",
+        "district": "大安區",
+        "address": "台中市大安區西濱快速公路高架橋下",
+        "hours": "全天開放",
+        "price": "免費（橋下遮蔭避雨，2面球場）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AE%89%E8%A5%BF%E6%BF%B1%E6%A9%8B%E4%B8%8B%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
+    },
+    # 大甲區
+    {
+        "name": "大甲體育場匹克球場",
+        "district": "大甲區",
+        "address": "台中市大甲區大安港路2號",
+        "hours": "06:00 – 21:00",
+        "price": "免費公立場地（大甲獅子盃主場）",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B2%E9%AB%94%E8%82%B2%E5%A0%B4",
+    },
+    # 神岡區
+    {
+        "name": "神岡國四高架橋下匹克球場",
+        "district": "神岡區",
+        "address": "台中市神岡區三民路/國道四號高架橋下",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B2%A1%E5%9C%8B%E5%9B%9B%E6%A9%8B%E4%B8%8B%E7%90%83%E5%A0%B4",
+    },
+    {
+        "name": "豐神 AI 智能運動館",
+        "district": "神岡區",
+        "address": "台中市神岡區神洲路130巷21弄5號",
+        "hours": "24小時營業",
+        "price": "智慧預約場租",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%90%E7%A5%9EAI%E6%99%BA%E8%83%BD%E7%BE%BD%E7%90%83%E9%A4%A8",
+    },
+    # 大雅區
+    {
+        "name": "水舞酷動匹克球基地",
+        "district": "大雅區",
+        "address": "台中市大雅區民生路三段492號",
+        "hours": "08:00 – 22:00",
+        "price": "依會館公告",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E8%88%9E%E9%85%B7%E5%8B%95",
+    },
+    # 大肚區
+    {
+        "name": "大肚文昌匹克球活動中心",
+        "district": "大肚區",
+        "address": "台中市大肚區文昌路二段770號",
+        "hours": "依開放公告",
+        "price": "100~200",
+        "line_url": None,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%82%9A%E5%8D%80%E6%96%87%E6%98%8C%E8%B7%AF%E4%BA%8C%E6%AE%B5770%E8%99%9F",
+    },
+]
+
+
+def merge_verified_taichung_courts(all_courts_data: dict):
+    """將全面完善的台中市各區指標球場清單合併至台中資料中。"""
+    if "taichung" not in all_courts_data:
+        all_courts_data["taichung"] = {
+            "name": "台中",
+            "url": f"{BASE_URL}/taichung/",
+            "courts": []
+        }
+
+    existing_courts = all_courts_data["taichung"]["courts"]
+    added_count = 0
+    updated_count = 0
+
+    for item in TAICHUNG_VERIFIED_COURTS:
+        name = item["name"]
+        addr = item.get("address", "")
+        found_idx = -1
+
+        for idx, ex in enumerate(existing_courts):
+            ex_name = ex.get("name", "")
+            ex_addr = ex.get("address", "")
+            if (name in ex_name or ex_name in name) and len(set(name) & set(ex_name)) >= 3:
+                found_idx = idx
+                break
+            if addr and ex_addr and addr == ex_addr:
+                found_idx = idx
+                break
+
+        if found_idx >= 0:
+            existing = existing_courts[found_idx]
+            existing["district"] = item.get("district", existing.get("district"))
+            if "maps" in item.get("url", "") or not existing.get("url"):
+                existing["url"] = item.get("url", existing.get("url"))
+            if item.get("line_url") and not existing.get("line_url"):
+                existing["line_url"] = item.get("line_url")
+            if item.get("hours") and existing.get("hours") in ["未提供", "Closed", "12:00 上午 – 12:00 上午"]:
+                existing["hours"] = item.get("hours")
+            if item.get("price") and existing.get("price") in ["未提供", "100~200"]:
+                existing["price"] = item.get("price")
+            if item.get("address") and (not existing.get("address") or len(item["address"]) > len(ex_addr)):
+                existing["address"] = item["address"]
+            updated_count += 1
+        else:
+            existing_courts.append(dict(item))
+            added_count += 1
+
+    print(f"  🏆 [台中球場深度完善] 新增 {added_count} 筆、優化更新 {updated_count} 筆，台中目前共計 {len(existing_courts)} 所球場！")
+
+
 def save_courts_data(all_courts_data: dict):
     """儲存快照 json 與 csv 檔案。"""
     data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
@@ -369,6 +940,9 @@ def main():
     sa_courts = scrape_sa_iplay_courts()
     merge_sa_courts_into_data(all_courts_data, sa_courts)
 
+    # 深度完善台中市各區球場
+    merge_verified_taichung_courts(all_courts_data)
+
     # 1. 寫入本地快照與 CSV
     save_courts_data(all_courts_data)
 
@@ -495,6 +1069,8 @@ if __name__ == "__main__":
             # 輕量即時更新體育署場館
             sa_courts = scrape_sa_iplay_courts()
             merge_sa_courts_into_data(cached_data, sa_courts)
+            # 深度完善台中市各區球場
+            merge_verified_taichung_courts(cached_data)
             save_courts_data(cached_data)
             sync_to_google_sheets(cached_data)
         else:
