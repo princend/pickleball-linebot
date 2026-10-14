@@ -80,10 +80,10 @@ DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "co
 
 # Google Sheets 設定
 SHEET_ID = "1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw"
-COURTS_SHEET_GID = os.environ.get("COURTS_SHEET_GID", "")
+COURTS_SHEET_GID = os.environ.get("COURTS_SHEET_GID", "1386987707")
 COURTS_SHEET_URL = os.environ.get(
     "COURTS_SHEET_URL",
-    f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={COURTS_SHEET_GID}" if COURTS_SHEET_GID else ""
+    f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={COURTS_SHEET_GID}"
 )
 
 COURTS_CACHE: Optional[Dict[str, dict]] = None

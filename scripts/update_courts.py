@@ -57,7 +57,7 @@ HEADERS = {
 BASE_URL = "https://ipickleball.com.tw/places/category"
 
 SHEET_ID = "1Zphr-a547bmb0nTTNxz8p5A1dajAmLSOi-mO1NiRydw"
-COURTS_SHEET_GID = os.environ.get("COURTS_SHEET_GID", "")
+COURTS_SHEET_GID = os.environ.get("COURTS_SHEET_GID", "1386987707")
 
 
 def parse_district(county_name: str, address: str, court_name: str) -> str:
@@ -243,6 +243,129 @@ def main():
                 ])
     print(f"📄 球場 CSV 已成功匯出至 {csv_path}")
 
+    # 3. 同步至 Google Sheets
+    sync_to_google_sheets(all_courts_data)
+
+
+def sync_to_google_sheets(all_courts_data: dict) -> bool:
+    """將球場資料同步至 Google Sheets (gid=1386987707)。"""
+    creds_json = os.environ.get("GOOGLE_CREDENTIALS")
+    if not creds_json:
+        print("ℹ️ 未偵測到 GOOGLE_CREDENTIALS 環境變數，跳過線上 Google Sheets 寫入。（在 GitHub Actions 執行時將會自動同步）")
+        return False
+
+    try:
+        import gspread
+        from google.oauth2.service_account import Credentials
+
+        print(f"🔄 正在連線至 Google Sheets 並進行球場資料同步 (GID: {COURTS_SHEET_GID})...")
+        creds_dict = json.loads(creds_json)
+        scopes = [
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive"
+        ]
+        credentials = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+        gc = gspread.authorize(credentials)
+        sh = gc.open_by_key(SHEET_ID)
+
+        # 根據 GID 尋找目標工作表
+        worksheet = None
+        for ws in sh.worksheets():
+            if str(ws.id) == str(COURTS_SHEET_GID):
+                worksheet = ws
+                break
+
+        if not worksheet:
+            # 備援：尋找名稱中包含「球場」或「court」的工作表
+            for ws in sh.worksheets():
+                if "球場" in ws.title or "court" in ws.title.lower():
+                    worksheet = ws
+                    break
+
+        if not worksheet:
+            print(f"[錯誤] 找不到 GID 為 {COURTS_SHEET_GID} 的工作表！")
+            return False
+
+        header = ["縣市", "行政區", "球場名稱", "營業時間", "收費資訊", "LINE群連結", "詳情網址", "詳細地址"]
+        all_values = worksheet.get_all_values()
+
+        # 若工作表為空，先寫入標題列
+        if not all_values or len(all_values) == 0:
+            worksheet.append_row(header)
+            all_values = [header]
+        elif len(all_values) == 1 and all(c.strip() == "" for c in all_values[0]):
+            worksheet.update("A1:H1", [header])
+            all_values = [header]
+
+        # 收集現有球場比對鍵（以「縣市::球場名稱」或「詳情網址」）
+        existing_keys = set()
+        for row in all_values[1:]:
+            if row:
+                c_name = row[0].strip() if len(row) > 0 else ""
+                t_name = row[2].strip() if len(row) > 2 else ""
+                u_link = row[6].strip() if len(row) > 6 else ""
+                if c_name and t_name:
+                    existing_keys.add(f"{c_name}::{t_name}")
+                if u_link:
+                    existing_keys.add(u_link)
+
+        # 整理所有要寫入的球場
+        new_rows = []
+        for slug, info in all_courts_data.items():
+            county_display = info.get("name", slug)
+            for c in info.get("courts", []):
+                court_name = c.get("name", "").strip()
+                dist_name = c.get("district", "市區").strip()
+                hours_val = c.get("hours", "未提供").strip()
+                price_val = c.get("price", "未提供").strip()
+                line_val = c.get("line_url", "") or ""
+                url_val = c.get("url", "") or ""
+                addr_val = c.get("address", "") or ""
+
+                key = f"{county_display}::{court_name}"
+                if key in existing_keys or (url_val and url_val in existing_keys):
+                    continue
+
+                new_rows.append([
+                    county_display,
+                    dist_name,
+                    court_name,
+                    hours_val,
+                    price_val,
+                    line_val,
+                    url_val,
+                    addr_val
+                ])
+                existing_keys.add(key)
+                if url_val:
+                    existing_keys.add(url_val)
+
+        if new_rows:
+            # 若為首次全量寫入或批次寫入
+            worksheet.append_rows(new_rows)
+            print(f"🎉 成功寫入 {len(new_rows)} 筆球場資料至 Google Sheets (分頁 GID: {COURTS_SHEET_GID})！")
+        else:
+            print(f"✅ Google Sheets 上的球場資料已是最新，無需新增。")
+
+        return True
+    except Exception as e:
+        print(f"[錯誤] 同步球場資料至 Google Sheets 失敗: {e}")
+        return False
+
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--sync-only" in sys.argv:
+        # 直接讀取本機快照同步到 Google Sheets
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+        json_path = os.path.join(data_dir, "courts_data.json")
+        if os.path.exists(json_path):
+            with open(json_path, "r", encoding="utf-8") as f:
+                cached_data = json.load(f)
+            print(f"已讀取本地快照 {json_path}，準備同步...")
+            sync_to_google_sheets(cached_data)
+        else:
+            print(f"找不到本地快照 {json_path}！")
+    else:
+        main()
+
