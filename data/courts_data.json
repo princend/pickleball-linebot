@@ -5,11 +5,11 @@
     "courts": [
       {
         "name": "Ahhh Pickleball Social Hub",
-        "url": "https://ipickleball.com.tw/places/ahhh-pickleball-social-hub/",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ahhh+Pickleball+Social+Hub",
         "hours": "2:00 上午 – 10:00 下午",
         "price": "2500~5500",
         "line_url": "https://line.me/R/ti/p/@ahhh",
-        "address": "臺北市中正區杭州北路26號",
+        "address": "台北市中正區杭州北路26號1樓",
         "district": "中正區"
       },
       {
@@ -86,7 +86,7 @@
       },
       {
         "name": "天母公園",
-        "url": "https://ipickleball.com.tw/places/%e5%a4%a9%e6%af%8d%e5%85%ac%e5%9c%92/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%AF%8D%E5%85%AC%E5%9C%92",
         "hours": "8:30 上午 – 12:00 下午",
         "price": "免費",
         "line_url": null,
@@ -140,11 +140,11 @@
       },
       {
         "name": "青年公園",
-        "url": "https://ipickleball.com.tw/places/%e9%9d%92%e5%b9%b4%e5%85%ac%e5%9c%92/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E5%B9%B4%E5%85%AC%E5%9C%92",
         "hours": "6:00 上午 – 12:00 上午",
         "price": "免費",
         "line_url": null,
-        "address": "台北市萬華區水源路199號",
+        "address": "台北市萬華區水源路199號（青年公園內）",
         "district": "萬華區"
       },
       {
@@ -515,6 +515,33 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "松山區"
+      },
+      {
+        "name": "圓山花博 THE COURT by Draft Land",
+        "district": "中山區",
+        "address": "台北市中山區玉門街1號（Maji Square 集食行樂）",
+        "hours": "11:00 – 22:00",
+        "price": "時尚露天社交匹克球場、結合特色餐飲調飲",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=Maji+Square"
+      },
+      {
+        "name": "Pickle Day Social Club（信義新光A11館）",
+        "district": "信義區",
+        "address": "台北市信義區松壽路11號（新光三越 A11）",
+        "hours": "11:00 – 22:00",
+        "price": "信義商圈高空室內場、新手體驗課與Open Play",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%85%89%E4%B8%89%E8%B6%8A+A11"
+      },
+      {
+        "name": "樓下匹克球俱樂部 (Downstairs Pickleball Club)",
+        "district": "北投區",
+        "address": "台北市北投區石牌路二段",
+        "hours": "預約制",
+        "price": "室內地下體驗空間、新手教學與借拍",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=Downstairs+Pickleball+Club"
       }
     ]
   },
@@ -524,7 +551,7 @@
     "courts": [
       {
         "name": "Pickle Ing 匹克贏",
-        "url": "https://ipickleball.com.tw/places/pickle-ing-%e5%8c%b9%e5%85%8b%e8%b4%8f/",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pickle+Ing+%E5%8C%B9%E5%85%8B%E8%B4%8f",
         "hours": "8:00 上午 – 11:00 下午",
         "price": "150~200",
         "line_url": "https://line.me/R/ti/p/@188eiekd?ts=04261503&oat_content=url",
@@ -713,9 +740,9 @@
       },
       {
         "name": "Pickle Day 俱樂部",
-        "url": "https://ipickleball.com.tw/places/pickle-day-%e4%bf%b1%e6%a8%82%e9%83%a8/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%B9%E5%85%8B%E6%97%A5%E4%BF%B1%E6%A8%82%E9%83%A8+%E4%B8%AD%E5%92%8C",
         "hours": "9:00 上午 – 10:00 下午",
-        "price": "100~200",
+        "price": "4面室內專用場、發球機、入門體驗課",
         "line_url": null,
         "address": "新北市中和區錦和路388號2樓",
         "district": "中和區"
@@ -989,6 +1016,15 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%B9%E6%9E%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "樹林區"
+      },
+      {
+        "name": "新北大都會公園匹克球專用場",
+        "district": "三重區",
+        "address": "新北市三重區疏洪東路一段（大都會公園內）",
+        "hours": "全天開放",
+        "price": "免費專用場地、依序輪流",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E5%A4%A7%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92"
       }
     ]
   },
@@ -1706,11 +1742,11 @@
       },
       {
         "name": "竹北國民運動中心",
-        "url": "https://ipickleball.com.tw/places/%e7%ab%b9%e5%8c%97%e5%9c%8b%e6%b0%91%e9%81%8b%e5%8b%95%e4%b8%ad%e5%bf%83/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E5%8C%97%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "hours": "9:00 上午 – 12:00 下午",
-        "price": "100~200",
+        "price": "依中心臨租公告",
         "line_url": null,
-        "address": "新竹縣竹北市光明九路2號",
+        "address": "新竹縣竹北市莊敬南路18號（4F綜合球場）",
         "district": "竹北市"
       },
       {
@@ -1742,9 +1778,9 @@
       },
       {
         "name": "竹東全民運動館",
-        "url": "https://ipickleball.com.tw/places/%e7%ab%b9%e6%9d%b1%e5%85%a8%e6%b0%91%e9%81%8b%e5%8b%95%e9%a4%a8/",
-        "hours": "Closed",
-        "price": "100~200",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E6%9D%B1%E5%85%A8%E6%B0%91%E9%81%8B%E5%8B%95%E9%A4%A8",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
         "line_url": null,
         "address": "新竹縣竹東鎮康寧路一段165號",
         "district": "竹東鎮"
@@ -1784,6 +1820,78 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E5%B1%B1%E7%B6%9C%E5%90%88%E4%BC%91%E9%96%92%E9%81%8B%E5%8B%95%E9%A4%A8",
         "district": "香山區"
+      },
+      {
+        "name": "PPClub 酸黃瓜匹克球場",
+        "district": "寶山鄉",
+        "address": "新竹縣寶山鄉大崎一路195巷9-1號",
+        "hours": "24小時營業 / 自助預約制",
+        "price": "新竹首座 24H 智慧化室內館，近竹科",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=PPClub+%E9%85%B8%E9%BB%83%E7%93%9C%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4"
+      },
+      {
+        "name": "東尼匹克球館（Tony Pickleball 竹北館）",
+        "district": "竹北市",
+        "address": "新竹縣竹北市莊敬南路18號（竹北遠百旁運動中心1F）",
+        "hours": "08:00 – 22:00",
+        "price": "新手友善暢打、規格完整",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%B0%BC%E5%8C%B9%E5%85%8B%E7%90%83%E9%A4%A8+%E7%AB%B9%E5%8C%97"
+      },
+      {
+        "name": "PAW SPORTS 昌益園區運動會館",
+        "district": "竹北市",
+        "address": "新竹縣竹北市環科一路9號D棟3F",
+        "hours": "08:00 – 22:00",
+        "price": "室內木質運動地板、提供球拍租借",
+        "line_url": null,
+        "url": "https://pawsports.com.tw/"
+      },
+      {
+        "name": "新竹市東區國民運動中心",
+        "district": "東區",
+        "address": "新竹市東區光復路一段",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%AB%B9%E6%9D%B1%E5%8D%80%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "國立清華大學體育館",
+        "district": "東區",
+        "address": "新竹市東區光復路二段101號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E8%8F%AF%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "國立陽明交通大學綜合球場",
+        "district": "東區",
+        "address": "新竹市東區大學路1001號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E6%98%8E%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "新竹市立體育館",
+        "district": "北區",
+        "address": "新竹市北區公園路295號",
+        "hours": "06:00 – 21:30",
+        "price": "依市府公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "新竹市香山綜合運動場",
+        "district": "香山區",
+        "address": "新竹市香山區中華路五段",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E5%B1%B1%E9%81%8B%E5%8B%95%E5%A0%B4"
       }
     ]
   },
@@ -1793,8 +1901,8 @@
     "courts": [
       {
         "name": "邷力豹 Pickleball",
-        "url": "https://ipickleball.com.tw/places/%e9%82%b7%e5%8a%9b%e8%b1%b9-pickleball/",
-        "hours": "未提供",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%82%B7%E5%8A%9B%E8%B1%B9+Pickleball",
+        "hours": "08:00 – 22:00",
         "price": "400~700",
         "line_url": "https://openchat.line.me/tw/cover/6ZYYZ67P3KubfEyojcmZykhfhse-pr7QxWeDslMkNpBP12S_r24srBNRAYU",
         "address": "桃園市蘆竹區中興路756巷109號",
@@ -1941,12 +2049,12 @@
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
-        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%98%86%E7%AB%B9%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "蘆竹區"
       },
       {
         "name": "平鎮國民運動中心",
-        "address": "桃園市平鎮區中庸路18號",
+        "address": "桃園市平鎮區興安路181號",
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
@@ -1986,8 +2094,62 @@
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
-        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%AB%E5%BE%B7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E5%BE%B7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "八德區"
+      },
+      {
+        "name": "Social N Pickle（龜山館）",
+        "district": "龜山區",
+        "address": "桃園市龜山區大湖路160巷50號",
+        "hours": "24小時營業 / 預約制",
+        "price": "工業風專業室內標準場、球拍租借",
+        "line_url": null,
+        "url": "https://www.booknow.com.tw/socialnpickle"
+      },
+      {
+        "name": "國立體育大學綜合體育館",
+        "district": "龜山區",
+        "address": "桃園市龜山區文化一路250號",
+        "hours": "依校方公告",
+        "price": "校內/租用公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%94%E8%82%B2%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "中豐匹克球會館",
+        "district": "龍潭區",
+        "address": "桃園市龍潭區中豐路",
+        "hours": "08:00 – 23:00",
+        "price": "標準地坪、大型免費停車場",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%B1%90%E7%BE%BD%E7%90%83%E6%9C%83%E9%A4%A8"
+      },
+      {
+        "name": "龍潭體育園區綜合球場",
+        "district": "龍潭區",
+        "address": "桃園市龍潭區中興路",
+        "hours": "06:00 – 22:00",
+        "price": "公立场地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%BE%8D%E6%BD%AD%E9%AB%94%E8%82%B2%E5%9C%92%E5%8D%80"
+      },
+      {
+        "name": "三民運動公園匹克球場",
+        "district": "桃園區",
+        "address": "桃園市桃園區三民路一段",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B0%91%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "國立中央大學綜合體育館",
+        "district": "中壢區",
+        "address": "桃園市中壢區中大路300號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
       }
     ]
   },
@@ -1997,8 +2159,8 @@
     "courts": [
       {
         "name": "宜蘭運動公園",
-        "url": "https://ipickleball.com.tw/places/%e5%ae%9c%e8%98%ad%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92-2/",
-        "hours": "Closed",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92",
+        "hours": "06:00 – 22:00",
         "price": "免費",
         "line_url": null,
         "address": "宜蘭縣宜蘭市中山路一段755號",
@@ -2006,11 +2168,11 @@
       },
       {
         "name": "羅東運動公園",
-        "url": "https://ipickleball.com.tw/places/%e7%be%85%e6%9d%b1%e9%81%8b%e5%8b%95%e5%85%ac%e5%9c%92-2/",
-        "hours": "Closed",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%BE%85%E6%9D%B1%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92",
+        "hours": "全天開放（夜間照明優良）",
         "price": "免費",
         "line_url": null,
-        "address": "宜蘭縣羅東鎮公正路666號",
+        "address": "宜蘭縣羅東鎮北成路二段（羅東運動公園內）",
         "district": "羅東鎮"
       },
       {
@@ -2111,6 +2273,15 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "宜蘭市"
+      },
+      {
+        "name": "頭城運動公園匹克球場",
+        "district": "頭城鎮",
+        "address": "宜蘭縣頭城鎮復興路",
+        "hours": "全天開放",
+        "price": "免費鎮立專用場",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%A0%AD%E5%9F%8E%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
       }
     ]
   },
@@ -2129,7 +2300,7 @@
       },
       {
         "name": "PIKA PIKA Pickleball Club 【原名稱：Pickle King Sports Club 匹克王】",
-        "url": "https://ipickleball.com.tw/places/pickle-king-sports-club-%e5%8c%b9%e5%85%8b%e7%8e%8b/",
+        "url": "https://www.google.com/maps/search/?api=1&query=PIKA+PIKA+Pickleball+Club",
         "hours": "7:00 上午 – 11:00 下午",
         "price": "300~400",
         "line_url": "https://lin.ee/yKcTEz7",
@@ -2165,9 +2336,9 @@
       },
       {
         "name": "大村匹克球專用球場",
-        "url": "https://ipickleball.com.tw/places/%e5%a4%a7%e6%9d%91%e5%8c%b9%e5%85%8b%e7%90%83%e5%b0%88%e7%94%a8%e7%90%83%e5%a0%b4/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%9D%91%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4",
         "hours": "6:00 下午 – 9:00 下午",
-        "price": "100~200",
+        "price": "免費戶外專用場",
         "line_url": null,
         "address": "彰化縣大村鄉中山路二段1000巷",
         "district": "大村鄉"
@@ -2243,6 +2414,42 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E5%B8%82%E5%85%A8%E6%B0%91%E5%81%A5%E8%BA%AB%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "彰化市"
+      },
+      {
+        "name": "77匹克俱樂部",
+        "district": "永靖鄉",
+        "address": "彰化縣永靖鄉中山路二段（毛利運動事務所2F）",
+        "hours": "全預約制",
+        "price": "獨立單面私人冷氣包場",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=77%E5%8C%B9%E5%85%8B%E4%bf%B1%E6%a8%82%E9%83%a8"
+      },
+      {
+        "name": "彰化延平公園匹克球場",
+        "district": "彰化市",
+        "address": "彰化縣彰化市南平街（延平公園內）",
+        "hours": "全天開放（週三、五、六下午熱門球聚）",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%B9%B3%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "彰化縣立體育場綜合球場",
+        "district": "彰化市",
+        "address": "彰化縣彰化市健興路1號",
+        "hours": "06:00 – 21:30",
+        "price": "依縣府公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E5%A0%B4"
+      },
+      {
+        "name": "員林市運動公園匹克球場",
+        "district": "員林市",
+        "address": "彰化縣員林市員南路",
+        "hours": "06:00 – 21:00",
+        "price": "免費公立場地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%93%A1%E6%9E%97%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
       }
     ]
   },
@@ -2252,11 +2459,11 @@
     "courts": [
       {
         "name": "三民公園",
-        "url": "https://ipickleball.com.tw/places/%e4%b8%89%e6%b0%91%e5%85%ac%e5%9c%92/",
-        "hours": "Closed",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B0%91%E5%85%AC%E5%9C%92",
+        "hours": "全天開放（固定週三、日球友球聚）",
         "price": "免費",
         "line_url": null,
-        "address": "高雄市三民區覺民路",
+        "address": "高雄市三民區十全一路（三民公園內）",
         "district": "三民區"
       },
       {
@@ -2288,8 +2495,8 @@
       },
       {
         "name": "楠梓高中",
-        "url": "https://ipickleball.com.tw/places/%e6%a5%a0%e6%a2%93%e9%ab%98%e4%b8%ad/",
-        "hours": "未提供",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A5%A0%E6%A2%93%E9%AB%98%E4%B8%AD",
+        "hours": "傍晚與假日開放，新手友善常態零打",
         "price": "未知",
         "line_url": null,
         "address": "高雄市楠梓區藍昌路381號",
@@ -2315,11 +2522,11 @@
       },
       {
         "name": "橋頭公園匹克球場",
-        "url": "https://ipickleball.com.tw/places/%e6%a9%8b%e9%a0%ad%e5%85%ac%e5%9c%92%e5%8c%b9%e5%85%8b%e7%90%83%e5%a0%b4/",
-        "hours": "12:00 上午 – 12:00 上午",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%A9%8B%E9%A0%AD%E5%85%AC%E5%9C%92",
+        "hours": "全天開放",
         "price": "免費",
         "line_url": null,
-        "address": "高雄市橋頭區公園東路",
+        "address": "高雄市橋頭區樹德路（橋頭公園內）",
         "district": "橋頭區"
       },
       {
@@ -2378,7 +2585,7 @@
       },
       {
         "name": "岡山運動中心",
-        "address": "高雄市岡山區",
+        "address": "高雄市岡山區公園路",
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
@@ -2405,11 +2612,11 @@
       },
       {
         "name": "高雄市三民運動中心",
-        "address": "高雄市三民區義華路168號",
+        "address": "高雄市三民區大順二路468號",
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
-        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E4%B8%89%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "三民區"
       },
       {
@@ -2427,7 +2634,7 @@
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
-        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%A6%E7%87%9F%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "左營區"
       },
       {
@@ -2454,8 +2661,98 @@
         "hours": "06:00 – 22:00",
         "price": "請見中心臨租公告",
         "line_url": null,
-        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%8E%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%8E%AE%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "前鎮區"
+      },
+      {
+        "name": "P!CK ME 室內匹克球館",
+        "district": "三民區",
+        "address": "高雄市三民區灣興街39巷9號",
+        "hours": "24小時營業 / 預約制",
+        "price": "約 $200~$400/時，具專業壓克力地墊",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=P!CK+ME+%E5%AE%A4%E5%85%A7%E5%8C%B9%E5%85%8B%E7%90%83%E9%A4%A8"
+      },
+      {
+        "name": "苓雅運動中心（舞動陽光）",
+        "district": "苓雅區",
+        "address": "高雄市苓雅區中正一路99號",
+        "hours": "06:00 – 22:00",
+        "price": "室內冷氣綜合球場，可現場租球拍",
+        "line_url": null,
+        "url": "https://klyscwdyg.com.tw/"
+      },
+      {
+        "name": "林靖公園匹克球練習場",
+        "district": "苓雅區",
+        "address": "高雄市苓雅區廣東一街",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E9%9D%96%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "前金運動中心",
+        "district": "前金區",
+        "address": "高雄市前金區光復三路52號",
+        "hours": "06:00 – 22:00",
+        "price": "國際認證運動地墊、室內冷氣、可線上租借拍",
+        "line_url": null,
+        "url": "https://cianjin-sc.com/"
+      },
+      {
+        "name": "Le Phare 共享匹克球空間（左營館）",
+        "district": "左營區",
+        "address": "高雄市左營區高鐵路107號（三鐵共構站旁）",
+        "hours": "09:00 – 22:00",
+        "price": "新手友善 Social Day，單次臨打約 $200",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=Le+Phare+%E5%B7%A6%E7%87%9F"
+      },
+      {
+        "name": "正勤社區活動中心室內球場",
+        "district": "前鎮區",
+        "address": "高雄市前鎮區正勤路",
+        "hours": "依社團時段（週一、三晚間常設零打）",
+        "price": "約 $100~$150 / 臨打",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E5%8B%A4%E7%A4%BE%E5%8D%80%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "鳳山中山公園球場",
+        "district": "鳳山區",
+        "address": "高雄市鳳山區光復路",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%B3%B3%E5%B1%B1%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "國立中山大學綜合體育館",
+        "district": "鼓山區",
+        "address": "高雄市鼓山區蓮海路70號",
+        "hours": "依校方公告",
+        "price": "校內/社團租借公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "小港高餐國中風雨球場",
+        "district": "小港區",
+        "address": "高雄市小港區松和路",
+        "hours": "假日開放球敘",
+        "price": "免費/社群維護",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%A4%90%E5%9C%8B%E4%B8%AD"
+      },
+      {
+        "name": "仁武運動園區綜合球場",
+        "district": "仁武區",
+        "address": "高雄市仁武區仁春街",
+        "hours": "06:00 – 21:00",
+        "price": "免費/公立設施",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E6%AD%A6%E9%81%8B%E5%8B%95%E5%9C%92%E5%8D%80"
       }
     ]
   },
@@ -2483,7 +2780,7 @@
       },
       {
         "name": "振興公園",
-        "url": "https://ipickleball.com.tw/places/%e6%8c%af%e8%88%88%e5%85%ac%e5%9c%92/",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%8C%AF%E8%88%88%E5%85%AC%E5%9C%92",
         "hours": "6:00 下午 – 10:00 下午",
         "price": "未知",
         "line_url": null,
@@ -2519,12 +2816,12 @@
       },
       {
         "name": "勁拍羽球館",
-        "url": "https://ipickleball.com.tw/places/%e5%8b%81%e6%8b%8d%e7%be%bd%e7%90%83%e9%a4%a8/",
-        "hours": "Closed",
-        "price": "100~200",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%BE%BD%E6%BD%AE%E5%8C%B9%E5%85%8B%E7%90%83%E4%BC%91%E9%96%92%E9%A4%A8",
+        "hours": "24小時營業 / 預約制",
+        "price": "約 $200~$350/時，結合餐飲休閒",
         "line_url": null,
-        "address": "台南市仁德區文賢路三段",
-        "district": "仁德區"
+        "address": "台南市永康區中正南路378-2號",
+        "district": "永康區"
       },
       {
         "name": "羽克打球隊會所",
@@ -2552,6 +2849,114 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E8%8F%AF%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "中西區"
+      },
+      {
+        "name": "鹿角俱樂部（永康館）",
+        "district": "永康區",
+        "address": "台南市永康區尚頂路68號",
+        "hours": "08:00 – 23:00",
+        "price": "高品質室內冷氣場、淋浴與餐飲",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%B9%BF%E8%A7%92%E4%bf%B1%E6%a8%82%E9%83%a8+%E6%B0%B8%E5%BA%B7"
+      },
+      {
+        "name": "永康全民運動中心",
+        "district": "永康區",
+        "address": "台南市永康區大同街",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E5%BA%B7%E5%85%A8%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "府平公園匹克球場（大府城球場）",
+        "district": "安平區",
+        "address": "台南市安平區郡平路與府平路口",
+        "hours": "全天開放（早晨與傍晚人氣極高）",
+        "price": "免費公立場地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BA%9c%E5%B9%B3%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "國平里晴雨遮棚匹克球場",
+        "district": "安平區",
+        "address": "台南市安平區國平路（社區公園內）",
+        "hours": "全天開放（加設晴雨遮棚防曬）",
+        "price": "免費/社群認養",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%B9%B3%E9%87%8C%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4"
+      },
+      {
+        "name": "竹溪哈赫拿爾匹克球場",
+        "district": "南區",
+        "address": "台南市南區體育路90號（竹溪水岸園區旁）",
+        "hours": "全天開放",
+        "price": "免費（環境清幽熱門據點）",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E6%BA%AA%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4"
+      },
+      {
+        "name": "台南市立體育場匹克球場",
+        "district": "南區",
+        "address": "台南市南區體育路10號",
+        "hours": "06:00 – 21:30",
+        "price": "免費/依市府公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8D%97%E5%B8%82%E7%AB%8B%E9%AB%94%E8%82%B2%E5%A0%B4"
+      },
+      {
+        "name": "烏橋公園綜合運動場",
+        "district": "北區",
+        "address": "台南市北區民德國中旁",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%83%8F%E6%A9%8B%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "國立成功大學綜合體育館",
+        "district": "東區",
+        "address": "台南市東區大學路1號",
+        "hours": "依校方公告開放時間",
+        "price": "校內/社團租借公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%8A%9F%E5%A4%A7%E5%AD%B8%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "平實公園多功能運動場",
+        "district": "東區",
+        "address": "台南市東區平實路",
+        "hours": "全天開放",
+        "price": "免費",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%AF%A6%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "安南全民運動中心",
+        "district": "安南區",
+        "address": "台南市安南區安中路",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%8D%97%E5%85%A8%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "新營體育場多功能球場",
+        "district": "新營區",
+        "address": "台南市新營區長榮路二段78號",
+        "hours": "06:00 – 21:30",
+        "price": "免費/公立設施",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%87%9F%E9%AB%94%E8%82%B2%E5%A0%B4"
+      },
+      {
+        "name": "善化文康育樂中心球場",
+        "district": "善化區",
+        "address": "台南市善化區進學路",
+        "hours": "依公所開放時間",
+        "price": "免費/平價",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%96%84%E5%8C%96%E6%96%87%E5%BA%B7%E8%82%B2%E6%A8%82%E4%B8%AD%E5%BF%83"
       }
     ]
   },
@@ -2621,6 +3026,51 @@
         "line_url": null,
         "address": "嘉義縣民雄鄉建國路三段",
         "district": "民雄鄉"
+      },
+      {
+        "name": "帕球俱樂部 PARQ Social Club",
+        "district": "東區",
+        "address": "嘉義市東區民族路328號7F",
+        "hours": "10:00 – 22:00",
+        "price": "嘉義首創高空室內俱樂部、JOOLA授權館",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=PARQ+Social+Club"
+      },
+      {
+        "name": "嘉義市東區國民運動中心",
+        "district": "東區",
+        "address": "嘉義市東區彌陀路",
+        "hours": "06:00 – 22:00",
+        "price": "依中心公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%98%89%E7%BE%A9%E6%9D%B1%E5%8D%80%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "港坪運動公園綜合球場",
+        "district": "西區",
+        "address": "嘉義市西區大同路320號",
+        "hours": "06:00 – 21:30",
+        "price": "公立场地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E5%9D%AA%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
+      },
+      {
+        "name": "水上鄉全民運動館",
+        "district": "水上鄉",
+        "address": "嘉義縣水上鄉柳林村",
+        "hours": "06:00 – 21:00",
+        "price": "公立室內球場",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E9%84%89%E5%85%A8%E6%B0%91%E9%81%8B%E5%8B%95%E9%A4%A8"
+      },
+      {
+        "name": "嘉義縣立田徑場匹克球場",
+        "district": "朴子市",
+        "address": "嘉義縣朴子市山通路",
+        "hours": "06:00 – 21:00",
+        "price": "免費公立场地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%98%89%E7%BE%A9%E7%B8%A3%E7%AB%8B%E7%94%B0%E5%BE%91%E5%A0%B4"
       }
     ]
   },
@@ -2699,6 +3149,24 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E9%9B%B2%E6%9E%97%E7%B8%A3%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "斗六市"
+      },
+      {
+        "name": "斗六市立體育館綜合球場",
+        "district": "斗六市",
+        "address": "雲林縣斗六市公明路",
+        "hours": "06:00 – 21:30",
+        "price": "公立設施",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%97%E5%85%AD%E5%B8%82%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "虎尾鎮多功能體育館",
+        "district": "虎尾鎮",
+        "address": "雲林縣虎尾鎮光明路",
+        "hours": "06:00 – 21:00",
+        "price": "公立設施",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%99%8E%E5%B0%BE%E9%AB%94%E8%82%B2%E9%A4%A8"
       }
     ]
   },
@@ -2750,6 +3218,24 @@
         "line_url": null,
         "address": "南投縣竹山鎮坑口里集山路二段428號",
         "district": "竹山鎮"
+      },
+      {
+        "name": "南投縣立體育場綜合球場",
+        "district": "南投市",
+        "address": "南投縣南投市南崗一路300號",
+        "hours": "06:00 – 21:30",
+        "price": "公立场地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E5%A0%B4"
+      },
+      {
+        "name": "草屯鎮立體育館",
+        "district": "草屯鎮",
+        "address": "南投縣草屯鎮中正路568-23號",
+        "hours": "06:00 – 21:00",
+        "price": "公立场地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E5%Proxy%E9%8E%AE%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
       }
     ]
   },
@@ -2792,6 +3278,42 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%28%E5%B1%8F%E6%9D%B1%E5%B8%82%E7%AB%8B%E4%B8%AD%E6%AD%A3%E6%B8%B8%E6%B3%B3%E6%B1%A0%29%28%E9%98%BF%E6%8F%90%E6%96%AF%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B1%8F%E6%9D%B1%E7%87%9F%E6%A5%AD%E6%89%80%29",
         "district": "屏東市"
+      },
+      {
+        "name": "屏東市信義羽球/匹克球館",
+        "district": "屏東市",
+        "address": "屏東縣屏東市信義路",
+        "hours": "08:00 – 22:00",
+        "price": "室內冷氣場、防護網、免費停車",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BF%A1%E7%BE%A9%E7%BE%BD%E7%90%83%E9%A4%A8+%E5%B1%8F%E6%9D%B1"
+      },
+      {
+        "name": "屏東歸來匹克球專用場",
+        "district": "屏東市",
+        "address": "屏東縣屏東市歸仁路（歸來社區活動中心旁）",
+        "hours": "全天開放（週末夜間球聚）",
+        "price": "免費戶外專用場",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%B8%E4%BE%86%E5%8C%B9%E5%85%8B%E7%90%83%E5%A0%B4"
+      },
+      {
+        "name": "屏東縣立體育館綜合球場",
+        "district": "屏東市",
+        "address": "屏東縣屏東市勝利路9號",
+        "hours": "06:00 – 21:30",
+        "price": "依縣府公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
+      },
+      {
+        "name": "潮州運動公園匹克球場",
+        "district": "潮州鎮",
+        "address": "屏東縣潮州鎮五魁里",
+        "hours": "06:00 – 21:00",
+        "price": "免費公立場地",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%BD%AE%E5%B7%9E%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
       }
     ]
   },
@@ -2825,6 +3347,15 @@
         "line_url": null,
         "url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83",
         "district": "仁愛區"
+      },
+      {
+        "name": "基隆市立體育館綜合球場",
+        "district": "信義區",
+        "address": "基隆市信義區信二路40-1號",
+        "hours": "06:00 – 21:30",
+        "price": "公立設施",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
       }
     ]
   },
@@ -2849,6 +3380,24 @@
         "line_url": null,
         "address": "花蓮縣吉安鄉中央路三段",
         "district": "吉安鄉"
+      },
+      {
+        "name": "花蓮縣立體育館（花蓮小巨蛋）",
+        "district": "花蓮市",
+        "address": "花蓮縣花蓮市達固湖灣大路23號",
+        "hours": "06:00 – 21:30",
+        "price": "公立場館",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E8%93%AE%E5%B0%8F%E5%B7%A8%E8%9B%8B"
+      },
+      {
+        "name": "花蓮市立羽球匹克球館",
+        "district": "花蓮市",
+        "address": "花蓮縣花蓮市中正路",
+        "hours": "08:00 – 22:00",
+        "price": "依場租公告",
+        "line_url": null,
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E8%93%AE%E5%B8%82%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8"
       }
     ]
   }
