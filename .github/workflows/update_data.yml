@@ -1,8 +1,9 @@
 name: Daily Pickleball Data Scraper
 
 on:
-  schedule:
-    - cron: '0 16 * * *' # 每天台灣時間凌晨0點 (UTC 16:00)
+  # 已暫停每日自動排程，改由手動定期更新（需要恢復時取消下面兩行註解）
+  # schedule:
+  #   - cron: '0 16 * * *' # 每天台灣時間凌晨0點 (UTC 16:00)
   workflow_dispatch: # 允許手動觸發
 
 jobs:
