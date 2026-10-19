@@ -592,7 +592,15 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                                 label="球路教學 (影片)",
                                 text="!球路教學",
                             ),
-                        )
+                        ),
+                        FlexButton(
+                            style="secondary",
+                            height="sm",
+                            action=MessageAction(
+                                label="AI 軌跡追蹤",
+                                text="!軌跡",
+                            ),
+                        ),
                     ]
                 ),
             ],

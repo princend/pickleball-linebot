@@ -30,6 +30,14 @@ from pickleball.cache import (
     set_awaiting_ai_input,
     is_awaiting_ai_input,
     clear_awaiting_ai_input,
+    set_awaiting_trajectory_video,
+    is_awaiting_trajectory_video,
+    clear_awaiting_trajectory_video,
+)
+from pickleball.trajectory_tracker import (
+    create_trajectory_guide_flex,
+    get_trajectory_cancel_quick_reply,
+    trigger_trajectory_worker,
 )
 from pickleball.quick_reply import (
     get_pickleball_cancel_quick_reply,
@@ -155,4 +163,11 @@ __all__ = [
     "set_awaiting_ai_input",
     "is_awaiting_ai_input",
     "clear_awaiting_ai_input",
+    "set_awaiting_trajectory_video",
+    "is_awaiting_trajectory_video",
+    "clear_awaiting_trajectory_video",
+    "create_trajectory_guide_flex",
+    "get_trajectory_cancel_quick_reply",
+    "trigger_trajectory_worker",
 ]
+

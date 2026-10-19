@@ -197,3 +197,33 @@ def clear_awaiting_ai_input(user_id: str) -> bool:
         del _AWAITING_AI_INPUT[user_id]
         return True
     return False
+
+
+# 等待上傳匹克球影片進行 AI 軌跡追蹤之狀態管理: { target_id: timestamp }
+_AWAITING_TRAJECTORY_VIDEO: Dict[str, float] = {}
+AWAITING_TRAJECTORY_EXPIRATION_SECONDS = 600  # 10 分鐘有效
+
+
+def set_awaiting_trajectory_video(target_id: str) -> None:
+    """設定特定聊天室或使用者處於等待上傳匹克球影片進行軌跡追蹤之狀態。"""
+    if target_id:
+        _AWAITING_TRAJECTORY_VIDEO[target_id] = time.time()
+
+
+def is_awaiting_trajectory_video(target_id: str) -> bool:
+    """檢查特定聊天室或使用者是否處於等待上傳匹克球影片之狀態。"""
+    if not target_id or target_id not in _AWAITING_TRAJECTORY_VIDEO:
+        return False
+    elapsed = time.time() - _AWAITING_TRAJECTORY_VIDEO[target_id]
+    if elapsed > AWAITING_TRAJECTORY_EXPIRATION_SECONDS:
+        del _AWAITING_TRAJECTORY_VIDEO[target_id]
+        return False
+    return True
+
+
+def clear_awaiting_trajectory_video(target_id: str) -> bool:
+    """清除特定聊天室或使用者等待上傳匹克球影片之狀態。"""
+    if target_id in _AWAITING_TRAJECTORY_VIDEO:
+        del _AWAITING_TRAJECTORY_VIDEO[target_id]
+        return True
+    return False

@@ -123,9 +123,9 @@ def main():
                 title = prod.get("title", "")
                 handle = prod.get("handle", "")
                 
-                # 排除無關周邊 (嚴格過濾)
+                # 排除無關周邊與非正規球拍 (嚴格過濾)
                 title_lower = title.lower()
-                exclude_words = ["cleaner", "tape", "gift", "demo", "return", "blemish", "shoe", "sock", "ball", "apparel", "hat", "cap", "bag", "backpack", "net", "overgrip", "eraser", "t-shirt", "bundle"]
+                exclude_words = ["cleaner", "tape", "gift", "demo", "return", "blemish", "shoe", "sock", "ball", "apparel", "hat", "cap", "bag", "backpack", "net", "overgrip", "eraser", "t-shirt", "shirt", "hoodie", "bundle", "training", "trainer", "sidekick", "(vip)", "(uhspa)", "prototype", "prototypes"]
                 is_paddle = True
                 for word in exclude_words:
                     if word in title_lower:
@@ -154,13 +154,14 @@ def main():
                     
                 print(f"  [發現新球拍] {title}")
                 
-                # 取得價格 (抓取第一個 variant)
+                # 取得價格 (抓取第一個 variant，Six Zero 官網為澳幣 AUD，其餘為美金 USD)
                 variants = prod.get("variants", [])
                 price = 0
                 if variants:
                     try:
-                        usd_price = float(variants[0].get("price", 0))
-                        price = int(usd_price * 32)
+                        raw_price = float(variants[0].get("price", 0))
+                        rate = 22 if brand == "Six Zero" else 32
+                        price = int(raw_price * rate)
                     except ValueError:
                         pass
                 if price == 0:

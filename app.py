@@ -2,12 +2,17 @@ from flask import Flask, request, abort
 from linebot.v3 import WebhookHandler
 from linebot.v3.exceptions import InvalidSignatureError
 from linebot.v3.messaging import Configuration, ApiClient, MessagingApi, ReplyMessageRequest, TextMessage, FlexMessage, FlexBubble, FlexBox, FlexText, FlexButton, MessageAction
-from linebot.v3.webhooks import MessageEvent, TextMessageContent, PostbackEvent, MemberJoinedEvent
+from linebot.v3.webhooks import MessageEvent, TextMessageContent, VideoMessageContent, PostbackEvent, MemberJoinedEvent
 import traceback
 
 import config
 from handlers.text_handler import handle_pickleball_command
 from handlers.postback_handler import process_postback
+from pickleball import (
+    clear_awaiting_trajectory_video,
+    is_awaiting_trajectory_video,
+    trigger_trajectory_worker,
+)
 
 app = Flask(__name__)
 
@@ -53,6 +58,50 @@ def handle_message(event):
             print(f"Text Handler Error: {e}")
             traceback.print_exc()
 
+
+@handler.add(MessageEvent, message=VideoMessageContent)
+def handle_video_message(event):
+    """處理使用者上傳的匹克球影片訊息，派發至雲端 TrackNetV3 GPU Worker 繪製球路軌跡。"""
+    user_id = getattr(event.source, "user_id", "")
+    is_group_or_room = hasattr(event.source, "group_id") or hasattr(event.source, "room_id")
+
+    target_id = user_id
+    if hasattr(event.source, "group_id"):
+        target_id = event.source.group_id
+    elif hasattr(event.source, "room_id"):
+        target_id = event.source.room_id
+
+    # 在群組或聊天室中，需先透過「!軌跡」指令開啟等待狀態才處理影片，避免誤觸日常影片；
+    # 若為 1 對 1 私訊，則直接上傳影片即可觸發分析（前提為已設定 TRACKNET_WORKER_URL 或已開啟等待狀態）。
+    awaiting = is_awaiting_trajectory_video(target_id) or is_awaiting_trajectory_video(user_id)
+    if is_group_or_room and not awaiting:
+        return
+
+    if not awaiting and not config.tracknet_worker_url:
+        return
+
+    clear_awaiting_trajectory_video(target_id)
+    clear_awaiting_trajectory_video(user_id)
+
+    with ApiClient(configuration) as api_client:
+        line_bot_api = MessagingApi(api_client)
+        try:
+            _, status_msg = trigger_trajectory_worker(
+                message_id=event.message.id,
+                target_id=target_id,
+                user_id=user_id,
+            )
+            line_bot_api.reply_message_with_http_info(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text=status_msg)],
+                )
+            )
+        except Exception as e:
+            print(f"Video Handler Error: {e}")
+            traceback.print_exc()
+
+
 @handler.add(PostbackEvent)
 def handle_postback(event):
     target_id = event.source.user_id
@@ -91,3 +140,4 @@ def handle_member_joined(event):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+
