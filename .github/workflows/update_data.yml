@@ -24,13 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 google-genai gspread google-auth
 
-      - name: Run Shopify Scraper (Directly to Google Sheets)
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-        run: |
-          python scripts/auto_scrape_shopify.py
-
       - name: Run Events Scraper (Directly to Google Sheets)
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}

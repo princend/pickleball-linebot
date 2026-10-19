@@ -185,10 +185,8 @@ def main():
                     desc_final = desc
                     style_cat = "all_around"
 
-                budget_cat = "flagship"
-                if price < 1500: budget_cat = "budget"
-                elif price < 3500: budget_cat = "intermediate"
-                elif price < 6500: budget_cat = "advanced"
+                # budget_category 留空不填，交由 Google Sheets / Excel 公式自動判斷
+                budget_cat = ""
 
                 thickness = "16mm"
                 if "14mm" in title.lower(): thickness = "14mm"
