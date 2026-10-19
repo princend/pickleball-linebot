@@ -31,13 +31,42 @@ VIDEO_CACHE: List[Tuple[List[str], Dict[str, str]]] = []
 LAST_FETCH_TIME = 0
 
 
-def _split_keyword_aliases(raw_kw: str) -> List[str]:
-    """將表單關鍵字拆成多個別名。
+# 針對試算表關鍵字補充常見同義詞、英文術語與易混淆同音字（如：板/拍、度/渡）
+BUILTIN_KEYWORD_ALIASES: Dict[str, List[str]] = {
+    "短丁": ["dink", "丁克", "短丁克"],
+    "長丁克": ["push dink", "長丁"],
+    "抽球": ["drive", "抽擊", "底線抽球"],
+    "第三拍過渡": [
+        "第三板過渡", "第三拍過度", "第三板過度",
+        "第三拍墜球", "第三板墜球", "第三拍軟球", "第三板軟球",
+        "第三拍吊球", "第三板吊球", "third shot drop", "3rd shot drop",
+        "drop shot", "drop", "第三拍", "第三板", "過渡球", "過度球",
+    ],
+    "挑高球": ["lob", "高吊球", "吊高球"],
+    "截擊": ["volley"],
+    "atp": ["around the post", "繞柱球", "繞柱"],
+    "erne": ["厄尼"],
+    "接發球": ["return of serve", "接發"],
+    "扣殺": ["殺球", "高壓扣殺", "overhead"],
+    "切球": ["削球", "下旋"],
+    "加速球": ["speed up", "speedup"],
+}
 
-    例如「發球(serve)」→ ["發球", "serve"]、「扣殺 (Smash)」→ ["扣殺", "smash"]。
+
+def _split_keyword_aliases(raw_kw: str) -> List[str]:
+    """將表單關鍵字拆成多個別名，並自動合併內建同義詞與常見別名。
+
+    例如「發球(serve)」→ ["發球", "serve"]、「第三拍過渡」→ 包含「第三板過渡」、「第三拍過度」、「drop」等。
     """
     parts = re.split(r"[()（）/、,，]", raw_kw.lower())
-    return [p.strip() for p in parts if p.strip()]
+    base_aliases = [p.strip() for p in parts if p.strip()]
+    expanded = list(base_aliases)
+    for alias in base_aliases:
+        for extra in BUILTIN_KEYWORD_ALIASES.get(alias, []):
+            extra_lower = extra.lower()
+            if extra_lower not in expanded:
+                expanded.append(extra_lower)
+    return expanded
 
 
 def _get_video_from_sheet(query: str) -> Optional[Dict[str, str]]:
