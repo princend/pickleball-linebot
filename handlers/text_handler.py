@@ -56,10 +56,6 @@ from pickleball import (
     set_awaiting_ai_input,
     is_awaiting_ai_input,
     clear_awaiting_ai_input,
-    set_awaiting_trajectory_video,
-    is_awaiting_trajectory_video,
-    clear_awaiting_trajectory_video,
-    create_trajectory_guide_flex,
 )
 
 
@@ -75,21 +71,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
     """
     stripped_text = text.strip().replace("！", "!")
     effective_target_id = target_id or user_id
-
-    # 0-0a. 檢查是否取消等待上傳軌跡影片
-    if stripped_text in ["取消軌跡分析", "!取消軌跡分析"] or (
-        is_awaiting_trajectory_video(effective_target_id)
-        and stripped_text in ["取消", "結束", "不用了"]
-    ):
-        clear_awaiting_trajectory_video(effective_target_id)
-        clear_awaiting_trajectory_video(user_id)
-        line_bot_api.reply_message_with_http_info(
-            ReplyMessageRequest(
-                reply_token=event.reply_token,
-                messages=[TextMessage(text="已取消 AI 球路軌跡分析上傳。")],
-            )
-        )
-        return "OK", 200
 
     # 0-0. 檢查是否處於等待 AI 輸入狀態
     if is_awaiting_ai_input(user_id) and not stripped_text.startswith("!"):
@@ -572,28 +553,6 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             ReplyMessageRequest(
                 reply_token=event.reply_token,
                 messages=[flex_msg]
-            )
-        )
-        return "OK", 200
-
-    # 2.9 AI 球路軌跡追蹤指令 (TrackNetV3)
-    trajectory_keywords = [
-        "!軌跡",
-        "!球路軌跡",
-        "!軌跡分析",
-        "!匹克球軌跡",
-        "!軌跡追蹤",
-        "!tracknet",
-        "!trajectory",
-    ]
-    if stripped_text.lower() in [k.lower() for k in trajectory_keywords]:
-        set_awaiting_trajectory_video(effective_target_id)
-        set_awaiting_trajectory_video(user_id)
-        guide_flex = create_trajectory_guide_flex()
-        line_bot_api.reply_message_with_http_info(
-            ReplyMessageRequest(
-                reply_token=event.reply_token,
-                messages=[guide_flex],
             )
         )
         return "OK", 200
