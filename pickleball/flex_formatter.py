@@ -581,27 +581,13 @@ def create_menu_flex(quick_reply: Optional[QuickReply] = None) -> FlexMessage:
                     ]
                 ),
                 # Row 6
-                FlexBox(
-                    layout="horizontal",
-                    spacing="md",
-                    contents=[
-                        FlexButton(
-                            style="secondary",
-                            height="sm",
-                            action=MessageAction(
-                                label="球路教學 (影片)",
-                                text="!球路教學",
-                            ),
-                        ),
-                        FlexButton(
-                            style="secondary",
-                            height="sm",
-                            action=MessageAction(
-                                label="AI 軌跡追蹤",
-                                text="!軌跡",
-                            ),
-                        ),
-                    ]
+                FlexButton(
+                    style="secondary",
+                    height="sm",
+                    action=MessageAction(
+                        label="球路教學 (影片)",
+                        text="!球路教學",
+                    ),
                 ),
             ],
         ),

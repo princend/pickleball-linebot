@@ -117,13 +117,15 @@ def trigger_trajectory_worker(
     message_id: str,
     target_id: str,
     user_id: str,
+    court_corners: Optional[list] = None,
 ) -> Tuple[bool, str]:
-    """將 LINE 影片訊息 ID 派發給雲端 TrackNetV3 GPU Worker 進行非同步軌跡渲染。
+    """將 LINE 影片訊息 ID 派發給雲端 TrackNetV3 + YOLO26 Worker 進行非同步軌跡與 3D 物理擬合。
 
     Args:
         message_id: LINE 影片訊息的 message.id (供 Worker 下載影片二進位串流)
         target_id: 推播回傳的目標 ID (group_id / room_id / user_id)
         user_id: 觸發上傳的使用者 ID
+        court_corners: 可選的球場四角點正規化座標 [(u0,v0), (u1,v1), (u2,v2), (u3,v3)]，供新場地/新機位標定
 
     Returns:
         (success, status_message)
@@ -132,7 +134,7 @@ def trigger_trajectory_worker(
     if not worker_url:
         return (
             False,
-            "尚未設定雲端 GPU 軌跡運算伺服器 (TRACKNET_WORKER_URL)。\n"
+            "尚未設定雲端軌跡運算伺服器 (TRACKNET_WORKER_URL)。\n"
             "請先部署專案內的 worker/modal_tracknet_worker.py 至 Modal，並將產生的網址填入環境變數 TRACKNET_WORKER_URL。",
         )
 
@@ -144,6 +146,9 @@ def trigger_trajectory_worker(
         "user_id": user_id,
         "line_access_token": config.line_channel_access_token,
     }
+    if court_corners is not None:
+        payload["court_corners"] = court_corners
+
     headers = {"Content-Type": "application/json"}
     if config.tracknet_worker_secret:
         headers["X-Worker-Secret"] = config.tracknet_worker_secret
@@ -154,7 +159,7 @@ def trigger_trajectory_worker(
             return (
                 True,
                 "已收到您的匹克球影片！\n"
-                "AI (TrackNetV3 + InpaintNet) 正在雲端 GPU 逐幀追蹤球路並繪製霓虹飛行軌跡，約需 20 至 45 秒，完成後將自動把影片傳送至聊天室！",
+                "AI (YOLO26 + TrackNetV3 + Kalman/RTS 3D 最小平方物理擬合) 正在雲端分析球路與落點不確定度，約需 25 至 50 秒，完成後將自動把標註影片與分析報告圖傳送至聊天室！",
             )
         return (
             False,
@@ -165,7 +170,7 @@ def trigger_trajectory_worker(
         return (
             True,
             "已收到您的匹克球影片！\n"
-            "正在喚醒雲端 GPU 並啟動 TrackNetV3 追蹤球路，約需 30 至 60 秒，完成後將自動把軌跡影片傳送至聊天室！",
+            "正在喚醒雲端容器並啟動 YOLO26 + TrackNetV3 進行 3D 物理擬合，約需 35 至 65 秒，完成後將自動把標註影片與分析報告圖傳送至聊天室！",
         )
     except Exception as e:
         print(f"Trigger Trajectory Worker Error: {e}")

@@ -12,4 +12,7 @@ tracknet_worker_url = os.environ.get(
     "TRACKNET_WORKER_URL",
     "https://b10009046--pickleball-tracknet-worker-web-app.us-east.modal.run",
 )
-tracknet_worker_secret = os.environ.get("TRACKNET_WORKER_SECRET", "")
+tracknet_worker_secret = os.environ.get(
+    "TRACKNET_WORKER_SECRET",
+    "pb_worker_v2_8f4a9c2e1b7d6035a9e2f4c8d1b3a5e7",
+)
