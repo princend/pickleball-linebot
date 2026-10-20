@@ -3,6 +3,7 @@
 負責處理隨機分組、名單解析、分組說明與名單快取一鍵重新洗牌等文字指令。
 """
 
+import config
 from linebot.v3.messaging import ReplyMessageRequest, TextMessage
 from pickleball import (
     create_menu_flex,
@@ -586,7 +587,7 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
         "!tracknet",
         "!trajectory",
     ]
-    if stripped_text.lower() in [k.lower() for k in trajectory_keywords]:
+    if config.trajectory_enabled and stripped_text.lower() in [k.lower() for k in trajectory_keywords]:
         set_awaiting_trajectory_video(effective_target_id)
         set_awaiting_trajectory_video(user_id)
         guide_flex = create_trajectory_guide_flex()

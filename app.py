@@ -62,6 +62,10 @@ def handle_message(event):
 @handler.add(MessageEvent, message=VideoMessageContent)
 def handle_video_message(event):
     """處理使用者上傳的匹克球影片訊息，派發至雲端 TrackNetV3 GPU Worker 繪製球路軌跡。"""
+    # AI 軌跡分析功能目前關閉：上傳影片不做任何分析
+    if not config.trajectory_enabled:
+        return
+
     user_id = getattr(event.source, "user_id", "")
     is_group_or_room = hasattr(event.source, "group_id") or hasattr(event.source, "room_id")
 
