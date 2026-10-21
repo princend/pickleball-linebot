@@ -2,13 +2,13 @@ import html
 import requests
 from config import youtube_api_key
 
-def search_youtube_videos(keyword, max_results=3, order="date", video_duration=None):
+def search_youtube_videos(keyword, max_results=10, order="relevance", video_duration=None):
     """透過 YouTube Data API v3 搜尋影片。
     
-    完全不限制地區（不帶 regionCode），以全球視野檢索最新公開影片。
+    完全不限制地區（不帶 regionCode），以全球視野檢索公開影片。
     :param keyword: 搜尋關鍵字
-    :param max_results: 最大回傳筆數
-    :param order: 排序依據，預設為 'date'（最新發布），可選 'relevance' 等
+    :param max_results: 最大回傳筆數，預設 10 筆
+    :param order: 排序依據，預設為 'relevance'（相關度），確保影片為真實優質賽事
     :param video_duration: 影片時長過濾，如 'medium' (4-20分鐘)、'short' (<4分鐘)、'long' (>20分鐘)
     """
     if not youtube_api_key:

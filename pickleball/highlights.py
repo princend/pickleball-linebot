@@ -36,6 +36,8 @@ DISQUALIFIED_KEYWORDS: List[str] = [
     "breakdown",
     "podcast",
     "interview",
+    "conversation",
+    "chat",
     "discussion",
     "vlog",
     "opinion",
@@ -44,6 +46,7 @@ DISQUALIFIED_KEYWORDS: List[str] = [
     "livestream",
     "talk",
     "q&a",
+    "qa",
     "how to",
     "tutorial",
     "drill",
@@ -59,6 +62,9 @@ DISQUALIFIED_KEYWORDS: List[str] = [
     "专访",
     "訪談",
     "访谈",
+    "對談",
+    "对谈",
+    "問答",
     "閒聊",
     "闲聊",
     "評測",
@@ -82,24 +88,25 @@ OFFICIAL_CHANNELS: List[str] = [
 
 
 def get_pickleball_highlight_video(custom_query: Optional[str] = None) -> Optional[Dict[str, str]]:
-    """即時透過 YouTube Data API 動態檢索一部最新匹克球賽事精華影片。
+    """即時透過 YouTube Data API 檢索匹克球賽事精華影片。
 
-    多重過濾機制：
-    1. 限制時長為中等（4~20 分鐘），避免長篇 Podcast 或短影音。
-    2. 黑名單排除：剔除個人評論、開箱、戰術覆盤與閒聊影片。
-    3. 官方頻道優先：若候選中包含 PPA/MLP 官方轉播，第一優先選用。
+    精選策略：
+    1. 採用 order='relevance' 搜尋相關性最高、品質最正宗的賽事影片（10 筆）。
+    2. 黑名單排除訪談、評論、閒聊、開箱與教學雜訊。
+    3. 在合格影片中按發布日期（published_at）由新到舊排序，挑選發布時間最新的一筆。
+    4. 官方頻道（PPA Tour / MLP）優先採用。
     """
     try:
         query = custom_query or random.choice(HIGHLIGHT_SEARCH_KEYWORDS)
         
-        # 1. 先以 medium 時長檢索最新 15 筆影片
-        search_results = search_youtube_videos(query, max_results=15, order="date", video_duration="medium")
+        # 1. 以 relevance 排序抓取 10 筆中等時長（4~20分鐘）的精選賽事影片
+        search_results = search_youtube_videos(query, max_results=10, order="relevance", video_duration="medium")
         if not search_results:
-            # 防呆降級：若無時長結果，退回無時長限制檢索
-            search_results = search_youtube_videos(query, max_results=15, order="date")
+            # 防呆降級：若無結果，退回無時長限制搜尋
+            search_results = search_youtube_videos(query, max_results=10, order="relevance")
 
         if search_results and len(search_results) > 0:
-            # 2. 黑名單過濾：剔除標題包含評論、解說、專訪等雜訊的影片
+            # 2. 黑名單過濾：剔除訪談、評論、覆盤等雜訊
             filtered: List[Dict[str, str]] = []
             for video in search_results:
                 title_lower = video.get("title", "").lower()
@@ -110,7 +117,10 @@ def get_pickleball_highlight_video(custom_query: Optional[str] = None) -> Option
             # 若全部被過濾，退回未過濾名單避免無影片可看
             candidates = filtered if filtered else search_results
 
-            # 3. 官方頻道優先挑選（PPA Tour / MLP 等）
+            # 3. 將候選影片依發布時間（published_at）降冪排序（最新發布排在最前）
+            candidates.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+
+            # 4. 官方頻道優先挑選最新一筆
             picked: Optional[Dict[str, str]] = None
             is_official = False
             for video in candidates:
@@ -120,14 +130,14 @@ def get_pickleball_highlight_video(custom_query: Optional[str] = None) -> Option
                     is_official = True
                     break
 
-            # 4. 若無官方頻道，選取符合篩選條件的第一部（依日期最新）
+            # 5. 若無官方頻道，則直接選取候選清單中最新的一部
             if not picked and candidates:
                 picked = candidates[0]
 
             if picked:
                 published_at = picked.get("published_at", "")
                 pub_date = published_at[:10] if published_at else ""
-                badge = "官方賽事精華" if is_official else "最新賽事精華"
+                badge = "官方賽事精華" if is_official else "最新賽事精選"
                 return {
                     "title": picked.get("title", "匹克球精彩賽事剪輯"),
                     "channel": picked.get("channel", "YouTube 賽事精選"),
