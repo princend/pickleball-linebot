@@ -490,8 +490,9 @@ def handle_pickleball_command(text: str, user_id: str, target_id: str, event, li
             return "OK", 200
 
         flex_msg = create_pickleball_highlight_flex(video)
+        pub_info = f"（發布日期：{video['published_at']}）\n" if video.get("published_at") else ""
         text_msg = TextMessage(
-            text=f"【匹克球精彩賽事推薦】\n{video.get('title', '')}\n{video.get('url', '')}"
+            text=f"【匹克球最新賽事精華】\n{video.get('title', '')}\n{pub_info}{video.get('url', '')}"
         )
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(

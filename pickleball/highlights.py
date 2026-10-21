@@ -17,34 +17,38 @@ from linebot.v3.messaging import (
 )
 from ai.get_youtube_search import search_youtube_videos
 
-# 動態檢索關鍵字庫 (輪替檢索真實 YouTube 賽事精彩剪輯)
+# 動態檢索關鍵字庫 (輪替檢索國內外頂級巡迴賽最新賽事剪輯)
 HIGHLIGHT_SEARCH_KEYWORDS: List[str] = [
-    "pickleball highlights best points",
-    "PPA Tour pickleball highlights",
-    "Major League Pickleball best rallies",
-    "pickleball top 10 plays",
-    "pickleball championship final highlights",
-    "匹克球 賽事 精華",
-    'pickleball highlights',
+    "PPA Tour highlights",
+    "Major League Pickleball highlights",
+    "pickleball match highlights",
+    "pickleball championship highlights",
+    "pickleball tournament highlights",
+    "PPA pickleball final",
+    "MLP pickleball highlights",
 ]
 
 
 def get_pickleball_highlight_video(custom_query: Optional[str] = None) -> Optional[Dict[str, str]]:
-    """即時透過 YouTube Data API 動態檢索一部真實匹克球賽事精華影片。
+    """即時透過 YouTube Data API 動態檢索一部最新匹克球賽事精華影片。
 
-    不使用任何寫死之靜態假資料；若 API 異常或無搜尋結果則回傳 None。
+    使用 order='date' 排序，直接抓回最新發布的賽事精華；若 API 異常或無搜尋結果則回傳 None。
     """
     try:
         query = custom_query or random.choice(HIGHLIGHT_SEARCH_KEYWORDS)
-        search_results = search_youtube_videos(query, max_results=10)
+        search_results = search_youtube_videos(query, max_results=5, order="date")
         if search_results and len(search_results) > 0:
-            picked = random.choice(search_results)
+            # 取按日期排序最新發布的第一部影片
+            picked = search_results[0]
+            published_at = picked.get("published_at", "")
+            pub_date = published_at[:10] if published_at else ""
             return {
                 "title": picked.get("title", "匹克球精彩賽事剪輯"),
                 "channel": picked.get("channel", "YouTube 賽事精選"),
                 "url": picked.get("url", ""),
                 "thumbnail_url": picked.get("thumbnail_url", ""),
-                "badge": "YouTube 即時精選",
+                "badge": "最新賽事精華",
+                "published_at": pub_date,
             }
     except Exception as e:
         print(f"[錯誤] 匹克球 YouTube 即時搜尋發生例外: {e}", flush=True)
@@ -58,7 +62,9 @@ def create_pickleball_highlight_flex(video: Dict[str, str]) -> FlexMessage:
     channel = video.get("channel", "Pickleball Highlights")
     url = video.get("url", "https://www.youtube.com")
     thumbnail_url = video.get("thumbnail_url") or "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?w=640&q=80"
-    badge = video.get("badge", "YouTube 即時精選")
+    badge = video.get("badge", "最新賽事精華")
+    published_at = video.get("published_at", "")
+    info_text = f"頻道：{channel} • 發布日期：{published_at}" if published_at else f"頻道：{channel}"
 
     bubble = FlexBubble(
         size="mega",
@@ -93,7 +99,7 @@ def create_pickleball_highlight_flex(video: Dict[str, str]) -> FlexMessage:
                     color="#1F2937",
                 ),
                 FlexText(
-                    text=f"頻道：{channel}",
+                    text=info_text,
                     size="xs",
                     color="#6B7280",
                 ),
